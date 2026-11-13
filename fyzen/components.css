@@ -20,13 +20,6 @@ body.fz{background:var(--fz-bg);color:var(--fz-text);font-family:var(--fz-font);
 .fz-sq-btn:hover{color:var(--fz-text);border-color:var(--fz-accent-line)}
 .fz-sq-btn .fz-i{width:15px;height:15px}
 .fz-logo{display:flex;align-items:center;gap:8px;flex:none}
-.fz-logo-badge{width:30px;height:30px;display:block}
-.fz-logo-text{display:flex;flex-direction:column;gap:3px}
-.fz-logo-text img{height:17px;width:auto;display:block}
-.fz-logo-text small{font-size:8.5px;line-height:1;color:var(--fz-text-3);font-weight:var(--fz-fw-bold);letter-spacing:.02em;padding-left:2px;white-space:nowrap}
-.fz-logo .fz-logo-light{display:none}
-[data-theme="light"] .fz-logo .fz-logo-dark{display:none}
-[data-theme="light"] .fz-logo .fz-logo-light{display:block}
 .fz-search{flex:1 1 200px;min-width:140px;position:relative;display:flex;align-items:center}
 .fz-search .fz-i{position:absolute;left:12px;color:var(--fz-text-3);width:14px;height:14px;pointer-events:none}
 .fz-search input{width:100%;height:30px;border-radius:var(--fz-r-pill);border:1px solid var(--fz-border-strong);background:var(--fz-panel);color:var(--fz-text);padding:0 12px 0 32px;font:inherit;font-size:12px;outline:none}
@@ -103,7 +96,7 @@ body.fz{background:var(--fz-bg);color:var(--fz-text);font-family:var(--fz-font);
 /* ---------- Art ---------- */
 .fz-thumb{position:relative;overflow:hidden;background:var(--fz-panel-2)}
 .fz-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.fz-art{position:absolute;inset:0;display:grid;place-items:center;background:radial-gradient(120% 90% at 20% 10%,color-mix(in srgb,var(--cat,#FF5A1F) 55%,transparent),transparent 60%),radial-gradient(90% 80% at 90% 100%,color-mix(in srgb,var(--cat,#FF5A1F) 30%,#000),transparent 70%),linear-gradient(160deg,#1a1a22,#0c0c10)}
+.fz-art{position:absolute;inset:0;display:grid;place-items:center;background:radial-gradient(120% 90% at 20% 10%,color-mix(in srgb,var(--cat,#FF8A00) 55%,transparent),transparent 60%),radial-gradient(90% 80% at 90% 100%,color-mix(in srgb,var(--cat,#FF8A00) 30%,#000),transparent 70%),linear-gradient(160deg,#1a1a22,#0c0c10)}
 .fz-art .fz-i{width:32%;height:auto;max-width:40px;aspect-ratio:1;color:color-mix(in srgb,var(--cat,#fff) 70%,#fff);opacity:.9}
 .fz-art-note{position:absolute;right:6px;bottom:4px;font-size:7.5px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.45);font-weight:var(--fz-fw-heavy)}
 
@@ -115,7 +108,7 @@ body.fz{background:var(--fz-bg);color:var(--fz-text);font-family:var(--fz-font);
 .fz-resume .fz-thumb{width:32px;height:32px;border-radius:7px;flex:none}
 .fz-resume>div:last-child{min-width:0}
 .fz-resume b{display:block;font-size:11.5px;font-weight:var(--fz-fw-heavy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.fz-resume small{display:flex;align-items:center;gap:4px;font-size:10px;font-weight:var(--fz-fw-bold);color:#D9875A}
+.fz-resume small{display:flex;align-items:center;gap:4px;font-size:10px;font-weight:var(--fz-fw-bold);color:#E0A15A}
 .fz-resume small::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--fz-orange)}
 
 /* ---------- Spotlight row ---------- */
@@ -153,7 +146,7 @@ body.fz{background:var(--fz-bg);color:var(--fz-text);font-family:var(--fz-font);
 .fz-card-meta{display:flex;align-items:center;justify-content:space-between;color:var(--fz-text-3);font-size:10.5px;font-weight:var(--fz-fw-bold)}
 
 /* ---------- Game page ---------- */
-.fz-game-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid var(--fz-border);margin-bottom:16px}
+.fz-game-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:12px;border-bottom:1px solid var(--fz-border);margin-bottom:0}
 .fz-back{display:inline-flex;align-items:center;gap:6px;height:28px;padding:0 12px;border-radius:var(--fz-r-pill);border:1px solid var(--fz-border-strong);color:var(--fz-text-2);font-weight:var(--fz-fw-bold);font-size:11.5px}
 .fz-back:hover{color:var(--fz-text);border-color:var(--fz-accent-line)}
 .fz-back .fz-i{width:13px;height:13px}

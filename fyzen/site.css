@@ -1,0 +1,122 @@
+/* Fyzen site layer: page-level pieces built on tokens.css + components.css. Prefix: fz- */
+.fz-skip{position:absolute;left:-999px;top:8px;z-index:99;background:var(--fz-panel);padding:8px 12px;border-radius:8px}
+.fz-skip:focus{left:8px}
+.fz-top-spacer{flex:1 1 0;min-width:0}
+.fz-search{max-width:520px}
+.fz-search input{-webkit-appearance:none;appearance:none}
+.fz-nav-item .fz-n{margin-left:auto;font-size:10.5px;color:var(--fz-text-3);font-weight:var(--fz-fw-bold)}
+.fz-nav-item[aria-current="page"] .fz-n{color:rgba(255,255,255,.8)}
+.fz-section-head .fz-meta a{color:var(--fz-orange-hi)}
+.fz-section-head .fz-meta a:hover{text-decoration:underline}
+.fz-content>section{min-width:0}
+[hidden]{display:none!important}
+
+/* Page heading */
+.fz-page-head h1{display:flex;align-items:center;gap:10px;margin:0 0 6px;font-size:26px;font-weight:var(--fz-fw-black);letter-spacing:-.01em}
+.fz-page-head h1 .fz-i{width:22px;height:22px;color:var(--fz-orange)}
+.fz-page-head p{margin:0;color:var(--fz-text-2);font-size:13px;max-width:70ch}
+
+/* Cards: whole card clickable, real art */
+.fz-card{position:relative}
+.fz-card-link{position:absolute;inset:0;z-index:1;border-radius:inherit}
+.fz-card .fz-tr{z-index:3}
+.fz-card .fz-thumb{height:auto;aspect-ratio:16/10}
+.fz-card-meta span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fz-card-cat{flex:none;color:var(--fz-orange-hi);opacity:.85}
+.fz-row{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 50px)/6);gap:10px;overflow-x:auto;scrollbar-width:thin;padding-bottom:4px;scroll-snap-type:x mandatory}
+.fz-row>.fz-card{scroll-snap-align:start}
+.fz-spot-kind{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:rgba(255,255,255,.75)}
+.fz-spot{height:160px}
+.fz-resume .fz-thumb img,.fz-rec .fz-thumb img{object-fit:cover}
+.fz-rec small{display:block;font-size:10px;color:var(--fz-text-3);font-weight:var(--fz-fw-bold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fz-rec .fz-thumb{width:64px;height:40px}
+
+/* Game page */
+.fz-game{grid-template-columns:minmax(0,1fr) 230px}
+.fz-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#000;z-index:1}
+.fz-stage.is-playing::before,.fz-stage.is-playing>img,.fz-stage.is-playing>.fz-btn,.fz-stage.is-playing>.fz-stage-note,.fz-stage.is-playing>.fz-stage-tl{display:none}
+.fz-stage.is-playing .fz-stage-tr{z-index:2;pointer-events:none}
+.fz-stage-card:fullscreen{border-radius:0;display:flex;flex-direction:column;background:#000}
+.fz-stage-card:fullscreen .fz-stage{flex:1;aspect-ratio:auto}
+.fz-tab{display:inline-flex;align-items:center;gap:6px}
+.fz-tab .fz-i{width:13px;height:13px}
+.fz-stats--4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.fz-stat-label{display:flex;align-items:center;gap:5px}
+.fz-stat-label .fz-i{width:11px;height:11px;color:var(--fz-orange)}
+.fz-about{margin:14px 0 0;color:var(--fz-text-2);font-size:12.5px;line-height:1.6;max-width:80ch}
+.fz-keys{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.fz-key{display:inline-flex;align-items:center;gap:6px;height:26px;padding:0 10px;border-radius:var(--fz-r-pill);background:var(--fz-bg-elev);border:1px solid var(--fz-border-strong);font-size:11.5px;font-weight:var(--fz-fw-heavy);color:var(--fz-text-2)}
+.fz-key .fz-i{width:12px;height:12px;color:var(--fz-orange)}
+.fz-section-head h2 .fz-i{flex:none}
+.fz-cat-label a.fz-pill-cat .fz-i{width:12px;height:12px}
+
+/* Daily */
+.fz-daily-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.fz-daily{display:flex;align-items:center;gap:10px;padding:8px;border-radius:12px;background:var(--fz-panel);border:1px solid var(--fz-border)}
+.fz-daily:hover{border-color:var(--fz-accent-line)}
+.fz-daily .fz-thumb{width:72px;height:48px;border-radius:8px;flex:none}
+.fz-daily small{display:block;font-size:10px;font-weight:var(--fz-fw-heavy);letter-spacing:.08em;text-transform:uppercase;color:var(--fz-orange)}
+.fz-daily b{display:block;font-size:13px;font-weight:var(--fz-fw-black)}
+.fz-daily span{font-size:11px;color:var(--fz-text-3);font-weight:var(--fz-fw-bold)}
+
+/* Empty states, prose, footer */
+.fz-empty{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:40px 16px;border-radius:14px;border:1px dashed var(--fz-border-strong);background:var(--fz-panel)}
+.fz-empty>.fz-i{width:34px;height:34px;color:var(--fz-orange)}
+.fz-empty b{font-size:16px;font-weight:var(--fz-fw-black)}
+.fz-empty p{margin:0 0 6px;color:var(--fz-text-3);font-size:12.5px}
+.fz-fine{margin:0}
+.fz-prose{max-width:72ch;display:flex;flex-direction:column;gap:4px}
+.fz-prose h2{margin:14px 0 2px;font-size:14px;font-weight:var(--fz-fw-black);text-transform:uppercase;letter-spacing:.06em}
+.fz-prose p{margin:0;color:var(--fz-text-2);font-size:13px;line-height:1.6}
+.fz-prose a{color:var(--fz-orange-hi);text-decoration:underline}
+.fz-note{padding:10px 12px;border-radius:10px;background:var(--fz-accent-soft);border:1px solid var(--fz-accent-line);color:var(--fz-text)!important;font-weight:var(--fz-fw-bold)}
+.fz-footer{margin-top:auto;padding:18px 24px 26px;border-top:1px solid var(--fz-border);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;color:var(--fz-text-3);font-size:11.5px;font-weight:var(--fz-fw-bold)}
+.fz-footer-brand{display:flex;align-items:center;gap:8px}
+.fz-footer-brand b{color:var(--fz-text);font-weight:var(--fz-fw-black)}
+.fz-footer-links{display:flex;flex-wrap:wrap;gap:14px}
+.fz-footer-links a:hover{color:var(--fz-orange-hi)}
+.fz-redirect{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:var(--fz-text-2)}
+.fz-redirect a{color:var(--fz-orange-hi)}
+
+@media (max-width:1180px){.fz-row{grid-auto-columns:calc((100% - 30px)/4)}}
+@media (max-width:900px){
+  .fz-row{grid-auto-columns:calc((100% - 20px)/3)}
+  .fz-spot-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .fz-spot-row>.fz-spot:nth-child(3){display:none}
+  .fz-game{grid-template-columns:minmax(0,1fr)}
+  .fz-rec-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .fz-stats--4{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:640px){
+  .fz-row{grid-auto-columns:calc((100% - 10px)/2)}
+  .fz-spot-row{grid-template-columns:1fr}
+  .fz-spot-row>.fz-spot:nth-child(n+2){display:none}
+  .fz-card .fz-thumb{height:auto}
+  .fz-top-spacer{display:none}
+  .fz-search{max-width:none}
+  .fz-cat-word,.fz-back span{display:none}
+  .fz-back{width:30px;padding:0;justify-content:center}
+  .fz-rec-list{grid-template-columns:1fr}
+  .fz-footer{padding:16px 12px 24px}
+  .fz-page-head h1{font-size:22px}
+}
+.fz-game-top{margin-bottom:0}
+.fz-stats--4 .fz-stat-value{font-size:14px;line-height:1.25}
+
+/* Official Fyzen logo (raster, on black). Never inverted: in light theme it sits on a dark chip. */
+.fz-logo{display:flex;align-items:center;gap:8px;flex:none}
+.fz-logo-chip{display:block;line-height:0;border-radius:9px}
+.fz-logo-img{display:block;height:36px;width:auto}
+.fz-logo-tag{font-size:8.5px;line-height:1.15;color:var(--fz-text-3);font-weight:var(--fz-fw-heavy);letter-spacing:.06em;text-transform:uppercase;border-left:1px solid var(--fz-border-strong);padding-left:8px}
+[data-theme="light"] .fz-logo-chip{background:#0B0B0D;padding:0 6px;box-shadow:var(--fz-sh-1)}
+@media (max-width:1100px){.fz-logo-tag{display:none}}
+.fz-page-head h1{background:none}
+.fz-logo-img,.fz-footer-brand img{mix-blend-mode:screen}
+.fz-logo-chip{isolation:isolate}
+[data-theme="light"] .fz-footer-brand img{mix-blend-mode:normal}
+.fz-stats--4 .fz-stat-value{font-size:14px;line-height:1.2}
+.fz-stage.is-playing .fz-stage-tr{display:none}
+.fz-bar-fps{display:none;align-items:center;gap:5px;font-size:11px;font-weight:var(--fz-fw-heavy);color:var(--fz-orange);font-variant-numeric:tabular-nums;margin-right:6px}
+.fz-bar-fps::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.fz-stage-card:has(.is-playing) .fz-bar-fps{display:inline-flex}
+.fz-stage-bar .fz-ctrls{align-items:center}

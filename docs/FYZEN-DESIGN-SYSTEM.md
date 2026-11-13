@@ -9,7 +9,7 @@ Open `design-system.html` at the site root. It shows every token and component, 
 - `fyzen/components.js`: theme toggle (saved in localStorage), phone drawer, Saved list (localStorage only), tabs, engine filter chips, card renderers.
 - `fyzen/catalog-data.js`: generated from `assets/js/catalog.js` and `assets/js/games.js`. Real titles, kinds, categories, orientations. Engine is `Hexan.js` for every game except Short Fuse (`Three.js`, vendored in `short-fuse/vendor/three.min.js`).
 - `fyzen/design-system.css`: showcase layout only.
-- `assets/brand/fyzen-badge.svg` + `fyzen-wordtype(-light).svg`: the top-bar logo. `assets/brand/fyzen-*`: other logo lockups (dark, light, gradient), wordmark (dark/light), square icon, favicon SVG, 32/180/512 PNGs. New file names, so no existing Playtoom brand file is overwritten in this step.
+- Logo: Hexan's official Fyzen logo (chrome FYZEN wordmark, orange-gold phoenix Y, flare line). Original in `assets/brand/source/fyzen-logo-official.png`; web copies `fyzen-logo.webp/.png` (1200 wide, trimmed), header `fyzen-logo-h36` / `-h72` (1x/2x, WebP + PNG), `fyzen-og-1200x630.jpg`. Icons from the phoenix crop on a dark rounded tile: `fyzen-icon-32/180/512.png`, `fyzen-favicon-32.png`, `fyzen-apple-touch-icon-180.png`, `favicon.ico`; transparent crop `fyzen-phoenix.png/.webp`. Regenerate with `python3 fyzen/make_brand.py`. Rules: never invert or recolor; in light theme it sits on a dark chip; clear space ½ logo height; min 28 px tall. Accent tokens retuned to the logo's orange-gold (#FF8A00 to #FFB21A).
 
 ## Honesty rules applied
 - Ratings, play counts, active sessions and FPS show "—" until real stats exist. "Your best" is a local, per-device value.
@@ -18,7 +18,7 @@ Open `design-system.html` at the site root. It shows every token and component, 
 - `noindex,nofollow` meta. No external requests (verified with headless Chrome).
 
 ## Layout (matched to Hexan's iPad mockups at 1024x768)
-- Full-width 44px top bar above the sidebar: filter button, logo (circular flame badge + FYZEN + GAMES pill + tagline), search, empty sponsor strip, theme toggle, Saved (count).
+- Full-width 44px top bar above the sidebar: filter button (links to All games A–Z), official logo + tagline, search (submits to search.html), theme toggle, Saved (count). No sponsor strip until ads are approved.
 - 190px sidebar: Navigation (Arcade Home active as a gradient pill, Trending Flame), Categories (gamepad icon rows, real category names), divider, Engine Spec chips.
 - Home: Continue Playing chips (120x46), Fyzen Spotlight (2 featured cards + empty 300x250 ad card, 145px tall), Arcade Directory in 6 columns (68px thumbs).
 - Game page: return pill + category, stage card (engine pill, "— FPS", gradient "Instant Play In-Stage", "— Active Sessions", sound/fullscreen), info card with underline tabs and 3 stat cards; 180px right rail with an empty sponsored unit and Recommended Titles.
@@ -26,3 +26,7 @@ Open `design-system.html` at the site root. It shows every token and component, 
 ## Breakpoints
 - <= 900px: sidebar becomes a drawer (menu button, scrim, Esc closes); sponsor strip hidden; 4-column grid; game rail stacks below.
 - <= 640px: 2-column grid, search on its own row.
+
+## Site build (v2)
+- `fyzen/build_site.py` generates every player page (home, categories, Trending/curated, new, daily, recent, saved, search, A–Z, profile, privacy, terms, advertise, 404 and all 49 game pages) from the static catalog. `fyzen/site.css` holds page-level styles. `fyzen/rebrand_games.py` swaps in-game splash/badge/favicons and the few visible in-game strings to Fyzen.
+- Honesty: no ratings, play counts or session numbers anywhere. FPS and load time on game pages are measured live on the visitor's device. Ad and sponsor slots are hidden.
