@@ -112,7 +112,6 @@
 @media (max-width:1100px){.fz-logo-tag{display:none}}
 .fz-page-head h1{background:none}
 .fz-logo-img,.fz-footer-brand img{mix-blend-mode:screen}
-.fz-logo-chip{isolation:isolate}
 [data-theme="light"] .fz-footer-brand img{mix-blend-mode:normal}
 .fz-stats--4 .fz-stat-value{font-size:14px;line-height:1.2}
 .fz-stage.is-playing .fz-stage-tr{display:none}
