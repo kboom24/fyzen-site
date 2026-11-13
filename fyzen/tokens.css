@@ -1,0 +1,71 @@
+/* Fyzen design tokens v1 (step 1: design system).
+   Near-black UI, subtle panels, hot orange-to-red accent. System font stack only: no external requests. */
+:root{
+  color-scheme: dark;
+  /* Surfaces */
+  --fz-bg:#09090B;
+  --fz-bg-elev:#0E0E12;        /* sidebar, top bar */
+  --fz-panel:#141418;          /* cards, panels */
+  --fz-panel-2:#1B1B21;        /* hover, inputs */
+  --fz-panel-3:#24242C;        /* pressed, chips */
+  --fz-border:rgba(255,255,255,.07);
+  --fz-border-strong:rgba(255,255,255,.13);
+  --fz-overlay:rgba(5,5,7,.72);
+  /* Text */
+  --fz-text:#F5F5F7;
+  --fz-text-2:#A6A6B0;
+  --fz-text-3:#6E6E79;
+  --fz-text-on-accent:#FFFFFF;
+  /* Accent */
+  --fz-orange:#FF7A1A;
+  --fz-orange-hi:#FFA21F;
+  --fz-red:#FF2D3F;
+  --fz-accent:#FF5A1F;
+  --fz-accent-soft:rgba(255,90,31,.14);
+  --fz-accent-line:rgba(255,90,31,.45);
+  --fz-grad:linear-gradient(135deg,#FFA21F 0%,#FF5A1F 48%,#FF1F45 100%);
+  --fz-grad-h:linear-gradient(90deg,#FF8A1A 0%,#FF4A26 55%,#FF1F45 100%);
+  --fz-grad-glow:0 10px 30px -8px rgba(255,74,38,.6);
+  /* Status */
+  --fz-green:#2BD67B;
+  --fz-yellow:#FFC83D;
+  --fz-blue:#3DA5FF;
+  /* Type */
+  --fz-font:"Inter","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --fz-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --fz-fs-xs:11px;  --fz-fs-sm:12.5px; --fz-fs-md:14px; --fz-fs-lg:16px;
+  --fz-fs-xl:20px;  --fz-fs-2xl:26px;  --fz-fs-3xl:34px; --fz-fs-4xl:44px;
+  --fz-fw-reg:500; --fz-fw-bold:700; --fz-fw-heavy:800; --fz-fw-black:900;
+  --fz-caps-track:.14em;
+  /* Radii */
+  --fz-r-xs:6px; --fz-r-sm:8px; --fz-r-md:12px; --fz-r-lg:16px; --fz-r-xl:22px; --fz-r-pill:999px;
+  /* Shadows */
+  --fz-sh-1:0 1px 2px rgba(0,0,0,.4);
+  --fz-sh-2:0 6px 18px -6px rgba(0,0,0,.6);
+  --fz-sh-3:0 18px 40px -12px rgba(0,0,0,.75);
+  --fz-ring:0 0 0 2px var(--fz-bg),0 0 0 4px var(--fz-accent);
+  /* Spacing (4px base) */
+  --fz-s-1:4px; --fz-s-2:8px; --fz-s-3:12px; --fz-s-4:16px; --fz-s-5:20px; --fz-s-6:24px; --fz-s-8:32px; --fz-s-10:40px; --fz-s-12:48px;
+  /* Layout */
+  --fz-sidebar-w:248px;
+  --fz-topbar-h:64px;
+  --fz-ease:cubic-bezier(.2,.7,.2,1);
+}
+[data-theme="light"]{
+  color-scheme: light;
+  --fz-bg:#F4F4F6;
+  --fz-bg-elev:#FFFFFF;
+  --fz-panel:#FFFFFF;
+  --fz-panel-2:#F0F0F3;
+  --fz-panel-3:#E6E6EB;
+  --fz-border:rgba(15,15,25,.08);
+  --fz-border-strong:rgba(15,15,25,.15);
+  --fz-overlay:rgba(20,20,28,.45);
+  --fz-text:#121216;
+  --fz-text-2:#52525C;
+  --fz-text-3:#8A8A95;
+  --fz-accent-soft:rgba(255,90,31,.11);
+  --fz-sh-1:0 1px 2px rgba(20,20,40,.06);
+  --fz-sh-2:0 6px 18px -8px rgba(20,20,40,.18);
+  --fz-sh-3:0 18px 40px -14px rgba(20,20,40,.28);
+}
