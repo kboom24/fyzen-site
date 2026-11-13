@@ -1,0 +1,241 @@
+{
+  "manifestVersion": 1,
+  "slug": "merge-drop",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Tidepool Tumble",
+  "version": "1.0.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "merge",
+    "drop",
+    "physics",
+    "suika-like",
+    "combo",
+    "daily challenge",
+    "collection",
+    "sea creatures",
+    "cute",
+    "relaxing",
+    "one more go",
+    "offline"
+  ],
+  "categories": [
+    "merge",
+    "puzzle",
+    "casual"
+  ],
+  "description": {
+    "short": "Drop cute tidepool critters into the pool. When two of the same critter touch, they merge into a bigger one. Chain merges and grow a Moonwhale!",
+    "long": "Tidepool Tumble is a squishy physics merge game set in a sunny rock pool. Nimbo the cloud drifts above the water carrying the next critter. Drag, move the mouse or use the arrow keys to aim, then let go or press Space to drop it. When two of the same critter touch, they merge into the next one up, from a tiny Dewdrop through Bubblet, Snailet, Shrimplet, Puffball, Starbun, Crabbit, Jellybell, Octopal and Shellback, all the way to the legendary Moonwhale. Merge two Moonwhales for a Moonrise and a huge bonus.\n\nEvery critter wobbles, squashes when it lands, blinks, looks worried when the pool gets full and giggles when it merges. The physics are tuned so piles stack calmly and never jitter, so every chain reaction plays out exactly the way you set it up. Merge again within a moment of the last merge to build a chain: each link raises the multiplier from x1.5 up to x4, with big callouts, bursts of bubbles, screen shake and rising notes.\n\nScoring is simple and shown before you play: each merge is worth the points of the critter it creates, multiplied by your chain. If the pile stays above the dashed line for three seconds the tide goes out and the run ends. The line glows, a heartbeat plays and a countdown appears, and dropping back under in time earns a Near Miss bonus. The results screen breaks down your points by critter, shows every goal you earned or missed and lists the critters you found, and it waits for you.\n\nEach Tide Level sets three goals, such as a score, a critter to reach and a chain length. Two stars in one run clears the level. Discoveries fill your Collection Book with each critter's name, art and a little story, and progress unlocks new pools such as Coral Cove, Kelp Forest, Moonlit Lagoon and the Glowing Abyss, plus critter skins like Pastel Pals, Candy Stripes and Night Glow. The Daily Drop gives everyone the same sequence each day, with your best score and a day streak. Share a result card and send a challenge link: your friend gets the exact same drops and tries to beat your score.",
+    "controls": "Touch: drag to aim, lift to drop. Mouse: move to aim, click to drop. Keyboard: Left/Right arrows (or A/D) aim, Space or Down drops, R restarts (press twice), Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I score points?",
+        "a": "Every merge scores the points of the new critter (Bubblet 10, Snailet 30 ... Moonwhale 550, two Moonwhales 1000). Merging again within 0.9 seconds builds a chain that multiplies points by up to x4."
+      },
+      {
+        "q": "When does the game end?",
+        "a": "When the pile stays above the dashed line for 3 seconds. A countdown and heartbeat warn you, and getting back under in time scores a Near Miss bonus."
+      },
+      {
+        "q": "Is there a daily challenge?",
+        "a": "Yes. The Daily Drop gives every player the same sequence of critters each day, and tracks your best score and streak."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "Share a run and your link carries its seed, so your friend gets exactly the same critters in the same order and tries to beat your score."
+      },
+      {
+        "q": "Does it save my progress?",
+        "a": "Yes. Best scores, Tide Level, stars, discovered critters, unlocked pools and skins, daily streak and settings are saved on your device."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "shake the top of the pool clear (removes the highest critters) and keep the same run going, once per run"
+      },
+      {
+        "name": "skin",
+        "format": "rewarded",
+        "reward": "unlock the Sunset Reef pool theme"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "237e1ce5d2e9",
+  "builtAt": "2026-10-28T16:57:31.850Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 465588,
+    "initial": 354896
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "2811438260d7969e416715ed86aaadba021078d5c15daec772460b54ca826474",
+      "bytes": 1451
+    },
+    {
+      "path": "app.aad4aa8c.js",
+      "sha256": "237e1ce5d2e978ecf54877e0527c3516f5de69b4eed780693daaef257c5b4eaa",
+      "bytes": 220762
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "3ab7c3f28a6335d785811253e92e868c0b2a18561dc6489a5cb3c8bebaad720e",
+      "bytes": 3181
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "7f6f9490e6b14fa47aa42a61ff787367d9b844c29b40ca4a472f372d72c84e7d",
+      "bytes": 39124
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "a36b329841e93f77a1bb7f7b63f8f4246da498341dc1976ea71a606e7a6e7a3d",
+      "bytes": 42680
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "cf27f860e71742598b11a29f536a1a1c39b8ee48169cb34e095f1961b96b66f2",
+      "bytes": 18664
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

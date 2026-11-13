@@ -1,0 +1,246 @@
+{
+  "manifestVersion": 1,
+  "slug": "hoop-flick",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Cinderhoop",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "basketball",
+    "flick",
+    "sports",
+    "shooting",
+    "arcade",
+    "physics",
+    "daily challenge",
+    "streak",
+    "trick shots",
+    "one finger",
+    "family friendly",
+    "share"
+  ],
+  "categories": [
+    "sports",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Flick basketballs through the hoop, chain makes to catch fire, and beat the daily shootout. Swishes, bank shots, wind and moving hoops.",
+    "long": "Cinderhoop is a one-finger basketball game where every shot is a flick. Put your finger on the ball and throw it up toward the hoop. A faster flick sends it farther, and the angle of your flick sets the aim. The ball flies in a real arc, getting smaller as it heads toward the rim, with its shadow sliding across the court. The rim rattles, the backboard thuds, and the cloth net snaps when you drain a clean one.\n\nMake three in a row and the ball catches fire: flames trail behind it, the crowd starts jumping and every basket counts double. Make six in a row and it burns blue for triple points. Miss and the fire goes out. Trick shots earn bonus callouts. A swish touches nothing but net, a bank shot comes off the glass, and a board beater uses both. Downtown, Wind Rider and Moving Target are for swishes from the deep line, through strong wind or into a sliding hoop.\n\nThere are three ways to play. Arcade Blitz gives you 60 seconds, every make adds a second and every swish adds two. The distance grows as you score, then the wind picks up and finally the hoop starts to move. Levels mode has 30 goal-based stages with three stars each. The goal card spells out exactly what each star needs, the HUD tracks your progress, and the results screen explains every star you earned or missed. The Daily Shootout is the same five racks for everyone on the same date, with a gold money ball worth double at the end of each rack and a streak for playing every day.\n\nEvery result can be shared as an image card with a challenge link that opens the same mode and shows your score to beat. Stars and total makes unlock new balls (Ember, Ocean, Candy, Galaxy, Gold) and courts (School Gym, Rooftop Night, Beach Court, Neon Arena). There is also an aim mode for players who prefer to drag and release, with a dotted arc preview, plus full keyboard controls. The game works offline and saves progress on your device.",
+    "controls": "Touch, mouse or trackpad: flick up from anywhere to shoot. Faster means farther, and the angle aims left or right. Slow drags also work: a longer drag gives a stronger shot. Aim mode (Aim button or A): drag up to see the arc, then release to shoot. Keyboard: Left/Right to aim, Up/Down for power, Space or Enter to shoot. Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I shoot farther?",
+        "a": "Flick faster. The game measures the speed of the last tenth of a second of your flick, so a quick snap is stronger than a lazy push. Long, slow drags also shoot, with power set by the drag length."
+      },
+      {
+        "q": "What does ON FIRE do?",
+        "a": "Three makes in a row set the ball on fire, and every basket scores double. Six in a row is BLAZING and scores triple. Any miss puts the fire out."
+      },
+      {
+        "q": "How is the score calculated?",
+        "a": "A basket is worth 2 points, or 3 from the deep line (6.5 m or more). A swish, bank shot or board beater adds +1. Each trick adds +1 more: Downtown, Wind Rider and Moving Target. ON FIRE doubles the total, BLAZING triples it, and money balls in the Daily Shootout double it again."
+      },
+      {
+        "q": "How do I earn three stars?",
+        "a": "Each level shows three goals before you start: a number of makes, a score, and a third goal such as swishes, a streak, deep makes or catching fire. Stars two and three also need star one."
+      },
+      {
+        "q": "Is the Daily Shootout the same for everyone?",
+        "a": "Yes. The five racks, distances, wind and moving hoops are generated from the date, with no network needed, so everyone gets the same shootout on the same day. Finish it to keep your streak."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "extra-balls",
+        "format": "rewarded",
+        "reward": "+3 balls when a level ends short of its first star (once per run)"
+      },
+      {
+        "name": "extra-time",
+        "format": "rewarded",
+        "reward": "+15 seconds when the Arcade Blitz clock runs out (once per run)"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "endless"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "02637bcae6c9",
+  "builtAt": "2026-10-28T13:30:52.019Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 422186,
+    "initial": 343381
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "d4d15c5b2c8a5d43892b5dfeca0f5839fe683433eded8d743556ed1c6f96d008",
+      "bytes": 2724
+    },
+    {
+      "path": "app.12b8b4ca.js",
+      "sha256": "02637bcae6c99ade08ce32fd0f1910472c5ed8622f309c9cd0e7981c9070e35f",
+      "bytes": 209309
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "461cb7be2e6dd07f23c96d83c9690b666369ac50a6d9f631850fa6cc5095a9ef",
+      "bytes": 3119
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "13f43501877a4aa7f338beb3e08b0da6664dbcf98c1abf0390ab591aa7fdce35",
+      "bytes": 29816
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "e22e6d58208bface525d6f9d3f806ba0b041436a317988d300cae3c3722e8fdb",
+      "bytes": 24082
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "42cb323a05d15a9ca32d41144658a2388d1a766524bd5dea230f6c1ddd4ee85d",
+      "bytes": 13410
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

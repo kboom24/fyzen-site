@@ -1,0 +1,273 @@
+{
+  "manifestVersion": 1,
+  "slug": "ringward",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Whirlwatch",
+  "version": "1.0.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "tower defense",
+    "strategy",
+    "orbit",
+    "space",
+    "rings",
+    "merge",
+    "turrets",
+    "boss battles",
+    "daily challenge",
+    "one finger",
+    "cute",
+    "levels"
+  ],
+  "categories": [
+    "strategy",
+    "casual"
+  ],
+  "description": {
+    "short": "Spin two orbital rings of turrets to aim them all at once, merge twins into stronger towers and keep a little moon safe from 40 levels of space critters.",
+    "long": "Whirlwatch is a tower defense game where the towers move. A sleepy little moon floats in the middle of the screen, wrapped in two rings of turret slots, and swarms of space critters drift in from every direction. Every turret only fires in front of it, so the real trick is aiming: drag anywhere to spin the inner ring and the outer ring turns the other way, geared like clockwork. Swing the right towers to face each wave before it arrives.\n\nBuild with stardust that the critters drop. Pebblers fire quick twin pellets, Frostbloom sprays icy mist that slows everything in its arc, Comet Mortar lobs splashing comets that crack armored Shellbacks, Arc Coil chains lightning between neighbours, Sunlance burns a long beam straight through armor, Gustbell blows whole groups back out, and Seeker Pods launch homing rockets in every direction. Tap two matching turrets to merge them into a stronger tier, up to tier III, or sell one to change your plan mid-wave.\n\nThe campaign has 40 levels across four star systems, from Pebble Reach and Ember Drift to Frostfall Belt and the Void Crown. Each system brings new critters, from speedy Darts and splitting Splitters to Swirlsnails that spiral as they come, Menders that heal their friends, blinking Phaselings and Broodmothers that hatch mites. Every tenth level ends in a boss: the Gloomwhale, the Ringcrawler, the Ember Twins and finally the Eclipse Maw with its orbiting shield moons. Warning arrows at the screen edge show where each wave will come from, so you always get a moment to turn.\n\nEvery level has three star goals shown before you start, during play and on the results card, such as losing almost no shield, building a tier II turret or finishing with stardust in the bank. Stars and level clears earn moonstones for the Moon Lab, where permanent upgrades add moon shield, starting stardust, turret damage, bigger bounties, better sell prices and a Prism Core that zaps critters that get too close.\n\nThe Daily Orbit is a new endless run every day with the same seed and the same three turret types for every player, so scores are comparable. Keep a daily streak, see how your score ranks, share a picture card of your rings, or send a challenge link that dares a friend to beat your score. The score travels inside the link, so nothing is uploaded.\n\nProgress saves automatically on your device. Whirlwatch plays offline in portrait or landscape on phones, tablets and desktop, and every action works with one finger. Optional ads can revive you once in a level or double the moonstones from a level; they are never required.",
+    "controls": "Touch or mouse: drag anywhere to spin the rings (flick for momentum). Tap an empty slot and then a turret card to build, tap a turret and then a glowing twin to merge, and use Sell to refund. Tap Launch wave when ready; the 1x/2x button changes speed. Keyboard: Left/Right or A/D spin, Q/E or Tab pick a slot, 1-7 build, R merges, X or Backspace sells, Enter launches, F or Space toggles speed, Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "Why are my turrets not firing?",
+        "a": "Each turret only fires inside the cone in front of it. Drag to spin the rings so the right turrets face the critters. The warning arrows at the screen edge show where the next wave comes from."
+      },
+      {
+        "q": "How do I merge turrets?",
+        "a": "Tap a turret, then tap a glowing turret of the same type and tier. They combine into one stronger turret, up to tier III, which frees a slot."
+      },
+      {
+        "q": "How do I beat armored Shellbacks?",
+        "a": "Pebbler pellets barely scratch their shells. Comet Mortar splashes crack the armor and Sunlance beams ignore it completely."
+      },
+      {
+        "q": "What are moonstones for?",
+        "a": "You earn moonstones by clearing levels and winning new stars. Spend them in the Moon Lab on permanent upgrades such as extra moon shield, more starting stardust and stronger turrets."
+      },
+      {
+        "q": "What is the Daily Orbit?",
+        "a": "An endless run that changes every day. Everyone gets the same waves and the same turrets, and Moon Lab upgrades are switched off, so your score is fair to compare. Play on consecutive days to grow your streak."
+      },
+      {
+        "q": "Are ads required?",
+        "a": "No. An optional ad can revive your moon once in a level or double the moonstones from a cleared level. Nothing in the game is for sale."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/hover.480x480.webm",
+      "w": 480,
+      "h": 480,
+      "variant": "video",
+      "format": "webm"
+    },
+    {
+      "src": "thumbs/hover.480x480.mp4",
+      "w": 480,
+      "h": 480,
+      "variant": "video",
+      "format": "mp4"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "mild-cartoon-violence"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "revives the moon once per level at 8 shield and pushes the closest critters back out (campaign levels only)"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double-stones",
+        "format": "rewarded",
+        "reward": "doubles the moonstones earned from the level you just cleared"
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "levels",
+    "stars",
+    "daily",
+    "endless",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "3d66756842fa",
+  "builtAt": "2026-10-31T09:56:10.609Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 1722516,
+    "initial": 391133
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "71a03d0ba3402fbbc17d8653e78f31aa40d956e612dc2d22b2da8daba051dabd",
+      "bytes": 1066
+    },
+    {
+      "path": "app.7be97501.js",
+      "sha256": "3d66756842fac06fe97f9455bce58d10184739819302280332160bca4706c971",
+      "bytes": 256990
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "b39085c71b9c6d0f5efa4314e93dd07fd6d94e90eff5fd03b80227150f8db393",
+      "bytes": 3190
+    },
+    {
+      "path": "thumbs/hover.480x480.mp4",
+      "sha256": "834c29769dddd398e865714e2e4c005ee108b6883256a68fce01ca9c598147a9",
+      "bytes": 563602
+    },
+    {
+      "path": "thumbs/hover.480x480.webm",
+      "sha256": "a359eca0cab30d74e939e881abb29f9f179b356db2c28b0cb0a64c33d631c62f",
+      "bytes": 580418
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "b7a08b8284b3071f35ff0bdacac701e2d38218ecc00d7a0d22d2d02c379251bb",
+      "bytes": 72410
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "f70cbcefd9948400f77cdd850e9df6aaf569e53f4dc57e8c179f4de0c07c6004",
+      "bytes": 71458
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "89518e9f81cddec0ce4ea73d668c67a43ade894966b80221f7afd41679e0b1de",
+      "bytes": 33656
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

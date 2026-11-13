@@ -1,0 +1,245 @@
+{
+  "manifestVersion": 1,
+  "slug": "endless-run",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Scamperlight",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "endless runner",
+    "runner",
+    "three lanes",
+    "swipe",
+    "dodge",
+    "jump",
+    "cute",
+    "fox",
+    "daily challenge",
+    "levels",
+    "one more go",
+    "offline"
+  ],
+  "categories": [
+    "arcade",
+    "action",
+    "casual"
+  ],
+  "description": {
+    "short": "Swipe to dodge, jump and slide as Fen the lamplighter fox-kit scampers down glowing lanes through five dusky biomes. How far can you run?",
+    "long": "Scamperlight is a bright, fast three-lane endless runner. You are Fen, a lamplighter fox-kit riding a hover-leaf down the lantern lanes at dusk. Swipe left or right to change lane, swipe up to jump and swipe down to slide. You can also tap the left or right half of the screen to steer, or play with the arrow keys, WASD and Space on a keyboard. The road keeps speeding up, smoothly, the further you get.\n\nEvery obstacle has its own colour in every biome, so you can read the road at a glance: hop the amber fences, slide under the blue lantern beams, and dodge the rose blocks and the long violet carts. Warning strips light up on the road before each obstacle row, and every row of the course is checked by a solver so there is always a way through that a quick reaction can reach. A last-moment dodge, jump or slide counts as a near miss and is worth bonus points.\n\nCollect glow motes along the safest line; chaining them plays a rising run of notes. Three power-ups help you out: the Magnet pulls nearby motes in, the Shield absorbs one crash, and the Boost launches you forward and smashes through anything in your way, with speed lines and a louder soundtrack. The world changes as you go, from Dusk Meadow to Amber Canyon, Frostwood, the Starfall Ruins and Aurora Lake, with distance milestones along the way. The music grows with you as new layers join.\n\nScoring is explained before you play and on every results screen: one point per metre, five per glow mote, 25 per near miss and 100 per distance milestone. Endless mode keeps your best distance and score. 24 Trails each have three stars: reach the lantern gate, collect a number of motes, and a style goal such as near misses, using power-ups or a no-hit run. The goal card explains them, the HUD shows live progress and the results screen waits for you and never moves on by itself. The Daily Run gives every player the same course each day, with your best and a day streak. Share a result card and a challenge link: your friend runs the exact same course with a ghost marker showing the distance to beat. Motes and stars unlock new runners and boards. Everything works offline and your progress is saved on your device.",
+    "controls": "Touch: swipe left or right to change lane, swipe up to jump, swipe down to slide; tap the left or right half of the screen to change lane (can be turned off in How to play). Keyboard: Left/Right or A/D change lane, Up, W or Space jumps, Down or S slides, Esc or P pauses, M mutes. Mouse: click the left or right half to change lane.",
+    "faq": [
+      {
+        "q": "How do I score points?",
+        "a": "One point per metre run, 5 per glow mote, 25 per near miss (a last-moment dodge, jump or slide) and 100 per distance milestone."
+      },
+      {
+        "q": "What do the obstacle colours mean?",
+        "a": "Amber fences: jump. Blue lantern beams: slide under. Rose blocks and violet carts: change lane. Bumping the side of a cart only knocks you back."
+      },
+      {
+        "q": "What do the power-ups do?",
+        "a": "Magnet pulls motes towards you, Shield saves you from one crash, and Boost speeds you up and smashes through obstacles for a few seconds."
+      },
+      {
+        "q": "When does the run end?",
+        "a": "When you crash into an obstacle without a shield. In Endless, Daily and Trails you can watch an optional ad once per run to clear the road and keep going."
+      },
+      {
+        "q": "How do Trails and stars work?",
+        "a": "Each of the 24 Trails has three stars: reach the lantern gate (clears the trail), collect a number of motes, and a style goal. Stars 2 and 3 count when you reach the gate, and stars unlock runners and boards."
+      },
+      {
+        "q": "How do the Daily Run and challenge links work?",
+        "a": "The Daily Run gives everyone the same course each day and tracks your best and day streak. A challenge link carries the course seed and your distance, so a friend runs the same course with a marker showing the distance to beat."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "revive",
+        "format": "rewarded",
+        "reward": "clear the road ahead and keep the same run going, once per run"
+      },
+      {
+        "name": "board",
+        "format": "rewarded",
+        "reward": "unlock the Prism hover board"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "55e2554fc3d6",
+  "builtAt": "2026-10-28T16:10:10.618Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 430267,
+    "initial": 359592
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "d7f42831d2c117bd688016070e734281adcf88f6efc4b98f46e8e6955f87ad18",
+      "bytes": 1938
+    },
+    {
+      "path": "app.30163b9d.js",
+      "sha256": "55e2554fc3d6b29ad5e534490a5ae20e2c88fb556b35124dace2f797187d2268",
+      "bytes": 225654
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "a1f19351290da51d98b5023adc79f9dfafa69ea16bea2ec608806d3f061c47ba",
+      "bytes": 2985
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "7dd74ad77409b5ff3393e3145bc51201080fdcf75835d9a8ee490d3bba979e42",
+      "bytes": 24496
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "77ef4ddbaca69ceef9380af21a2414db4f2fda7e80c85c5a4a81abe9f0ecb204",
+      "bytes": 23978
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "4d5ebc351b385ae31c7f124e4763b159bed81440d2be9794ae924012c0cd95e7",
+      "bytes": 11490
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

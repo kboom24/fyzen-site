@@ -1,0 +1,234 @@
+{
+  "manifestVersion": 1,
+  "slug": "brain-riddles",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Wrinklewit",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "brain teaser",
+    "riddles",
+    "trick questions",
+    "puzzle",
+    "logic",
+    "think outside the box",
+    "daily puzzle",
+    "streak",
+    "stars",
+    "family friendly",
+    "touch",
+    "share"
+  ],
+  "categories": [
+    "puzzle",
+    "casual"
+  ],
+  "description": {
+    "short": "60 sneaky riddles where the screen is the puzzle: drag the words, shake the tree, twist the clock, or just wait. Plus a new Daily Riddle.",
+    "long": "Wrinklewit is a trick-riddle game for brains that like a good wrinkle. Every riddle looks simple, and every one hides a trick. The answer is rarely the obvious tap. Sometimes it's a word in the question you can pick up and drag. Sometimes you have to shake a tree, rub a cloud until it rains, twist a clock to the right time or hold a tap until the glass is full. Sometimes the question box itself slides away to show what's hiding behind it, and sometimes the trick is to do nothing at all.\n\nSixty original riddles come in ten packs: Warm-up Wits, Count Again, Not What It Seems, Word Twists, Hands-On, Outside the Box, Animal Antics, Kitchen Chaos, After Dark and Brain Busters. Each pack mixes counting traps, wordplay, sleight-of-eye pictures, matchstick equations, dark rooms you explore with a torch, and gentle physical gags. Every riddle is drawn in a bright hand-inked cartoon style, with wobbly outlines and little jokes to find.\n\nStars explain themselves. One star is for solving the riddle, the second for solving it without a hint and the third for getting there with no wrong answers. A goal card shows all three before you start, the HUD tracks them live, and the results card shows which you earned, why, and what the trick was. Restart is instant, and the game never jumps to the next riddle without you.\n\nA new Daily Riddle arrives every day, the same for everyone on the same date. Keep your streak going and earn free hint tokens. Share a colourful result card with a challenge link that opens the same riddle for a friend and shows your time as the one to beat. Stars unlock hats for Wink, the game's winking brain mascot.\n\nIt plays with fingers, a mouse or Apple Pencil, in portrait or landscape, on phones, tablets and desktops. Some riddles can also react to a real shake or tilt of your device, and every one can be solved by touch alone. Wrinklewit works offline and saves progress on your device.",
+    "controls": "Tap, drag, twist (drag around an object), rub/wiggle back and forth, or press and hold. Words in the question can be tapped and dragged too. Number answers: tap the keypad or type digits and press Enter. Restart is instant (R). H = hint, Esc or P = pause, M = mute. On phones and tablets some riddles also respond to shaking or tilting the device; all can be solved without sensors.",
+    "faq": [
+      {
+        "q": "How do the three stars work?",
+        "a": "Star 1: solve the riddle. Star 2: solve it without using a hint. Star 3: solve it with no wrong answers. The goal card shows this before each riddle, the HUD tracks it live and the results card explains which stars you got."
+      },
+      {
+        "q": "I'm stuck. How do hints work?",
+        "a": "Tap Hint. You start with 3 free hint tokens and earn more: +2 for each Daily Riddle you solve and +1 for each new three-star solve. If you run out, you can watch a short video for a hint, but only when one is available. Using a hint costs that riddle's second star."
+      },
+      {
+        "q": "Do I need to shake or tilt my phone?",
+        "a": "Never. A few riddles also react to a real shake or tilt for fun, but every riddle can be solved by touch, mouse or pencil alone, for example by rubbing an object back and forth."
+      },
+      {
+        "q": "Is the Daily Riddle the same for everyone?",
+        "a": "Yes. It is generated from the date on your device with no network needed, so everyone gets the same riddle on the same day. Solve one each day to grow your streak."
+      },
+      {
+        "q": "Is the global standing real?",
+        "a": "Not yet. Until Playtoom accounts launch, the standing on the results card comes from an offline preview and is clearly marked PREVIEW. Challenge links work today: they open the same riddle for a friend with your time to beat."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "hint",
+        "format": "rewarded",
+        "reward": "one hint for the current riddle, given only when the video completes"
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "2d5813c9267d",
+  "builtAt": "2026-10-29T13:41:21.095Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 681473,
+    "initial": 432179
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "402ea340b588c3729fc93d0177aef368edb163564fd32279661be0268ee5189f",
+      "bytes": 1595
+    },
+    {
+      "path": "app.3ddbed44.js",
+      "sha256": "2d5813c9267dd4489445f8c01a7301b6296a3ede506ec3475d1f1cefef1465d0",
+      "bytes": 298030
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "c05c32401899320246a1cf298935a8ca50041cd8c66481ff9e045cc412252175",
+      "bytes": 3196
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "343dcd4fb6afaa00241f75539d39c07f66eaf5ee603b3999e7516010b1378820",
+      "bytes": 97432
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "89093e2e6eefc4344c901de8e25a6b539c310e320e75ffc43672d6eb737e8f0b",
+      "bytes": 99838
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "8bdfb4df86e9a0a488d58fae152d7f34fd5e84f85f3cf8dafa79583f5cb12c98",
+      "bytes": 41656
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

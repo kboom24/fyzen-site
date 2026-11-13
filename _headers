@@ -1,0 +1,318 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: frame-ancestors 'self'
+  X-Robots-Tag: index, follow
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/arena-paint/*
+  X-Robots-Tag: noindex, nofollow
+
+/arena-paint
+  X-Robots-Tag: noindex, nofollow
+
+/balloon-archery/*
+  X-Robots-Tag: noindex, nofollow
+
+/balloon-archery
+  X-Robots-Tag: noindex, nofollow
+
+/bike-race/*
+  X-Robots-Tag: noindex, nofollow
+
+/bike-race
+  X-Robots-Tag: noindex, nofollow
+
+/brain-riddles/*
+  X-Robots-Tag: noindex, nofollow
+
+/brain-riddles
+  X-Robots-Tag: noindex, nofollow
+
+/bubbletoom/*
+  X-Robots-Tag: noindex, nofollow
+
+/bubbletoom
+  X-Robots-Tag: noindex, nofollow
+
+/car-levels/*
+  X-Robots-Tag: noindex, nofollow
+
+/car-levels
+  X-Robots-Tag: noindex, nofollow
+
+/car-race/*
+  X-Robots-Tag: noindex, nofollow
+
+/car-race
+  X-Robots-Tag: noindex, nofollow
+
+/chess-checkers/*
+  X-Robots-Tag: noindex, nofollow
+
+/chess-checkers
+  X-Robots-Tag: noindex, nofollow
+
+/couch-2p/*
+  X-Robots-Tag: noindex, nofollow
+
+/couch-2p
+  X-Robots-Tag: noindex, nofollow
+
+/crowd-math/*
+  X-Robots-Tag: noindex, nofollow
+
+/crowd-math
+  X-Robots-Tag: noindex, nofollow
+
+/daily-jigsaw/*
+  X-Robots-Tag: noindex, nofollow
+
+/daily-jigsaw
+  X-Robots-Tag: noindex, nofollow
+
+/deep-cast/*
+  X-Robots-Tag: noindex, nofollow
+
+/deep-cast
+  X-Robots-Tag: noindex, nofollow
+
+/edge-drift/*
+  X-Robots-Tag: noindex, nofollow
+
+/edge-drift
+  X-Robots-Tag: noindex, nofollow
+
+/elemental-duo/*
+  X-Robots-Tag: noindex, nofollow
+
+/elemental-duo
+  X-Robots-Tag: noindex, nofollow
+
+/endless-run/*
+  X-Robots-Tag: noindex, nofollow
+
+/endless-run
+  X-Robots-Tag: noindex, nofollow
+
+/evolve-io/*
+  X-Robots-Tag: noindex, nofollow
+
+/evolve-io
+  X-Robots-Tag: noindex, nofollow
+
+/fernpuff-fields/*
+  X-Robots-Tag: noindex, nofollow
+
+/fernpuff-fields
+  X-Robots-Tag: noindex, nofollow
+
+/floepuck/*
+  X-Robots-Tag: noindex, nofollow
+
+/floepuck
+  X-Robots-Tag: noindex, nofollow
+
+/gem-lattice/*
+  X-Robots-Tag: noindex, nofollow
+
+/gem-lattice
+  X-Robots-Tag: noindex, nofollow
+
+/hole-grow/*
+  X-Robots-Tag: noindex, nofollow
+
+/hole-grow
+  X-Robots-Tag: noindex, nofollow
+
+/hoop-flick/*
+  X-Robots-Tag: noindex, nofollow
+
+/hoop-flick
+  X-Robots-Tag: noindex, nofollow
+
+/idle-tycoon/*
+  X-Robots-Tag: noindex, nofollow
+
+/idle-tycoon
+  X-Robots-Tag: noindex, nofollow
+
+/line-draw/*
+  X-Robots-Tag: noindex, nofollow
+
+/line-draw
+  X-Robots-Tag: noindex, nofollow
+
+/lobwhistle/*
+  X-Robots-Tag: noindex, nofollow
+
+/lobwhistle
+  X-Robots-Tag: noindex, nofollow
+
+/merge-defense/*
+  X-Robots-Tag: noindex, nofollow
+
+/merge-defense
+  X-Robots-Tag: noindex, nofollow
+
+/merge-drop/*
+  X-Robots-Tag: noindex, nofollow
+
+/merge-drop
+  X-Robots-Tag: noindex, nofollow
+
+/moatball/*
+  X-Robots-Tag: noindex, nofollow
+
+/moatball
+  X-Robots-Tag: noindex, nofollow
+
+/nine-ball/*
+  X-Robots-Tag: noindex, nofollow
+
+/nine-ball
+  X-Robots-Tag: noindex, nofollow
+
+/noodle-path/*
+  X-Robots-Tag: noindex, nofollow
+
+/noodle-path
+  X-Robots-Tag: noindex, nofollow
+
+/number-pop/*
+  X-Robots-Tag: noindex, nofollow
+
+/number-pop
+  X-Robots-Tag: noindex, nofollow
+
+/plop-planets/*
+  X-Robots-Tag: noindex, nofollow
+
+/plop-planets
+  X-Robots-Tag: noindex, nofollow
+
+/ragdoll-archery/*
+  X-Robots-Tag: noindex, nofollow
+
+/ragdoll-archery
+  X-Robots-Tag: noindex, nofollow
+
+/ragdoll-stunts/*
+  X-Robots-Tag: noindex, nofollow
+
+/ragdoll-stunts
+  X-Robots-Tag: noindex, nofollow
+
+/reading-spelling/*
+  X-Robots-Tag: noindex, nofollow
+
+/reading-spelling
+  X-Robots-Tag: noindex, nofollow
+
+/rhythm-battle/*
+  X-Robots-Tag: noindex, nofollow
+
+/rhythm-battle
+  X-Robots-Tag: noindex, nofollow
+
+/rhythm-dash/*
+  X-Robots-Tag: noindex, nofollow
+
+/rhythm-dash
+  X-Robots-Tag: noindex, nofollow
+
+/serpent-arena/*
+  X-Robots-Tag: noindex, nofollow
+
+/serpent-arena
+  X-Robots-Tag: noindex, nofollow
+
+/shop-idle/*
+  X-Robots-Tag: noindex, nofollow
+
+/shop-idle
+  X-Robots-Tag: noindex, nofollow
+
+/short-fuse/*
+  X-Robots-Tag: noindex, nofollow
+
+/short-fuse
+  X-Robots-Tag: noindex, nofollow
+
+/soccer-cup/*
+  X-Robots-Tag: noindex, nofollow
+
+/soccer-cup
+  X-Robots-Tag: noindex, nofollow
+
+/stack-sort/*
+  X-Robots-Tag: noindex, nofollow
+
+/stack-sort
+  X-Robots-Tag: noindex, nofollow
+
+/stealth-heist/*
+  X-Robots-Tag: noindex, nofollow
+
+/stealth-heist
+  X-Robots-Tag: noindex, nofollow
+
+/swallow-city/*
+  X-Robots-Tag: noindex, nofollow
+
+/swallow-city
+  X-Robots-Tag: noindex, nofollow
+
+/swarm-colony/*
+  X-Robots-Tag: noindex, nofollow
+
+/swarm-colony
+  X-Robots-Tag: noindex, nofollow
+
+/swingsprout/*
+  X-Robots-Tag: noindex, nofollow
+
+/swingsprout
+  X-Robots-Tag: noindex, nofollow
+
+/tower-stack/*
+  X-Robots-Tag: noindex, nofollow
+
+/tower-stack
+  X-Robots-Tag: noindex, nofollow
+
+/trap-door/*
+  X-Robots-Tag: noindex, nofollow
+
+/trap-door
+  X-Robots-Tag: noindex, nofollow
+
+/whirlwatch/*
+  X-Robots-Tag: noindex, nofollow
+
+/whirlwatch
+  X-Robots-Tag: noindex, nofollow
+
+/word-daily/*
+  X-Robots-Tag: noindex, nofollow
+
+/word-daily
+  X-Robots-Tag: noindex, nofollow
+
+/yesterlings/*
+  X-Robots-Tag: noindex, nofollow
+
+/yesterlings
+  X-Robots-Tag: noindex, nofollow
+
+# playtoom-hidden-robots
+/game-floepuck
+  X-Robots-Tag: noindex, nofollow
+
+/game-floepuck.html
+  X-Robots-Tag: noindex, nofollow
+
+/404.html
+  X-Robots-Tag: noindex, nofollow
+# /playtoom-hidden-robots

@@ -1,0 +1,251 @@
+{
+  "manifestVersion": 1,
+  "slug": "stealth-heist",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Tiptail",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "stealth",
+    "sneaking",
+    "timing",
+    "raccoon",
+    "king",
+    "pie",
+    "one-button",
+    "one-handed",
+    "daily challenge",
+    "funny",
+    "kids",
+    "casual"
+  ],
+  "categories": [
+    "casual",
+    "arcade",
+    "skill"
+  ],
+  "description": {
+    "short": "Tiptoe a cheeky raccoon past snacking kings to snatch the royal pie. Freeze at each king's tell, or get caught in a slapstick Oi!",
+    "long": "Tiptail is a one-button stealth timing game set in a storybook paper-cut castle. You are a cheeky raccoon with a sweet tooth, and every king in the land has a freshly baked royal pie on a pedestal right behind him. Hold anywhere to tiptoe closer. Let go to freeze, and you instantly turn into a potted fern. The king munches happily with his back to you, but every monarch has a tell just before he turns around: twitching ears, a wobbling crown, a sneeze, a cuckoo clock, a sleepy yawn and more. Spot the tell, freeze in time, and he sees nothing but a suspicious houseplant. Move while he is looking and it is a funny 'Caught!' moment with a trombone and an outraged 'Oi! My pie!' Nobody is ever hurt: it is all about cheeky timing.\n\nSteal Pies is the endless reign: snatch pie after pie from an ever-trickier line of monarchs. Every fifth pie you become the king, and in the King's Turn you must spin round and catch the next thief yourself. Share 'I ruled for 23 reigns' with a challenge link that gives your friend the exact same monarchs and timings, and race their ghost raccoon.\n\nThe Royal Court has 40 kings and queens, each with their own tell, from King Crumbleton the 3rd to Queen Spongealot. Later monarchs fake you out and do double-takes, and the last ten have two tells at once. Every court earns up to 3 stars: snatch the pie, beat the par time, and never get spotted flinching. The Daily Palace is the same five monarchs for everyone each day, so keep your streak going. Crumbs from every run buy 12 costumes in the Wardrobe, including a chef hat, tutu, pirate, bee and astronaut. Some of them are earned by streaks, catches and stars. A short first-play tutorial teaches the tell and can be skipped. Progress, stars, costumes and your daily streak are saved on your device. Play one-handed in portrait or landscape on phones, tablets and computers.",
+    "controls": "Hold anywhere (touch or mouse), or hold Space, Enter or an arrow key, to tiptoe. Let go to freeze. R restarts, Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I avoid getting caught?",
+        "a": "Watch and listen for the king's tell, like twitching ears or a wobbling crown. Let go as soon as you see it and you freeze into a fern. The king only spots you if you move while he is facing you."
+      },
+      {
+        "q": "How do I earn 3 stars in the Royal Court?",
+        "a": "Star 1: snatch the pie. Star 2: snatch it within the par time shown. Star 3: never flinch, which means being frozen before every turn. The result screen ticks off each star so you can see which one you missed."
+      },
+      {
+        "q": "What is the King's Turn?",
+        "a": "Every 5 pies in Steal Pies you wear the crown. Tap to spin round and catch the thief while he is moving. It is a bonus round, so your reign is safe either way."
+      },
+      {
+        "q": "What is a challenge link?",
+        "a": "After a run, Share makes a link that loads the same monarchs in the same order with the same timings, plus a ghost raccoon of your run, so a friend can try to beat you."
+      },
+      {
+        "q": "Is the global standing live?",
+        "a": "Not yet. Standings are a clearly labelled offline preview until the Playtoom leaderboard goes live."
+      },
+      {
+        "q": "Is it violent?",
+        "a": "No. Getting caught is a slapstick 'Oi! My pie!' moment. Nobody is ever hurt."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "A second chance: keep your Steal Pies reign going from where you were caught (once per run)"
+      },
+      {
+        "name": "double-crumbs",
+        "format": "rewarded",
+        "reward": "Doubles the crumbs earned from the run you just finished"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "4b5768c720c7",
+  "builtAt": "2026-10-29T11:07:21.708Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 460657,
+    "initial": 343448
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "82ad81cb92db91ec635e36dc784ceee34daedb123216b082413a41580b34ec5e",
+      "bytes": 2502
+    },
+    {
+      "path": "app.89f35e31.js",
+      "sha256": "4b5768c720c7a227ecb3c8ad6f910a5d163ff18e7abb056bc7c776c2a4832d7d",
+      "bytes": 209244
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "6e3deaecf74f2b60e82d0a2c66e8c4d383c92db701775361e900c72941f7481a",
+      "bytes": 3251
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "df848c3932a976d2037dc9be656dc830a8d60e71095be7387d24522f0ef9c80f",
+      "bytes": 42298
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "a62a2b1bb0cc186eba9e08e4f05d52b99d0385de224d2617c4cecae1e6c0519b",
+      "bytes": 41886
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "e071b8f2ad0dadcf0720e7d0b4f5081282f222562cb9c76add2713e24c661961",
+      "bytes": 21750
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}
