@@ -18,86 +18,134 @@
 <body class="fz">
 <script src="fyzen/icons.js"></script>
 <div class="fz-app">
-  <aside class="fz-sidebar" id="fz-sidebar" aria-label="Main">
-    <a class="fz-brand" href="./" aria-label="Fyzen Games home">
-      <img class="fz-logo-dark" src="assets/brand/fyzen-logo-dark.svg" alt="Fyzen Games · Instant Browser Games" width="250" height="74">
-      <img class="fz-logo-light" src="assets/brand/fyzen-logo-light.svg" alt="" width="250" height="74">
+  <header class="fz-topbar">
+    <button class="fz-sq-btn fz-menu-btn" type="button" data-fz-drawer aria-controls="fz-sidebar" aria-expanded="false" aria-label="Open menu"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-menu"/></svg></button>
+    <button class="fz-sq-btn fz-filter-btn" type="button" aria-label="Filters"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-sliders"/></svg></button>
+    <a class="fz-logo" href="./" aria-label="Fyzen Games home">
+      <img class="fz-logo-badge" src="assets/brand/fyzen-badge.svg" alt="" width="30" height="30">
+      <span class="fz-logo-text"><img class="fz-logo-dark" src="assets/brand/fyzen-wordtype.svg" alt="Fyzen Games" width="111" height="17"><img class="fz-logo-light" src="assets/brand/fyzen-wordtype-light.svg" alt="" width="111" height="17"><small>Instant Browser Games</small></span>
     </a>
+    <label class="fz-search"><span class="fz-sr">Search</span><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-search"/></svg><input type="search" placeholder="Search games, engines, or tags..." autocomplete="off"></label>
+    <div class="fz-sponsor-strip" aria-label="Sponsor slot, empty placeholder"><span class="fz-sponsor-pill">SPONSOR</span><span class="fz-sponsor-text">Sponsor slot — coming soon</span><span class="fz-sponsor-cta">Empty <svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-external"/></svg></span></div>
+    <button class="fz-round-btn fz-theme" type="button" data-fz-theme aria-label="Switch to light theme" aria-pressed="false"><svg class="fz-i fz-sun" aria-hidden="true"><use href="#fz-i-sun"/></svg><svg class="fz-i fz-moon" aria-hidden="true"><use href="#fz-i-moon"/></svg></button>
+    <a class="fz-saved-btn" href="favorites"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg><span><span class="fz-saved-label">Saved </span>(<span data-fz-saved-count>0</span>)</span></a>
+  </header>
+
+  <aside class="fz-sidebar" id="fz-sidebar" aria-label="Main">
     <nav aria-label="Navigation">
-      <p class="fz-caps"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-grid"/></svg>Navigation</p>
+      <p class="fz-caps">Navigation</p>
       <div class="fz-nav-group">
-        <a class="fz-nav-item" href="./" aria-current="page"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-home"/></svg>Arcade Home</a>
-        <a class="fz-nav-item" href="popular"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-flame"/></svg>Trending</a>
-        <a class="fz-nav-item" href="new"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-spark"/></svg>New Releases<span class="fz-count">6</span></a>
-        <a class="fz-nav-item" href="favorites"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg>Saved<span class="fz-count" data-fz-saved-count>0</span></a>
+        <a class="fz-nav-item" href="./" aria-current="page"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-compass"/></svg>Arcade Home</a>
+        <a class="fz-nav-item" href="popular"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-trending"/></svg>Trending Flame</a>
       </div>
     </nav>
     <nav aria-label="Categories">
-      <p class="fz-caps"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-layers"/></svg>Categories</p>
-      <div class="fz-nav-group"><a class="fz-nav-item" href="category-puzzle"><span class="fz-cat-dot" style="--cat:#FF2E88"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-puzzle"/></svg></span><span>Puzzle</span><span class="fz-count">16</span></a><a class="fz-nav-item" href="category-action"><span class="fz-cat-dot" style="--cat:#9B5CFF"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-arcade"/></svg></span><span>Action & Arcade</span><span class="fz-count">20</span></a><a class="fz-nav-item" href="category-racing"><span class="fz-cat-dot" style="--cat:#22D3F5"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-car"/></svg></span><span>Racing</span><span class="fz-count">4</span></a><a class="fz-nav-item" href="category-sports"><span class="fz-cat-dot" style="--cat:#B8F23B"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-sports"/></svg></span><span>Sports</span><span class="fz-count">5</span></a><a class="fz-nav-item" href="category-strategy"><span class="fz-cat-dot" style="--cat:#FF8A5C"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-strategy"/></svg></span><span>Strategy</span><span class="fz-count">4</span></a><a class="fz-nav-item" href="category-merge"><span class="fz-cat-dot" style="--cat:#FFD23F"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-merge"/></svg></span><span>Merge</span><span class="fz-count">6</span></a><a class="fz-nav-item" href="category-word"><span class="fz-cat-dot" style="--cat:#5EEAD4"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-word"/></svg></span><span>Word</span><span class="fz-count">2</span></a><a class="fz-nav-item" href="category-relax"><span class="fz-cat-dot" style="--cat:#C9B6FF"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-leaf"/></svg></span><span>Relaxing</span><span class="fz-count">7</span></a></div>
+      <p class="fz-caps">Categories</p>
+      <div class="fz-nav-group"><a class="fz-nav-item" href="category-puzzle"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Puzzle</a><a class="fz-nav-item" href="category-action"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Action & Arcade</a><a class="fz-nav-item" href="category-racing"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Racing</a><a class="fz-nav-item" href="category-sports"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Sports</a><a class="fz-nav-item" href="category-strategy"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Strategy</a><a class="fz-nav-item" href="category-merge"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Merge</a><a class="fz-nav-item" href="category-word"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Word</a><a class="fz-nav-item" href="category-relax"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gamepad"/></svg>Relaxing</a></div>
     </nav>
+    <div class="fz-side-rule"></div>
     <div>
-      <p class="fz-caps"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-cpu"/></svg>Engine Spec</p>
-      <div class="fz-chips" aria-label="Filter by engine"><button class="fz-chip" type="button" data-fz-filter="Hexan.js" aria-pressed="false"><span class="fz-dot"></span>Hexan.js<span class="fz-n">48</span></button><button class="fz-chip" type="button" data-fz-filter="Three.js" aria-pressed="false"><span class="fz-dot"></span>Three.js<span class="fz-n">1</span></button></div>
+      <p class="fz-caps">Engine Spec</p>
+      <div class="fz-chips" aria-label="Filter by engine"><button class="fz-chip" type="button" data-fz-filter="Hexan.js" aria-pressed="false">Hexan.js<span class="fz-n">48</span></button><button class="fz-chip" type="button" data-fz-filter="Three.js" aria-pressed="false">Three.js<span class="fz-n">1</span></button></div>
     </div>
-    <div class="fz-side-foot">Fyzen design system v1 · data from the static catalog (49 games). Ratings and play counts appear once real stats exist.</div>
   </aside>
   <div class="fz-scrim" data-fz-drawer></div>
 
   <div class="fz-main">
-    <header class="fz-topbar">
-      <button class="fz-icon-btn fz-menu-btn" type="button" data-fz-drawer aria-controls="fz-sidebar" aria-expanded="false" aria-label="Open menu"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-menu"/></svg></button>
-      <button class="fz-icon-btn fz-hide-sm" type="button" aria-label="Filters"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-filter"/></svg></button>
-      <img class="fz-top-logo fz-logo-dark" src="assets/brand/fyzen-wordmark.svg" alt="Fyzen Games" width="170" height="30"><img class="fz-top-logo fz-logo-light" src="assets/brand/fyzen-wordmark-light.svg" alt="" width="170" height="30">
-      <label class="fz-search"><span class="fz-sr">Search</span><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-search"/></svg><input type="search" placeholder="Search games, engines, or tags…" autocomplete="off"><span class="fz-kbd fz-hide-sm">/</span></label>
-      <div class="fz-sponsor-strip" aria-label="Sponsor slot, empty placeholder">Sponsor slot · empty</div>
-      <div class="fz-top-actions">
-        <button class="fz-theme" type="button" data-fz-theme aria-label="Switch to light theme" aria-pressed="false"><span data-mode="dark"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-moon"/></svg></span><span data-mode="light"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-sun"/></svg></span></button>
-        <a class="fz-btn fz-btn--ghost" href="favorites"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg><span class="fz-saved-label">Saved</span><span class="fz-saved-count" data-fz-saved-count>0</span></a>
-      </div>
-    </header>
-
     <main class="fz-content" id="main">
       <section aria-labelledby="h-continue">
-        <div class="fz-section-head"><h2 id="h-continue"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-clock"/></svg></span>Continue Playing</h2><span class="fz-meta">From this device only</span></div>
-        <div class="fz-continue" data-fz-render="resume" data-fz-sub="Resume" data-fz-games="gem-lattice deep-cast plop-planets daily-jigsaw word-daily"></div>
+        <div class="fz-section-head"><h2 id="h-continue"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-clock"/></svg>Continue Playing</h2><span class="fz-meta">Quick Resume</span></div>
+        <div class="fz-continue" data-fz-render="resume" data-fz-games="gem-lattice deep-cast plop-planets daily-jigsaw word-daily stack-sort"></div>
       </section>
 
       <section aria-labelledby="h-spot">
-        <div class="fz-section-head"><h2 id="h-spot"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-flame"/></svg></span>Spotlight</h2><a class="fz-link" href="popular">View all <svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-right"/></svg></a></div>
+        <div class="fz-section-head"><h2 id="h-spot"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-spark"/></svg>Fyzen Spotlight</h2><span class="fz-meta">Curated Features</span></div>
         <div class="fz-spot-row">
           <div data-fz-render="spot" data-fz-games="gem-lattice" style="display:contents"></div>
           <div data-fz-render="spot" data-fz-games="deep-cast" style="display:contents"></div>
-          <div class="fz-ad-wrap"><div class="fz-ad" role="img" aria-label="Advertisement slot 300 by 250, empty placeholder"><b>Ad slot · 300×250</b><span>Empty placeholder</span><span>Reserved for later</span></div></div>
+          <div class="fz-ad-card" role="img" aria-label="Advertisement slot 300 by 250, empty placeholder">
+            <div class="fz-ad-top"><span class="fz-badge fz-badge--dark">Advertisement</span><span class="fz-ad-size">300x250 DISPLAY</span></div>
+            <div class="fz-ad-mid"><b>Ad slot · empty</b>Reserved for later</div>
+            <div class="fz-ad-btn">Placeholder</div>
+          </div>
         </div>
       </section>
 
       <section aria-labelledby="h-dir">
-        <div class="fz-section-head"><h2 id="h-dir"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-grid"/></svg></span>Arcade Directory</h2><span class="fz-meta" data-fz-dir-count>49 games</span></div>
-        <div class="fz-grid" data-fz-render="card" data-fz-ad-after="6"></div>
+        <div class="fz-section-head"><h2 id="h-dir"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-grid"/></svg><span>Arcade Directory (<span data-fz-dir-count>49 Games</span>)</span></h2></div>
+        <div class="fz-grid" data-fz-render="card"></div>
+      </section>
+
+      <div class="ds-divider" id="game-page"><span>Game page preview</span></div>
+
+      <section aria-label="Game page preview">
+        <div class="fz-game-top"><a class="fz-back" href="./"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-left"/></svg>Return to Arcade Directory</a><span class="fz-cat-label">Category: <span class="fz-pill-cat">Puzzle</span></span></div>
+        <div class="fz-game">
+          <div class="fz-game-main">
+            <div class="fz-stage-card">
+              <div class="fz-stage">
+                <img src="assets/img/games/gem-lattice/art-wide.svg" alt="">
+                <span class="fz-stage-tl fz-badge fz-badge--engine-outline"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-cpu"/></svg>Hexan.js</span>
+                <span class="fz-stage-tr fz-badge fz-badge--fps" title="Measured live while you play"><span class="fz-led"></span>— FPS</span>
+                <button class="fz-btn fz-btn--primary fz-btn--xl"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Instant Play In-Stage</button>
+                <span class="fz-stage-note">No downloads or plugins. Direct browser execution.</span>
+              </div>
+              <div class="fz-stage-bar"><span class="fz-live">— Active Sessions</span><span class="fz-ctrls"><button class="fz-icon-btn" aria-label="Sound"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-volume"/></svg></button><button class="fz-icon-btn" aria-label="Fullscreen"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-expand"/></svg></button></span></div>
+            </div>
+            <div class="fz-info-card">
+              <div class="fz-info-head"><div><h1>Gem Lattice</h1><p>Drag faceted gem pieces onto an 8x8 lattice, clear rows and columns, chain combos and keep your daily streak alive.</p></div>
+                <div class="fz-info-actions"><button class="fz-btn fz-btn--outline" data-fz-bookmark="gem-lattice" aria-pressed="false"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg>Saved</button><button class="fz-btn fz-btn--outline"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-share"/></svg>Share</button></div></div>
+              <div class="fz-tabs" role="tablist" aria-label="Game details">
+                <button class="fz-tab" role="tab" id="t-ov" aria-controls="p-ov" aria-selected="true">Overview</button>
+                <button class="fz-tab" role="tab" id="t-ct" aria-controls="p-ct" aria-selected="false" tabindex="-1">Controls</button>
+                <button class="fz-tab" role="tab" id="t-pf" aria-controls="p-pf" aria-selected="false" tabindex="-1">Performance</button>
+              </div>
+              <div class="fz-tabpanel" id="p-ov" role="tabpanel" aria-labelledby="t-ov"><div class="fz-stats">
+                <div class="fz-stat"><span class="fz-stat-label">Community Rating</span><span class="fz-stat-value fz-stat-value--accent">—</span><span class="fz-stat-sub">No ratings yet</span></div>
+                <div class="fz-stat"><span class="fz-stat-label">Engine Framework</span><span class="fz-stat-value">Hexan.js</span><span class="fz-stat-sub">Fyzen in-house engine</span></div>
+                <div class="fz-stat"><span class="fz-stat-label">Target Framerate</span><span class="fz-stat-value fz-stat-value--accent">—</span><span class="fz-stat-sub">Measured while you play</span></div>
+              </div></div>
+              <div class="fz-tabpanel" id="p-ct" role="tabpanel" aria-labelledby="t-ct" hidden><div class="fz-stats"><div class="fz-stat"><span class="fz-stat-label">Touch</span><span class="fz-stat-value">Drag</span><span class="fz-stat-sub">Drop pieces onto the lattice</span></div><div class="fz-stat"><span class="fz-stat-label">Mouse</span><span class="fz-stat-value">Click &amp; drag</span><span class="fz-stat-sub">Same as touch</span></div><div class="fz-stat"><span class="fz-stat-label">Orientation</span><span class="fz-stat-value">Any</span><span class="fz-stat-sub">Phone, tablet, desktop</span></div></div></div>
+              <div class="fz-tabpanel" id="p-pf" role="tabpanel" aria-labelledby="t-pf" hidden><div class="fz-stats"><div class="fz-stat"><span class="fz-stat-label">Live FPS</span><span class="fz-stat-value fz-stat-value--accent">—</span><span class="fz-stat-sub">Measured while you play</span></div><div class="fz-stat"><span class="fz-stat-label">Load time</span><span class="fz-stat-value">—</span><span class="fz-stat-sub">Measured on this device</span></div><div class="fz-stat"><span class="fz-stat-label">Your best</span><span class="fz-stat-value">—</span><span class="fz-stat-sub">Saved on this device</span></div></div></div>
+            </div>
+          </div>
+          <aside class="fz-rail">
+            <div class="fz-sponsor-unit" role="img" aria-label="Sponsored unit 300 by 250, empty placeholder">
+              <div class="fz-su-head"><span>Sponsored Unit</span><span>300x250 Display</span></div>
+              <span class="fz-su-ico"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-megaphone"/></svg></span>
+              <b>Sponsor slot</b>
+              <p>Empty placeholder, reserved for later.</p>
+              <div class="fz-ad-btn">Placeholder</div>
+            </div>
+            <div>
+              <div class="fz-section-head"><h2>Recommended Titles</h2></div>
+              <div class="fz-rec-list" data-fz-render="rec" data-fz-games="plop-planets deep-cast daily-jigsaw word-daily stack-sort"></div>
+            </div>
+          </aside>
+        </div>
       </section>
 
       <div class="ds-divider"><span>Design system · step 1</span></div>
 
       <section class="ds-section" aria-labelledby="h-logo">
-        <div class="fz-section-head"><h2 id="h-logo"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-spark"/></svg></span>Logo</h2><span class="fz-meta">Original SVG · mark + wordmark + GAMES pill</span></div>
+        <div class="fz-section-head"><h2 id="h-logo"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-spark"/></svg>Logo</h2><span class="fz-meta">Original SVG</span></div>
         <div class="ds-logos">
-          <div class="ds-logo ds-logo--dark"><img src="assets/brand/fyzen-logo-dark.svg" alt="Fyzen logo on dark" height="74"></div>
-          <div class="ds-logo ds-logo--dark"><img src="assets/brand/fyzen-logo-gradient.svg" alt="Fyzen logo, gradient wordmark" height="74"></div>
-          <div class="ds-logo ds-logo--light"><img src="assets/brand/fyzen-logo-light.svg" alt="Fyzen logo on light" height="74"></div>
-          <div class="ds-logo ds-logo--dark ds-logo--icons"><img src="assets/brand/fyzen-icon.svg" alt="Fyzen app icon" width="96" height="96"><img src="assets/brand/fyzen-apple-touch-icon-180.png" alt="180px icon" width="60" height="60"><img src="assets/brand/fyzen-favicon-32.png" alt="32px favicon" width="32" height="32"><img src="assets/brand/fyzen-favicon.svg" alt="SVG favicon" width="16" height="16"></div>
+          <div class="ds-logo ds-logo--dark"><span class="fz-logo" style="transform:scale(1.8);transform-origin:center"><img class="fz-logo-badge" src="assets/brand/fyzen-badge.svg" alt="Fyzen badge" width="30" height="30"><span class="fz-logo-text"><img src="assets/brand/fyzen-wordtype.svg" alt="Fyzen Games" width="111" height="17"><small>Instant Browser Games</small></span></span></div>
+          <div class="ds-logo ds-logo--light"><span class="fz-logo" style="transform:scale(1.8);transform-origin:center"><img class="fz-logo-badge" src="assets/brand/fyzen-badge.svg" alt="" width="30" height="30"><span class="fz-logo-text"><img src="assets/brand/fyzen-wordtype-light.svg" alt="Fyzen Games on light" width="111" height="17"><small style="color:#5B5B66">Instant Browser Games</small></span></span></div>
+          <div class="ds-logo ds-logo--dark"><img src="assets/brand/fyzen-logo-dark.svg" alt="Fyzen lockup with tile mark" height="60"></div>
+          <div class="ds-logo ds-logo--dark ds-logo--icons"><img src="assets/brand/fyzen-badge.svg" alt="Fyzen badge" width="72" height="72"><img src="assets/brand/fyzen-icon.svg" alt="Fyzen app icon" width="72" height="72"><img src="assets/brand/fyzen-apple-touch-icon-180.png" alt="180px icon" width="48" height="48"><img src="assets/brand/fyzen-favicon-32.png" alt="32px favicon" width="32" height="32"><img src="assets/brand/fyzen-favicon.svg" alt="SVG favicon" width="16" height="16"></div>
         </div>
       </section>
 
       <section class="ds-section" aria-labelledby="h-color">
-        <div class="fz-section-head"><h2 id="h-color"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-palette"/></svg></span>Color</h2><span class="fz-meta">Switch theme to see the light set</span></div>
+        <div class="fz-section-head"><h2 id="h-color"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-palette"/></svg>Color</h2><span class="fz-meta">Switch theme to see the light set</span></div>
         <div class="ds-swatches"><div class="ds-swatch"><i style="background:var(--fz-bg)"></i><b>Background</b><code>--fz-bg</code></div><div class="ds-swatch"><i style="background:var(--fz-bg-elev)"></i><b>Elevated</b><code>--fz-bg-elev</code></div><div class="ds-swatch"><i style="background:var(--fz-panel)"></i><b>Panel</b><code>--fz-panel</code></div><div class="ds-swatch"><i style="background:var(--fz-panel-2)"></i><b>Panel 2</b><code>--fz-panel-2</code></div><div class="ds-swatch"><i style="background:var(--fz-panel-3)"></i><b>Panel 3</b><code>--fz-panel-3</code></div><div class="ds-swatch"><i style="background:var(--fz-text)"></i><b>Text</b><code>--fz-text</code></div><div class="ds-swatch"><i style="background:var(--fz-text-2)"></i><b>Text 2</b><code>--fz-text-2</code></div><div class="ds-swatch"><i style="background:var(--fz-text-3)"></i><b>Text 3</b><code>--fz-text-3</code></div><div class="ds-swatch"><i style="background:var(--fz-orange-hi)"></i><b>Amber</b><code>--fz-orange-hi</code></div><div class="ds-swatch"><i style="background:var(--fz-orange)"></i><b>Orange</b><code>--fz-orange</code></div><div class="ds-swatch"><i style="background:var(--fz-accent)"></i><b>Accent</b><code>--fz-accent</code></div><div class="ds-swatch"><i style="background:var(--fz-red)"></i><b>Red</b><code>--fz-red</code></div><div class="ds-swatch"><i style="background:var(--fz-green)"></i><b>Green</b><code>--fz-green</code></div><div class="ds-swatch"><i style="background:var(--fz-yellow)"></i><b>Star</b><code>--fz-yellow</code></div><div class="ds-swatch"><i style="background:var(--fz-blue)"></i><b>Info</b><code>--fz-blue</code></div></div>
         <div class="ds-grads"><div style="background:var(--fz-grad)"><code>--fz-grad</code></div><div style="background:var(--fz-grad-h)"><code>--fz-grad-h</code></div><div style="background:var(--fz-accent-soft);border:1px solid var(--fz-accent-line)"><code>--fz-accent-soft</code></div></div>
       </section>
 
       <section class="ds-section" aria-labelledby="h-type">
-        <div class="fz-section-head"><h2 id="h-type"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-type"/></svg></span>Type scale</h2><span class="fz-meta">System stack · no web-font requests</span></div>
-        <div class="ds-types"><div class="ds-type"><code>--fz-fs-4xl</code><small>Display 44 / 900</small><span style="font-size:var(--fz-fs-4xl);font-weight:900;">Instant Browser Games</span></div><div class="ds-type"><code>--fz-fs-3xl</code><small>H1 34 / 900</small><span style="font-size:var(--fz-fs-3xl);font-weight:900;">Arcade Directory</span></div><div class="ds-type"><code>--fz-fs-2xl</code><small>H2 26 / 900</small><span style="font-size:var(--fz-fs-2xl);font-weight:900;">Spotlight title</span></div><div class="ds-type"><code>--fz-fs-xl</code><small>H3 20 / 800</small><span style="font-size:var(--fz-fs-xl);font-weight:800;">Card heading</span></div><div class="ds-type"><code>--fz-fs-lg</code><small>Body L 16 / 500</small><span style="font-size:var(--fz-fs-lg);font-weight:500;">Drag faceted gem pieces onto an 8x8 lattice.</span></div><div class="ds-type"><code>--fz-fs-md</code><small>Body 14 / 500</small><span style="font-size:var(--fz-fs-md);font-weight:500;">Clear rows and columns, chain combos.</span></div><div class="ds-type"><code>--fz-fs-sm</code><small>Small 12.5 / 700</small><span style="font-size:var(--fz-fs-sm);font-weight:700;">Block puzzle · Puzzle</span></div><div class="ds-type"><code>--fz-fs-xs</code><small>Caps 11 / 800</small><span style="font-size:var(--fz-fs-xs);font-weight:800;letter-spacing:var(--fz-caps-track)">SECTION HEADER</span></div></div>
+        <div class="fz-section-head"><h2 id="h-type"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-type"/></svg>Type scale</h2><span class="fz-meta">System stack · no web-font requests</span></div>
+        <div class="ds-types"><div class="ds-type"><code>24px</code><small>Game title 24 / 900</small><span style="font-size:24px;font-weight:900">Gem Lattice</span></div><div class="ds-type"><code>17px</code><small>Spotlight 17 / 900</small><span style="font-size:17px;font-weight:900">Lumenhook</span></div><div class="ds-type"><code>13px</code><small>Nav 13 / 700</small><span style="font-size:13px;font-weight:700">Arcade Home</span></div><div class="ds-type"><code>12px</code><small>Section 12 / 900 caps</small><span style="font-size:12px;font-weight:900">ARCADE DIRECTORY</span></div><div class="ds-type"><code>11.5px</code><small>Card title 11.5 / 800</small><span style="font-size:11.5px;font-weight:800">Tidepool Tumble</span></div><div class="ds-type"><code>11px</code><small>Body small 11 / 500</small><span style="font-size:11px;font-weight:500">Drag faceted gem pieces onto an 8x8 lattice.</span></div><div class="ds-type"><code>10px</code><small>Sidebar caps 10 / 800</small><span style="font-size:10px;font-weight:800">ENGINE SPEC</span></div></div>
       </section>
 
       <section class="ds-section ds-3col" aria-label="Radius, shadow, spacing">
@@ -107,66 +155,27 @@
       </section>
 
       <section class="ds-section" aria-labelledby="h-btn">
-        <div class="fz-section-head"><h2 id="h-btn"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg></span>Buttons &amp; badges</h2></div>
+        <div class="fz-section-head"><h2 id="h-btn"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Buttons &amp; badges</h2></div>
         <div class="ds-row">
-          <button class="fz-btn fz-btn--primary fz-btn--lg"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Play</button>
-          <button class="fz-btn fz-btn--primary"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Play now</button>
-          <button class="fz-btn fz-btn--primary fz-btn--sm">Resume</button>
-          <button class="fz-btn fz-btn--ghost"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg>Saved</button>
-          <button class="fz-btn fz-btn--ghost"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-share"/></svg>Share</button>
-          <button class="fz-btn fz-btn--outline">See all games</button>
-          <button class="fz-icon-btn" aria-label="Sound"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-volume"/></svg></button>
-          <button class="fz-icon-btn" aria-label="Fullscreen"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-expand"/></svg></button>
-          <button class="fz-icon-btn" aria-label="Filters"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-filter"/></svg></button>
+          <button class="fz-btn fz-btn--primary fz-btn--xl"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Instant Play In-Stage</button>
+          <button class="fz-btn fz-btn--primary"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Play</button>
+          <button class="fz-btn fz-btn--dark"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Play</button>
+          <button class="fz-btn fz-btn--outline"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg>Saved</button>
+          <button class="fz-btn fz-btn--outline"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-share"/></svg>Share</button>
+          <button class="fz-sq-btn" aria-label="Filters"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-sliders"/></svg></button>
+          <button class="fz-round-btn" aria-label="Theme"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-sun"/></svg></button>
+          <a class="fz-saved-btn" href="favorites"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg>Saved (<span data-fz-saved-count>0</span>)</a>
         </div>
         <div class="ds-row">
-          <span class="fz-badge fz-badge--engine"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-cpu"/></svg>Hexan.js</span>
-          <span class="fz-badge fz-badge--engine"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-cpu"/></svg>Three.js</span>
-          <span class="fz-badge fz-badge--fps" title="Measured live while you play"><span class="fz-led"></span>— FPS</span>
+          <span class="fz-badge fz-badge--featured">Featured</span>
+          <span class="fz-badge fz-badge--engine">Hexan.js</span>
+          <span class="fz-badge fz-badge--engine">Three.js</span>
+          <span class="fz-badge fz-badge--engine-outline"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-cpu"/></svg>Hexan.js</span>
+          <span class="fz-badge fz-badge--fps"><span class="fz-led"></span>— FPS</span>
+          <span class="fz-badge fz-badge--dark">Advertisement</span>
           <span class="fz-badge fz-badge--new">New</span>
-          <span class="fz-badge fz-badge--soft"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-trophy"/></svg>Your best</span>
-          <span class="fz-badge fz-badge--muted"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-rotate"/></svg>Any orientation</span>
-          <span class="fz-pill-cat" style="--cat:#FF2E88"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-puzzle"/></svg>Puzzle</span>
-          <span class="fz-pill-cat" style="--cat:#9B5CFF"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-arcade"/></svg>Action &amp; Arcade</span>
-        </div>
-      </section>
-
-      <section class="ds-section" aria-labelledby="h-game">
-        <div class="fz-section-head"><h2 id="h-game"><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-monitor"/></svg></span>Game page kit</h2><span class="fz-meta">Stage, tabs, stats, recommended</span></div>
-        <div class="ds-game">
-          <div class="ds-game-main">
-            <div class="ds-row ds-row--between"><a class="fz-back" href="./"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-left"/></svg>Return to Arcade Directory</a><span class="fz-pill-cat" style="--cat:#FF2E88"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-puzzle"/></svg>Puzzle</span></div>
-            <div class="fz-stage">
-              <img src="assets/img/games/gem-lattice/art-wide.svg" alt="">
-              <div class="fz-stage-tl"><span class="fz-badge fz-badge--engine"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-cpu"/></svg>Hexan.js</span><span class="fz-badge fz-badge--fps"><span class="fz-led"></span>— FPS</span></div>
-              <button class="fz-btn fz-btn--primary fz-btn--xl"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-play"/></svg>Instant Play</button>
-              <div class="fz-stage-bl"><span class="fz-badge fz-badge--engine"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-users"/></svg>Sessions —</span></div>
-              <div class="fz-stage-br"><button class="fz-icon-btn fz-icon-btn--glass" aria-label="Sound"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-volume"/></svg></button><button class="fz-icon-btn fz-icon-btn--glass" aria-label="Fullscreen"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-expand"/></svg></button></div>
-            </div>
-            <div class="ds-row ds-row--between"><div><h3 class="ds-game-title">Gem Lattice</h3><p class="ds-game-desc">Drag faceted gem pieces onto an 8x8 lattice, clear rows and columns, chain combos and keep your daily streak alive.</p></div>
-              <div class="ds-row"><button class="fz-btn fz-btn--ghost" data-fz-bookmark="gem-lattice" aria-pressed="false"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-bookmark"/></svg>Saved</button><button class="fz-btn fz-btn--ghost"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-share"/></svg>Share</button></div></div>
-            <div class="fz-tabs" role="tablist" aria-label="Game details">
-              <button class="fz-tab" role="tab" id="t-ov" aria-controls="p-ov" aria-selected="true"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-info"/></svg>Overview</button>
-              <button class="fz-tab" role="tab" id="t-ct" aria-controls="p-ct" aria-selected="false" tabindex="-1"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-keyboard"/></svg>Controls</button>
-              <button class="fz-tab" role="tab" id="t-pf" aria-controls="p-pf" aria-selected="false" tabindex="-1"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gauge"/></svg>Performance</button>
-            </div>
-            <div class="fz-tabpanel" id="p-ov" role="tabpanel" aria-labelledby="t-ov">
-              <div class="fz-stats">
-                <div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-cpu"/></svg>Engine</span><span class="fz-stat-value">Hexan.js</span><span class="fz-stat-sub">Fyzen in-house engine</span></div>
-                <div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-layers"/></svg>Genre</span><span class="fz-stat-value">Block puzzle</span><span class="fz-stat-sub">Puzzle</span></div>
-                <div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-rotate"/></svg>Orientation</span><span class="fz-stat-value">Any</span><span class="fz-stat-sub">Phone, tablet, desktop</span></div>
-                <div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-trophy"/></svg>Your best</span><span class="fz-stat-value">—</span><span class="fz-stat-sub">Saved on this device</span></div>
-              </div>
-            </div>
-            <div class="fz-tabpanel" id="p-ct" role="tabpanel" aria-labelledby="t-ct" hidden><div class="fz-stats"><div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-phone"/></svg>Touch</span><span class="fz-stat-value">Drag</span><span class="fz-stat-sub">Drop pieces onto the lattice</span></div><div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-monitor"/></svg>Mouse</span><span class="fz-stat-value">Click &amp; drag</span><span class="fz-stat-sub">Same as touch</span></div></div></div>
-            <div class="fz-tabpanel" id="p-pf" role="tabpanel" aria-labelledby="t-pf" hidden><div class="fz-stats"><div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-gauge"/></svg>Live FPS</span><span class="fz-stat-value">—</span><span class="fz-stat-sub">Measured while you play</span></div><div class="fz-stat"><span class="fz-stat-label"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-clock"/></svg>Load time</span><span class="fz-stat-value">—</span><span class="fz-stat-sub">Measured on this device</span></div></div></div>
-          </div>
-          <aside class="ds-game-side">
-            <p class="fz-ad-label">Sponsored</p>
-            <div class="fz-ad" role="img" aria-label="Advertisement slot 300 by 250, empty placeholder"><b>Ad slot · 300×250</b><span>Empty placeholder</span></div>
-            <div class="fz-section-head" style="margin-top:var(--fz-s-6)"><h2><span class="fz-ico-tile"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-star"/></svg></span>Recommended Titles</h2></div>
-            <div data-fz-render="rec" data-fz-games="plop-planets deep-cast daily-jigsaw word-daily stack-sort"></div>
-          </aside>
+          <span class="fz-pill-cat">Puzzle</span>
+          <span class="fz-sponsor-pill">SPONSOR</span>
         </div>
       </section>
     </main>

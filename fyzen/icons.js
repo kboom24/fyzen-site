@@ -1,6 +1,12 @@
 /* Fyzen icon sprite: original 24x24 stroke icons, injected once as an inline <svg> sprite. */
 (function(){
   var P={
+    compass:'<circle cx="12" cy="12" r="8.5"/><path d="m15.5 8.5-2 5-5 2 2-5z"/>',
+    trending:'<path d="m3.5 17 6-6 4 4 7-7.5"/><path d="M15 7.5h5.5V13"/>',
+    sliders:'<path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/>',
+    gamepad:'<path d="M7 7.5h10a4.5 4.5 0 0 1 4.4 5.5l-.8 3.4a2.2 2.2 0 0 1-3.8.9L14.5 15h-5l-2.3 2.3a2.2 2.2 0 0 1-3.8-.9L2.6 13A4.5 4.5 0 0 1 7 7.5z"/><path d="M7.5 10v3M6 11.5h3"/><circle cx="16" cy="11" r=".8" fill="currentColor"/><circle cx="17.5" cy="12.8" r=".8" fill="currentColor"/>',
+    external:'<path d="M8 6h10v10M18 6 6 18"/>',
+    megaphone:'<path d="M4 10v4h3l7 4V6L7 10z"/><path d="M17.5 9a4 4 0 0 1 0 6"/>',
     home:'<path d="M3.5 11 12 4l8.5 7"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5.5h4V20"/>',
     flame:'<path d="M12 21c-4 0-7-2.7-7-6.6 0-3.1 2-5.2 3.6-7 .4 1.8 1.4 3 2.6 3.5C11 7.6 12.4 5 15 3c-.3 3 1.3 4.6 2.6 6.2A7.3 7.3 0 0 1 19 14.4C19 18.3 16 21 12 21z"/>',
     puzzle:'<path d="M9 4h3.5a2 2 0 1 1 3.5 1.5V8H19v3.5a2 2 0 1 0 0 3.5V20h-4.5a2 2 0 1 0-3.5 0H5v-5a2 2 0 1 0 0-3.5V8h4z"/>',

@@ -47,8 +47,8 @@
   /* Spacing (4px base) */
   --fz-s-1:4px; --fz-s-2:8px; --fz-s-3:12px; --fz-s-4:16px; --fz-s-5:20px; --fz-s-6:24px; --fz-s-8:32px; --fz-s-10:40px; --fz-s-12:48px;
   /* Layout */
-  --fz-sidebar-w:248px;
-  --fz-topbar-h:64px;
+  --fz-sidebar-w:190px;
+  --fz-topbar-h:44px;
   --fz-ease:cubic-bezier(.2,.7,.2,1);
 }
 [data-theme="light"]{

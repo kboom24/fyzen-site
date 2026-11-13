@@ -9,7 +9,7 @@ Open `design-system.html` at the site root. It shows every token and component, 
 - `fyzen/components.js`: theme toggle (saved in localStorage), phone drawer, Saved list (localStorage only), tabs, engine filter chips, card renderers.
 - `fyzen/catalog-data.js`: generated from `assets/js/catalog.js` and `assets/js/games.js`. Real titles, kinds, categories, orientations. Engine is `Hexan.js` for every game except Short Fuse (`Three.js`, vendored in `short-fuse/vendor/three.min.js`).
 - `fyzen/design-system.css`: showcase layout only.
-- `assets/brand/fyzen-*`: logo lockups (dark, light, gradient), wordmark (dark/light), square icon, favicon SVG, 32/180/512 PNGs. New file names, so no existing Playtoom brand file is overwritten in this step.
+- `assets/brand/fyzen-badge.svg` + `fyzen-wordtype(-light).svg`: the top-bar logo. `assets/brand/fyzen-*`: other logo lockups (dark, light, gradient), wordmark (dark/light), square icon, favicon SVG, 32/180/512 PNGs. New file names, so no existing Playtoom brand file is overwritten in this step.
 
 ## Honesty rules applied
 - Ratings, play counts, active sessions and FPS show "—" until real stats exist. "Your best" is a local, per-device value.
@@ -17,8 +17,12 @@ Open `design-system.html` at the site root. It shows every token and component, 
 - Games without vector art in the repo show a category-coloured "Art pending" tile in this showcase. The home build (step 2) will use the real `assets/img/games/<slug>/tile.webp` thumbnails.
 - `noindex,nofollow` meta. No external requests (verified with headless Chrome).
 
+## Layout (matched to Hexan's iPad mockups at 1024x768)
+- Full-width 44px top bar above the sidebar: filter button, logo (circular flame badge + FYZEN + GAMES pill + tagline), search, empty sponsor strip, theme toggle, Saved (count).
+- 190px sidebar: Navigation (Arcade Home active as a gradient pill, Trending Flame), Categories (gamepad icon rows, real category names), divider, Engine Spec chips.
+- Home: Continue Playing chips (120x46), Fyzen Spotlight (2 featured cards + empty 300x250 ad card, 145px tall), Arcade Directory in 6 columns (68px thumbs).
+- Game page: return pill + category, stage card (engine pill, "— FPS", gradient "Instant Play In-Stage", "— Active Sessions", sound/fullscreen), info card with underline tabs and 3 stat cards; 180px right rail with an empty sponsored unit and Recommended Titles.
+
 ## Breakpoints
-- > 1180px: sidebar + 2 spotlight cards + 300x250 ad in one row.
-- 901 to 1180px: ad moves into the directory grid (2x2 cell).
-- <= 900px: sidebar becomes a drawer (menu button, scrim, Esc closes).
-- <= 640px: 2-column grid, search on its own row, compact theme toggle.
+- <= 900px: sidebar becomes a drawer (menu button, scrim, Esc closes); sponsor strip hidden; 4-column grid; game rail stacks below.
+- <= 640px: 2-column grid, search on its own row.
