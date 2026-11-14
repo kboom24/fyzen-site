@@ -1,0 +1,256 @@
+{
+  "manifestVersion": 1,
+  "slug": "balloon-archery",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Skyfletch",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "archery",
+    "balloons",
+    "bow and arrow",
+    "physics",
+    "wind",
+    "aim",
+    "skill",
+    "levels",
+    "daily challenge",
+    "endless",
+    "one-handed",
+    "cute"
+  ],
+  "categories": [
+    "skill",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Draw your bow, read the wind and pop every balloon on real gravity arcs across 72 handcrafted levels, endless Breeze Rush and a Daily Gale.",
+    "long": "Skyfletch is a bright, physics-based archery game about popping balloons with a bow. Drag back anywhere on the screen to draw the string: the angle of your pull aims the arrow and the length of the pull sets its power. Let go and the arrow flies on a real gravity arc, bending with the wind, until it pops a balloon, sticks in a wall or lands in the grass.\n\nRead the wind before every shot. The flag and the km/h number in the corner show its direction and strength, and it changes from level to level. In later worlds gusts and wind shifts arrive mid-level, always announced a couple of seconds early by a flashing warning, so a sharp eye is rewarded instead of luck. Early levels show a short dotted trajectory hint that gets shorter world by world, until in the Starry Skies you shoot on feel alone.\n\nThere are 72 handcrafted levels across six worlds: Sunny Meadow, Breezy Cliffs, Lantern Dusk, Stormy Peaks, Frost Fjords and Starry Skies. New ideas arrive one at a time with a short intro card: bobbing, patrolling, orbiting and drifting balloons, tiny balloons, walls and ledges to lob over, golden bonus balloons, bomb balloons that set off chain reactions, thunder balloons you must never touch, limited quivers and the ticking clock. Line balloons up and one arrow pierces straight through all of them for big combo callouts, slow motion and showers of confetti.\n\nEvery level has three stars and tells you exactly how to earn them before you start: clear the level, stay within the arrow par, and a third challenge such as missing no arrows, popping the golden balloon, landing a combo or clearing fast. The HUD tracks each star live, and the results screen explains what you earned and what you missed. Stars unlock new arrow styles.\n\nBreeze Rush is an endless mode where waves of balloons float up from the ground while the wind keeps changing; let three get away and the run is over. The Daily Gale is five seeded stages that are the same for everyone each day, shared from a single quiver, with a streak and a best score. Share a result card with friends when you set a record.\n\nProgress saves automatically on your device. No account or download is needed, and it plays one-handed on a phone, on any tablet, or with a mouse and keyboard on desktop, in portrait or landscape.",
+    "controls": "Drag back anywhere with the mouse or a finger to draw the bow, aim with the angle, set power with the pull length, then release to shoot. Keyboard: arrow keys or WASD adjust angle and power (Shift for fine steps), Space or Enter shoots. Esc or P pauses, M mutes, R retries on the results screen.",
+    "faq": [
+      {
+        "q": "How do I aim?",
+        "a": "Drag back from anywhere on the screen, like pulling a bowstring. The arrow flies in the opposite direction of your pull, and a longer pull shoots harder. The readout next to the archer shows the angle and power."
+      },
+      {
+        "q": "What does the wind do?",
+        "a": "Wind pushes arrows sideways while they fly. The flag shows the direction and the number shows the strength in km/h. In later worlds gusts change the wind mid-level, and a flashing warning appears about two seconds before each change."
+      },
+      {
+        "q": "How do I get three stars?",
+        "a": "The goal card before each level lists the three stars: clear every required balloon, use no more arrows than the par, and complete a bonus challenge such as no missed arrows, popping the golden balloon, a combo or a fast clear. The HUD shows your progress live."
+      },
+      {
+        "q": "Which balloons should I avoid?",
+        "a": "Dark purple thunder balloons with a lightning glow end the level if you pop them. Red bomb balloons are fine to hit, and their blast pops every balloon nearby."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes. Levels, stars, best scores, daily streaks and arrow styles save automatically on your device."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "aim-guide",
+        "format": "rewarded",
+        "reward": "A full-length trajectory guide for one attempt at a level you failed twice"
+      },
+      {
+        "name": "extra-time",
+        "format": "rewarded",
+        "reward": "Ten extra seconds on a timed level"
+      },
+      {
+        "name": "extra-arrows",
+        "format": "rewarded",
+        "reward": "Three extra arrows to finish a level you ran out of arrows on"
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "One extra heart to continue a Breeze Rush run"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "87bd605b7e6d",
+  "builtAt": "2026-10-28T07:05:41.813Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 471392,
+    "initial": 386651
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "b9379ac38319f4ba4203a574c3865e5b409a39f48cfcbbf3ffaf27b0f7ec7213",
+      "bytes": 2094
+    },
+    {
+      "path": "app.abd7751c.js",
+      "sha256": "87bd605b7e6d4d482226da4dbf647453323aa1eebb7dff01b12bd120e6b4a827",
+      "bytes": 252544
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "36f1e637384ae843f68d3bc5d8866e9f1ecc7be0fd5c0b2d1d3bae829484a232",
+      "bytes": 3154
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "91a3a4867670b69f0b905d239863fe548738160b4f40f2ead4529902e266be80",
+      "bytes": 29326
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "4fdf24ffcdbbc9993144f8084e80dab62ee46f8ea29d923f8a7aa4f9b5587920",
+      "bytes": 29936
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "4f9de6350ad9968e18c03b8208abd7330deb3da07612e5698247360effbc3eb6",
+      "bytes": 14612
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

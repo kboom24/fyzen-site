@@ -1,0 +1,236 @@
+{
+  "manifestVersion": 1,
+  "slug": "lobwhistle",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Lobwhistle",
+  "version": "0.1.17",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "tennis",
+    "sports",
+    "swipe",
+    "one-finger",
+    "animals",
+    "seaside",
+    "daily",
+    "online"
+  ],
+  "categories": [
+    "sports",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Swipe to smash, curve and lob your way past seaside animal rivals in breezy rooftop tennis.",
+    "long": "Lobwhistle is rooftop tennis at a sunny seaside resort. Your fox runs to the ball on its own. You only swipe: direction aims the shot, length sets how deep and how hard it flies, and a curve in the swipe puts spin on the ball so it bends and kicks. Glowing tiles on the far court fill a Fever meter. Fill it and your next swipe is a Whistle Shot, a faster spiralling trick shot. Five courts change the bounce: Promenade plays true, Clay Terrace sits up and slows down, Frost Pier skids, the Boardwalk springs, and Whistle Point adds a cross-wind you can read on the windsock. Each animal rival has a signature serve. Win the game, string a long rally, and land tiles in a row to earn three stars. Each day Seaspray Serve, the Lighthouse Open, deals the same seeded three-rival ladder to every player, and your best score is kept on this device. Portrait and landscape both play with one finger, a mouse drag, or the keyboard.",
+    "controls": "Swipe to hit: direction aims, length sets power and depth, curve adds spin. A short tap is a safe shot. Desktop: drag with the mouse, or arrows to pick a lane and hold Space to charge. Esc pauses. M mutes.",
+    "faq": [
+      {
+        "q": "How do I get a Whistle Shot?",
+        "a": "Land the ball on the glowing tiles. The coral meter fills in six steps, and the next swipe is the trick shot."
+      },
+      {
+        "q": "Why did my shot go long?",
+        "a": "A very long swipe is too hard. Ease off so the ball lands inside the far baseline."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "Resume the match from the score before the last point",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double_shells",
+        "format": "rewarded",
+        "reward": "Double the shells earned this match",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game_over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level_complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "daily_end",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "mp_match_end",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "94dd537733fd",
+  "builtAt": "2026-10-31T23:05:46.904Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 572125,
+    "initial": 446960
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "8fa6cc9e1273a33d13b2b1292c1efd238e0df8b84c249ebec7d7bac7dd8cc478",
+      "bytes": 1402
+    },
+    {
+      "path": "app.ee33d0fc.js",
+      "sha256": "94dd537733fd91c71191d2cded9f4913a33f455f73de3ce0365c4f411f0e7b22",
+      "bytes": 313000
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "5bd5f63c940ba7be8d3222562d0b4c14821f360f95cf342edb255a5f8b3e7074",
+      "bytes": 3007
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "355bb10679af583fe80f45cd050fe9d779023c7ce4ed741f5df9d8a18c718e96",
+      "bytes": 54154
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "17b8210c5f459cfeeed1fb6fbceef2029fc068403aec414af4f300ea41edc529",
+      "bytes": 52660
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "182ec09532fb20929b8e0eb6acec325a4ebd251a23045b4a428f24fdc2068eac",
+      "bytes": 8176
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

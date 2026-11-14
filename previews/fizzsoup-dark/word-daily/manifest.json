@@ -1,0 +1,246 @@
+{
+  "manifestVersion": 1,
+  "slug": "word-daily",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Hopabet",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "word game",
+    "word of the day",
+    "daily puzzle",
+    "word ladder",
+    "vocabulary",
+    "spelling",
+    "brain teaser",
+    "streak",
+    "frog",
+    "family friendly",
+    "relaxing",
+    "share"
+  ],
+  "categories": [
+    "word",
+    "puzzle",
+    "casual"
+  ],
+  "description": {
+    "short": "A daily word-hop puzzle: change one letter at a time, land on theme words, and reach the Word of the Day before your hops run out.",
+    "long": "Hopabet is a bite-sized word puzzle with a new challenge every day. Pip the pond frog sits on a lily pad with a four-letter word. Your job is to hop, one letter at a time, from that start word to today's Word of the Day. Every hop changes exactly one letter, and every word you land on has to be a real word, so HARE can become HIRE, then HIDE, then TIDE, and so on.\n\nThe twist is the daily theme. Each puzzle has a theme such as Animals, Weather, Food or At Home, and some of the words along the way belong to it. Land on a theme word and a lotus blooms: that is a find. Reaching the Word of the Day earns your first star, and taking a scenic route through enough theme words earns the second and third stars. You have a hop budget, so the puzzle is about planning: the shortest route is safe, but the best score comes from detours that collect finds and still arrive in time.\n\nScoring is simple and shown before you start: 500 points for reaching the Word of the Day, 150 per find, 25 per spare hop, minus 150 for each hint. The goal card lists exactly what each star needs, and the results screen explains which stars you earned and why. Undo is free, the on-screen keyboard lights up the letters that make a real word, and a short animated demo teaches the rules in seconds.\n\nThe Daily Hop is the same for every player on the same date and keeps a streak going. When you finish, share a spoiler-free result card made of little lily pads, lotus flowers and a star, plus a challenge link that opens the same puzzle for a friend and shows your score to beat. Between dailies, Practice mode has unlimited levels that grow from three-hop warmups to longer routes, with ranks from Tadpole to Grand Hopabet and unlockable pad skins such as Sakura, Sunset, Moonlit, Candy and Golden.\n\nEvery answer, theme word and hint comes from a curated, family-friendly word list, and the game plays fully offline with progress saved on your device.",
+    "controls": "Touch or mouse: tap a letter of your current word to select it, then tap a new letter on the keyboard to hop. Keyboard: type a letter to replace the selected one, Left/Right, Tab or 1-4 to choose a letter, Backspace to undo, / for help, Enter to continue, Esc or P to pause, M to mute.",
+    "faq": [
+      {
+        "q": "How do I earn three stars?",
+        "a": "Reach the Word of the Day within the hop budget for one star. Also land on enough theme words (finds) on the way for two and three stars. The goal card shows the exact numbers before you start, and the results screen shows what you earned."
+      },
+      {
+        "q": "How is the score calculated?",
+        "a": "500 for reaching the Word of the Day, plus 150 per theme find, plus 25 per spare hop, minus 150 per hint used."
+      },
+      {
+        "q": "Is the daily puzzle the same for everyone?",
+        "a": "Yes. It is generated from the calendar date, with no network needed, so everyone gets the same start word, theme and Word of the Day on the same date."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "Tap Share on the results screen. The link opens the same puzzle for your friend and shows your score to beat."
+      },
+      {
+        "q": "Is it family friendly?",
+        "a": "Yes. Puzzle words, theme words and hints come from a curated common-word list that is screened against profanity blocklists and a hand-reviewed avoid list."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "hint",
+        "format": "rewarded",
+        "reward": "Highlight the next hop on the best remaining route"
+      },
+      {
+        "name": "extra-hops",
+        "format": "rewarded",
+        "reward": "+3 hops when you run out"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "endless"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "c9158fc303a9",
+  "builtAt": "2026-10-28T10:35:57.114Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 421173,
+    "initial": 359267
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "ee929a0bf7e83af658f0e9a11442a53fd261ab9cd6ce71c092c46e2363c30204",
+      "bytes": 5125
+    },
+    {
+      "path": "app.d0251e10.js",
+      "sha256": "c9158fc303a97b2273aa7d1b226ee4966a7ff9939f96dad84fed06e13035c428",
+      "bytes": 225184
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "6b69c715460245a5da24c1dea2e52cbfddd63b31e1dbd01d405ddd2e1b8210e4",
+      "bytes": 3130
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "75b2a43d54ed1d9cb9e059f168c0bb5272a807322613a42c40383cc8958391f3",
+      "bytes": 18282
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "571d6caa2cbd3405ac61550f88948fff3f57b674716127c9a2dd72a0473741c1",
+      "bytes": 18990
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "4f074c1ade67cdb0ef5970f3c3567c48cc8b440b33856474a237502e3ac6861c",
+      "bytes": 10736
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

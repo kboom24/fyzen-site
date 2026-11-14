@@ -1,0 +1,401 @@
+{
+  "manifestVersion": 1,
+  "slug": "swingsprout",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.6,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Swingsprout",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "swing",
+    "grapple",
+    "one button",
+    "physics",
+    "momentum",
+    "platformer",
+    "cute",
+    "speedrun",
+    "daily challenge",
+    "endless",
+    "rope",
+    "casual"
+  ],
+  "categories": [
+    "skill",
+    "casual",
+    "arcade"
+  ],
+  "description": {
+    "short": "Hold to grab a glowing flower bud, let go to fling! Swing Sprig through 24 meadow courses, an endless run and a fresh daily course.",
+    "long": "Swingsprout is a one-button swinging game about momentum. You play Sprig, a small round seedling with a stretchy sprout vine. Press and hold anywhere to latch onto the nearest glowing flower bud, swing through the arc, and let go at the right moment to fling yourself across the meadow. Release on the upswing for a Perfect fling and an extra burst of speed, chain swing after swing without touching the ground, and race the clock to the finish flag. New players start in Sprout School, a short hands-on tutorial with slow-motion hints that teaches holding, letting go, mushroom pads and spinning thorns; it can be skipped and replayed any time from the Courses screen.\n\nThe 24 hand-built courses span four worlds: Sunny Meadow, Amber Canopy, Dusk Hollow and Starlit Grove. Each world adds something new: bouncy mushroom pads, spinning bramble wheels, drifting buds, wilting buds that give way after a moment, dandelion speed rings, gusts of wind and floating thistles. Every course has three stars: reach the finish for the first, and beat two target times for the others. The goal card shows the times before you start, and the results screen explains which stars you earned and why. Checkpoint flags keep a mistake from costing the whole run, and restarting takes a fraction of a second.\n\nEndless mode builds a course that gets harder the farther you swing, so you can chase your best distance. The Daily Course is the same seeded course for everyone each day; finish it to grow your streak. Collect sunseeds and stars to unlock nine skins for Sprig and five gadget vines, such as the Long Vine, the bouncy Spring Coil, the Glide Leaf and the Magnet Bloom. Progress, best times and unlocks are saved on your device automatically.",
+    "controls": "Hold mouse, touch or Space to grab the nearest bud; release to fling. R restarts, Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I get three stars?",
+        "a": "Reach the finish faster than the gold time shown on the course card. Release on the upswing for Perfect flings and skip the ground."
+      },
+      {
+        "q": "What is a Perfect fling?",
+        "a": "Letting go while you are rising forward at a good angle gives a speed boost and a sparkle."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes, stars, best times, unlocks and your daily streak are saved on this device automatically."
+      },
+      {
+        "q": "Can I replay the tutorial?",
+        "a": "Yes. Tap How to play on the Courses screen to run Sprout School again."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "Continue an endless run from the last bud"
+      },
+      {
+        "name": "skin",
+        "format": "rewarded",
+        "reward": "Unlock the Rainbow skin for Sprig"
+      },
+      {
+        "name": "gadget-trial",
+        "format": "rewarded",
+        "reward": "Try a locked gadget vine for one run"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "qa": {
+    "suites": {
+      "report-main-ads-brand": {
+        "passed": 39,
+        "failed": 0
+      },
+      "report-standalone-iframe": {
+        "passed": 430,
+        "failed": 0
+      }
+    },
+    "viewports": {
+      "1280x720-standalone": {
+        "passed": 18,
+        "failed": 0
+      },
+      "1920x1080-standalone": {
+        "passed": 18,
+        "failed": 0
+      },
+      "1000x900-standalone": {
+        "passed": 18,
+        "failed": 0
+      },
+      "390x844-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "844x390-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "768x1024-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x768-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "820x1180-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1180x820-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x1366-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1366x1024-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1280x720-iframe": {
+        "passed": 18,
+        "failed": 0
+      },
+      "1920x1080-iframe": {
+        "passed": 18,
+        "failed": 0
+      },
+      "1000x900-iframe": {
+        "passed": 18,
+        "failed": 0
+      },
+      "390x844-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "844x390-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "768x1024-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x768-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "820x1180-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1180x820-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x1366-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1366x1024-iframe": {
+        "passed": 20,
+        "failed": 0
+      }
+    },
+    "ipad": {
+      "768x1024-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x768-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "820x1180-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1180x820-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x1366-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1366x1024-standalone": {
+        "passed": 20,
+        "failed": 0
+      },
+      "768x1024-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x768-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "820x1180-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1180x820-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1024x1366-iframe": {
+        "passed": 20,
+        "failed": 0
+      },
+      "1366x1024-iframe": {
+        "passed": 20,
+        "failed": 0
+      }
+    },
+    "ipadChecks": "touch, DPR 2, standalone + full-window iframe: finger-size >=44pt, no hover/keyboard dependence, no zoom/selection, audio unlock on first touch, safe areas, rotation keeps state, crisp backing store",
+    "checksPassed": 469,
+    "checksFailed": 0,
+    "ranAt": "2026-10-27T19:44:59.287Z",
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  },
+  "buildHash": "bf24e313cef5",
+  "builtAt": "2026-10-27T19:27:51.464Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 467551,
+    "initial": 367789
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "0176b0b8a8ced840fd7b756944cd000c30320155064fbcf6c6c8865d90eaaa04",
+      "bytes": 1795
+    },
+    {
+      "path": "app.8892e317.js",
+      "sha256": "bf24e313cef5de70c5ca78a8e0d594e9bd2536b2676300c5dd89782f908a7fdd",
+      "bytes": 233670
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "db1d8fda0d2d0f48787e0d4fa119cb82e31c417f9a3a94fdc2af1c6963d2d572",
+      "bytes": 3166
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "20b5c923ee57d9e25a6f7a32a439591d89cd6d2e0a779796ffdb682ab2fea538",
+      "bytes": 38188
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "2c9f735811b619c38bcddbccf37d0fee73e3ccacad957c74370ca4fd548bae3f",
+      "bytes": 32406
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "58332cf9377f4dc3a6ae8f71a3243689897cc0017215d2e2ef2ab46b75def81a",
+      "bytes": 18600
+    }
+  ]
+}

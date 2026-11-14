@@ -1,0 +1,254 @@
+{
+  "manifestVersion": 1,
+  "slug": "hole-grow",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 3,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Burrowbelly",
+  "version": "1.0.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "hole",
+    "eat to grow",
+    "io style",
+    "garden",
+    "swallow",
+    "leaderboard",
+    "daily challenge",
+    "skins",
+    "offline",
+    "one hand",
+    "casual",
+    "bots"
+  ],
+  "categories": [
+    "arcade",
+    "casual",
+    "skill"
+  ],
+  "description": {
+    "short": "Steer a hungry burrow through a living miniature garden. Swallow snails, gnomes, sheds and windmills, gulp smaller rivals and finish on top.",
+    "long": "Burrowbelly is an eat-to-grow hole game set in a tiny, sun-dappled garden diorama. You are a little burrowing critter peeking out of a hole in the lawn. Glide under anything smaller than your hole and it wobbles, tips over the rim and tumbles in. Every swallow makes the hole wider, so the garden opens up in layers: daisies and pebbles first, then snails, toadstools and hopping bunnies, then flower pots, garden gnomes and hens, benches and wheelbarrows, bushes and bicycles, apple trees and fountains, garden sheds and greenhouses, and finally the windmill on the hill and the moonlit cottage. Things that are still too big rock on the rim and the bar at the bottom of the screen tells you what you can swallow next.\n\nYou are not alone. Every round puts you against up to seven rival burrows with names and personalities: foragers who hoover up crumbs, bullies who chase anyone smaller, scaredy-cats who bolt when you grow, trophy hunters who go straight for the big stuff, daydreamers and sneaky ones who circle around behind you. A hole that is clearly bigger swallows a smaller hole whole, so you will be chasing and running in the same round. Get gulped and you pop back up a few seconds later, a little smaller, with a short shield. When the clock hits zero, the top score on the live board wins.\n\nThere are twelve gardens across three worlds, from the Cottage Garden in the morning to the Sunny Allotments and the lantern-lit park at dusk. Each garden has three stars, shown on a goal card before you start, tracked live on screen and explained on the results screen: finish in a top place (this clears the garden and opens the next), reach a score, and swallow a special landmark or gulp a number of rivals. The Daily Garden is a new seeded garden every day, the same for everyone, with a streak to keep. Tidy-Up is the calm solo mode: no rivals, just you, the clock and a dashed ghost of your best run, with stars for how much of the garden you clear. Earn acorns to unlock twelve critter skins, from Bun Bun the rabbit to Golden Mo. After every round you see where your score would stand on a global board (an offline preview until online boards launch), and you can share a picture card or a challenge link that drops a friend into the same garden with your score to beat. Your stars, bests, skins, acorns and streak are saved on your device. Plays in portrait or landscape with one thumb, a mouse or the keyboard, works offline, and the rivals are all computer players.",
+    "controls": "Touch: put a thumb down anywhere and drag; a floating stick appears under it and the hole follows. Mouse: hold the button and drag in the direction to move. Keyboard: WASD or the arrow keys. Esc or P pauses, M mutes, R or Enter replays from the results screen.",
+    "faq": [
+      {
+        "q": "How do I grow?",
+        "a": "Move your hole under things that are smaller than it. They tip in and every swallow makes the hole wider. The bar at the bottom shows your size and the next thing you will be able to swallow."
+      },
+      {
+        "q": "Why won't that object fall in?",
+        "a": "It is still bigger than your hole, so it only wobbles on the rim. Keep eating smaller things first and come back."
+      },
+      {
+        "q": "Can other holes eat me?",
+        "a": "Yes. A hole that is clearly bigger than you (about a fifth wider) swallows you if it covers you. You come back a few seconds later, a bit smaller, with a short shield. You can do the same to smaller rivals."
+      },
+      {
+        "q": "Are the rivals real players?",
+        "a": "No. Every rival is a computer-controlled critter with its own name and personality. Burrowbelly does not connect to the internet and works offline."
+      },
+      {
+        "q": "How do stars work?",
+        "a": "Each garden has three stars: finish in a top place (this unlocks the next garden), reach a score, and swallow a landmark or gulp some rivals. In Tidy-Up the stars are for tidying a share of the garden. They are shown before the round, tracked on screen, and explained afterwards."
+      },
+      {
+        "q": "What is the global rank on the results screen?",
+        "a": "It shows where your score would stand. Until online leaderboards launch it is an offline preview against sample players, and it is labelled that way."
+      },
+      {
+        "q": "What is a challenge link?",
+        "a": "From the results screen you can share a link that opens the same garden for a friend with your score to beat. The link carries everything it needs, so nothing is uploaded."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "head-start",
+        "format": "rewarded",
+        "reward": "start the round one size bigger (Size 2)"
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double-coins",
+        "format": "rewarded",
+        "reward": "double the acorns earned this round"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "1e50c0a8937d",
+  "builtAt": "2026-10-29T12:21:03.324Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 624219,
+    "initial": 410337
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "8c7837f427070c23563684670834e064c68f9b2b867f14edebc01eac824b8578",
+      "bytes": 1449
+    },
+    {
+      "path": "app.3203deee.js",
+      "sha256": "1e50c0a8937dff9adfb87856196e793e5a4a64dde4d9944f7b0a82d5ce78f549",
+      "bytes": 276377
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "38604828aab93b212d910f7db58226d2e396671e234c01e4d9c24f98064a467e",
+      "bytes": 3007
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "c8b64371ede3ad168853d3c7200004a51ab53e6a2006dd2820da007421e69ee9",
+      "bytes": 89874
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "a372f89f40313b51b292a4bb63930e086da58d95f976de6a73c3f585f59f41fc",
+      "bytes": 89106
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "2c49367683aa77a4ebc84e3f981a8da8885a2456865c80baf820472451207d19",
+      "bytes": 24680
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}
