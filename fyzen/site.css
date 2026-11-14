@@ -103,16 +103,13 @@
 .fz-game-top{margin-bottom:0}
 .fz-stats--4 .fz-stat-value{font-size:14px;line-height:1.25}
 
-/* Official Fyzen logo (raster, on black). Never inverted: in light theme it sits on a dark chip. */
+/* Official Fyzen logo (raster, transparent). Chrome letters have a dark outline, so the mark reads on light and dark without inversion or blend modes. */
 .fz-logo{display:flex;align-items:center;gap:8px;flex:none}
-.fz-logo-chip{display:block;line-height:0;border-radius:9px}
+.fz-logo-chip{display:block;line-height:0}
 .fz-logo-img{display:block;height:36px;width:auto}
 .fz-logo-tag{font-size:8.5px;line-height:1.15;color:var(--fz-text-3);font-weight:var(--fz-fw-heavy);letter-spacing:.06em;text-transform:uppercase;border-left:1px solid var(--fz-border-strong);padding-left:8px}
-[data-theme="light"] .fz-logo-chip{background:#0B0B0D;padding:0 6px;box-shadow:var(--fz-sh-1)}
 @media (max-width:1100px){.fz-logo-tag{display:none}}
 .fz-page-head h1{background:none}
-.fz-logo-img,.fz-footer-brand img{mix-blend-mode:screen}
-[data-theme="light"] .fz-footer-brand img{mix-blend-mode:normal}
 .fz-stats--4 .fz-stat-value{font-size:14px;line-height:1.2}
 .fz-stage.is-playing .fz-stage-tr{display:none}
 .fz-bar-fps{display:none;align-items:center;gap:5px;font-size:11px;font-weight:var(--fz-fw-heavy);color:var(--fz-orange);font-variant-numeric:tabular-nums;margin-right:6px}

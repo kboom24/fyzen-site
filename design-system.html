@@ -7,23 +7,23 @@
 <title>Fyzen Design System · Step 1</title>
 <meta name="description" content="Fyzen Games design system: tokens, components and logo.">
 <meta name="theme-color" content="#09090B">
-<link rel="icon" href="assets/brand/favicon.ico" sizes="any">
-<link rel="icon" href="assets/brand/fyzen-favicon-32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="assets/brand/fyzen-apple-touch-icon-180.png">
+<link rel="icon" href="assets/brand/favicon.ico?v=6" sizes="any">
+<link rel="icon" href="assets/brand/fyzen-favicon-32.png?v=6" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/brand/fyzen-apple-touch-icon-180.png?v=6">
 <script>(function(){try{var q=new URLSearchParams(location.search).get('theme');var t=q||JSON.parse(localStorage.getItem('fz-theme')||'"dark"');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
-<link rel="stylesheet" href="fyzen/tokens.css?v=5">
-<link rel="stylesheet" href="fyzen/components.css?v=5">
-<link rel="stylesheet" href="fyzen/site.css?v=5">
-<link rel="stylesheet" href="fyzen/design-system.css?v=5">
+<link rel="stylesheet" href="fyzen/tokens.css?v=6">
+<link rel="stylesheet" href="fyzen/components.css?v=6">
+<link rel="stylesheet" href="fyzen/site.css?v=6">
+<link rel="stylesheet" href="fyzen/design-system.css?v=6">
 </head>
 <body class="fz">
-<script src="fyzen/icons.js"></script>
+<script src="fyzen/icons.js?v=6"></script>
 <div class="fz-app">
   <header class="fz-topbar">
     <button class="fz-sq-btn fz-menu-btn" type="button" data-fz-drawer aria-controls="fz-sidebar" aria-expanded="false" aria-label="Open menu"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-menu"/></svg></button>
     <button class="fz-sq-btn fz-filter-btn" type="button" aria-label="Filters"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-sliders"/></svg></button>
     <a class="fz-logo" href="index.html" aria-label="Fyzen Games home">
-      <span class="fz-logo-chip"><picture><source type="image/webp" srcset="assets/brand/fyzen-logo-h36.webp 1x, assets/brand/fyzen-logo-h72.webp 2x"><img class="fz-logo-img" src="assets/brand/fyzen-logo-h36.png" srcset="assets/brand/fyzen-logo-h36.png 1x, assets/brand/fyzen-logo-h72.png 2x" alt="Fyzen" width="130" height="36"></picture></span>
+      <span class="fz-logo-chip"><picture><source type="image/webp" srcset="assets/brand/fyzen-logo-h36.webp?v=6 1x, assets/brand/fyzen-logo-h72.webp?v=6 2x"><img class="fz-logo-img" src="assets/brand/fyzen-logo-h36.png?v=6" srcset="assets/brand/fyzen-logo-h36.png?v=6 1x, assets/brand/fyzen-logo-h72.png?v=6 2x" alt="Fyzen" width="111" height="36"></picture></span>
       <small class="fz-logo-tag">Instant Browser<br>Games</small>
     </a>
     <label class="fz-search"><span class="fz-sr">Search</span><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-search"/></svg><input type="search" placeholder="Search games, engines, or tags..." autocomplete="off"></label>
@@ -118,14 +118,14 @@
       <div class="ds-divider"><span>Design system · step 1</span></div>
 
       <section class="ds-section" aria-labelledby="h-logo">
-        <div class="fz-section-head"><h2 id="h-logo"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-spark"/></svg>Logo · official</h2><span class="fz-meta">Hexan's official Fyzen logo (raster, on black)</span></div>
+        <div class="fz-section-head"><h2 id="h-logo"><svg class="fz-i" aria-hidden="true" focusable="false"><use href="#fz-i-spark"/></svg>Logo · official</h2><span class="fz-meta">Hexan's official Fyzen logo (raster, transparent)</span></div>
         <div class="ds-logos">
-          <figure class="ds-logo ds-logo--dark ds-fig"><picture><source type="image/webp" srcset="assets/brand/fyzen-logo.webp"><img src="assets/brand/fyzen-logo.png" alt="Fyzen official logo" width="420" height="116"></picture><figcaption>Primary · on dark</figcaption></figure>
-          <figure class="ds-logo ds-logo--light ds-fig"><span class="ds-chip"><img src="assets/brand/fyzen-logo-h72.png" alt="Fyzen logo on a dark chip" width="216" height="60"></span><figcaption>Light theme · always on a dark chip, never inverted</figcaption></figure>
+          <figure class="ds-logo ds-logo--dark ds-fig"><picture><source type="image/webp" srcset="assets/brand/fyzen-logo.webp?v=6"><img src="assets/brand/fyzen-logo.png?v=6" alt="Fyzen official logo" width="420" height="136"></picture><figcaption>Primary · on dark</figcaption></figure>
+          <figure class="ds-logo ds-logo--light ds-fig"><img src="assets/brand/fyzen-logo-h72.png?v=6" alt="Fyzen logo on a light background" width="222" height="72"><figcaption>Light theme · chrome letters read on light, never inverted</figcaption></figure>
         </div>
         <div class="ds-logos" style="margin-top:12px">
-          <figure class="ds-logo ds-logo--dark ds-fig"><div class="ds-clear"><span class="ds-clear-box"><img src="assets/brand/fyzen-logo-h72.png" alt="Logo with clear space" width="260" height="72"></span></div><figcaption>Clear space: keep ½ the logo height empty on every side. Minimum size: 28 px tall on screen.</figcaption></figure>
-          <figure class="ds-logo ds-logo--dark ds-logo--icons ds-fig"><div class="ds-icons"><img src="assets/brand/fyzen-phoenix.png" alt="Phoenix crop" width="96" height="84"><img src="assets/brand/fyzen-icon-512.png" alt="App icon 512" width="96" height="96"><img src="assets/brand/fyzen-icon-180.png" alt="Apple touch icon 180" width="60" height="60"><img src="assets/brand/fyzen-icon-32.png" alt="Favicon 32" width="32" height="32"></div><figcaption>Phoenix crop · app icon 512 · touch icon 180 · favicon 32</figcaption></figure>
+          <figure class="ds-logo ds-logo--dark ds-fig"><div class="ds-clear"><span class="ds-clear-box"><img src="assets/brand/fyzen-logo-h72.png?v=6" alt="Logo with clear space" width="222" height="72"></span></div><figcaption>Clear space: keep ½ the logo height empty on every side. Minimum size: 28 px tall on screen.</figcaption></figure>
+          <figure class="ds-logo ds-logo--dark ds-logo--icons ds-fig"><div class="ds-icons"><img src="assets/brand/fyzen-phoenix.png?v=6" alt="Phoenix crop" width="96" height="89"><img src="assets/brand/fyzen-icon-512.png?v=6" alt="App icon 512" width="96" height="96"><img src="assets/brand/fyzen-icon-180.png?v=6" alt="Apple touch icon 180" width="60" height="60"><img src="assets/brand/fyzen-icon-32.png?v=6" alt="Favicon 32" width="32" height="32"></div><figcaption>Phoenix crop · app icon 512 · touch icon 180 · favicon 32</figcaption></figure>
         </div>
         <div class="ds-row" style="margin-top:12px"><span class="fz-badge fz-badge--engine">Do: use the supplied PNG/WebP files</span><span class="fz-badge fz-badge--engine">Don't: recolor, invert, stretch, add effects or put it on a busy light background</span></div>
       </section>
@@ -174,7 +174,7 @@
     </main>
   </div>
 </div>
-<script src="fyzen/catalog-data.js?v=5"></script>
-<script src="fyzen/components.js?v=5"></script>
+<script src="fyzen/catalog-data.js?v=6"></script>
+<script src="fyzen/components.js?v=6"></script>
 </body>
 </html>

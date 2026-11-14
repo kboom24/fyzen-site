@@ -46,5 +46,5 @@
 .ds-chip{display:inline-block;background:#0B0B0D;border-radius:12px;padding:6px 14px;line-height:0}
 .ds-clear{padding:4px}
 .ds-clear-box{display:inline-block;line-height:0;padding:36px;outline:1px dashed rgba(255,178,26,.6);outline-offset:-1px;background:repeating-linear-gradient(135deg,rgba(255,138,0,.08) 0 6px,transparent 6px 12px)}
-.ds-clear-box img{background:#000;display:block}
+.ds-clear-box img{display:block}
 .ds-icons{display:flex;align-items:flex-end;gap:16px}
