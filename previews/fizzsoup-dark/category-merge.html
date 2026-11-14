@@ -10,11 +10,12 @@
 <meta name="application-name" content="FizzSoup">
 <meta property="og:site_name" content="FizzSoup">
 <meta property="og:title" content="Merge · FizzSoup">
-<meta property="og:image" content="assets/brand/fizzsoup-og-1200x630.jpg?v=10">
-<link rel="icon" href="assets/brand/favicon.ico?v=10" sizes="any">
-<link rel="icon" href="assets/brand/fizzsoup-favicon-32.png?v=10" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="assets/brand/fizzsoup-apple-touch-icon-180.png?v=10">
-<link rel="stylesheet" href="css/app.css?v=10">
+<meta property="og:image" content="assets/brand/fizzsoup-og-1200x630.jpg?v=11">
+<link rel="icon" href="assets/brand/favicon.ico?v=11" sizes="any">
+<link rel="icon" href="assets/brand/fizzsoup-favicon-32.png?v=11" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/brand/fizzsoup-apple-touch-icon-180.png?v=11">
+<link rel="stylesheet" href="css/app.css?v=11">
+<link rel="stylesheet" href="css/mascot.css?v=11">
 <script>
 (function(){try{var q=new URLSearchParams(location.search).get("theme");var t=q||localStorage.getItem("fs-theme")||"yellow";if(t==="dark")document.documentElement.setAttribute("data-theme","dark");else document.documentElement.removeAttribute("data-theme");if(q==="dark"||q==="yellow")localStorage.setItem("fs-theme",q);}catch(e){}})();
 </script>
@@ -102,7 +103,7 @@
   <line x1="15" x2="15.01" y1="9" y2="9" /></svg><span>Relax</span></a><a class="s-item" href="multiplayer.html"><svg class="i" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
   <circle cx="9" cy="7" r="4" />
   <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-  <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg><span>Multiplayer</span></a><a class="s-item" href="favorites.html"><svg class="i" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></svg><span>Favorites</span></a></nav>
+  <path d="M16 3.13a4 4 0 0 1 0 7.75" /></svg><span>Multiplayer</span></a><a class="s-item" href="favorites.html"><svg class="i" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /></svg><span>Favorites</span></a><a class="s-item shop" href="shop.html"><svg class="i" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 10a4 4 0 0 1-8 0" /><path d="M3.103 6.034h17.794" /><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z" /></svg><span>Shop</span><span class="soon-badge">Soon</span></a></nav>
     <div class="s-gap"></div>
     <hr class="s-rule">
     <div class="premium">
@@ -112,13 +113,7 @@
       <p>Exclusive games, bonus rewards and more. Coming soon.</p>
       <button class="btn btn-block" type="button" data-soon>Upgrade</button>
     </div>
-    <div class="motto">
-      <svg class="i" viewBox="0 0 24 24" width="44" height="44" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" />
-  <path d="M8 14s1.5 2 4 2 4-2 4-2" />
-  <line x1="9" x2="9.01" y1="9" y2="9" />
-  <line x1="15" x2="15.01" y1="9" y2="9" /></svg>
-      <b>Play More.<br>Be More.</b>
-    </div>
+    <div class="peek" aria-label="FizzSoup mascot tip"><div class="bubble" data-daily-tip="daily"><b>Hi there!</b>Daily tip: tap the heart on a game to keep it in Favorites.</div><img src="assets/merch/mascot.webp" alt="FizzSoup bowl mascot giving a thumbs up"></div>
   </aside>
   <div class="scrim" data-drawer></div>
   <main class="main" id="main">
@@ -129,6 +124,7 @@
     </footer>
   </main>
 </div>
+<div class="corner-peek" data-corner-peek aria-hidden="true"><div class="bubble" data-daily-tip="short"><b>Hi there!</b>Tip: tap the heart to save a game.<button type="button" class="x" data-corner-close aria-label="Dismiss tip"><svg class="i" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div><img src="assets/merch/mascot.webp" alt=""></div>
 <nav class="bottom-nav" aria-label="Mobile">
   <a href="index.html"><svg class="i" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><line x1="6" x2="10" y1="11" y2="11" />
   <line x1="8" x2="8" y1="9" y2="13" />
@@ -153,7 +149,8 @@
     <button class="btn btn-chrome" type="button" data-modal-close>OK</button>
   </div>
 </div>
-<script src="js/app.js?v=10"></script>
-<script src="js/ambient.js?v=10"></script>
+<script src="js/app.js?v=11"></script>
+<script src="js/ambient.js?v=11"></script>
+<script src="js/mascot.js?v=11"></script>
 </body>
 </html>
