@@ -1,4 +1,4 @@
-Fytoon self-hosted fonts (no CDN).
+FizzSoup self-hosted fonts (no CDN).
 
 - Fredoka SemiBold (600) and Bold (700): headings, navigation, buttons, badges.
   License: SIL Open Font License 1.1 — see OFL-Fredoka.txt

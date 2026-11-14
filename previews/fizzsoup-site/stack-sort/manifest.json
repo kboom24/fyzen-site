@@ -1,0 +1,247 @@
+{
+  "manifestVersion": 1,
+  "slug": "stack-sort",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Chromacomb",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "hex",
+    "stack",
+    "sort",
+    "color sort",
+    "merge",
+    "chain reaction",
+    "puzzle",
+    "relaxing",
+    "daily puzzle",
+    "levels",
+    "one-handed",
+    "brain"
+  ],
+  "categories": [
+    "puzzle",
+    "merge",
+    "casual"
+  ],
+  "description": {
+    "short": "Drop stacks of hex tiles, let matching colors hop together and burst 10 of a kind into chain-reaction cascades.",
+    "long": "Chromacomb is a calm-but-explosive color sorting puzzle played on a honeycomb. Each turn you get three stacks of colored hex tiles. Drag one onto any empty cell (or tap a stack, then tap a cell). Every neighbor whose top color matches hops over, tile by tile, onto the stack that tidies the board best. When ten or more tiles of one color sit on top of a stack, they burst in a shower of sparks, uncovering the colors underneath, which can merge again and set off a chain reaction. A good placement can trigger merge after burst after merge, with rising notes, combo counters and screen-shaking finales.\n\nThere is no move limit: you only lose when the comb fills up, so every placement is a little planning puzzle. Thirty hand-tuned Levels take you across ten board shapes, from the small Hive to the Halo ring, Blossom, Starburst and Twin Pools. Each level has one clear goal (clear tiles, clear a color, or reach a score) and three stars: one for the goal, one for finishing in few placements, and one for a high score or a big combo. A results screen explains every star you earned or missed, and nothing moves on until you choose.\n\nThe Daily Board gives everyone the same seeded board and tray each day, with a streak to keep. Endless mode keeps adding colors as your score climbs and saves your best. Two boosters help out of tight spots: Shuffle rerolls the tray and Hammer smashes one stack. Stars and streaks unlock six original color palettes. Progress, stars, boosters, palettes and best scores are saved on your device.",
+    "controls": "Drag a stack onto the comb with mouse or touch, or tap a stack then tap a cell. Keyboard: 1-3 pick a stack, arrows or WASD move, Enter or Space places, S shuffles, H hammers, R restarts, Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "When does a stack burst?",
+        "a": "When 10 or more tiles of the same color are on top of a stack. Bursting can expose another color that merges again, which is how chain reactions happen."
+      },
+      {
+        "q": "Is there a move limit?",
+        "a": "No. You fail a level or end a run only when every cell of the comb is full. Fewer placements earn the second star."
+      },
+      {
+        "q": "How do I earn three stars?",
+        "a": "Complete the goal, finish within the placement target, and reach the score or combo target shown on the goal card."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes. Levels, stars, boosters, palettes, daily streak and best scores are saved in your browser on this device."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "Smash the 5 messiest stacks and keep playing (once per run)"
+      },
+      {
+        "name": "booster-shuffle",
+        "format": "rewarded",
+        "reward": "+2 Shuffle boosters"
+      },
+      {
+        "name": "booster-hammer",
+        "format": "rewarded",
+        "reward": "+2 Hammer boosters"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "df7d4986af09",
+  "builtAt": "2026-10-27T10:54:12.089Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 487058,
+    "initial": 326616
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "41b3597a6d3433253f0fabd924a28253e39d82f9e24b5d07c945a1dbcdd1e8ad",
+      "bytes": 1457
+    },
+    {
+      "path": "app.5cd027c0.js",
+      "sha256": "df7d4986af094645163ab41dc7e797c6f2e0503f542a2639c2eaa82917ed7f96",
+      "bytes": 192485
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "d713da9ec133bda0139da7f61ea4b66f9481d82a0ce19c26c2463139149ec25a",
+      "bytes": 3178
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "d051734a760fa5a4a09444e59d064e44f77d69c88658d82a3826ba3b2c434c20",
+      "bytes": 65826
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "b91152e7567a51d8473606d2d07dabc420b7b23a72d76b5a0d00850c7d023b20",
+      "bytes": 63400
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "0267b05bf4508279eae2920de935cee4e40c4d098704440770a5ece71a916161",
+      "bytes": 20986
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

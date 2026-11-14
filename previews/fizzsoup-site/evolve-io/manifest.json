@@ -1,0 +1,231 @@
+{
+  "manifestVersion": 1,
+  "slug": "evolve-io",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Morphmaw.io",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "io",
+    "evolution",
+    "monsters",
+    "brawler",
+    "eat to grow",
+    "bots",
+    "stickers",
+    "doodle",
+    "evolve",
+    "daily challenge",
+    "arena",
+    "creature"
+  ],
+  "categories": [
+    "action",
+    "arcade",
+    "skill"
+  ],
+  "description": {
+    "short": "Eat snacks, bite smaller monsters and evolve your sticker beast through a branching tree. Out-chomp the bots and reach form 12!",
+    "long": "Morphmaw.io is an eat-to-evolve monster brawler drawn as glossy die-cut stickers on doodled notebook pages. You start as Blip, a tiny one-eyed blob. Gobble the snacks scattered across the page to fill your DNA bar, bite monsters smaller than you, and run from the big ones. Every monster wears a coloured ring: green means prey, yellow means an even fight, red means run. Red arrows at the edge of the screen warn you when something hungry is closing in, and bushes let you hide.\n\nWhen your DNA bar is full you curl up in a safe cocoon and choose your next form from two or three cards. There are three lineages and 34 forms in all. Chomp monsters lunge forward with a big bite, Spike monsters spin and hit everything around them, and Puff monsters spit slowing globs from range. You can stay in your line or branch into a neighbouring one, so every run grows into a different creature, from Nibbit and Prickle to the form-12 apex beasts. Reaching form 12 earns a special share card.\n\nSix arenas (Margin Meadow, Sticky Desk, Crayon Canyon, Blueprint Bay, Eraser Peaks and Sketchbook Summit) each have a goal card and three stars: reach a target form, knock out a number of monsters in one run, and climb to number one on the food chain. Earning a star opens the next page. The Daily Arena gives everyone the same map and a twist such as Snack Storm or Giant Day, and keeps your streak. The Evolution Codex records every form you discover, and stars, KOs and discoveries unlock sticker finishes like Glitter, Holo Shine and Gold Foil.\n\nAfter each run you see the stars you earned and missed, your DNA score, a clearly labelled preview of your global standing, and a share card with your evolution path plus a challenge link that loads the same arena and rivals for a friend. Rivals are offline bots, so it plays anywhere with no account. Progress is saved in your browser on this device.",
+    "controls": "Touch: drag anywhere to move with the floating stick and tap the big BITE / SPIN / SPIT button to attack (a second finger anywhere also attacks). Tap a card to evolve. Mouse: move the pointer to steer, click to attack, click a card to evolve. Keyboard: WASD or arrows to move, Space or J to attack, 1 / 2 / 3 to pick an evolution card, R restarts, Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I grow?",
+        "a": "Eat the snacks on the page and knock out smaller monsters. When the DNA bar is full you enter a safe cocoon and pick your next form."
+      },
+      {
+        "q": "Which monsters can I attack?",
+        "a": "Look at the ring under each monster: green ones are smaller than you, yellow ones are the same size, and red ones are bigger and dangerous. Red arrows at the screen edge point to nearby danger."
+      },
+      {
+        "q": "What are the three lineages?",
+        "a": "Chomp forms lunge and bite hard up close, Spike forms spin and hit everything around them, and Puff forms spit globs that slow their target from range. Each evolution lets you stay in your line or branch to a neighbour."
+      },
+      {
+        "q": "How do I earn three stars?",
+        "a": "Each arena's goal card lists them: reach the target form, KO the target number of monsters in one run, and be number one on the food chain at any point. The results screen shows what you earned and missed."
+      },
+      {
+        "q": "Is this online multiplayer?",
+        "a": "Not yet. The rivals are offline bots, and the global standing after each run is a clearly labelled offline preview estimate until online play and leaderboards launch."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "mild-cartoon-violence"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "second-wind",
+        "format": "rewarded",
+        "reward": "Revive in place at full health after being eaten, keeping your form and DNA (once per run)"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "6095cb9def6b",
+  "builtAt": "2026-10-30T08:41:57.403Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 619391,
+    "initial": 412277
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "49ac079278a82cf96821b3bc4c83bda90aba3e962aa4b511b1f336490d705ee7",
+      "bytes": 2065
+    },
+    {
+      "path": "app.590abac1.js",
+      "sha256": "6095cb9def6b87370b9b0e3e3eb83b48b736ac7a868f1abb305ccea412e386b8",
+      "bytes": 278317
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "a26baf38947322bad78eb99b2bca784f8e57850dc99473c8244765b63c8af705",
+      "bytes": 3007
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "9e8093189b1949acb24150f96875132f693609392f18f86bda3d6c726eff4a30",
+      "bytes": 80602
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "70ec1a27d3539939d2408f2fcf6085d116afec4729e50f9f7cfac32ab382a1d3",
+      "bytes": 73834
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "4aa2062f75fa006c1a2b3a2857d320c10f17c3271698b46567b82c4cd39620ca",
+      "bytes": 41840
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

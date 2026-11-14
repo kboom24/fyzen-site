@@ -1,0 +1,239 @@
+{
+  "manifestVersion": 1,
+  "slug": "daily-jigsaw",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Daylace",
+  "version": "1.0.3",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "jigsaw",
+    "puzzle",
+    "daily puzzle",
+    "relaxing",
+    "pictures",
+    "streak",
+    "stars",
+    "pencil",
+    "family friendly",
+    "brain teaser",
+    "share",
+    "offline"
+  ],
+  "categories": [
+    "puzzle",
+    "casual"
+  ],
+  "description": {
+    "short": "A brand-new painted jigsaw every day. Real interlocking pieces that click into place, 60 album pictures, stars, streaks and challenge links.",
+    "long": "Daylace is a jigsaw puzzle that paints a brand-new picture for you every day. Each picture is created on your device from the date: misty mountain mornings, harbours full of boats, glowing city skylines, kitchen tables with fruit and teapots, patchwork quilts and valleys full of hot-air balloons, at dawn, midday, sunset, dusk or under the stars. No two days look the same, and everyone in the world gets the same picture on the same date.\n\nThe pieces are real jigsaw pieces with knobs and holes that fit only one way. Pick one up from the table, drag it to the board and it clicks in with a little sparkle when it is in the right spot. Use Edges to sort corners and border pieces to the front, Peek to see a faint copy of the picture on the board, and the box lid on the goal card to study the picture before you start. On twist levels some pieces are turned; tap a piece to turn it the right way up.\n\nThe daily puzzle grows through the week, from a gentle 4x4 on Monday to a big 6x6 on Friday and Saturday and a Sunday Twist with turned pieces. Solve it every day to build your streak. Six albums hold 60 more pictures, from 3x3 warm-ups to a 7x7 finale, each unlocking the next.\n\nEvery puzzle has three stars, explained on the goal card, in the HUD and on the results screen: one for finishing the picture, one for beating the par time, and one for finishing within the move target without a hint. Stars unlock new table cloths: walnut, linen, night sky, cork and velvet. Share your finished picture as an image with a challenge link that gives a friend your time to beat. Works with fingers, mouse, trackpad and Apple Pencil (with palm rejection), plays offline and saves progress on your device.",
+    "controls": "Touch, mouse, trackpad or Apple Pencil: drag a piece from the table onto the board; it clicks in when it is in the right spot. On twist levels tap a piece to turn it. Buttons: Peek shows a faint picture on the board, Edges sorts corners and border pieces to the front, Hint (ad) places three pieces, Restart reshuffles. Keyboard: V or Tab = Peek, E = Edges, H = Hint, R = Restart, Esc or P = pause, M = mute.",
+    "faq": [
+      {
+        "q": "How do I get three stars?",
+        "a": "Star 1: finish the picture. Star 2: finish within the par time shown on the goal card. Star 3: finish within the move target without using a hint. A move is each time you pick up a piece and put it down somewhere else. The results screen explains each star."
+      },
+      {
+        "q": "Is the daily picture the same for everyone?",
+        "a": "Yes. The picture and the cut of the pieces are generated from the date on your device, with no network needed, so everyone gets the same puzzle on the same day. Solve it daily to keep your streak."
+      },
+      {
+        "q": "Why will a piece not click in?",
+        "a": "It is either not in its own spot, or on twist levels it is turned. Tap it to turn it the right way up; if it is already on its spot it clicks in as soon as it is upright."
+      },
+      {
+        "q": "Can I use an Apple Pencil?",
+        "a": "Yes. Drag pieces with the Pencil; while you use it, a palm resting on the screen is ignored."
+      },
+      {
+        "q": "Where are the pictures from?",
+        "a": "Every picture is painted by the game itself from code, so there are no stock photos. Each date and each level has its own picture."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "hint",
+        "format": "rewarded",
+        "reward": "three pieces placed for you on the current puzzle (corners and edges first)"
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "5893cf96b399",
+  "builtAt": "2026-10-31T14:57:34.905Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 524898,
+    "initial": 358551
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "c62161e3fe8f9d71f23bae3bbf68bbb121165f731ddbdfdeb97bc0d124045434",
+      "bytes": 2944
+    },
+    {
+      "path": "app.276312f7.js",
+      "sha256": "5893cf96b39916b982e8aab7c407ca9bedb428621777f4cbdfebb835c72c744e",
+      "bytes": 224592
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "29049f8f255c18f1070bdc71b0ca48e2ec8e2c2c9731feea7ef5669649d2627f",
+      "bytes": 3006
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "c78102c8324895de4db8837649148da61725f0275392e6fd8364b11faa1ed1b9",
+      "bytes": 66250
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "70f7c8c9045c10c3753e80a87ccb0ed2b81ff33c005daff438c967ab4ccf48d1",
+      "bytes": 65744
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "50fe320523be55cc9b4417d0bd20af2f6deab23a15258122b8d8293f40e83c1b",
+      "bytes": 22636
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}
