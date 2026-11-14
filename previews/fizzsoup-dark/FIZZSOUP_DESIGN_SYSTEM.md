@@ -88,3 +88,23 @@ Real FizzSoup games and art only. Guide ratings are illustrative — do not fabr
 ## Handoff
 
 Keep `FIZZSOUP_DESIGN_SYSTEM.md` at the project root and consult it before frontend changes.
+
+## Image-matched type (vs the guide table)
+
+The official table values render thinner and smaller than the approved 1536×1024 dashboard raster. Implementation matches the **image**, not the table, when they disagree. Inter static OTFs (400/500/600/700/800/900) are self-hosted; computed styles confirm the named weights load (no faux bold, `font-synthesis: none`).
+
+| Role | Guide table | Implemented (matches the raster) |
+|---|---|---|
+| Wordmark | 40px / 900 italic, −0.065em, 190–205px wide | **46px / 900 italic**, −0.045em, ~200px, with ® |
+| Top nav & sidebar labels | 15px / 600 / 20 | **18px / 700 / 22**, row height 46px, 24px icons |
+| Section heading | 24px / 800 | **28px / 800** |
+| Card title (thumbnail) | 14px / 700 | **16px / 800** |
+| Ratings / metadata | 12px / 500 | **13px / 600** (still real facts only; no fabricated ratings) |
+| Secondary / category under card | 12px / 400 | **13px / 500** |
+| Primary button | 16px / 700 | **16px / 800** |
+| “Go Premium” title | 22px / 700 | **24px / 800** |
+| “Play More. Be More.” | (not in the table) | **20px / 800**, 44px bold-outline smile |
+| Search field | (token was a light tint) | **42px tall**, solid `#0B0D12` on yellow, 15px / 500 placeholder |
+| Icons | 22px, stroke 2 | **24px**; filled Lucide for star/flame/sparkles/heart/crown/bell/users; stroke **2.75** on outline icons |
+
+Sidebar: 11 rows (real categories + Multiplayer + Favorites, which reads `fs-saved` on this device). Go Premium is a solid `#0B0D12` card with white title and a yellow Upgrade button; the dark theme mirrors it as a yellow card with a black Upgrade button.

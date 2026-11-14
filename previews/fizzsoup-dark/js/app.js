@@ -93,7 +93,24 @@
     });
   });
 
+  /* Favorites page: show only slugs saved on this device */
+  var favGrid = $('[data-favorites]');
+  if (favGrid) {
+    var slugs = saved();
+    var cards = $$('[data-slug]', favGrid);
+    var shown = 0;
+    cards.forEach(function(c){
+      var on = slugs.indexOf(c.getAttribute('data-slug')) !== -1;
+      c.hidden = !on;
+      if (on) shown++;
+    });
+    favGrid.hidden = shown === 0;
+    var empty = $('[data-favorites-empty]');
+    if (empty) empty.hidden = shown > 0;
+  }
+
   /* Share (local clipboard, no network) */
+
   $$('[data-share]').forEach(function(b){
     b.addEventListener('click', function(){
       var url=location.href;
