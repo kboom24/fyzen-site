@@ -1,3 +1,24 @@
+/* Theme toggle: yellow default, dark optional, localStorage only. */
+(function(){
+  var KEY='fs-theme';
+  function current(){
+    return document.documentElement.getAttribute('data-theme')==='dark' ? 'dark' : 'yellow';
+  }
+  function apply(t){
+    if(t==='dark') document.documentElement.setAttribute('data-theme','dark');
+    else document.documentElement.removeAttribute('data-theme');
+    try{ localStorage.setItem(KEY, t==='dark'?'dark':'yellow'); }catch(e){}
+    var b=document.querySelector('[data-theme-toggle]');
+    if(b) b.setAttribute('aria-label', t==='dark' ? 'Switch to yellow theme' : 'Switch to dark theme');
+    var meta=document.querySelector('meta[name="theme-color"]');
+    if(meta) meta.setAttribute('content', t==='dark' ? '#0B0D12' : '#FFD500');
+  }
+  document.querySelectorAll('[data-theme-toggle]').forEach(function(b){
+    b.addEventListener('click', function(){ apply(current()==='dark' ? 'yellow' : 'dark'); });
+  });
+  apply(current());
+})();
+
 /* FizzSoup dark UI. Local only — no network. */
 (function(){
   var $ = function(s, r){ return (r||document).querySelector(s); };
