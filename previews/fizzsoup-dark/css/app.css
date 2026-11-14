@@ -21,6 +21,7 @@
   --card-text:#FFFFFF;
   --card-muted:#A1A1AA;
   --border:#E5BF00;
+  --divider:#CEA303;
   --active-bg:#0B0D12;
   --active-text:#FFFFFF;
   --button-bg:#0B0D12;
@@ -65,6 +66,7 @@
   --text-primary:#FFFFFF;
   --text-secondary:#A1A1AA;
   --border:#252B36;
+  --divider:#252B36;
   --active-bg:#FFD500;
   --active-text:#0B0D12;
   --button-bg:#FFD500;
@@ -94,13 +96,14 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
 .topbar{
   grid-column:1/-1;display:flex;align-items:center;gap:var(--space-4);
   height:var(--header-height);padding:0 24px;
-  background:var(--header-background);position:sticky;top:0;z-index:40
+  background:var(--header-background);position:sticky;top:0;z-index:40;
+  border-bottom:1px solid var(--divider)
 }
 .sidebar{
   grid-row:2;background:var(--sidebar-background);padding:16px;
   display:flex;flex-direction:column;gap:0;
   position:sticky;top:var(--header-height);height:calc(100svh - var(--header-height));overflow:auto;scrollbar-width:thin;
-  border-right:1px solid var(--border)
+  border-right:1px solid var(--divider)
 }
 .main{grid-row:2;min-width:0;padding:var(--content-padding)}
 
@@ -177,7 +180,7 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
 .s-item.is-on,.s-item[aria-current="page"]{background:var(--active-bg);color:var(--active-text);border-radius:var(--radius-pill)}
 .s-item svg{width:30px;height:30px;flex:none}
 .s-gap{flex:1;min-height:16px}
-.s-rule{border:0;border-top:1px solid var(--border);margin:0 0 16px;height:0;flex:none}
+.s-rule{border:0;border-top:1px solid var(--divider);margin:0 0 16px;height:0;flex:none}
 .premium{
   background:transparent;color:var(--text-primary);
   border:1.5px solid var(--yellow-border, #E5BF00);
@@ -225,7 +228,10 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
   isolation:isolate;display:flex;flex-direction:column;justify-content:flex-start;
   padding:24px;width:100%
 }
-.hero-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.hero-art-fill,.hero-art{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero-art-fill{object-fit:cover;object-position:center;filter:blur(28px) saturate(1.15);transform:scale(1.12);z-index:-3}
+.hero-art{object-fit:contain;object-position:right center;z-index:-2}
+.hero[data-game="moatball"] .hero-art{object-position:right 42%;transform:scale(1.18);transform-origin:center 42%}
 .hero::after{
   content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:linear-gradient(90deg,rgba(11,13,18,.62) 0%,rgba(11,13,18,.18) 48%,rgba(11,13,18,.04) 100%)
@@ -261,8 +267,9 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
   overflow:hidden;background:var(--surface);isolation:isolate;display:flex;flex-direction:column;justify-content:flex-end;
   padding:16px
 }
-.new-card .art{position:absolute;inset:0;z-index:-2}
-.new-card .art img{width:100%;height:100%;object-fit:cover}
+.new-card .art{position:absolute;inset:0;z-index:-2;overflow:hidden}
+.new-card .art img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center top;pointer-events:none}
+.new-card .art .art-fill{object-fit:cover;object-position:center;filter:blur(28px) saturate(1.15);transform:scale(1.12)}
 .new-card::after{
   content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
   background:linear-gradient(180deg,rgba(11,13,18,.06) 30%,rgba(11,13,18,.82) 78%)
@@ -439,7 +446,7 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
 .reviews a:hover,.reviews .see:hover{color:var(--card-text)}
 
 .empty{text-align:center;padding:40px 16px;color:var(--text-secondary)}
-.footer{margin-top:24px;padding-top:16px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--text-secondary);font-size:12px;line-height:16px}
+.footer{margin-top:24px;padding-top:16px;border-top:1px solid var(--divider);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:var(--text-secondary);font-size:12px;line-height:16px}
 .footer a:hover{color:var(--text-primary)}
 
 .modal[hidden]{display:none}
@@ -507,10 +514,10 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
     width:min(85vw,300px);height:100dvh;max-height:100dvh;
     z-index:80;overflow:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
     padding:calc(10px + env(safe-area-inset-top,0px)) 16px calc(16px + env(safe-area-inset-bottom,0px));
-    background:var(--sidebar-background);border-right:1px solid var(--border);
+    background:var(--sidebar-background);border-right:1px solid var(--divider);
     box-shadow:8px 0 32px rgba(11,13,18,.18)
   }
-  body.nav-open .drawer-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 12px;flex:none}
+  body.nav-open .drawer-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 12px;flex:none;border-bottom:1px solid var(--divider)}
   body.nav-open .sidebar .s-item{
     justify-content:flex-start;padding:0 12px;gap:16px;height:48px;
     font-size:18px;line-height:22px;font-weight:700;width:100%
@@ -541,7 +548,7 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
     display:flex;position:fixed;left:0;right:0;bottom:0;z-index:45;
     height:calc(56px + env(safe-area-inset-bottom,0px));
     padding:6px 8px env(safe-area-inset-bottom,0px);
-    background:var(--header-background);border-top:1px solid var(--border);
+    background:var(--header-background);border-top:1px solid var(--divider);
     align-items:flex-start;justify-content:space-around
   }
   .bottom-nav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:10px;font-weight:600;color:var(--text-secondary);padding:6px;min-width:0;flex:1}
@@ -560,4 +567,14 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
   .info h1{font-size:28px}
   .thumbs{grid-template-columns:repeat(3,minmax(0,1fr))}
   .avatar,.icon-btn.bell{display:none}
+}
+
+/* ---------- Ambient gutter animation ---------- */
+.ambient-layer{
+  position:fixed;inset:0;width:100%;height:100%;
+  pointer-events:none;z-index:41;
+  contain:strict
+}
+@media (prefers-reduced-motion:reduce){
+  .ambient-layer{display:none}
 }
