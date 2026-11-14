@@ -1,0 +1,156 @@
+{
+  "updated": "2026-11-13",
+  "note": "All six series are placeholders (status: coming-soon). To publish a real comic, replace cover and page images under assets/stories/<id>/, set placeholder to false, set status to published or new, and update titles/blurbs. See docs/STORIES.md. This file is the source of truth for the Stories catalog and readers.",
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Slice of life",
+    "Space"
+  ],
+  "series": [
+    {
+      "id": "arcade-sprout",
+      "title": "Arcade Sprout",
+      "tagline": "A little invader clocks in for the first night shift.",
+      "blurb": "Sprout finds a cabinet still glowing after closing time, drops one gold coin, and takes the night shift very seriously. Placeholder series — real pages will replace this sample.",
+      "genre": "Adventure",
+      "status": "coming-soon",
+      "placeholder": true,
+      "featured": true,
+      "cover": "assets/stories/arcade-sprout/cover.png",
+      "episodes": [
+        {
+          "id": "ep-01",
+          "title": "Episode 1 · First Credit",
+          "sample": true,
+          "pages": [
+            "assets/stories/arcade-sprout/ep01-p01.png",
+            "assets/stories/arcade-sprout/ep01-p02.png",
+            "assets/stories/arcade-sprout/ep01-p03.png",
+            "assets/stories/arcade-sprout/ep01-p04.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goldstar-express",
+      "title": "Goldstar Express",
+      "tagline": "A bouncey star hops the candy-rail express.",
+      "blurb": "Goldstar is late for a train that may or may not be made of lemon soda. Placeholder series — sample ride only.",
+      "genre": "Adventure",
+      "status": "coming-soon",
+      "placeholder": true,
+      "featured": false,
+      "cover": "assets/stories/goldstar-express/cover.png",
+      "episodes": [
+        {
+          "id": "ep-01",
+          "title": "Episode 1 · All Aboard",
+          "sample": true,
+          "pages": [
+            "assets/stories/goldstar-express/ep01-p01.png",
+            "assets/stories/goldstar-express/ep01-p02.png",
+            "assets/stories/goldstar-express/ep01-p03.png",
+            "assets/stories/goldstar-express/ep01-p04.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wobble-bunch",
+      "title": "The Wobble Bunch",
+      "tagline": "Jelly friends who cannot, will not, stand still.",
+      "blurb": "Wob has one job. The Bunch arrives anyway. Placeholder comedy — sample jiggle only.",
+      "genre": "Comedy",
+      "status": "coming-soon",
+      "placeholder": true,
+      "featured": false,
+      "cover": "assets/stories/wobble-bunch/cover.png",
+      "episodes": [
+        {
+          "id": "ep-01",
+          "title": "Episode 1 · Stand Still?",
+          "sample": true,
+          "pages": [
+            "assets/stories/wobble-bunch/ep01-p01.png",
+            "assets/stories/wobble-bunch/ep01-p02.png",
+            "assets/stories/wobble-bunch/ep01-p03.png",
+            "assets/stories/wobble-bunch/ep01-p04.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "night-navy-picnic",
+      "title": "Night Navy Picnic",
+      "tagline": "Lantern, blanket, and snacks under a navy sky.",
+      "blurb": "A quiet picnic in official Fytoon navy. Placeholder slice of life — sample basket only.",
+      "genre": "Slice of life",
+      "status": "coming-soon",
+      "placeholder": true,
+      "featured": false,
+      "cover": "assets/stories/night-navy-picnic/cover.png",
+      "episodes": [
+        {
+          "id": "ep-01",
+          "title": "Episode 1 · Blanket Down",
+          "sample": true,
+          "pages": [
+            "assets/stories/night-navy-picnic/ep01-p01.png",
+            "assets/stories/night-navy-picnic/ep01-p02.png",
+            "assets/stories/night-navy-picnic/ep01-p03.png",
+            "assets/stories/night-navy-picnic/ep01-p04.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "popcorn-comet",
+      "title": "Popcorn Comet",
+      "tagline": "A comet that pops into buttery little stars.",
+      "blurb": "Orbit is late and the tail is mostly snacks. Placeholder space short — sample orbit only.",
+      "genre": "Space",
+      "status": "coming-soon",
+      "placeholder": true,
+      "featured": false,
+      "cover": "assets/stories/popcorn-comet/cover.png",
+      "episodes": [
+        {
+          "id": "ep-01",
+          "title": "Episode 1 · Buttery Halo",
+          "sample": true,
+          "pages": [
+            "assets/stories/popcorn-comet/ep01-p01.png",
+            "assets/stories/popcorn-comet/ep01-p02.png",
+            "assets/stories/popcorn-comet/ep01-p03.png",
+            "assets/stories/popcorn-comet/ep01-p04.png"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "button-circus",
+      "title": "Button Circus",
+      "tagline": "Yellow arcade buttons put on a very loud show.",
+      "blurb": "The four-dot smile enters the ring. Placeholder comedy — sample big top only.",
+      "genre": "Comedy",
+      "status": "coming-soon",
+      "placeholder": true,
+      "featured": false,
+      "cover": "assets/stories/button-circus/cover.png",
+      "episodes": [
+        {
+          "id": "ep-01",
+          "title": "Episode 1 · Four-Dot Smile",
+          "sample": true,
+          "pages": [
+            "assets/stories/button-circus/ep01-p01.png",
+            "assets/stories/button-circus/ep01-p02.png",
+            "assets/stories/button-circus/ep01-p03.png",
+            "assets/stories/button-circus/ep01-p04.png"
+          ]
+        }
+      ]
+    }
+  ]
+}

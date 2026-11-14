@@ -1,4 +1,4 @@
-/* Fyzen component behaviour v2: theme, drawer, saved list, recently played, search, engine filter,
+/* Fytoon component behaviour v2: theme, drawer, saved list, recently played, search, engine filter,
    tabs, in-stage play, live FPS and fullscreen. Storage is local to this browser only (no network). */
 (function(){
   var I=window.FZ_ICON, D=window.FZ_DATA||{games:[],types:[],newest:[]};

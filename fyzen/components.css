@@ -1,4 +1,4 @@
-/* Fyzen component kit v2 (matched to Hexan's iPad mockups, 1024x768). Depends on tokens.css. Prefix: fz- */
+/* Fytoon component kit v2 (matched to Hexan's iPad mockups, 1024x768). Depends on tokens.css. Prefix: fz- */
 *,*::before,*::after{box-sizing:border-box}
 html,body{margin:0}
 body.fz{background:var(--fz-bg);color:var(--fz-text);font-family:var(--fz-font);font-size:13px;font-weight:var(--fz-fw-reg);line-height:1.4;-webkit-font-smoothing:antialiased;transition:background .2s,color .2s}
