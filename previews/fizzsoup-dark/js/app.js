@@ -24,12 +24,20 @@
   var $ = function(s, r){ return (r||document).querySelector(s); };
   var $$ = function(s, r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
 
-  /* Drawer */
+  /* Drawer: lock body scroll, start at the top, close on Escape / scrim */
+  function setNav(open){
+    document.body.classList.toggle('nav-open', !!open);
+    document.documentElement.classList.toggle('nav-lock', !!open);
+    var side=document.getElementById('sidebar') || document.querySelector('.sidebar');
+    if(open && side) side.scrollTop=0;
+    var btn=document.querySelector('.menu-btn');
+    if(btn) btn.setAttribute('aria-expanded', open?'true':'false');
+  }
   $$('[data-drawer]').forEach(function(b){
-    b.addEventListener('click', function(){ document.body.classList.toggle('nav-open'); });
+    b.addEventListener('click', function(){ setNav(!document.body.classList.contains('nav-open')); });
   });
   document.addEventListener('keydown', function(e){
-    if(e.key==='Escape'){ document.body.classList.remove('nav-open'); closeModal(); }
+    if(e.key==='Escape'){ setNav(false); closeModal(); }
   });
 
   /* Coming soon modal */

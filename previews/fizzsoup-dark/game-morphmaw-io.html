@@ -10,11 +10,11 @@
 <meta name="application-name" content="FizzSoup">
 <meta property="og:site_name" content="FizzSoup">
 <meta property="og:title" content="Play Morphmaw.io · FizzSoup">
-<meta property="og:image" content="assets/brand/fizzsoup-og-1200x630.jpg?v=6">
-<link rel="icon" href="assets/brand/favicon.ico?v=6" sizes="any">
-<link rel="icon" href="assets/brand/fizzsoup-favicon-32.png?v=6" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="assets/brand/fizzsoup-apple-touch-icon-180.png?v=6">
-<link rel="stylesheet" href="css/app.css?v=6">
+<meta property="og:image" content="assets/brand/fizzsoup-og-1200x630.jpg?v=7">
+<link rel="icon" href="assets/brand/favicon.ico?v=7" sizes="any">
+<link rel="icon" href="assets/brand/fizzsoup-favicon-32.png?v=7" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/brand/fizzsoup-apple-touch-icon-180.png?v=7">
+<link rel="stylesheet" href="css/app.css?v=7">
 <script>
 (function(){try{var q=new URLSearchParams(location.search).get("theme");var t=q||localStorage.getItem("fs-theme")||"yellow";if(t==="dark")document.documentElement.setAttribute("data-theme","dark");else document.documentElement.removeAttribute("data-theme");if(q==="dark"||q==="yellow")localStorage.setItem("fs-theme",q);}catch(e){}})();
 </script>
@@ -68,7 +68,13 @@
   <path d="M5 21h14" /></svg></button>
     </div>
   </header>
-  <aside class="sidebar">
+  <aside class="sidebar" id="sidebar">
+    <div class="drawer-head">
+      <a class="logo drawer-logo" href="index.html" aria-label="FizzSoup home">
+        <span class="brand-wordmark">FizzSoup<sup>®</sup></span>
+      </a>
+      <button class="drawer-close" type="button" data-drawer aria-label="Close menu"><svg class="i" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+    </div>
     <nav class="s-nav" aria-label="Categories"><a class="s-item" href="index.html"><svg class="i" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1" />
   <rect width="7" height="7" x="14" y="3" rx="1" />
   <rect width="7" height="7" x="14" y="14" rx="1" />
@@ -241,6 +247,6 @@
     <button class="btn btn-chrome" type="button" data-modal-close>OK</button>
   </div>
 </div>
-<script src="js/app.js?v=6"></script>
+<script src="js/app.js?v=7"></script>
 </body>
 </html>
