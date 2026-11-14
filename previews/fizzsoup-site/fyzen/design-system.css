@@ -1,0 +1,50 @@
+/* Showcase-only layout for design-system.html (not part of the kit). */
+.ds-divider{display:flex;align-items:center;gap:14px;color:var(--fz-text-3);font-size:var(--fz-fs-xs);font-weight:800;letter-spacing:var(--fz-caps-track);text-transform:uppercase;margin-top:var(--fz-s-4)}
+.ds-divider::before,.ds-divider::after{content:"";flex:1;height:1px;background:var(--fz-border-strong)}
+.ds-section{padding:var(--fz-s-6);border-radius:var(--fz-r-xl);background:color-mix(in srgb,var(--fz-panel) 55%,transparent);border:1px solid var(--fz-border)}
+.ds-logos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--fz-s-3)}
+.ds-logo{border-radius:var(--fz-r-lg);padding:var(--fz-s-6);display:flex;align-items:center;justify-content:center;gap:var(--fz-s-5);min-height:130px;border:1px solid var(--fz-border)}
+.ds-logo img{max-width:100%;height:auto}
+.ds-logo--dark{background:#09090B}.ds-logo--light{background:#F4F4F6}
+.ds-logo--icons{align-items:flex-end}
+.ds-swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:var(--fz-s-3)}
+.ds-swatch{display:flex;flex-direction:column;gap:4px;font-size:var(--fz-fs-xs)}
+.ds-swatch i{height:56px;border-radius:var(--fz-r-md);border:1px solid var(--fz-border-strong)}
+.ds-swatch b{font-size:var(--fz-fs-sm)}
+.ds-swatch code,.ds-type code,.ds-rad code,.ds-shadow code,.ds-space code,.ds-grads code{font-family:var(--fz-mono);font-size:11px;color:var(--fz-text-3)}
+.ds-grads{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:var(--fz-s-3);margin-top:var(--fz-s-4)}
+.ds-grads div{height:64px;border-radius:var(--fz-r-lg);display:flex;align-items:flex-end;padding:10px 12px}
+.ds-grads div code{color:#fff;opacity:.9}
+.ds-grads div:last-child code{color:var(--fz-text-2)}
+.ds-types{display:flex;flex-direction:column}
+.ds-type{display:grid;grid-template-columns:130px 140px 1fr;align-items:baseline;gap:var(--fz-s-4);padding:10px 0;border-bottom:1px solid var(--fz-border)}
+.ds-type small{color:var(--fz-text-3);font-weight:700}
+.ds-type span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.15}
+.ds-3col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--fz-s-6)}
+.ds-radii{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--fz-s-3)}
+.ds-rad{display:flex;flex-direction:column;gap:6px}
+.ds-rad i{height:52px;background:var(--fz-panel-3);border:1px solid var(--fz-border-strong)}
+.ds-shadows{display:grid;grid-template-columns:1fr 1fr;gap:var(--fz-s-4)}
+.ds-shadow{height:64px;border-radius:var(--fz-r-lg);background:var(--fz-panel-2);display:flex;align-items:flex-end;padding:8px 10px}
+.ds-spaces{display:flex;flex-direction:column;gap:6px}
+.ds-space{display:flex;align-items:center;gap:10px}
+.ds-space i{height:12px;border-radius:3px;background:var(--fz-grad)}
+.ds-row{display:flex;flex-wrap:wrap;align-items:center;gap:var(--fz-s-3);margin-bottom:var(--fz-s-4)}
+.ds-row--between{justify-content:space-between;flex-wrap:nowrap;align-items:flex-start}
+.ds-game{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:var(--fz-s-6)}
+.ds-game-main{display:flex;flex-direction:column;gap:var(--fz-s-4)}
+.ds-game-main>.ds-row{margin-bottom:0}
+.ds-game-title{margin:0 0 4px;font-size:var(--fz-fs-3xl);font-weight:900;letter-spacing:-.01em}
+.ds-game-desc{margin:0;color:var(--fz-text-2);max-width:60ch}
+@media (max-width:1100px){.ds-game{grid-template-columns:minmax(0,1fr)}.ds-game-side .fz-ad{margin:0 auto}.ds-3col{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:640px){.ds-section{padding:var(--fz-s-4)}.ds-type{grid-template-columns:1fr;gap:2px}.ds-row--between{flex-wrap:wrap}.ds-game-title{font-size:var(--fz-fs-2xl)}.ds-shadows{grid-template-columns:1fr 1fr}}
+.ds-row--between .ds-row{flex-wrap:nowrap;margin:0;flex:none}
+.ds-fig{flex-direction:column;gap:10px;margin:0}
+.ds-fig figcaption{font-size:11px;font-weight:700;color:var(--fz-text-3);text-align:center}
+.ds-logo--light figcaption{color:#5B5B66}
+.ds-fig img{max-width:100%;height:auto}
+.ds-chip{display:inline-block;background:#0B0B0D;border-radius:12px;padding:6px 14px;line-height:0}
+.ds-clear{padding:4px}
+.ds-clear-box{display:inline-block;line-height:0;padding:36px;outline:1px dashed rgba(255,178,26,.6);outline-offset:-1px;background:repeating-linear-gradient(135deg,rgba(255,138,0,.08) 0 6px,transparent 6px 12px)}
+.ds-clear-box img{display:block}
+.ds-icons{display:flex;align-items:flex-end;gap:16px}

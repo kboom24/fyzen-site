@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>FizzSoup · Endless fun.</title>
+<meta name="description" content="FizzSoup — instant browser games. Endless fun.">
+<meta name="theme-color" content="#002A7E">
+<meta name="application-name" content="FizzSoup">
+<meta name="apple-mobile-web-app-title" content="FizzSoup">
+<meta property="og:site_name" content="FizzSoup">
+<meta property="og:title" content="FizzSoup · Endless fun.">
+<meta property="og:description" content="FizzSoup — instant browser games. Endless fun.">
+<meta property="og:image" content="assets/brand/fizzsoup-og-1200x630.jpg?v=8">
+<link rel="icon" href="assets/brand/favicon.ico?v=8" sizes="any">
+<link rel="icon" href="assets/brand/fizzsoup-favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/brand/fizzsoup-favicon-32.png?v=8" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/brand/fizzsoup-apple-touch-icon-180.png?v=8">
+<link rel="stylesheet" href="css/landing.css?v=8">
+</head>
+<body>
+<div class="scene">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="swirl" aria-hidden="true"></div>
+  <div class="soup-floor" aria-hidden="true"></div>
+
+  <svg class="waves" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="soupBody-u3" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FFF3A0"/>
+        <stop offset="18%" stop-color="#FFE44A"/>
+        <stop offset="48%" stop-color="#FFD000"/>
+        <stop offset="100%" stop-color="#F0A000"/>
+      </linearGradient>
+      <linearGradient id="soupSide-u2" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#FFE85A"/>
+        <stop offset="40%" stop-color="#FFD000"/>
+        <stop offset="100%" stop-color="#E89600"/>
+      </linearGradient>
+      <linearGradient id="soupShine-u1" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#fff" stop-opacity=".85"/>
+        <stop offset="40%" stop-color="#FFF6A8" stop-opacity=".55"/>
+        <stop offset="100%" stop-color="#FFE44A" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="soupDeep-u4" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#FFC400" stop-opacity="0"/>
+        <stop offset="100%" stop-color="#D47A00" stop-opacity=".45"/>
+      </linearGradient>
+    </defs>
+    <g class="wobble">
+      <!-- floor + side walls as one liquid body -->
+      <path fill="url(#soupBody-u3)" d="M-100,900 L-100,380
+        C-40,240 20,180 150,220
+        C260,255 200,330 140,370
+        C60,420 80,470 160,520
+        C260,580 80,640 40,720
+        C20,770 180,790 500,808
+        C900,828 1200,800 1700,790
+        L1700,900 Z"/>
+      <!-- left breaking crest -->
+      <path fill="url(#soupSide-u2)" d="M-20,460
+        C10,300 40,200 150,190
+        C270,178 300,280 220,340
+        C150,390 40,400 0,480
+        C-10,520 40,540 20,580
+        C-20,530 -40,520 -20,460 Z"/>
+      <path fill="url(#soupShine-u1)" d="M30,400 C70,280 130,220 190,230
+        C230,238 210,300 160,340
+        C100,390 40,400 30,400 Z" opacity=".75"/>
+      <!-- right rising splash -->
+      <path fill="#FFE44A" d="M1380,900 L1750,900 L1750,420
+        C1720,280 1640,160 1540,180
+        C1410,205 1470,320 1500,400
+        C1540,510 1420,560 1460,660
+        C1500,760 1420,820 1380,900 Z"/>
+      <path fill="url(#soupShine-u1)" d="M1520,280 C1580,210 1660,250 1680,330
+        C1695,390 1620,420 1570,380
+        C1525,345 1480,320 1520,280 Z" opacity=".75"/>
+      <!-- floor sheen + depth so cards sit in soup -->
+      <path fill="url(#soupShine-u1)" d="M0,800 C400,770 900,785 1600,775 L1600,900 L0,900 Z" opacity=".4"/>
+      <path fill="url(#soupDeep-u4)" d="M0,850 C500,830 1100,840 1600,835 L1600,900 L0,900 Z"/>
+    </g>
+  </svg>
+
+  <div class="floaters" aria-hidden="true">
+    <svg class="floater bob" style="left:7%;top:18%;width:86px" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u5" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u5)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater bob-slow" style="left:16%;top:28%;width:48px" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u6" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u6)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater bob-late" style="left:11%;top:46%;width:36px" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u7" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u7)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater bob" style="left:22%;top:52%;width:28px;animation-delay:.8s" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u8" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u8)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater spin-slow" style="left:18%;top:14%;width:110px" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="bb-u9" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#8fd6ff" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#1a8cff" stop-opacity=".45"/>
+    </radialGradient>
+    <linearGradient id="padw-u10" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#e4eefc"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#bb-u9)" stroke="#c8efff" stroke-width="3"/>
+  <ellipse cx="42" cy="42" rx="16" ry="20" fill="#fff" opacity=".55"/>
+  <!-- controller -->
+  <g transform="translate(60,62)" fill="url(#padw-u10)" stroke="#d0d8ee" stroke-width="1">
+    <path d="M-28-8c0-8 6-14 16-14h24c10 0 16 6 16 14v4c2 10 10 16 8 22-2 6-10 6-14 2-3-3-8-6-16-6h-12c-8 0-13 3-16 6-4 4-12 4-14-2-2-6 6-12 8-22z"/>
+    <!-- left plus / stick -->
+    <circle cx="-14" cy="-2" r="5" fill="#3a7cf0" stroke="none"/>
+    <circle cx="-14" cy="-2" r="2.2" fill="#1a4fb8" stroke="none"/>
+    <!-- right buttons -->
+    <circle cx="16" cy="-8" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="12" cy="-3" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="20" cy="-3" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="16" cy="2" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <!-- body shine -->
+    <ellipse cx="-2" cy="-10" rx="10" ry="4" fill="#fff" opacity=".5" stroke="none"/>
+  </g>
+</svg>
+    <svg class="floater bob-slow" style="left:8%;top:58%;width:58px" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="bb-u11" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#8fd6ff" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#1a8cff" stop-opacity=".45"/>
+    </radialGradient>
+    <linearGradient id="padw-u12" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#e4eefc"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#bb-u11)" stroke="#c8efff" stroke-width="3"/>
+  <ellipse cx="42" cy="42" rx="16" ry="20" fill="#fff" opacity=".55"/>
+  <!-- controller -->
+  <g transform="translate(60,62)" fill="url(#padw-u12)" stroke="#d0d8ee" stroke-width="1">
+    <path d="M-28-8c0-8 6-14 16-14h24c10 0 16 6 16 14v4c2 10 10 16 8 22-2 6-10 6-14 2-3-3-8-6-16-6h-12c-8 0-13 3-16 6-4 4-12 4-14-2-2-6 6-12 8-22z"/>
+    <!-- left plus / stick -->
+    <circle cx="-14" cy="-2" r="5" fill="#3a7cf0" stroke="none"/>
+    <circle cx="-14" cy="-2" r="2.2" fill="#1a4fb8" stroke="none"/>
+    <!-- right buttons -->
+    <circle cx="16" cy="-8" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="12" cy="-3" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="20" cy="-3" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="16" cy="2" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <!-- body shine -->
+    <ellipse cx="-2" cy="-10" rx="10" ry="4" fill="#fff" opacity=".5" stroke="none"/>
+  </g>
+</svg>
+    <svg class="floater bob" style="left:27%;top:36%;width:22px" viewBox="0 0 40 40">
+  <defs>
+    <radialGradient id="gl-u13" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#8fd6ff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#2aa0ff" stop-opacity=".35"/>
+    </radialGradient>
+  </defs>
+  <circle cx="20" cy="20" r="18" fill="url(#gl-u13)" stroke="#c8efff" stroke-width="1.6"/>
+  <ellipse cx="13" cy="13" rx="6" ry="8" fill="#fff" opacity=".7"/>
+</svg>
+    <svg class="floater bob-late" style="left:6%;top:34%;width:18px" viewBox="0 0 40 40">
+  <defs>
+    <radialGradient id="gl-u14" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#8fd6ff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#2aa0ff" stop-opacity=".35"/>
+    </radialGradient>
+  </defs>
+  <circle cx="20" cy="20" r="18" fill="url(#gl-u14)" stroke="#c8efff" stroke-width="1.6"/>
+  <ellipse cx="13" cy="13" rx="6" ry="8" fill="#fff" opacity=".7"/>
+</svg>
+
+    <svg class="floater bob-slow" style="right:8%;top:16%;width:92px" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u15" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u15)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater bob" style="right:18%;top:22%;width:44px;animation-delay:.4s" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u16" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u16)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater spin-slow" style="right:11%;top:30%;width:124px" viewBox="0 0 120 120">
+  <defs>
+    <radialGradient id="bb-u17" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#8fd6ff" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#1a8cff" stop-opacity=".45"/>
+    </radialGradient>
+    <linearGradient id="padw-u18" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#e4eefc"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#bb-u17)" stroke="#c8efff" stroke-width="3"/>
+  <ellipse cx="42" cy="42" rx="16" ry="20" fill="#fff" opacity=".55"/>
+  <!-- controller -->
+  <g transform="translate(60,62)" fill="url(#padw-u18)" stroke="#d0d8ee" stroke-width="1">
+    <path d="M-28-8c0-8 6-14 16-14h24c10 0 16 6 16 14v4c2 10 10 16 8 22-2 6-10 6-14 2-3-3-8-6-16-6h-12c-8 0-13 3-16 6-4 4-12 4-14-2-2-6 6-12 8-22z"/>
+    <!-- left plus / stick -->
+    <circle cx="-14" cy="-2" r="5" fill="#3a7cf0" stroke="none"/>
+    <circle cx="-14" cy="-2" r="2.2" fill="#1a4fb8" stroke="none"/>
+    <!-- right buttons -->
+    <circle cx="16" cy="-8" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="12" cy="-3" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="20" cy="-3" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <circle cx="16" cy="2" r="2.3" fill="#3a7cf0" stroke="none"/>
+    <!-- body shine -->
+    <ellipse cx="-2" cy="-10" rx="10" ry="4" fill="#fff" opacity=".5" stroke="none"/>
+  </g>
+</svg>
+    <svg class="floater bob-late" style="right:22%;top:48%;width:34px" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u19" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u19)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater bob" style="right:7%;top:52%;width:26px" viewBox="0 0 40 40">
+  <defs>
+    <radialGradient id="gl-u20" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#8fd6ff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#2aa0ff" stop-opacity=".35"/>
+    </radialGradient>
+  </defs>
+  <circle cx="20" cy="20" r="18" fill="url(#gl-u20)" stroke="#c8efff" stroke-width="1.6"/>
+  <ellipse cx="13" cy="13" rx="6" ry="8" fill="#fff" opacity=".7"/>
+</svg>
+    <svg class="floater bob-slow" style="right:28%;top:18%;width:20px" viewBox="0 0 40 40">
+  <defs>
+    <radialGradient id="gl-u21" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#8fd6ff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#2aa0ff" stop-opacity=".35"/>
+    </radialGradient>
+  </defs>
+  <circle cx="20" cy="20" r="18" fill="url(#gl-u21)" stroke="#c8efff" stroke-width="1.6"/>
+  <ellipse cx="13" cy="13" rx="6" ry="8" fill="#fff" opacity=".7"/>
+</svg>
+    <svg class="floater bob" style="right:16%;top:60%;width:42px;animation-delay:1s" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u22" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u22)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+
+    <svg class="floater bob-late" style="left:58%;top:16%;width:30px" viewBox="0 0 80 90">
+  <defs>
+    <radialGradient id="dg-u23" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="45%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="40" cy="48" rx="28" ry="30" fill="url(#dg-u23)" stroke="#E8A000" stroke-width="1.2"/>
+  <ellipse cx="28" cy="34" rx="11" ry="15" fill="#fff" opacity=".85"/>
+  <ellipse cx="50" cy="58" rx="7" ry="5" fill="#fff" opacity=".28"/>
+</svg>
+    <svg class="floater bob" style="left:38%;top:22%;width:18px" viewBox="0 0 40 40">
+  <defs>
+    <radialGradient id="gl-u24" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset="55%" stop-color="#8fd6ff" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#2aa0ff" stop-opacity=".35"/>
+    </radialGradient>
+  </defs>
+  <circle cx="20" cy="20" r="18" fill="url(#gl-u24)" stroke="#c8efff" stroke-width="1.6"/>
+  <ellipse cx="13" cy="13" rx="6" ry="8" fill="#fff" opacity=".7"/>
+</svg>
+  </div>
+
+  <header class="top">
+    <a class="brand" href="#top" aria-label="FizzSoup home">
+      <svg class="brand-mark" viewBox="0 0 110 100" aria-hidden="true">
+  <defs>
+    <linearGradient id="bbSoup-u26" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3A0"/><stop offset="55%" stop-color="#FFD000"/><stop offset="100%" stop-color="#F0A000"/>
+    </linearGradient>
+    <linearGradient id="bbBowl-u25" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff"/><stop offset="100%" stop-color="#D9E6FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M22 18 C 40 4, 70 6, 86 22 C 96 14, 102 28, 90 34" fill="url(#bbSoup-u26)"/>
+  <circle cx="34" cy="14" r="7" fill="#FFD400" stroke="#E8A000" stroke-width="1"/>
+  <ellipse cx="30" cy="11" rx="2.4" ry="3" fill="#fff" opacity=".85"/>
+  <path d="M14 48 C 14 78, 96 78, 96 48 L 96 44 C 96 36, 14 36, 14 44 Z" fill="url(#bbBowl-u25)" stroke="#fff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M14 48 C 14 78, 96 78, 96 48 L 96 44 C 96 36, 14 36, 14 44 Z" fill="url(#bbBowl-u25)" stroke="#0A2F8C" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M20 44 C 28 34, 82 34, 90 46 C 78 40, 32 38, 20 44Z" fill="url(#bbSoup-u26)"/>
+  <path d="M32 58 h16 v-6 h6 v16 h-6 v6 h-16 v-6 h-6 v-16 h6 z" fill="#2463E0" rx="2"/>
+  <g fill="#2463E0">
+    <circle cx="78" cy="54" r="3.1"/>
+    <circle cx="73" cy="59" r="3.1"/>
+    <circle cx="83" cy="59" r="3.1"/>
+    <circle cx="78" cy="64" r="3.1"/>
+  </g>
+  <path d="M50 56 q 5 2 10 0" fill="none" stroke="#0A2F8C" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M52 62 q 6 8 14 0 q -4 10 -14 0z" fill="#E23B2E" stroke="#0A2F8C" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>
+      <svg class="brand-word" viewBox="0 0 280 48" aria-hidden="true">
+  <text x="0" y="38" font-family="Fredoka, sans-serif" font-weight="700" font-size="40" letter-spacing="-1.2">
+    <tspan fill="#fff">Fizz</tspan><tspan fill="#FFD400">Soup</tspan>
+  </text>
+</svg>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="games.html">Games</a>
+      <a href="popular.html">Popular</a>
+      <a href="new.html">New</a>
+      <a href="create.html">Create</a>
+    </nav>
+    <span class="top-spacer"></span>
+    <form class="search" role="search" action="search.html" method="get">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
+      <label class="sr" for="q">Search games</label>
+      <input id="q" name="q" type="search" placeholder="Search games..." autocomplete="off">
+    </form>
+    <button class="icon-btn bell" type="button" aria-label="Notifications">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M6 9a6 6 0 1 1 12 0c0 4 1.5 5.5 2 6.5H4c.5-1 2-2.5 2-6.5Z"/>
+        <path d="M10 18.5a2 2 0 0 0 4 0"/>
+      </svg>
+    </button>
+    <button class="avatar" type="button" aria-label="Account">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+  <rect width="64" height="64" fill="#7EC8FF"/>
+  <circle cx="32" cy="26" r="12" fill="#F6D2B0"/>
+  <path d="M16 28 C 16 10, 48 8, 50 28 C 46 14, 20 14, 16 28Z" fill="#2A6FE0"/>
+  <path d="M18 58 C 18 42, 46 42, 46 58" fill="#2A6FE0"/>
+  <circle cx="28" cy="26" r="1.6" fill="#1a2040"/>
+  <circle cx="36" cy="26" r="1.6" fill="#1a2040"/>
+  <path d="M28 32 Q 32 36 36 32" fill="none" stroke="#C45A4A" stroke-width="1.4" stroke-linecap="round"/>
+</svg>
+    </button>
+    <a class="btn btn-sub" href="plans.html">Subscribe</a>
+    <a class="btn btn-play btn-play-sm" href="games.html">Play Now</a>
+    <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </header>
+
+  <div class="drawer" id="menu" data-drawer>
+    <form class="search" role="search" action="search.html" method="get">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l5 5"/></svg>
+      <label class="sr" for="q2">Search games</label>
+      <input id="q2" name="q" type="search" placeholder="Search games..." autocomplete="off">
+    </form>
+    <nav aria-label="Mobile">
+      <a href="games.html">Games</a>
+      <a href="popular.html">Popular</a>
+      <a href="new.html">New</a>
+      <a href="create.html">Create</a>
+      <a href="plans.html">Plans</a>
+      <a href="plans.html">Subscribe</a>
+    </nav>
+  </div>
+
+  <main class="hero" id="top">
+    <div class="mascot" aria-hidden="true"><svg viewBox="0 0 420 340" overflow="visible">
+  <defs>
+    <linearGradient id="mSoup-u29" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF6A8"/>
+      <stop offset="40%" stop-color="#FFD400"/>
+      <stop offset="100%" stop-color="#E89400"/>
+    </linearGradient>
+    <linearGradient id="mBowl-u30" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#F4F8FF"/>
+      <stop offset="100%" stop-color="#C9D6F5"/>
+    </linearGradient>
+    <linearGradient id="mPlus-u27" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4C8CFF"/>
+      <stop offset="100%" stop-color="#1A56D8"/>
+    </linearGradient>
+    <filter id="mGlow-u28" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- splash + droplets (behind / above the rim) -->
+  <g class="splash" filter="url(#mGlow-u28)">
+    <path fill="url(#mSoup-u29)" stroke="#fff" stroke-width="10" stroke-linejoin="round"
+      d="M150 128 C 200 70, 250 40, 330 48 C 370 52, 378 88, 348 96 C 300 108, 250 90, 200 128 C 230 70, 300 78, 320 70"/>
+    <path fill="url(#mSoup-u29)" d="M150 128 C 210 60, 280 36, 338 52 C 365 62, 358 92, 328 94 C 280 98, 230 86, 185 128 Z"/>
+    <path fill="#FFF3A0" opacity=".7" d="M210 78 C 250 52, 300 50, 330 62 C 310 58, 260 70, 220 90 Z"/>
+    <circle cx="250" cy="28" r="22" fill="url(#mSoup-u29)" stroke="#fff" stroke-width="7"/>
+    <circle cx="250" cy="28" r="22" fill="url(#mSoup-u29)"/>
+    <ellipse cx="240" cy="18" rx="8" ry="10" fill="#fff" opacity=".85"/>
+    <circle cx="292" cy="22" r="10" fill="url(#mSoup-u29)" stroke="#fff" stroke-width="4"/>
+    <ellipse cx="288" cy="18" rx="3.2" ry="4" fill="#fff" opacity=".85"/>
+  </g>
+
+  <!-- fat white then navy outline of the bowl -->
+  <path d="M46 150 C 46 128, 86 118, 210 118 C 334 118, 374 128, 374 150
+           C 378 168, 378 200, 350 248 C 320 300, 100 300, 70 248
+           C 42 200, 42 168, 46 150 Z"
+        fill="#fff" stroke="#fff" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M46 150 C 46 128, 86 118, 210 118 C 334 118, 374 128, 374 150
+           C 378 168, 378 200, 350 248 C 320 300, 100 300, 70 248
+           C 42 200, 42 168, 46 150 Z"
+        fill="url(#mBowl-u30)" stroke="#0A2F8C" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- soup surface inside the bowl -->
+  <path d="M62 152 C 90 126, 330 126, 358 154 C 320 148, 100 146, 62 152 Z" fill="url(#mSoup-u29)"/>
+  <path d="M90 140 C 160 122, 300 124, 340 146 C 280 136, 160 134, 90 140 Z" fill="#FFF3A0" opacity=".65"/>
+
+  <!-- plus button -->
+  <g transform="translate(108,200)" fill="url(#mPlus-u27)">
+    <path d="M-10-28 h20 a6 6 0 0 1 6 6 v16 h16 a6 6 0 0 1 6 6 v20 a6 6 0 0 1-6 6 h-16 v16 a6 6 0 0 1-6 6 h-20 a6 6 0 0 1-6-6 v-16 h-16 a6 6 0 0 1-6-6 v-20 a6 6 0 0 1 6-6 h16 v-16 a6 6 0 0 1 6-6 z"/>
+  </g>
+
+  <!-- face buttons -->
+  <g fill="#1A56D8">
+    <circle cx="292" cy="176" r="10"/>
+    <circle cx="274" cy="194" r="10"/>
+    <circle cx="310" cy="194" r="10"/>
+    <circle cx="292" cy="212" r="10"/>
+  </g>
+
+  <!-- happy eyes + smile -->
+  <g fill="none" stroke="#0A2F8C" stroke-width="8" stroke-linecap="round">
+    <path d="M176 198 q 12 -14 24 0"/>
+    <path d="M220 198 q 12 -14 24 0"/>
+  </g>
+  <path d="M196 216 q 18 28 44 2 q -16 22 -44 -2 z" fill="#E23B2E" stroke="#0A2F8C" stroke-width="4.5" stroke-linejoin="round"/>
+
+  <!-- bowl highlight -->
+  <path d="M70 168 C 80 148, 140 148, 150 170" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+</svg></div>
+
+    <svg class="wordmark" viewBox="0 0 980 260" role="img" aria-label="FizzSoup">
+      <defs>
+        <linearGradient id="fizzFill-u31" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#FFFFFF"/>
+          <stop offset="55%" stop-color="#F3F7FF"/>
+          <stop offset="100%" stop-color="#C9D8F7"/>
+        </linearGradient>
+        <linearGradient id="soupFill-u32" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#FFF6A8"/>
+          <stop offset="38%" stop-color="#FFD400"/>
+          <stop offset="100%" stop-color="#F0A800"/>
+        </linearGradient>
+      </defs>
+      <g font-family="Fredoka, sans-serif" font-weight="700" font-size="200" letter-spacing="-6">
+        <text text-anchor="middle" x="490" y="188" fill="none" stroke="#FFFFFF" stroke-width="42" stroke-linejoin="round" stroke-linecap="round">FizzSoup</text>
+        <text text-anchor="middle" x="490" y="188" fill="none" stroke="#0A2F8C" stroke-width="28" stroke-linejoin="round" stroke-linecap="round">FizzSoup</text>
+        <text text-anchor="middle" x="490" y="188">
+          <tspan fill="url(#fizzFill-u31)">Fizz</tspan><tspan fill="url(#soupFill-u32)">Soup</tspan>
+        </text>
+      </g>
+    </svg>
+
+    <p class="tagline">Endless fun.
+      <svg class="swoosh" viewBox="0 0 160 20" aria-hidden="true">
+        <path d="M4 14 Q 70 2 156 12" fill="none" stroke="#FFD400" stroke-width="7" stroke-linecap="round"/>
+        <path d="M8 15 Q 70 6 150 13" fill="none" stroke="#FFE85A" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+      </svg>
+      <svg class="ticks" viewBox="0 0 24 20" aria-hidden="true">
+        <path d="M3 16 L8 3" stroke="#FFD400" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M13 15 L20 2" stroke="#FFD400" stroke-width="3.2" stroke-linecap="round"/>
+      </svg>
+    </p>
+
+    <div class="cta">
+      <a class="btn btn-play btn-play-lg" href="games.html">
+        <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.2 6.8v10.4L18 12 9.2 6.8Z"/></svg>
+        Play Now
+      </a>
+      <a class="btn btn-browse" href="games.html">
+        <svg class="i" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <rect x="3" y="3" width="7.5" height="7.5" rx="2"/>
+          <rect x="13.5" y="3" width="7.5" height="7.5" rx="2"/>
+          <rect x="3" y="13.5" width="7.5" height="7.5" rx="2"/>
+          <rect x="13.5" y="13.5" width="7.5" height="7.5" rx="2"/>
+        </svg>
+        Browse Games
+      </a>
+    </div>
+  </main>
+
+  <section class="rail" id="games" aria-label="Featured games">
+    <a class="card" href="game-short-fuse.html"><img src="../../assets/img/games/short-fuse/play.jpg" alt="Short Fuse" width="800" height="450"></a>
+    <a class="card" href="game-bubbletoom.html"><img src="../../assets/img/games/bubbletoom/play.jpg" alt="Bubbletoom" width="800" height="450"></a>
+    <a class="card" href="game-lobwhistle.html"><img src="../../assets/img/games/lobwhistle/play.jpg" alt="Lobwhistle" width="800" height="450"></a>
+    <a class="card" href="game-gem-lattice.html"><img src="../../assets/img/games/gem-lattice/wide.jpg" alt="Gem Lattice" width="800" height="450"></a>
+    <a class="card" href="game-plop-planets.html"><img src="../../assets/img/games/plop-planets/wide.jpg" alt="Plop Planets" width="800" height="450"></a>
+    <a class="card" href="game-lumenhook.html"><img src="../../assets/img/games/deep-cast/wide.webp" alt="Lumenhook" width="800" height="450"></a>
+  </section>
+</div>
+<script src="js/landing.js?v=8"></script>
+</body>
+</html>
