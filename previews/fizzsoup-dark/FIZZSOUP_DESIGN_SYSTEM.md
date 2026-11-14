@@ -107,4 +107,4 @@ The official table values render thinner and smaller than the approved 1536×102
 | Search field | (token was a light tint) | **42px tall**, solid `#0B0D12` on yellow, 15px / 500 placeholder |
 | Icons | 22px, stroke 2 | **24px**; filled Lucide for star/flame/sparkles/heart/crown/bell/users; stroke **2.75** on outline icons |
 
-Sidebar: 11 rows (real categories + Multiplayer + Favorites, which reads `fs-saved` on this device). Go Premium is a solid `#0B0D12` card with white title and a yellow Upgrade button; the dark theme mirrors it as a yellow card with a black Upgrade button.
+Sidebar: 11 rows (real categories + Multiplayer + Favorites, which reads `fs-saved` on this device). Go Premium matches the reference: on yellow, a yellow card with a thin `#E5BF00` outline (16px radius), a black outline crown, black title and body, and a solid black Upgrade pill. Honest copy only (no “no ads” claim). A thin `#E5BF00` divider sits above the card, and the sidebar has a subtle right-edge border. Dark theme: dark-surface card, yellow border, yellow Upgrade button.
