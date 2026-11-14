@@ -52,8 +52,9 @@ window.PT_GAMES = {
   "yesterlings":{ title: "Yesterlings", page: "yesterlings",     live: true  , orientation: "any" },
   "lobwhistle":{ title: "Lobwhistle", page: "lobwhistle",      live: true  , orientation: "any" },
   "floepuck":{ title: "Floepuck", page: "floepuck",        live: false  , orientation: "any" },
-  "short-fuse":{ title: "Short Fuse", page: "short-fuse",      live: false , orientation: "landscape" },
-  "bubbletoom":{ title: "Bubbletoom", page: "bubbletoom",      live: true  , orientation: "any" }
+  "short-fuse":{ title: "Short Fuse", page: "short-fuse",      live: true  , orientation: "landscape" },
+  "bubbletoom":{ title: "Bubbletoom", page: "bubbletoom",      live: true  , orientation: "any" },
+  "pinpull-pals":{ title: "Pinpull Pals", page: "pinpull-pals",  live: true  , orientation: "portrait" }
 };
 
 /* Public wrapper URL uses brand page slug; engine slug stays for folders / saves / stats. */
