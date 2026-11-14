@@ -1,0 +1,246 @@
+{
+  "manifestVersion": 1,
+  "slug": "couch-2p",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Jellybout",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "2 player",
+    "two player",
+    "party games",
+    "same device",
+    "mini games",
+    "vs bot",
+    "tag",
+    "basketball",
+    "archery",
+    "sumo",
+    "reaction",
+    "split screen"
+  ],
+  "categories": [
+    "sports",
+    "action",
+    "casual"
+  ],
+  "description": {
+    "short": "Six squishy 2-player microgames on one screen: tag, flop hoops, wobble bows, pouf sumo, flap duels and snack snaps. Play a friend or a bot.",
+    "long": "Jellybout is a party pack of six quick duels for two players on one device. Each player gets their own half of the screen with one or two big buttons, so you can share a phone, an iPad or a keyboard. Rounds last seconds, and the first jelly to win three rounds (or five, if you want a longer fight) takes the match.\n\nHot Jam is tag on bouncy sofa cushions: whoever holds the hot jam when the fuse pops loses. Flop Hoops gives you a leaning noodle body and one button, so you jump, grab the ball and flop a shot at the hoop. In Wobble Bows you hold to sweep your aim, let go to loose a suction arrow and allow for the wind, and a headshot counts double. Pouf Sumo spins your arrow until you hold to lock it, charge and dash your rival off a shrinking pouf. Flap Duel is a wing-flapping joust where you bonk from above and stay out of the jam pit. Snack Snap is a pure reaction test: wait for the real snack and do not fall for the decoys.\n\nPlay Party Mix to shuffle all six, or pick one favourite. No friend nearby? Play against a bot on Easy, Normal or Hard. Trophy Road has fifteen levels. Each one has a goal card with three stars to earn: win the match, win without dropping a round, and beat the par time. The results screen explains every star you earned or missed. The Daily Duel gives everyone the same match each day and keeps your streak going. Clear goals to unlock new jellies in the Closet and collect twelve trophies.\n\nAfter each solo run you see your rank, percentile and the next score to beat. The rankings are clearly marked preview data until online boards launch. You can share a result card or send a beat-me link so a friend plays exactly the same match. Progress, stars, trophies, streaks and your couch rivalry tally are saved in this browser on this device.",
+    "controls": "Touch: each player taps their own half of the screen. In portrait the top player's buttons face them. One-button games use the whole half; two-button games have a big action button and a TURN button. Keyboard: player 1 uses W or Space (S or A/D to turn), player 2 uses the Up arrow (Down or Left/Right to turn). Against the bot either key set works. Esc pauses and M mutes.",
+    "faq": [
+      {
+        "q": "Can two people play on one phone?",
+        "a": "Yes. Hold the phone sideways and each player takes one half, or lay it flat in portrait and the top player's buttons are turned to face them. Several fingers can press at once."
+      },
+      {
+        "q": "How do I get three stars on Trophy Road?",
+        "a": "Win the match, win it without losing a round, and finish inside the par time shown on the goal card. The goal line at the bottom of the screen tracks all three while you play."
+      },
+      {
+        "q": "How do I unlock more jellies?",
+        "a": "Earn stars on Trophy Road. Each locked jelly in the Closet shows how many stars it needs, and one can also be unlocked with a three-day Daily Duel streak."
+      },
+      {
+        "q": "What is the Daily Duel?",
+        "a": "A fixed set of microgames against the bot, the same for everyone that day. Finish it on consecutive days to build your streak."
+      },
+      {
+        "q": "Are the global ranks real?",
+        "a": "Not yet. Ranks are labelled PREVIEW DATA and come from an offline model until online rankings launch. Your own bests are real and saved on this device."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "Second chance: undoes the bot's last round win so you can replay it"
+      },
+      {
+        "name": "skin",
+        "format": "rewarded",
+        "reward": "Try a locked jelly for your next match"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "5bee4c8d8e65",
+  "builtAt": "2026-10-29T06:11:31.244Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 599594,
+    "initial": 395424
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "1f07a21b535c1bb6132a5ef851c7b04b080fe20d8c4640825e3cdfb27bb78649",
+      "bytes": 1639
+    },
+    {
+      "path": "app.6e3c31fa.js",
+      "sha256": "5bee4c8d8e65164723aac9aa6b74933bcd9b64e4f552a57c85ae4ddbfafca965",
+      "bytes": 261242
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "e6379e5f9a591a6d723c3557b81d8f710c0c09a06ec52e653f7ce1f0b2aa64b0",
+      "bytes": 3229
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "9efdf58c931981f72194561920349fe447b6f5aba9a237199f5d13ee144ce477",
+      "bytes": 74386
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "999717716d27db0eb8f3043800eee59e6905ce19536dcb7fb03c10124551d6e5",
+      "bytes": 82626
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "c691fe9139ae1258a30d3cfa3e8e0f2a04f17feaf60438d73f319b62f1e66b0f",
+      "bytes": 36746
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

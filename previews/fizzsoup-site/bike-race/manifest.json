@@ -1,0 +1,235 @@
+{
+  "manifestVersion": 1,
+  "slug": "bike-race",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "live",
+  "credits": "CREDITS.md",
+  "title": "Snipwheel",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "bike",
+    "motorbike",
+    "racing",
+    "stunts",
+    "flips",
+    "physics",
+    "time trial",
+    "ghost race",
+    "daily challenge",
+    "papercraft",
+    "one thumb",
+    "leaderboard"
+  ],
+  "categories": [
+    "racing",
+    "skill",
+    "arcade"
+  ],
+  "description": {
+    "short": "Race a pinwheel motorbike through a cut-paper world: flip, wheelie and skim the scissors for combos, beat par for stars and race your friends' ghosts.",
+    "long": "Snipwheel is a one-thumb stunt-bike racer set in a handmade papercraft world. Every hill is cut from cardstock, every seam is stitched, and your rider is a little paper puppet held together with brass split pins. Hold anywhere to ride. Hold on the left to lean back and on the right to lean forward; let go to coast. That is all you need to fly.\n\nRace 24 handcrafted tracks across six worlds: the rolling hills of Meadow Fold, the corrugated mesas of Cardboard Canyon, the folded ice of Origami Glacier, the stitched felt lanterns of Lantern Loom, the tinfoil moons of Foil Cosmos and the snapping blades of Scissor Works. Each track has three clear stars: finish it, beat the par time, and bank the stunt target in a single run. Tracks unlock one after another, and every goal is shown before you ride.\n\nStunts build a combo. Backflips, frontflips, double and triple flips, long wheelies, stoppies, big air and close shaves under hanging lanterns and snippers all add points and raise the multiplier up to x8. Land clean to bank it and earn a flip boost; crash and the combo is lost. Big flips slow time for a heartbeat, speed lines stream past at full throttle, and a crash sends your puppet tumbling apart at the pins. Tap to respawn at the last checkpoint instantly, or restart the run in one tap.\n\nYou always race a ghost: your own best run, or the Pace bot until you have one. A new daily track arrives every day, the same for every rider, with a streak that unlocks the Daily Dasher bike. After each run you see where you stand and the next rank to beat. Until online leaderboards launch, ranks are an offline preview against a generated field of sample riders, and the game says so clearly.\n\nShare a run as a picture card, or send a beat-my-time link: it carries your exact run, so your friend races your ghost on the same track and the time is checked by replaying it. Unlock seven bikes, six helmets and six scarf colours by playing: stars, flips, dailies and streaks. They are all cosmetic and every bike handles the same. One optional ad lets you try a locked bike for three runs; nothing is for sale.\n\nProgress saves automatically on your device. Snipwheel plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard.",
+    "controls": "Touch or mouse: hold anywhere to ride; hold the left half to lean back, the right half to lean forward (both halves = full throttle, no lean). Tap after a crash to respawn. Keyboard: Up / W / Space throttle, Down / S brake, Left / A lean back, Right / D lean forward, R restart, Esc or P pause, M mute.",
+    "faq": [
+      {
+        "q": "How do I do a flip?",
+        "a": "Hit a kicker at speed, then hold the left side (or Left / A) in the air to spin backwards, or the right side to spin forwards. Let go before you land so both wheels touch down together."
+      },
+      {
+        "q": "How do I earn the three stars?",
+        "a": "Star one: finish the track. Star two: finish under the par time. Star three: bank the stunt target in one run. Stars stay earned, so you can go for them in separate runs."
+      },
+      {
+        "q": "What is a combo and how do I bank it?",
+        "a": "Every stunt adds points and raises the multiplier up to x8. Ride calmly on the ground for two seconds, or cross the finish, to bank the combo into your score. If you crash first, the combo is lost."
+      },
+      {
+        "q": "Are the global ranks real?",
+        "a": "Not yet. Until online leaderboards launch, ranks are an offline preview against a generated field of sample riders, and every rank screen is labelled OFFLINE PREVIEW. Your own times and ghosts are real and saved on your device."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "Tap Share after a run and copy the beat-my-time link. It carries your exact run, so your friend races your ghost on the same track. The game re-simulates the run to check the time."
+      },
+      {
+        "q": "Do bikes or ads make me faster?",
+        "a": "No. All seven bikes, helmets and scarves are cosmetic and handle the same. The only ad is optional and lets you try a locked bike for three runs."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "try-bike",
+        "format": "rewarded",
+        "reward": "Ride a locked bike for the next 3 runs (cosmetic only; all bikes handle the same)"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "256f18851dc1",
+  "builtAt": "2026-10-29T03:16:58.782Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 556527,
+    "initial": 426416
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "a55d944b58a8a3b8a41f1725b8b3886f43b927e9150e27aaaa5f41a4196becdd",
+      "bytes": 2108
+    },
+    {
+      "path": "app.01e6d922.js",
+      "sha256": "256f18851dc1af361cef76b9e28ce8399c86f5a2711666d60f3aff84bef60b36",
+      "bytes": 292483
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "dc28688ecb440246269e313f273940a91a75978f34f37e168fa5fd48b221b11a",
+      "bytes": 2980
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "e5a51dd37804c4ec9147ec3b59652597e50c6d1c855b5667f5db0804844acdfa",
+      "bytes": 50560
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "77d9c4f0e1cd3aecb49ae7a6ba0b3343b33adea5ddc08b4c19be15a59069a2f0",
+      "bytes": 45206
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "b97b6ea3406e047cedb63b3f1fc65b6f56583a73aa79c7034f226c779d01dfd3",
+      "bytes": 23464
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "manifestVersion": 1,
+  "slug": "ragdoll-stunts",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 3,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Wallopwick",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "ragdoll",
+    "stickman",
+    "stunts",
+    "physics",
+    "slapstick",
+    "launch",
+    "flips",
+    "combo",
+    "daily challenge",
+    "cosmetics",
+    "offline",
+    "one hand"
+  ],
+  "categories": [
+    "casual",
+    "arcade",
+    "skill"
+  ],
+  "description": {
+    "short": "Launch a floppy stick hero down 24 cartoon stunt courses. Bonk, flip and bounce off ramps, trampolines, cannons and cars to chain giant combos.",
+    "long": "Wallopwick is a slapstick physics stunt game starring a bendy stick hero called Wick. Pull back, aim and let go: a shove, a cannon blast, a runaway car or a long drop sends Wick tumbling down a hand-built stunt course full of stairs, ramps, trampolines, bumpers, gongs, crates, spinning beams and swinging wrecking balls. Every bump scores. Harder hits score more, head bonks count double, and hits in quick succession build a combo multiplier of up to four times. Flips, air time, toppled crates, rung gongs, rings flown through and a landing in the target bin all add to the score.\n\nThe bonks are pure cartoon. Nobody gets hurt: there is no blood and nothing comes apart, only comic stars, squash and stretch, dizzy eyes and big \"BONK!\" bursts. The best hit of every run plays back in slow motion so you can enjoy the moment.\n\nWick is a proper ragdoll with bending joints, so no two runs are quite the same, yet the physics are fully deterministic. The same launch on the same course always plays out the same way, which keeps every attempt fair and lets you tune a shot until it is perfect.\n\nThere are 24 courses across four worlds, from the Backyard and the Building Site to the Big Top and the City Rooftops. They start gentle and get trickier. Each course has three stars: two score goals and a special stunt such as knocking over every crate, ringing the gong, landing two flips or dropping into the bin. Goals are shown on a goal card before you launch, tracked live on screen and explained on the results screen, which always waits for you. One star opens the next course.\n\nThe Daily Stunt is a fresh generated course every day, the same for everyone, with its own goals and a streak to keep. Eight original stick characters and eight hats unlock as you earn stars, score career points, land flips and play daily. Share your result as an image card, or send a challenge link that drops a friend onto the same course with your score to beat. Links carry everything they need, so nothing is uploaded.\n\nRetrying takes a single tap. Stars, best scores, unlocks and your streak are saved on your device, and the game works offline. It plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard.",
+    "controls": "Touch or mouse: drag back from anywhere to aim and set power (longer pull means more power), then let go to launch. Tap during the slow-motion replay to skip it. Keyboard: Up/Down aim, Left/Right power, Space or Enter launches, R retries at once, Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I score more points?",
+        "a": "Hit things hard and often. Head bonks count double, and hits close together build a combo multiplier of up to four times. Flips, air time, crates, gongs, rings, trampolines, bumpers and the target bin add bonus points."
+      },
+      {
+        "q": "How do I unlock the next course?",
+        "a": "Earn at least one star by reaching the first score goal. The second star is a higher score, and the third is the course's special stunt, shown on the goal card."
+      },
+      {
+        "q": "Is it violent?",
+        "a": "No. It is cartoon slapstick: the stick hero bounces, squashes and sees stars, but nothing breaks and there is no blood."
+      },
+      {
+        "q": "Why did the same shot give the same score?",
+        "a": "The physics are deterministic, so an identical launch on the same course always plays out the same way. Change the angle or power a little to find a better run."
+      },
+      {
+        "q": "What is the Daily Stunt?",
+        "a": "A new generated course every day, the same for every player, with its own three goals. Play it on consecutive days to build a streak."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "From the results screen you can share or copy a link that opens the same course for a friend, with your score to beat. The course and score are stored in the link itself, so nothing is uploaded."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "comic-mischief",
+      "mild-cartoon-violence"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double",
+        "format": "rewarded",
+        "reward": "doubles the career points from the run just finished (career points unlock characters and hats)"
+      },
+      {
+        "name": "unlock",
+        "format": "rewarded",
+        "reward": "unlocks the featured locked character or hat in the Wardrobe straight away"
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "38fd7341d242",
+  "builtAt": "2026-10-28T11:40:43.148Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 487199,
+    "initial": 381583
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "bdf7333a2bc10c74e1f5b8d9f73299c4ddee6cfd1ac3d7d461c8059be2376ec7",
+      "bytes": 1621
+    },
+    {
+      "path": "app.5ba3afab.js",
+      "sha256": "38fd7341d24282c5f7662e7d54eea88ebdf82b9c7bee7631432bd9cd1f8819c4",
+      "bytes": 247644
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "c070e1a159da0cdbb1f43630bc7797776b9c54ed7c923c6fd0ff060012d89ee2",
+      "bytes": 2986
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "7a3605740b557b12b519f540cd0320a4645430e9e57be86134690cac67b461b1",
+      "bytes": 41386
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "523812af1d5716fb184e9e80917942abf127a20263284befdbee41bf075fcbfd",
+      "bytes": 33804
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "51b6e97d2ff360e830e2fbce213b2fa2e29429c0f40d39b721a1e2a941455928",
+      "bytes": 20032
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "manifestVersion": 1,
+  "slug": "elemental-duo",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Sizzle & Mizzle",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "co-op",
+    "two player",
+    "puzzle platformer",
+    "fire and water",
+    "elements",
+    "temple",
+    "stained glass",
+    "levels",
+    "daily challenge",
+    "speedrun",
+    "family",
+    "kids friendly"
+  ],
+  "categories": [
+    "puzzle",
+    "skill",
+    "casual"
+  ],
+  "description": {
+    "short": "Guide Sizzle the fire spirit and Mizzle the mist spirit through 40 stained-glass temple levels, alone with a swap button or with a friend on one screen.",
+    "long": "Sizzle & Mizzle is a two-spirit puzzle platformer set inside a glowing temple of stained glass. Sizzle is a little ember who strolls across lava but fizzles out in water; Mizzle is a drop of mist who wades through water but boils away in lava. Gloom pools swallow anyone. Bring both spirits to their own doors to clear a level.\n\nThe twist is that their powers combine. Sizzle's flare lights braziers, melts ice and bakes wet clay into solid brick, and it boils a water pool into a rising column of steam that lifts anyone standing on it. Mizzle's splash fills fonts, freezes water into an ice bridge that Sizzle can cross (if he does not stand still too long), and soaks dusty walls into mud you can climb through. Pressure plates, levers, gates, lifts and crates tie the two routes together, so every level is a small conversation between fire and water.\n\nThere are 40 hand-made levels in four chapters: the Ember Nave, the Rain Cloister, the Kiln Crypt and the Rose Spire. Every level was proven solvable by an automated solver in both its normal and mirrored form. Each level has three clearly explained stars (finish, collect every gem, beat the par time) and a speed rank from S to C. A goal card shows the stars before you start, the HUD tracks gems and time, and the results card explains what you earned and what you missed. The game never moves on by itself and a restart is instant.\n\nPlay alone or together. On a phone one player steers one spirit at a time and taps the swap button to switch. On an iPad two friends share the screen with split controls, one on each side. On a computer two players share the keyboard: A, D, W and S for Sizzle, the arrow keys for Mizzle.\n\nEvery day brings a Daily mirror: one level, flipped, the same for everyone, with a streak to keep. After every clear you see your global standing and percentile (currently from a clearly labelled offline preview board), and you can share a duo time card or send a beat-my-time challenge link that opens the same level for a friend. Earn stars, S ranks and daily streaks to unlock new looks for both spirits. Progress, best times and cosmetics are saved on your device automatically. All art, music and sound are generated in the game, with nothing downloaded.",
+    "controls": "Keyboard: Sizzle A/D move, W jump, S flare; Mizzle Left/Right move, Up jump, Down splash. R restarts, Esc pauses, M mutes. Phone: on-screen arrows, jump and power buttons plus a swap button to switch spirits. iPad: split controls, Sizzle on the left, Mizzle on the right.",
+    "faq": [
+      {
+        "q": "Can I play alone?",
+        "a": "Yes. On phones the game uses one set of buttons and a swap button to switch between Sizzle and Mizzle. On a keyboard you can steer both spirits yourself, or choose One player in Settings."
+      },
+      {
+        "q": "How do two people play on one device?",
+        "a": "On an iPad or tablet each player takes one side of the screen: Sizzle on the left, Mizzle on the right. On a computer, one player uses A, D, W and S and the other uses the arrow keys."
+      },
+      {
+        "q": "What do the stars mean?",
+        "a": "One star for getting both spirits to their doors, one for collecting every gem, and one for finishing under the par time shown on the goal card."
+      },
+      {
+        "q": "Is the global rank real?",
+        "a": "For now it comes from a clearly labelled offline PREVIEW board that is the same for everyone. Live boards will replace it when they launch."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes, automatically on this device: stars, best times, speed ranks, daily streak and unlocked looks."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "hint",
+        "format": "rewarded",
+        "reward": "Show me: a translucent ghost duo plays the level's proven route beside you while you play"
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "f767add1eacb",
+  "builtAt": "2026-10-31T00:28:08.354Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 644663,
+    "initial": 420586
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "c262772e19d7a1bfdab2001b38c14508a1e1b84ff7a3b7027828fcf990b0c534",
+      "bytes": 1532
+    },
+    {
+      "path": "app.05be74af.js",
+      "sha256": "f767add1eacb4ac12253f9c07fbaa404c29992ed45d79ef503561d8ba9df4ab4",
+      "bytes": 286614
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "b97045903eb85e1c8fdf8fec9d6eac87c1a2f333f710593daf54918a434d1885",
+      "bytes": 3019
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "ea30761d1bbdff8a60ea8a4fe336ee6a33a6f1490bbbd07b37f207fc9ff67ce4",
+      "bytes": 87414
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "3122c964bf1dd8c27db0944924758323a014c3a89dab029410747d416f8a1be3",
+      "bytes": 83510
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "a607a914c8b24ee909065b8b5610df45c7fb0079ae1b6409a9c1ff6573b3cccc",
+      "bytes": 42848
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

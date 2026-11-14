@@ -1,0 +1,245 @@
+{
+  "manifestVersion": 1,
+  "slug": "idle-tycoon",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 3,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Thistlewhirl",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "idle",
+    "tycoon",
+    "clicker",
+    "incremental",
+    "cozy",
+    "critters",
+    "island",
+    "management",
+    "offline progress",
+    "prestige",
+    "daily goals",
+    "one hand"
+  ],
+  "categories": [
+    "idle",
+    "casual",
+    "strategy"
+  ],
+  "description": {
+    "short": "Tap the big thistle, open cosy critter stalls on a floating meadow island, hire helpers who earn while you're away, and wish for a permanent bonus.",
+    "long": "Thistlewhirl is a cosy idle tycoon set on a little floating meadow in the sky. Tap the big smiling thistle to earn sparkly glimmers, then spend them on critter stalls: Shelly the snail's Dew Tea Stand, Pip the squirrel's Acorn Muffin Oven, Moley's Mushroom Lamp Workshop, Bumble's Honeycomb Hive and four more, all the way up to Fennel the fox's Starjam Observatory. Each stall pops up as a tiny hut on your island and bounces every time it finishes a batch.\n\nA stall without a helper only works when you tap it, so the first minutes are hands-on. Hire a critter helper and their stall runs by itself, even while you are away. Level stalls up one at a time, ten at a time, a hundred at a time or as many as you can afford, and watch for milestones: every 25, 50, 100 and more levels doubles that stall's output. Upgrades say exactly what they do in plain words, such as +100% Acorn Muffin Oven output or helpers keep earning for longer while you are away.\n\nThe story moves in chapters. Each chapter has three clear goals, one star each, shown on your island and in the Goals sheet, and a small gift when you finish. The card waits for you and never skips ahead. Three fresh daily goals keep a streak going, with a gift when all three are done, and achievements unlock new skies for your island, from Peach Sunset and Blossom Breeze to First Snow, Starry Night and Aurora Sky.\n\nWhen growth slows, make a wish. The game explains what starts fresh and what you keep, then asks once more before anything happens. Every wish adds +10% to everything forever, so each new meadow grows faster than the last.\n\nComing back later? Your helpers keep earning for up to four hours (longer with the cosy offline upgrades), and a welcome-back card shows what they made. Share a picture of your island, or send a challenge link that asks a friend to beat your net worth. The link carries the number itself, so nothing is uploaded. Optional ads can double your welcome-back earnings or give a five-minute 2x boost; they are never required and nothing is ever for sale.\n\nProgress saves automatically on your device, and the game works offline in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard.",
+    "controls": "Touch or mouse: tap the big thistle to earn glimmers, tap a stall's hut or row to start a batch, tap Buy to level up a stall (the buy amount button switches between x1, x10, x100 and Max), and use the tabs for Upgrades, Helpers, Goals, Wish and More. Drag or use the mouse wheel to scroll lists. Keyboard: Space or Enter taps the thistle, 1-8 buy the matching stall, B changes the buy amount, Esc closes a sheet or pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I earn glimmers faster?",
+        "a": "Open new stalls, level them up past milestones (25, 50, 100 levels and more each double that stall's output), buy upgrades and hire critter helpers so every stall runs nonstop."
+      },
+      {
+        "q": "What do critter helpers do?",
+        "a": "A helper runs their stall automatically. Without a helper a stall only works when you tap it. Helpers also keep earning while you are away."
+      },
+      {
+        "q": "Do I earn while I am away?",
+        "a": "Yes. Your helpers keep working for up to 4 hours, or up to 8 hours with the Cosy Quilt, Snug Hammock, Dream Lantern and Moon Pillow upgrades. A welcome-back card shows what they earned."
+      },
+      {
+        "q": "What is a wish?",
+        "a": "A wish restarts your island as a fresh meadow with a permanent bonus of +10% to everything for each wish you hold. You keep your wishes, chapters, stars, achievements, island decor, offline upgrades and daily streak. The game explains this and asks you to confirm first."
+      },
+      {
+        "q": "Are ads required?",
+        "a": "No. Ads are optional: one can double your welcome-back earnings and another gives a five-minute 2x boost. Nothing in the game is for sale."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "From the More tab you can share your island or copy a link with your net worth (all the glimmers you have ever earned). A friend who opens it can accept the challenge to beat it. The number travels in the link itself, so nothing is uploaded."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double-offline",
+        "format": "rewarded",
+        "reward": "doubles the glimmers your helpers earned while you were away (shown on the welcome-back card)"
+      },
+      {
+        "name": "boost",
+        "format": "rewarded",
+        "reward": "2x glimmers from stalls and thistle taps for 5 minutes of play (can be stacked up to 30 minutes)"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "endless"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "363f2ece1277",
+  "builtAt": "2026-10-29T08:25:12.273Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 528323,
+    "initial": 395839
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "97e34dfdaea7e1ca254cd1e3636bc3cb2c8887c470faecff12e936bfe105a7ab",
+      "bytes": 1547
+    },
+    {
+      "path": "app.63c0763b.js",
+      "sha256": "363f2ece12772a35927154a24248ec1e88f66604eec8cb326e3ea14e7bd80379",
+      "bytes": 261876
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "5e01c507ea6aa628cf625438a638dc9a04c5993c1c2367040b2f8af3944416e3",
+      "bytes": 3010
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "3bb5590f239b3f51b2c5741b79cb42ba2fb0569e87240e2dfebf114313d0968e",
+      "bytes": 51034
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "b659bcd37d33e22b2869fa23c023bebd82694159e398a1285ec691ec173876a7",
+      "bytes": 50278
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "b79a1b793637f65436a9dc8b0d2ce89afd3b95388fa03de971017f1167d4b3e7",
+      "bytes": 20852
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

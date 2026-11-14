@@ -1,0 +1,230 @@
+{
+  "manifestVersion": 1,
+  "slug": "rhythm-battle",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Hollerbout",
+  "version": "1.0.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "rhythm",
+    "music",
+    "sing-off",
+    "arrows",
+    "rhythm battle",
+    "beat",
+    "timing",
+    "daily challenge",
+    "street art",
+    "characters",
+    "dance",
+    "kids friendly"
+  ],
+  "categories": [
+    "arcade",
+    "skill",
+    "casual"
+  ],
+  "description": {
+    "short": "A street-poster rhythm sing-off: listen to each rival's call, echo it on four big lanes and out-holler the whole block.",
+    "long": "Hollerbout is a rhythm battle drawn like a wall of wheatpaste posters. Mox, a small tangerine bean with a big voice, wants to be the loudest act on the block. Every rival sings a short call; then it is your turn to echo it back. Sticker arrows slide toward four huge lanes, and you tap (or press the arrow keys or WASD) as each one lands on its chalk outline. Hit them clean and Mox sings the melody right back at them; miss and he bonks a note and the tug-of-war meter slides toward your rival.\n\nSix original rivals hold court on six original songs, each one composed and synthesized live in your browser: Dumpling Dee in the laundromat, Coo Carl the tracksuit pigeon, Slurpa the disco noodle cup, Bricky the brick with the chain, Meter Maude the parking meter, and Gargo, the gargoyle boss of the rooftop. Beat a rival to unlock the next.\n\nFour difficulty levels mean everyone can finish a song. Chill lets you tap anywhere on the screen, Easy gives you extra time, Normal is the real bout, and Hard speeds things up and adds chords. Gentle mode halves miss damage, note speed is adjustable, and a tap test sets your audio and touch delay so timing feels fair on any phone, tablet or laptop.\n\nEvery bout earns up to three stars, and the results screen explains each one: finish the song with health left, reach the accuracy goal, and play a full combo. You also get a letter grade, your judgement counts, a hint if you tend to tap early or late, and a preview of where your score would place on the global board. Stars, streaks and wins unlock hats, microphones and sticker styles for Mox in the Locker.\n\nThe Daily Bout writes a brand-new song every day, the same for everyone, and keeps your streak. Share a poster-style result card, or copy a beat-me link: your friend plays the same song and races your ghost score live. Everything saves in your browser, and a player name is optional.",
+    "controls": "Tap the lane (or anywhere on Chill) when your sticker arrow reaches its outline; hold for tape notes. Keyboard: arrow keys or W/A/S/D for the four lanes, R restarts instantly, Esc or P pauses, M mutes. Watch the rival's chalk arrows during their call, then echo them.",
+    "faq": [
+      {
+        "q": "How does a bout work?",
+        "a": "Each song alternates: your rival sings a four-bar call with chalk-outline arrows, then you echo it with sticker arrows. Finish the song with health left on the tug-of-war meter to win."
+      },
+      {
+        "q": "The timing feels off on my device. What can I do?",
+        "a": "Open SYNC + SETTINGS and run the Tap test, or nudge the timing offset by hand. Bluetooth headphones usually need a larger offset."
+      },
+      {
+        "q": "How do I earn three stars?",
+        "a": "Win the bout, reach the accuracy goal for that difficulty (75% Chill, 80% Easy, 85% Normal, 88% Hard), and play a full combo with no misses."
+      },
+      {
+        "q": "Is there an easy mode for younger players?",
+        "a": "Yes. Chill lets you tap anywhere instead of a specific lane, and Gentle mode in settings halves the damage from misses."
+      },
+      {
+        "q": "Are the leaderboards live?",
+        "a": "Not yet. The global standing on the results screen is a clearly labelled offline preview from a fixed formula until online boards launch."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "Second wind: continue a lost bout from where you fell with half health (the run can no longer earn the full-combo star)"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "f129352dc56a",
+  "builtAt": "2026-10-29T12:13:02.911Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 719818,
+    "initial": 413361
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "c7ea5285eaf9d59c65ef4c35217996e358681f519879db96ee2faaf5ceef3658",
+      "bytes": 1926
+    },
+    {
+      "path": "app.f0b0847e.js",
+      "sha256": "f129352dc56a5f119bef8048e46d7aafef55f6359f99e5e103c43e4620bbf1b6",
+      "bytes": 279231
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "1ab8bee1f9cca0aa6970efc4c363d630b036fc62b5dd3b2416cdf29b0516e9bc",
+      "bytes": 3177
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "f7972b52acaa722a9b54b4f886f230f95e1651c7a4c1cc1b4de602d53bfefc8c",
+      "bytes": 123404
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "fc259a0a06d3ec12dda80562d9f8667c98519b8e2f1889bc16b78e0ad197d6ae",
+      "bytes": 118024
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "310f30c8522be99b2690ad0dfd1e8372c1239321df23fd6a14d91858d3c669b4",
+      "bytes": 54330
+    }
+  ]
+}

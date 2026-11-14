@@ -1,0 +1,248 @@
+{
+  "manifestVersion": 1,
+  "slug": "number-pop",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Pipfuse",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "number puzzle",
+    "merge",
+    "tap puzzle",
+    "match",
+    "chain combo",
+    "brain game",
+    "daily puzzle",
+    "levels",
+    "one-handed",
+    "relaxing",
+    "numbers",
+    "casual"
+  ],
+  "categories": [
+    "puzzle",
+    "merge",
+    "casual"
+  ],
+  "description": {
+    "short": "Tap a tile touching its twin to fuse the group into a bigger number, then watch it chain. 30 goal levels, Endless and a Daily Board.",
+    "long": "Pipfuse is a bright, bouncy number puzzle you can learn in five seconds. Tap any tile that touches its twin and the whole group of matching numbers fuses into the tile you tapped, which grows by one. Tiles fall, new ones drop in, and if your freshly fused tile lands next to its own number again it fuses again for free. That is a chain, and chains are where the big points, the screen shake and the escalating sound live. Only the tile you just made can chain, so every cascade is something you set up, not luck.\n\nPlay 30 hand-tuned goal levels with a move limit: make a 9, score 40,000 points, free frozen tiles or smash rocks. A goal card shows exactly what earns each of the three stars, the HUD tracks your progress live, and the results screen tells you which stars you earned and which you missed. Nothing auto-advances; retry for three stars whenever you like.\n\nEndless mode lets you fuse until the board locks up and saves your best score and highest tile. The Daily Board gives everyone the same seeded board each day: 25 moves, one score, and a streak to keep alive. Making bigger tiles than ever before unlocks new themes such as Lagoon, Ember, Neon, Cosmos and Gilded, each with its own tile shapes, colours and particles.\n\nPipfuse plays one-handed on a phone in portrait or landscape and with mouse or keyboard on desktop. Your progress, stars, best scores and streak are saved on your device.",
+    "controls": "Tap or click a tile that touches an equal tile to fuse the group. Keyboard: arrows or WASD move the cursor, Enter or Space fuses, H shows a hint, R restarts, Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "What is a chain?",
+        "a": "After a fuse, the new tile is hot. If it lands touching tiles of its new number it fuses again for free, without using a move, and keeps going while it can."
+      },
+      {
+        "q": "How do I get three stars?",
+        "a": "Star one is the level goal. Star two needs a number of spare moves, and star three needs a long chain or a big tile. The goal card before each level lists the exact rules."
+      },
+      {
+        "q": "What happens if no tiles match?",
+        "a": "In levels and the Daily Board the board reshuffles for free. In Endless the run ends, with an optional one-time continue."
+      },
+      {
+        "q": "How do I unlock themes?",
+        "a": "Themes unlock by the highest tile you have ever made, in any mode: Lagoon at 7, Ember at 9, Neon at 10, Cosmos at 12 and Gilded at 13."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "theme-trial",
+        "format": "rewarded",
+        "reward": "Try a locked theme for one Endless run"
+      },
+      {
+        "name": "extra-moves",
+        "format": "rewarded",
+        "reward": "5 extra moves when a level runs out of moves"
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "Shuffle the locked board and keep playing an Endless run (once per run)"
+      }
+    ]
+  },
+  "features": [
+    "levels",
+    "stars",
+    "endless",
+    "daily",
+    "cosmetics",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "7e274bd7c6dd",
+  "builtAt": "2026-10-27T18:32:58.990Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 551089,
+    "initial": 320739
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "180721540b3f120421d4e1a7abe255fa1674682ceaa15e130b64523d299e18f6",
+      "bytes": 2563
+    },
+    {
+      "path": "app.adb4e667.js",
+      "sha256": "7e274bd7c6dd8c3455dfbe7471d1ee278f081b6cc1ab679505de64e405c19a42",
+      "bytes": 186627
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "58533df7a3c291a0d58d3ff484b5744cb84d7a686e5653d98bcd1a5bafd50249",
+      "bytes": 3159
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "8083c74c585550998afb62998cd04d14d56227b13c3440d2a52e004186808bad",
+      "bytes": 81718
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "e77c15e60a2b6759f8073baad992c0d8c5e78b2c45921c1c125de68c37726ad3",
+      "bytes": 91966
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "698b60370b984e1edf44b93541908fb6f0a7554e79e189470f8616ab20040b57",
+      "bytes": 45330
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "manifestVersion": 1,
+  "slug": "arena-paint",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Daubstorm",
+  "version": "1.1.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "paint",
+    "arena",
+    "twin-stick",
+    "shooter",
+    "bots",
+    "team",
+    "splat",
+    "daily challenge",
+    "stars",
+    "family friendly",
+    "multiplayer",
+    "friends"
+  ],
+  "categories": [
+    "action",
+    "arcade"
+  ],
+  "description": {
+    "short": "Splat paint, not bullets! Team up with a buddy bot and cover more of the arena than your rivals in quick 60-second twin-stick matches.",
+    "long": "Daubstorm is a bright, family-friendly paint arena game. You are a little ink drop with a blaster full of colour, and your team has one minute to cover more of the arena than the other side. Nothing gets hurt: a rival who takes too much paint just goes splat, pops back at base and jumps straight back into the fight.\n\nEvery match is 2 against 2. You and your buddy bot face two rivals across a hand-drawn arena of hedges, crates, piers and ice. Paint the floor in your colour and refill your ink by standing in your own paint. Fill the storm meter to unleash a Daubstorm, a huge burst that soaks the ground around you. A live bar shows the score for both teams, and a mini-map shows who owns which corner.\n\nThere are 24 levels across four seasons: Petal Park in spring, Sunny Pier in summer, Leafy Yard in autumn and Frosty Rink in winter. Rivals get smarter as you go, and every sixth level is a longer boss match. Each level has three stars, and each star says why: win the match, reach a team-paint goal, or hit a personal target such as splats, paint share or a Daubstorm. The goal card shows all three before you start, the HUD tracks them live, and the results card explains which you earned.\n\nA new Daily Arena arrives every day with a seeded map and blaster that are the same for everyone on that date. Play daily to grow your streak. Stars unlock new blasters (Spray Fan, Lobber and Roller), hats for your drop and new paint colours in the Locker.\n\nShare a colourful result card with a challenge link. It opens the same arena for a friend and shows your score as the one to beat. Play with twin touch sticks, mouse and keyboard, or Apple Pencil, in portrait or landscape. Turn on Auto-paint to have the game aim and fire for you while you steer. Progress is saved on your device, and the game works offline.\n\nPlay with friends: make a room, share its 5-character code, and up to four friends on any mix of phones, tablets and computers join the same match. Pick 2 vs 2, 1 vs 1, Team up against a computer team, or a four-colour Free-for-all. There is no chat and there are no names: friends appear as P1 to P4, and the only messages are eight preset emotes. Rooms are by code only, never with strangers. If someone leaves, a computer player takes their place and the match goes on. Online rooms appear when FizzSoup switches them on; everything else works offline, and a quick match against computer players is always there.",
+    "controls": "Touch: left side of the screen moves, right side aims and paints. The storm button unleashes a Daubstorm, and AUTO turns on auto-aim and auto-fire. Apple Pencil: point to aim and paint while a finger steers. Desktop: WASD or arrow keys move, the mouse aims and click paints (or hold J). Space or E: Daubstorm, F: auto-paint, R: instant restart, Esc or P: pause, M: mute. Online: the smiley button (or keys 1-8) sends a preset emote.",
+    "faq": [
+      {
+        "q": "Is this game violent?",
+        "a": "No. You splash paint, not bullets. A drop that gets soaked just goes splat, pops back at its base and keeps painting. The goal is to cover the arena in your colour."
+      },
+      {
+        "q": "How do the three stars work?",
+        "a": "Star 1: win the match. Star 2: reach the level’s team-paint goal. Star 3: a personal target shown on the goal card, such as painting a share of the arena yourself, splatting rivals or landing a Daubstorm. The results card explains each star you earned or missed."
+      },
+      {
+        "q": "What is a Daubstorm?",
+        "a": "Painting fills your storm meter. When it is full, press the storm button (or Space) to soak a big area around you in your colour."
+      },
+      {
+        "q": "Can the game aim for me?",
+        "a": "Yes. Turn on AUTO in a match and your blaster aims and fires at the best nearby target while you steer. It is handy on phones and for younger players."
+      },
+      {
+        "q": "Is the Daily Arena the same for everyone?",
+        "a": "Yes. It is generated from the date on your device with no network needed. Play once a day to keep your streak going."
+      },
+      {
+        "q": "Is the global standing real?",
+        "a": "Not yet. Until FizzSoup accounts launch, the standing on the results card comes from an offline preview and is clearly marked PREVIEW. Challenge links work today and show your friend the score to beat."
+      },
+      {
+        "q": "Can I play with my friends?",
+        "a": "Yes, when FizzSoup has online rooms switched on. Tap Play with friends, choose a room for 2, 3 or 4 players, and share the code. Friends type it in on their own device. Choose 2 vs 2, 1 vs 1, Team up or Free-for-all. If online is busy, play a quick match against computer players instead."
+      },
+      {
+        "q": "Is online play safe for kids?",
+        "a": "Rooms are by code only, so you only play with friends you gave the code to. There is no chat, no free text and no names: players show as P1 to P4, and the only messages are eight preset emotes such as a thumbs-up or GG."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "mild-cartoon-violence"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "storm-start",
+        "format": "rewarded",
+        "reward": "start the next match with a full Daubstorm meter, given only when the video completes"
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "34909bc5db91",
+  "builtAt": "2026-10-31T15:21:32.980Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 708342,
+    "initial": 460319
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "5f866a9030150fcd9c29f664f63ccc7d90fc1038535db3115635b0f1b42d3d43",
+      "bytes": 1104
+    },
+    {
+      "path": "app.f649e0f2.js",
+      "sha256": "34909bc5db91aae693a29b931d04f065bede89c5b2f2d01114291def446c0d99",
+      "bytes": 326359
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "a5cdaea8ea001a923f9954e7f0fa11e8ec8d9985724084a54f8ed140114b215a",
+      "bytes": 3007
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "90b842056ceeec6f7c78d4edec5bb92cf284b3a680868d7ff93c9983afba32f1",
+      "bytes": 100078
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "3008f05f469d8eb80f7a3811fefb71d3ed443c2d0e187e132e9b28de79ae68ca",
+      "bytes": 102804
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "ed4cc245815b20f041843c44571c9c757dd09acfea858680bd2a9368253b83ab",
+      "bytes": 35264
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}
