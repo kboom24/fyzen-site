@@ -6,16 +6,6 @@
   var store={get:function(k,d){try{var v=localStorage.getItem(k);return v==null?d:JSON.parse(v);}catch(e){return d;}},
              set:function(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
   var FZ=window.FZ={};
-  /* UI-only subscription flag. Not secure. A real paywall needs server-side checks. */
-  var SUB_KEY='fz-preview-subscribed';
-  FZ.subscribed=function(){return store.get(SUB_KEY,false)===true;};
-  FZ.setSubscribed=function(on){store.set(SUB_KEY,!!on);FZ.syncPlayGate();};
-  FZ.goPlans=function(){location.href='plans.html';};
-  FZ.syncPlayGate=function(){
-    var on=FZ.subscribed();
-    document.querySelectorAll('.fz-play-gate').forEach(function(el){el.hidden=on;});
-    document.querySelectorAll('[data-fz-sim-sub]').forEach(function(inp){inp.checked=on;});
-  };
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   function $$(s){return Array.prototype.slice.call(document.querySelectorAll(s));}
   FZ.game=function(s){for(var i=0;i<D.games.length;i++)if(D.games[i].s===s)return D.games[i];return null;};
@@ -39,7 +29,7 @@
   FZ.spot=function(g){
     return '<article class="fz-spot"><a class="fz-spot-view" href="'+href(g)+'" aria-label="See '+esc(g.name)+'"></a>'+FZ.art(g)+'<div class="fz-spot-tags"><span class="fz-badge fz-badge--featured">Featured</span><span class="fz-eng">'+esc(g.engine)+'</span></div>'+
       '<h3 class="fz-spot-title"><a href="'+href(g)+'">'+esc(g.name)+'</a></h3><p class="fz-spot-desc">'+esc(g.desc)+'</p>'+
-      '<div class="fz-spot-foot"><span class="fz-spot-kind">'+esc(g.kind)+' · '+esc(FZ.type(g).label)+'</span><a class="fz-btn fz-btn--dark" href="'+href(g)+'" data-fz-need-sub>'+I('play')+'Play</a></div></article>';};
+      '<div class="fz-spot-foot"><span class="fz-spot-kind">'+esc(g.kind)+' · '+esc(FZ.type(g).label)+'</span><a class="fz-btn fz-btn--dark" href="'+href(g)+'">'+I('play')+'Play</a></div></article>';};
   FZ.resume=function(g){return '<a class="fz-resume" href="'+href(g)+'"><div class="fz-thumb">'+FZ.art(g,'thumb')+'</div><div><b>'+esc(g.name)+'</b><small>Resume</small></div></a>';};
   FZ.rec=function(g){return '<a class="fz-rec" href="'+href(g)+'"><div class="fz-thumb">'+FZ.art(g,'thumb')+'</div><div><b>'+esc(g.name)+'</b><small>'+esc(g.engine)+' · '+esc(FZ.type(g).label)+'</small></div></a>';};
 
@@ -85,7 +75,7 @@
   }
 
   /* Game stage: in-stage play, live FPS, load time, fullscreen */
-  function play(stage){if(!FZ.subscribed()){FZ.goPlans();return;}var card=stage.closest('[data-fz-stage]'),s=card.getAttribute('data-fz-stage');if(stage.classList.contains('is-playing'))return;
+  function play(stage){var card=stage.closest('[data-fz-stage]'),s=card.getAttribute('data-fz-stage');if(stage.classList.contains('is-playing'))return;
     var g=FZ.game(s),t0=performance.now(),fr=document.createElement('iframe');
     fr.src=s+'/index.html';fr.title=g?g.name:s;fr.allow='fullscreen; autoplay; gamepad';fr.setAttribute('allowfullscreen','');
     stage.classList.add('is-playing');stage.appendChild(fr);FZ.markPlayed(s);renderSaved();
@@ -99,7 +89,6 @@
   }
 
   document.addEventListener('click',function(e){
-    var need=e.target.closest('[data-fz-need-sub]'); if(need && !FZ.subscribed()){e.preventDefault();FZ.goPlans();return;}
     var b=e.target.closest('[data-fz-bookmark]'); if(b){e.preventDefault();e.stopPropagation();FZ.toggleSaved(b.getAttribute('data-fz-bookmark'));return;}
     if(e.target.closest('[data-fz-theme]')){FZ.setTheme(root.getAttribute('data-theme')==='dark'?'light':'dark');return;}
     if(e.target.closest('[data-fz-drawer]')){var o=document.body.classList.toggle('fz-drawer-open');$$('[data-fz-drawer]').forEach(function(x){x.setAttribute('aria-expanded',o);});return;}
@@ -122,30 +111,25 @@
 
   fill(); renderLocal(); search(); renderSaved();
   var eng=new URLSearchParams(location.search).get('engine'); if(eng)applyEngine(eng);
-  FZ.syncPlayGate();
-  document.querySelectorAll('[data-fz-sim-sub]').forEach(function(inp){
-    inp.addEventListener('change', function(){
-      FZ.setSubscribed(inp.checked);
-      var toast=document.querySelector('.fz-toast');
-      if(!toast){toast=document.createElement('div');toast.className='fz-toast';toast.setAttribute('role','status');document.body.appendChild(toast);}
-      toast.textContent=inp.checked?'Preview only — subscription simulated in this browser. Not a real purchase.':'Preview subscription cleared. Play will go to Plans.';
-      toast.classList.add('is-on');
-      clearTimeout(toast._t);
-      toast._t=setTimeout(function(){toast.classList.remove('is-on');},2800);
-    });
-  });
 })();
 
 (function(){
+  function closeParentModal(){
+    var m=document.querySelector('[data-fz-parent-modal]');
+    if(m) m.hidden=true;
+  }
   document.addEventListener('click', function(e){
-    var b = e.target.closest('[data-fz-subscribe]');
-    if(!b) return;
-    e.preventDefault();
-    var t = document.querySelector('.fz-toast');
-    if(!t){ t=document.createElement('div'); t.className='fz-toast'; t.setAttribute('role','status'); document.body.appendChild(t); }
-    t.textContent='Placeholder only — payments are not wired up yet.';
-    t.classList.add('is-on');
-    clearTimeout(t._t);
-    t._t=setTimeout(function(){ t.classList.remove('is-on'); }, 2800);
+    if(e.target.closest('[data-fz-parent-cta]')){
+      e.preventDefault();
+      var m=document.querySelector('[data-fz-parent-modal]');
+      if(m) m.hidden=false;
+      return;
+    }
+    if(e.target.matches('[data-fz-parent-modal]') || e.target.closest('[data-fz-parent-modal-close]')){
+      closeParentModal();
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape') closeParentModal();
   });
 })();

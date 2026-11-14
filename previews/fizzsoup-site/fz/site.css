@@ -263,3 +263,19 @@ body.fz{font-family:var(--fz-font);font-weight:600}
   font-size:18px;font-weight:700;color:#FFD400;cursor:pointer
 }
 .fz-sim-sub input{width:20px;height:20px;accent-color:#FFD400}
+
+
+/* No ads or ad-break placeholders on FizzSoup. */
+.fz-ad-card,.fz-ad,.fz-sponsor-unit,.fz-ad-btn{display:none!important}
+.fz-plan-grid--single{grid-template-columns:minmax(0,420px);justify-content:center}
+.fz-modal[hidden]{display:none}
+.fz-modal{
+  position:fixed;inset:0;z-index:90;display:grid;place-items:center;
+  background:rgba(0,16,60,.62)
+}
+.fz-modal-card{
+  background:var(--fz-panel);border:2px solid #FFD400;border-radius:var(--fz-r-xl);
+  padding:28px 24px;max-width:420px;width:calc(100% - 32px);text-align:center
+}
+.fz-modal-card h2{margin:0 0 10px;font-family:var(--fz-display);font-size:28px;color:#FFD400}
+.fz-modal-card p{margin:0 0 18px;color:var(--fz-text-2);font-weight:700}
