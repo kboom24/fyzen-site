@@ -192,6 +192,12 @@
 /plop-planets
   X-Robots-Tag: noindex, nofollow
 
+/pinpull-pals/*
+  X-Robots-Tag: noindex, nofollow
+
+/pinpull-pals
+  X-Robots-Tag: noindex, nofollow
+
 /ragdoll-archery/*
   X-Robots-Tag: noindex, nofollow
 
