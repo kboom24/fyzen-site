@@ -198,7 +198,11 @@
         if (v.parentNode) v.parentNode.removeChild(v);
       }, true);
       mount.appendChild(v);
-      nodes.push({ el: el, v: v, onScreen: false, primed: false });
+      var shown = !el.hasAttribute('hidden');
+      if (shown){
+        v.preload = 'auto';
+      }
+      nodes.push({ el: el, v: v, onScreen: shown, primed: shown });
     });
 
     function isShown(el){
@@ -233,6 +237,7 @@
         sync();
       }, { threshold: [0, 0.15, 0.5] });
       nodes.forEach(function(n){ io.observe(n.el); });
+      sync();
     } else {
       nodes.forEach(function(n){ n.onScreen = true; });
       sync();

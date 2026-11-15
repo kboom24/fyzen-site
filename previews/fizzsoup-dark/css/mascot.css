@@ -79,6 +79,12 @@
   max-width:42ch;max-height:42px
 }
 .hero-banner .hero{padding-left:48px;padding-right:48px}
+.hero .btn.is-soon{
+  pointer-events:none;cursor:default;align-self:flex-start
+}
+.hero .btn.is-soon:hover,
+.hero .btn.is-soon:active{transform:none;filter:none}
+
 
 /* Second slot: 16:9 art on top (exact ratio, no stretch), compact meta below */
 .hero-row .new-card{
