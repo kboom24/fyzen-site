@@ -326,19 +326,36 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
 .row{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:12px}
 .grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:12px}
 .gcard{
-  display:flex;flex-direction:column;min-width:0;min-height:0;height:160px;
-  border-radius:var(--radius-card);overflow:hidden;background:var(--surface);color:var(--card-text);
-  transition:transform var(--transition)
+  position:relative;display:block;min-width:0;min-height:0;aspect-ratio:4/3;height:auto;
+  border-radius:var(--radius-card);color:#fff;
+  transition:transform 180ms ease-out;transform-origin:50% 55%;-webkit-tap-highlight-color:transparent
 }
-.gcard .thumb{flex:1;min-height:0;overflow:hidden;background:var(--surface)}
+.gcard::before{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:0 16px 34px rgba(0,0,0,.5),0 4px 10px rgba(0,0,0,.3);opacity:0;transition:opacity 180ms ease-out;pointer-events:none}
+.gcard .thumb{position:absolute;inset:0;border-radius:inherit;overflow:hidden;background:var(--surface);isolation:isolate}
 .gcard .thumb img{width:100%;height:100%;object-fit:cover}
-.gcard .meta{padding:8px 10px 10px;flex:none}
-.gcard h3{margin:0 0 2px;font-weight:800;font-size:16px;line-height:20px;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--card-text)}
-.gcard .star{display:flex;align-items:center;gap:4px;margin:0 0 1px;color:var(--brand-yellow);font-size:13px;font-weight:600;line-height:16px}
-.gcard .star svg{width:14px;height:14px;flex:none;color:var(--brand-yellow);fill:var(--brand-yellow)}
-.gcard small{display:block;color:var(--card-muted);font-size:13px;font-weight:500;line-height:16px}
-@media (hover:hover){
-  .gcard:hover{transform:scale(1.025)}
+.gcard .meta{
+  position:absolute;left:0;right:0;bottom:0;z-index:3;padding:22px 9px 7px;white-space:nowrap;overflow:hidden;border-radius:0 0 var(--radius-card) var(--radius-card);
+  background:linear-gradient(180deg,rgba(11,13,18,0) 0%,rgba(11,13,18,.6) 42%,rgba(11,13,18,.92) 100%);
+  opacity:0;transition:opacity 180ms ease-out;pointer-events:none
+}
+.gcard h3{margin:0 0 2px;font-weight:800;font-size:15px;line-height:19px;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.5)}
+.gcard .star{display:inline-flex;vertical-align:top;align-items:center;gap:3px;margin:0;color:var(--brand-yellow);font-size:12px;font-weight:700;line-height:15px}
+.gcard .star svg{width:13px;height:13px;flex:none;color:var(--brand-yellow);fill:var(--brand-yellow)}
+.gcard small{display:inline;color:rgba(255,255,255,.82);font-size:12px;font-weight:600;line-height:15px}
+.gcard small::before{content:"\00b7";margin:0 4px;color:rgba(255,255,255,.6)}
+.gcard:focus-visible{outline:none}
+.gcard:focus-visible .thumb{box-shadow:inset 0 0 0 3px var(--brand-yellow)}
+.gcard:hover,.gcard:focus-visible{z-index:6}
+.gcard:hover::before,.gcard:focus-visible::before{opacity:1}
+.gcard:hover .meta,.gcard:focus-visible .meta{opacity:1}
+@media (hover:hover) and (pointer:fine){
+  .gcard:hover,.gcard:focus-visible{transform:scale(1.13)}
+}
+@media (hover:none){
+  .gcard:focus-visible{transform:none}
+  .gcard .meta{opacity:1;padding:3px 7px 4px;background:rgba(11,13,18,.5)}
+  .gcard .meta .star,.gcard .meta small{display:none}
+  .gcard h3{margin:0;font-size:12px;line-height:16px;font-weight:700}
 }
 
 .rewards{
@@ -460,7 +477,7 @@ h1,h2,h3{margin:0;letter-spacing:-.04em}
 
 @media (prefers-reduced-motion:reduce){
   *{animation:none!important;transition:none!important}
-  .btn:hover,.gcard:hover,.tile:hover{transform:none}
+  .btn:hover,.gcard:hover,.gcard:focus-visible,.tile:hover{transform:none}
 }
 
 /* 1440+ already uses the master tokens (214px sidebar, 8-col grid). */

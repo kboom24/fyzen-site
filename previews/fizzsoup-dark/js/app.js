@@ -191,4 +191,4 @@
   })();
 
 /* Hover gameplay previews (separate module, same origin). */
-(function(){var s=document.createElement("script");s.src="js/hover-preview.js?v=1";s.defer=true;document.head.appendChild(s);})();
+(function(){var s=document.createElement("script");s.src="js/hover-preview.js?v=2";s.defer=true;document.head.appendChild(s);})();

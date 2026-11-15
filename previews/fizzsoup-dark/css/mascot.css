@@ -236,7 +236,7 @@
 .row-scroll .row{
   display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;
   scrollbar-width:none;-webkit-overflow-scrolling:touch;
-  padding:0 0 2px
+  padding:16px 14px 18px;margin:-16px -14px -18px;scroll-padding-inline:14px
 }
 .row-scroll .row::-webkit-scrollbar{display:none}
 .row-scroll .gcard{

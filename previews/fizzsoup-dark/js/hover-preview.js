@@ -15,13 +15,12 @@
   if(!canWebm && !canMp4) return;
 
   var st=document.createElement('style');
-  st.textContent='.gcard .thumb{position:relative}'+
-    '.gcard .fs-hv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 160ms ease-out;pointer-events:none;background:transparent}'+
+  st.textContent=    '.gcard .fs-hv{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 160ms ease-out;pointer-events:none;background:transparent}'+
     '.gcard .fs-hv.is-on{opacity:1}'+
     '.gcard.fs-hv-press{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}';
   document.head.appendChild(st);
 
-  var RATE=1; /* clips are already encoded at about 1.4x */
+  var RATE=1; /* clips are already encoded at about 2.2x */
   var cur=null, timer=0;
 
   function clipFor(card){
