@@ -155,4 +155,96 @@
       cont.hidden = false;
     }
   }
+
+
+  /* Featured banner previews: autoplay muted loop in the 16:9 slots.
+     Poster only when the user prefers reduced motion or has Save-Data on.
+     Pause when a slide is hidden, when the banner is offscreen, or when the tab is hidden. */
+  (function featuredPreviews(){
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var saveData = navigator.connection && navigator.connection.saveData;
+    if (reduce || saveData) return;
+
+    var hosts = $$('[data-hero-slide][data-clip], .hero-row .new-card[data-clip]');
+    if (!hosts.length) return;
+
+    var nodes = [];
+    hosts.forEach(function(el){
+      var base = el.getAttribute('data-clip');
+      if (!base) return;
+      if (base.charAt(base.length - 1) !== '/') base += '/';
+      var mount = el.querySelector('.art') || el;
+      var v = document.createElement('video');
+      v.className = 'fs-feat-vid';
+      v.muted = true;
+      v.defaultMuted = true;
+      v.setAttribute('muted', '');
+      v.loop = true;
+      v.playsInline = true;
+      v.setAttribute('playsinline', '');
+      v.setAttribute('webkit-playsinline', '');
+      v.preload = 'none';
+      v.setAttribute('aria-hidden', 'true');
+      v.poster = base + 'poster.webp';
+      var webm = document.createElement('source');
+      webm.src = base + 'preview.webm';
+      webm.type = 'video/webm';
+      var mp4 = document.createElement('source');
+      mp4.src = base + 'preview.mp4';
+      mp4.type = 'video/mp4';
+      v.appendChild(webm);
+      v.appendChild(mp4);
+      v.addEventListener('error', function(){
+        if (v.parentNode) v.parentNode.removeChild(v);
+      }, true);
+      mount.appendChild(v);
+      nodes.push({ el: el, v: v, onScreen: false, primed: false });
+    });
+
+    function isShown(el){
+      return !el.hasAttribute('hidden');
+    }
+
+    function sync(){
+      var hiddenTab = document.hidden;
+      nodes.forEach(function(n){
+        if (!n.v.parentNode) return;
+        var on = !hiddenTab && n.onScreen && isShown(n.el);
+        if (on){
+          if (!n.primed){
+            n.v.preload = 'auto';
+            n.primed = true;
+          }
+          var p = n.v.play();
+          if (p && p.catch) p.catch(function(){});
+        } else if (!n.v.paused){
+          n.v.pause();
+        }
+      });
+    }
+
+    if (typeof IntersectionObserver === 'function'){
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){
+          nodes.forEach(function(n){
+            if (n.el === en.target) n.onScreen = en.isIntersecting && en.intersectionRatio > 0;
+          });
+        });
+        sync();
+      }, { threshold: [0, 0.15, 0.5] });
+      nodes.forEach(function(n){ io.observe(n.el); });
+    } else {
+      nodes.forEach(function(n){ n.onScreen = true; });
+      sync();
+    }
+
+    if (typeof MutationObserver === 'function'){
+      var mo = new MutationObserver(sync);
+      nodes.forEach(function(n){
+        mo.observe(n.el, { attributes: true, attributeFilter: ['hidden'] });
+      });
+    }
+    document.addEventListener('visibilitychange', sync);
+  })();
+
 })();
