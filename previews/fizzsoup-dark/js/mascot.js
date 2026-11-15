@@ -1,4 +1,4 @@
-/* Mascot tips, corner-peek dismissal, shop filters, home row arrows, game-load overlay.
+/* Mascot tips, corner-peek dismissal, shop filters, continue-playing, game-load overlay.
    Does not touch the thumbnail hover module in app.js. */
 (function(){
   var $ = function(s, r){ return (r||document).querySelector(s); };
@@ -11,7 +11,7 @@
     'search for a game by name in the bar at the top.',
     'Favorites stay on this device — nothing is sent anywhere.',
     'games play in your browser. There is no download.',
-    'swipe a category row, or use the arrows, to see every game in it.'
+    'games you open on this device show up under Continue Playing on the home page.'
   ];
   function tipIndex(){
     var d = new Date();
@@ -108,4 +108,51 @@
     });
   }
   $$('[data-stage]').forEach(bindLoad);
+
+  /* Recently played — this device only. Writes fs-recent; also reads fz-recent
+     from the earlier FizzSoup preview on the same GitHub Pages origin. */
+  var RECENT_KEY = 'fs-recent';
+  var RECENT_FALLBACK = 'fz-recent';
+  function readList(key){
+    try{
+      var a = JSON.parse(localStorage.getItem(key) || '[]');
+      return Array.isArray(a) ? a.filter(function(s){ return typeof s === 'string' && s; }) : [];
+    }catch(e){ return []; }
+  }
+  function recentSlugs(){
+    var a = readList(RECENT_KEY);
+    return a.length ? a : readList(RECENT_FALLBACK);
+  }
+  function markPlayed(slug){
+    if (!slug) return;
+    var a = recentSlugs().filter(function(s){ return s !== slug; });
+    a.unshift(slug);
+    try{ localStorage.setItem(RECENT_KEY, JSON.stringify(a.slice(0, 24))); }catch(e){}
+  }
+  var stageEl = $('[data-stage]');
+  if (stageEl){
+    var src = stageEl.getAttribute('data-src') || '';
+    var slug = src.split('/')[0];
+    if (slug) markPlayed(slug);
+    $$('[data-play]').forEach(function(b){
+      b.addEventListener('click', function(){ markPlayed(slug); });
+    });
+  }
+
+  /* Continue Playing: show a row of recently played games, or hide the row entirely. */
+  var cont = $('[data-continue]');
+  var dest = $('[data-continue-row]');
+  var grid = $('[data-home-grid]');
+  if (cont && dest && grid){
+    var slugs = recentSlugs().filter(function(s){
+      return !!grid.querySelector('.gcard[data-slug="' + s + '"]');
+    }).slice(0, 8);
+    if (slugs.length){
+      slugs.forEach(function(s){
+        var card = grid.querySelector('.gcard[data-slug="' + s + '"]');
+        if (card) dest.appendChild(card.cloneNode(true));
+      });
+      cont.hidden = false;
+    }
+  }
 })();
