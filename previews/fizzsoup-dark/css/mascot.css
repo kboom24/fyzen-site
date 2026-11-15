@@ -1,22 +1,35 @@
 /* Mascot, shop, compact premium, featured mascot panel, and home category rows. */
 
-/* ----- Featured row: 1.23:1 mascot panel + 16:9 carousel + wider NEW card ----- */
+/* ----- Featured row: unified mascot+carousel banner + smaller NEW card ----- */
 .main{container-type:inline-size;container-name:main}
-:root{ --featured-height:320px }
+:root{ --featured-height:360px }
 .hero-row{
-  /* Cap at 320px; below 1290px content width, scale so the panel stays ~1.23:1 and the carousel 16:9 */
-  --fh: min(320px, calc(100cqi * 320 / 1290));
+  /* Banner width is everything but the secondary NEW card. Height keeps the mascot at ~1.23:1
+     and the game pane near 16:9 so art is covered, never stretched. */
+  --new-w: var(--promo-width);
+  --hero-gap: 12px;
+  --banner-w: calc(100cqi - var(--hero-gap) - var(--new-w));
+  --fh: min(360px, calc(var(--banner-w) / (1160 / 941 + 16 / 9)));
   display:grid;
-  grid-template-columns:calc(var(--fh) * 1160 / 941) calc(var(--fh) * 16 / 9) minmax(0,1fr);
+  grid-template-columns:minmax(0,1fr) var(--new-w);
   height:var(--fh);
-  gap:12px;
+  gap:var(--hero-gap);
   margin:0 0 var(--section-gap);
   align-items:stretch
 }
 .hero-row > *{min-height:0}
+.hero-banner{
+  display:grid;
+  grid-template-columns:calc(var(--fh) * 1160 / 941) minmax(0,1fr);
+  gap:0;
+  min-width:0;height:100%;
+  border-radius:var(--radius-panel);overflow:hidden;
+  background:var(--surface)
+}
+[data-theme="dark"] .hero-banner{box-shadow:inset 0 0 0 1px var(--border)}
 .hero-mascot{
   position:relative;min-width:0;height:100%;
-  border-radius:var(--radius-panel);overflow:hidden;background:var(--surface);
+  border-radius:0;overflow:hidden;background:var(--surface);
   container-type:inline-size
 }
 .hero-mascot picture,.hero-mascot img{
@@ -41,9 +54,9 @@
   text-shadow:0 1px 0 var(--brand-black)
 }
 .hero-lockup span{display:block}
-/* 16:9 carousel — fill native game art, no letterbox bars */
-.hero-wrap{min-width:0;height:100%}
-.hero{height:100%}
+/* Game pane fills the remaining banner; cover keeps native aspect, no distortion */
+.hero-wrap{min-width:0;height:100%;border-radius:0}
+.hero{height:100%;border-radius:0}
 .hero-art-fill{display:none}
 .hero-art{object-fit:cover;object-position:center center}
 .hero[data-game="moatball"] .hero-art{object-position:center 42%;transform:scale(1.08);transform-origin:center 42%}
@@ -52,39 +65,43 @@
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
   max-width:42ch;max-height:42px
 }
+.hero-banner .hero{padding-left:48px;padding-right:48px}
 @media (max-width:1199px){
-  .hero{padding-left:48px;padding-right:48px}
   .hero h2{font-size:40px}
 }
 @media (max-width:1023px){
   :root{ --featured-height:240px }
-  /* Hide the left panel before the carousel drops below 16:9 */
   .hero-row{
     --fh:var(--featured-height);
-    grid-template-columns:minmax(0,1fr) minmax(180px,var(--promo-width));
+    --new-w:minmax(168px,var(--promo-width));
+    grid-template-columns:minmax(0,1fr) var(--promo-width);
     height:var(--featured-height)
   }
+  .hero-banner{grid-template-columns:minmax(0,1fr)}
   .hero-mascot{display:none}
   .hero-row .hero,.hero-row .new-card{min-height:0;height:100%}
   .hero h2{font-size:36px}
 }
 @media (max-width:767px){
-  /* Carousel first, then NEW, then the mascot panel under them */
   .hero-row{
     --fh:auto;
+    --new-w:auto;
     grid-template-columns:1fr;
-    height:auto;
-    grid-template-areas:"carousel" "new" "mascot"
+    height:auto
+  }
+  .hero-banner{
+    grid-template-columns:1fr;
+    grid-template-areas:"carousel" "mascot";
+    height:auto
   }
   .hero-wrap{grid-area:carousel;height:auto;aspect-ratio:16/9}
   .hero{min-height:0;height:100%}
-  .new-card{grid-area:new;height:auto;min-height:200px}
+  .new-card{height:auto;min-height:180px}
   .hero-mascot{
     display:block;grid-area:mascot;height:auto;aspect-ratio:1160 / 941
   }
   .hero-lockup{
     font-size:22px;left:12px;
-    /* Sit above the fixed bottom nav so the lockup isn't covered when the panel is in view */
     bottom:calc(12px + 56px + env(safe-area-inset-bottom,0px));
     flex-direction:row;flex-wrap:nowrap;gap:.3em;
     -webkit-text-stroke:1.75px var(--brand-black);line-height:1
@@ -93,6 +110,20 @@
   .hero h2{font-size:32px}
 }
 
+/* All-games / catalog grid: 6 at the 1536 master, 5 around 1280–1366, 4 at 1024, 2 on phone.
+   Column sizing only — card internals stay with the thumbs-hover gcard. */
+.grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+@media (max-width:1439px){ .grid{grid-template-columns:repeat(5,minmax(0,1fr))} }
+@media (max-width:1279px){ .grid{grid-template-columns:repeat(4,minmax(0,1fr))} }
+@media (max-width:767px){ .grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+
+/* Continue Playing stays on the smaller ~8-up cards, one row on desktop, no horizontal scroll */
+@media (min-width:768px){
+  .continue-sec .row{grid-template-columns:repeat(8,minmax(0,1fr));overflow:visible}
+}
+@media (max-width:767px){
+  .continue-sec .row{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
 
 /* ----- Sidebar Shop + Soon badge ----- */
 .soon-badge{
