@@ -1,26 +1,24 @@
 /* Mascot, shop, compact premium, featured mascot panel, and home category rows. */
 
 /* ----- Featured row: aspect-locked mascot + 16:9 main + 16:9 second -----
-   At the 1536 master (content 1290px, 12px gap):
-     --fh 306.76px
-     mascot 378.16 x 306.76  (1160/941)
-     main   545.36 x 306.76  (16/9)
-     second 354.48 x 306.76  (width = 0.65 * main; art 354.48 x 199.40 is 16/9)
-   Width proportions ~ 1 : 1.44 : 0.94. Main and second art never stretch:
-   object-fit:cover only inside exact aspect boxes. */
+   Fills the full content column (100cqi, same right edge as the game grid).
+   Height grows with width so aspects stay locked: mascot 1160/941, both games 16/9.
+   Second width is 0.65 × main; the extra width goes to the main featured pane.
+   At the 1536 master (content 1290px, 12px gap): --fh 306.76, mascot 378, main 545, second 354.
+   object-fit:cover only inside exact aspect boxes — no stretch or squash. */
 .main{container-type:inline-size;container-name:main}
 :root{ --featured-height:306.76px }
 .hero-row{
   --hero-gap: 12px;
   --second-scale: 0.65;
   --parts: calc(1160 / 941 + 16 / 9 * (1 + var(--second-scale)));
-  --fh: calc((min(100cqi, 1290px) - var(--hero-gap)) / var(--parts));
+  --fh: calc((100cqi - var(--hero-gap)) / var(--parts));
   display:grid;
   grid-template-columns:
     calc(var(--fh) * (1160 / 941 + 16 / 9))
     calc(var(--fh) * 16 / 9 * var(--second-scale));
   width:100%;
-  max-width:1290px;
+  max-width:none;
   height:var(--fh);
   gap:var(--hero-gap);
   margin:0 0 var(--section-gap);
@@ -148,7 +146,7 @@
 @media (max-width:899px) and (min-width:768px){
   .hero-row{
     --parts: calc(16 / 9 * (1 + var(--second-scale)));
-    --fh: calc((min(100cqi, 1290px) - var(--hero-gap)) / var(--parts));
+    --fh: calc((100cqi - var(--hero-gap)) / var(--parts));
     grid-template-columns:
       calc(var(--fh) * 16 / 9)
       calc(var(--fh) * 16 / 9 * var(--second-scale));
