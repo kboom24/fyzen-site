@@ -1,0 +1,263 @@
+{
+  "manifestVersion": 1,
+  "slug": "flipfort",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Moatball",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "tower defense",
+    "pinball",
+    "strategy",
+    "flippers",
+    "castle",
+    "waves",
+    "daily challenge",
+    "leaderboard",
+    "one finger",
+    "arcade",
+    "physics",
+    "casual"
+  ],
+  "categories": [
+    "strategy",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Pinball tower defense: build bumpers and slingshots on the table, then flip one steel ball into the critters marching on your castle gate.",
+    "long": "Moatball is a pinball tower defense game. Your castle gate sits at the bottom of a pinball table, a moat runs across the middle, and waves of wind-up critters are marching down the table to tear the gate. You have one steel ball, two flippers and whatever you can build between waves.\n\nBetween waves you pick parts from three cards and drop them into sockets on the table. Pop Bumpers kick the ball hard and shake nearby critters. Slingshots fire the ball back supercharged. Spinners throw darts as the ball passes, and Rampart Posts make critters walk the long way round. Later you unlock Magnets that bend the ball and slow critters, Zappers that chain lightning, Kick Saucers that catch the ball and fire it at the toughest target, and Splitters that add a second ball for a few seconds. Every part levels up the more the ball hits it, so where you put it matters as much as what you buy.\n\nThen you start the wave and play pinball. The whole game works with one finger: touch and hold anywhere to raise both flippers, let go to drop them. Smash several critters in a row to build a combo up to x8 with a hit-stop crunch and a popup. Drain the ball and you lose the combo and half a heart from the gate. Six kinds of critter keep you changing your build: quick dashers, armoured shellbacks the ball must hit hard, flutters that fly over posts, splitbugs that burst into minis and shield bearers you must hit from behind. Every tenth wave brings a boss: the Tin Tortoise, the Ram Engine and the Clockwork Colossus.\n\nEach wave lasts about a minute or two and has three stars: clear it, clear it without a leak, and clear it without a leak while reaching a x4 combo. Spend coins on boosts such as Gate Repair, Heavy Ball and Ball Saver, and spend gears earned from every run in the Workshop on permanent upgrades. Survive 30 waves to beat the table, then keep going in endless mode. The Daily Table gives every player the same seed and twist for the day, such as Rush Hour, Twin Balls or Thrift Shop, with a streak to keep.\n\nAfter every run you see your best wave, your stars, the next unlock and where you would stand on the leaderboard. Until online leaderboards launch, that standing is an offline preview against sample players, and the game always says so. Share a card of your run with a challenge link that puts a friend on your exact table with your wave to beat. Progress saves automatically on your device. Moatball plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard, and screen shake can be turned off in Settings.",
+    "controls": "Touch and hold anywhere (or hold the mouse button) to raise both flippers, release to drop them. Between waves, drag a part card onto a socket or tap a card to buy it, drag parts to move or swap them, drag a part onto the bin to sell it, and tap the boost card to buy it. Keyboard: Space, arrow keys, Z, X or Shift flip; N starts the next wave. Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I flip?",
+        "a": "Touch and hold anywhere on the screen to raise both flippers at once, and let go to drop them. There is no left or right flipper button, so the whole game works with one finger."
+      },
+      {
+        "q": "How do I earn three stars on a wave?",
+        "a": "One star for clearing the wave, two if no critter reaches the gate, and three if no critter reaches the gate and you also hit a x4 combo during the wave."
+      },
+      {
+        "q": "What happens when the ball drains?",
+        "a": "You lose your combo and half a heart from the gate, and a new ball is served. Ball Saver boosts give you a few free seconds after each serve."
+      },
+      {
+        "q": "How do I unlock new parts?",
+        "a": "Magnets unlock when you first reach wave 3, Zappers at wave 6, Kick Saucers at wave 9 and Splitters at wave 14. Gears from every run buy permanent Workshop upgrades."
+      },
+      {
+        "q": "What is the Daily Table?",
+        "a": "One seed and one twist, such as Rush Hour or Twin Balls, that is the same for every player that day, with all parts available. Play it every day to build a streak."
+      },
+      {
+        "q": "Are the global ranks real?",
+        "a": "Not yet. Until online leaderboards launch, ranks are an offline preview against sample players, and every rank is labelled OFFLINE PREVIEW."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/hover.480x480.webm",
+      "w": 480,
+      "h": 480,
+      "variant": "video",
+      "format": "webm"
+    },
+    {
+      "src": "thumbs/hover.480x480.mp4",
+      "w": 480,
+      "h": 480,
+      "variant": "video",
+      "format": "mp4"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "continue the run with the gate back at 10 hearts (once per run)"
+      },
+      {
+        "name": "double-gears",
+        "format": "rewarded",
+        "reward": "double the gears earned in the run just played"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "stars",
+    "leaderboard-ready",
+    "endless"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "e45b358f14fb",
+  "builtAt": "2026-10-31T06:51:11.548Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 834563,
+    "initial": 396444
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "96db9d64b2960d4c015e79f5601a100460f1a22fac070452666be494757bb025",
+      "bytes": 1032
+    },
+    {
+      "path": "app.993b5452.js",
+      "sha256": "e45b358f14fbcc5d086214948e8bdf7bf849450514eb8e6d4a2c8dcce10cad79",
+      "bytes": 262488
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "5c7ddfcaee974b7a049433da325d0c4a2cdd8a6ed0259c24fd0c420da001b215",
+      "bytes": 3003
+    },
+    {
+      "path": "thumbs/hover.480x480.mp4",
+      "sha256": "a23a76b04444280aee8e062a5d54edff987a67f5315e4b6b74d8e713bbc9f695",
+      "bytes": 127873
+    },
+    {
+      "path": "thumbs/hover.480x480.webm",
+      "sha256": "18a464df93a673fcff1db59c0bd2671dd6ab7d250008673283697907c4da633c",
+      "bytes": 146015
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "33cc87803a93c0db810a861754eba7fd10cdd9156f22a4769ef23ddff0581ca6",
+      "bytes": 62176
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "ceb8fa6c031519fdd6d62a2d791d25ed5f9c74615d0328461d768f44676278f9",
+      "bytes": 57916
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "7b78176745007e56703be1d1106a0f679ece82c650cc06cdacc48a110d911f43",
+      "bytes": 34334
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

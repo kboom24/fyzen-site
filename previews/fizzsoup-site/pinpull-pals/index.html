@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#24136e">
+<title>Pinpull Pals</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="stage"><div id="app">
+  <canvas id="cv" width="360" height="640" aria-label="Pinpull Pals game board"></canvas>
+
+  <div id="hud" hidden>
+    <button id="bPause" class="ico" aria-label="Pause"><span class="pz"></span></button>
+    <div id="pill"><b id="hLevel">Level 1</b><span id="hGems">0 / 0</span></div>
+    <button id="bHint" class="ico" aria-label="Hint"><span class="g">?</span></button>
+    <button id="bRetry" class="ico" aria-label="Restart level"><span class="g">&#8635;</span></button>
+  </div>
+  <div id="tip" hidden></div>
+  <div id="toast" hidden></div>
+
+  <section id="sTitle" class="screen">
+    <h1 class="logo"><span>Pinpull</span><span class="l2">Pals</span></h1>
+    <div class="grow"></div>
+    <p id="tStars" class="chip">&#9733; 0 / 72</p>
+    <button id="bPlay" class="btn primary big">Play</button>
+    <div class="row">
+      <button id="bLevels" class="btn">Levels</button>
+      <button id="bSkins" class="btn pink">Pals</button>
+      <button id="bSound" class="btn blue">Sound: On</button>
+    </div>
+    <button id="bReset" class="link">Reset progress</button>
+  </section>
+
+  <section id="sLevels" class="screen" hidden>
+    <h2 class="head">Pick a level</h2>
+    <div id="grid"></div>
+    <button id="bLevelsBack" class="btn">Back</button>
+  </section>
+
+  <section id="sSkins" class="screen" hidden>
+    <h2 class="head">Choose your Pal</h2>
+    <p class="sub">Earn stars to unlock new friends</p>
+    <div id="skins"></div>
+    <button id="bSkinsBack" class="btn">Back</button>
+  </section>
+
+  <section id="oWin" class="overlay" hidden><div class="card">
+    <h2 id="wTitle">Rescued!</h2>
+    <div id="wStars"><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i></div>
+    <p id="wInfo"></p>
+    <button id="bNext" class="btn primary big">Next level</button>
+    <div class="row">
+      <button id="bReplay" class="btn">Replay</button>
+      <button id="bShare" class="btn pink">Share</button>
+    </div>
+  </div></section>
+
+  <section id="oFail" class="overlay" hidden><div class="card">
+    <h2 id="fTitle">Oh no!</h2>
+    <p id="fInfo"></p>
+    <button id="bFailRetry" class="btn primary big">Try again</button>
+    <div class="row">
+      <button id="bFailHint" class="btn blue">Show hint</button>
+      <button id="bFailLevels" class="btn">Levels</button>
+    </div>
+  </div></section>
+
+  <section id="oPause" class="overlay" hidden><div class="card">
+    <h2>Paused</h2>
+    <button id="bResume" class="btn primary big">Resume</button>
+    <button id="bPRestart" class="btn">Restart level</button>
+    <button id="bPLevels" class="btn">Levels</button>
+    <button id="bPSound" class="btn blue">Sound: On</button>
+    <button id="bPHome" class="btn pink">Home</button>
+  </div></section>
+
+  <section id="oConfirm" class="overlay" hidden><div class="card">
+    <h2>Reset everything?</h2>
+    <p>All stars, gems and unlocked Pals will be erased.</p>
+    <div class="row">
+      <button id="bResetNo" class="btn primary">Keep</button>
+      <button id="bResetYes" class="btn pink">Erase</button>
+    </div>
+  </div></section>
+
+  <section id="oShare" class="overlay" hidden><div class="card">
+    <h2>Share your score</h2>
+    <textarea id="shareText" readonly rows="4"></textarea>
+    <button id="bShareClose" class="btn primary">Done</button>
+  </div></section>
+</div></div>
+<script src="./js/sim.js"></script>
+<script src="./js/art.js"></script>
+<script src="./js/audio.js"></script>
+<script src="./js/game.js"></script>
+</body>
+</html>

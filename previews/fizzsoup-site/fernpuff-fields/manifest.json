@@ -1,0 +1,246 @@
+{
+  "manifestVersion": 1,
+  "slug": "fernpuff-fields",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Fernpuff Fields",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "merge",
+    "idle",
+    "cute",
+    "animals",
+    "garden",
+    "seasons",
+    "collection",
+    "relaxing",
+    "daily challenge",
+    "one-handed",
+    "cozy",
+    "evolve"
+  ],
+  "categories": [
+    "merge",
+    "idle",
+    "casual"
+  ],
+  "description": {
+    "short": "Drag two matching meadow friends together to grow them through 12 tiers, earn coins even while away, and fill your friend book across four seasons.",
+    "long": "Fernpuff Fields is a cozy idle merge game about growing a meadow full of tiny friends. Tap the seed bag to plant a sprout, then drag two identical friends onto each other and watch them pop, squash and stretch into the next creature: a Dewdrop Seed becomes a Peep Sprout, then a Clover Puff, and twelve tiers later a glowing Spring Keeper. Every friend on the board makes coins every second, and bigger friends make far more, so each merge makes your meadow richer.\n\nSpend coins on more seeds and on three garden upgrades: Better Seeds plant higher-tier friends, the Sprinkler plants free friends on a timer, and the Lucky Clover sometimes makes a merge jump two tiers. Quick merges build chains for bonus coins, and a wandering Wishpuff floats across the meadow now and then for an extra payout if you tap it.\n\nThere are four seasons, each with its own line of twelve species. Spring starts with bunnies and lambs, Summer brings froggos and ladybugs, Autumn has leaf piles to rake and foxes to find, and Winter hides gifts under snowdrifts. Every season opens with a goal card and three stars to earn: grow the goal friend, do it within the meadow time limit, and finish all four season quests first. Your progress shows in the HUD, and a results screen explains every star you earned or missed. Earning a star unlocks the next season.\n\nEvery first discovery gets its own reveal card and a page in the Friend Book, which collects all 48 creatures with names and little stories. Stars, discoveries and daily streaks unlock hats and board themes. The Daily Bloom Rush is a 75-second merge sprint on a board seeded by the date, with a streak and a saved best score.\n\nYour friends keep earning while you are away (at half rate, for up to three hours), and a welcome-back panel shows what they made. Progress saves automatically on your device. No account or download needed. Plays one-handed on a phone or with a mouse and keyboard on desktop, in portrait or landscape.",
+    "controls": "Drag a friend onto an identical friend to merge them (mouse or touch). Tap the seed bag or press Space to plant. S opens the shop, Q the quests, B the friend book. Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I get coins?",
+        "a": "Every friend on the board earns coins each second. Merging pays a bonus, quick merge chains pay more, and tapping a friend or catching a floating Wishpuff gives extra coins."
+      },
+      {
+        "q": "Do my friends earn while I'm away?",
+        "a": "Yes. When you come back you get half of your live income for the time you were gone, up to three hours, shown in a welcome-back panel."
+      },
+      {
+        "q": "How do I unlock the next season?",
+        "a": "Earn at least one star in a season by growing its goal friend. The goal card shows the three star rules: the goal, a time limit and finishing all four quests."
+      },
+      {
+        "q": "What is the Daily Bloom Rush?",
+        "a": "A 75-second merge sprint on a board that is the same for everyone each day. Play daily to build your streak, which also unlocks hats and themes."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes, automatically on this device. Replanting a season resets only that season's board and coins; stars, discoveries and unlocks are kept."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "boost-2x",
+        "format": "rewarded",
+        "reward": "Double coin income for 3 minutes (stacks up to 10 minutes)"
+      },
+      {
+        "name": "double-offline",
+        "format": "rewarded",
+        "reward": "Doubles the coins your friends earned while you were away"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "d7224551500a",
+  "builtAt": "2026-10-27T09:27:44.666Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 559852,
+    "initial": 389252
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "b079a3adf5527d3521fea5a978052958298c84806b5ffc1fa287e900bdcd123f",
+      "bytes": 2089
+    },
+    {
+      "path": "app.5b1f0b52.js",
+      "sha256": "d7224551500a3f848735fa471918f1af9944c531755972fd373d6c60cc4372cb",
+      "bytes": 255082
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "6e13068cba2a0c74cb2e32d466f788a24c6113d56962616192713948785e3612",
+      "bytes": 3217
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "08928832369d4aefc3f1e0b6cea1a5203d7460289eb59baf6c26d4a7e8e24302",
+      "bytes": 64024
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "03d7319bde18de935a6962f4f4c553c589d8702886afb253894db3f0fed34c6f",
+      "bytes": 65132
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "cd3c7e67be0a1b28bbab2b44445ed4b75e588d54d5866e77365d9f04a84a2dce",
+      "bytes": 30582
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

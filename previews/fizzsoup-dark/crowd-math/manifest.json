@@ -1,0 +1,255 @@
+{
+  "manifestVersion": 1,
+  "slug": "crowd-math",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 3,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Multiplatoon",
+  "version": "1.0.4",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "crowd runner",
+    "math",
+    "times tables",
+    "multiplication",
+    "toy soldiers",
+    "educational",
+    "daily challenge",
+    "leaderboard",
+    "one hand",
+    "casual",
+    "levels",
+    "skins"
+  ],
+  "categories": [
+    "arcade",
+    "casual",
+    "puzzle"
+  ],
+  "description": {
+    "short": "Lead a squad of tin toy soldiers down a cardboard road. Pick the bigger times-table gate to grow your army and topple the castle at the end.",
+    "long": "Multiplatoon is a crowd-runner where your times tables are your weapon. You lead a squad of painted tin toy soldiers down a cardboard road laid across a bedroom floor, and every few steps the road splits into two cellophane gates propped up on pencils. Each gate shows a little sum: \"4×6\" adds twenty-four soldiers, \"×2\" doubles the whole squad, a red \"−3×5\" takes fifteen away and \"÷2\" halves you. Work out which side gives more, slide into it with one thumb and watch the platoon swell or shrink. A pop-up shows the worked fact (\"4 × 6 = 24\") every time, so the tables sink in while you play.\n\nFurther along, rival squads with spiky helmets block the road and clash with your soldiers one for one, spinning tops sweep across one side of the road, and at the end a cardboard castle waits with its own garrison. Bring a big enough army to topple it. There are fifteen levels across three worlds (Bedroom Floor, Playroom Rug and Attic at Night), each built around one times table from the 2s to the 12s, mixing in earlier tables as you go. Every level has three stars, shown on a goal card before you start, tracked live on screen and explained on the results screen: topple the castle, reach the target army size, and pick the bigger gate every time. The results screen also lists the facts you marched through.\n\nThe Daily March is a new seeded course every day, the same for everyone, with a streak to keep, and Endless March keeps building castles until your army runs out. Medals earned from stars and soldiers buy a bigger starting squad in the Barracks, and you can unlock eight uniforms, from Garden Guard green to Golden Parade. After every run you see your global rank, your percentile and the next army size to beat. If you are playing offline it is a clearly labelled preview against sample players. Share a picture card that reads \"My army hit 2,048\" or a challenge link that drops a friend into the same course with your army to beat. Progress, stars, medals and streaks are saved on your device. It plays in portrait or landscape with one thumb, a mouse or the arrow keys, and works offline.",
+    "controls": "Touch: drag left or right anywhere with one thumb to steer the squad. Mouse: hold and drag left or right. Keyboard: the left and right arrow keys or A and D. The pause and sound buttons are always in the top-right corner.",
+    "faq": [
+      {
+        "q": "How do the gates work?",
+        "a": "Each gate shows a sum. \"4×6\" adds 24 soldiers, \"×2\" doubles your squad, a red \"−3×5\" removes 15 and \"÷2\" halves it. Steer into the gate that leaves you with more soldiers. The worked fact pops up after every gate."
+      },
+      {
+        "q": "Does it teach times tables?",
+        "a": "Yes. Every level is built around one table from the 2s to the 12s, the goal card shows that table before you start, gates use its facts, and the results screen lists the facts you used. One star rewards picking the bigger gate every time."
+      },
+      {
+        "q": "How do stars work?",
+        "a": "Each level has three stars: topple the castle (this unlocks the next level), reach the target army size, and pick the bigger gate every time. They are shown before the run, tracked on screen and explained afterwards."
+      },
+      {
+        "q": "What happens when I meet another squad?",
+        "a": "Enemy soldiers clash with yours one for one. If your army is bigger you march on with what is left. If it is smaller the run ends, so grow first."
+      },
+      {
+        "q": "What is the rank on the results screen?",
+        "a": "It is your global rank and percentile on that level, daily course or endless board. When the game has no connection to the online leaderboard it shows a preview against sample players and labels it OFFLINE PREVIEW."
+      },
+      {
+        "q": "What is the Daily March?",
+        "a": "A new course every day, the same for every player, with a streak that grows when you play on consecutive days."
+      },
+      {
+        "q": "Is it safe for kids?",
+        "a": "Yes. There is no chat and no violence beyond toy soldiers toppling over, no account is needed, and progress is saved on the device."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "reinforcements",
+        "format": "rewarded",
+        "reward": "start the run with 10 extra soldiers"
+      },
+      {
+        "name": "double-medals",
+        "format": "rewarded",
+        "reward": "double the medals earned this run"
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "1d4d64a653c3",
+  "builtAt": "2026-10-31T18:41:22.367Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 507368,
+    "initial": 352742
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "8c17b549c9b2881c4556b68efd90934ebdebe323ff6db08a9eb6912a87c895f8",
+      "bytes": 1987
+    },
+    {
+      "path": "app.257f5456.js",
+      "sha256": "1d4d64a653c33e1444daf06da471515338dbf10920a76fe6cda5cd4838d7deda",
+      "bytes": 218780
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "85632c0238fba48403cce5f2bf059b5f28377a325a234d444316665337e41951",
+      "bytes": 3009
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "195bfa81f0c0fbf175bab2c653127e0440cf37d213d615d315d159b37b53faa9",
+      "bytes": 60586
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "4b48544bf80d80d16f8dfbc127f579e41b09ab6f3268c72771f9b28fd2e7b153",
+      "bytes": 59786
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "6ea76b71a6219d38119fe1b9130da4236bda93821f8b084883c3be1af6768fe4",
+      "bytes": 23494
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

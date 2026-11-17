@@ -1,0 +1,249 @@
+{
+  "manifestVersion": 1,
+  "slug": "rhythm-dash",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Thrumdash",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "rhythm",
+    "music",
+    "dash",
+    "platformer",
+    "one tap",
+    "geometry",
+    "neon",
+    "daily challenge",
+    "level editor",
+    "levels",
+    "challenge a friend",
+    "offline"
+  ],
+  "categories": [
+    "arcade",
+    "skill",
+    "action"
+  ],
+  "description": {
+    "short": "Tap on the beat to jump, flip, zigzag and fly through 30 neon songs composed from seeds. Collect echo notes, keep your groove and race a friend's ghost.",
+    "long": "Thrumdash is a one-touch rhythm dash game where every level is a song. Each song is composed in your browser from a seed, and every spike, orb and tunnel sits exactly on its beat, so if you follow the music you can feel where the next jump goes. Tap or hold anywhere to play: no buttons to hunt for.\n\nYour runner switches between four modes as the music changes. As a Cube you tap or hold to jump. In Flip sections a tap swaps gravity between floor and ceiling. The Wave zigzags up while you hold and dives when you let go, threading saw-toothed tunnels that follow the melody. The Ship climbs while you hold and sinks when you let go. Yellow orbs give a mid-air jump when you tap on them and pink pads launch you by themselves. A short count-in starts every song and the mode banner tells you what changed.\n\nThere are 30 hand-tuned songs across six worlds, from Ink Hollow to the Bassline Abyss, each with its own neon accent colour and paper-cut skyline that pulses with the bass. Every song has three clearly explained stars: finish it, collect all three echo notes hidden on the line, and finish with at least 75% Groove, which means your taps land on the beat. The goal card shows them before you play, the HUD shows live progress, and the results screen waits for you and never moves on by itself. Dying shows your percentage and best, and a tap anywhere restarts instantly. Practice mode drops checkpoints on every bar so you can learn the hard part.\n\nThe Daily Song gives everyone the same new song each day and keeps your streak. In the Seed Lab you choose a seed word, tempo, difficulty, mood, length and the order of modes, and Thrumdash composes a brand-new song and level from it. Copy the link and anyone who opens it gets exactly the same song. After any run you can share a card with your percentage and a mini replay strip, plus a challenge link that opens the same song with your ghost racing alongside your friend.\n\nStars, streaks and cleared songs unlock 12 runner icons and 8 trails. A calibration screen measures your audio and touch delay so timing feels right on any phone, tablet or headphones. Music and sound effects are synthesized live, the game runs smoothly on 120 Hz screens, works offline, and your progress is saved on your device.",
+    "controls": "Tap, click or hold anywhere (or Space, Up arrow, W) to jump, flip, rise or climb; let go to dive or sink. R restarts, Esc or P pauses, M mutes. In Practice, C or the flag button places a checkpoint.",
+    "faq": [
+      {
+        "q": "How do the three stars work?",
+        "a": "Star 1: finish the song (reach 100%). Star 2: collect all 3 echo notes; notes you collect in any finished run are kept. Star 3: finish with 75% or more Groove, the share of your taps that land on the beat."
+      },
+      {
+        "q": "What is Groove?",
+        "a": "Every press (and every release in Wave and Ship sections) is checked against the eighth-note grid of the song. Taps within 60 ms of the grid count as on-beat. Groove is the on-beat share for the run."
+      },
+      {
+        "q": "My jumps feel late. What can I do?",
+        "a": "Open Settings and use Calibrate Timing: tap along to 12 clicks and the game measures the delay of your speakers or headphones. You can also nudge the offset in 5 ms steps."
+      },
+      {
+        "q": "What is the Seed Lab?",
+        "a": "A small level editor. Pick a seed word, tempo, difficulty, mood, length and the order of up to six mode sections. The same settings always make the same song and level on every device, so you can share it as a link."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "After a run, Share creates a link with the song and your recorded inputs. Your friend plays the same song with your ghost running beside them and a marker showing the percentage to beat."
+      },
+      {
+        "q": "What does the Daily Song do?",
+        "a": "Everyone gets the same song each day. Finish it to grow your day streak; streaks unlock icons and trails."
+      },
+      {
+        "q": "Are the rankings real?",
+        "a": "Not yet. Until online leaderboards launch, standings are an offline estimate and are always labelled PREVIEW."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "icon",
+        "format": "rewarded",
+        "reward": "Unlocks the Prism runner icon (cosmetic only)"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "3665903eb1c3",
+  "builtAt": "2026-10-29T08:48:46.017Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 523938,
+    "initial": 385607
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "fe74cdc6836fa4504f52ff7014f1f10f1f89eb43d1591d8efcc79cb94736139e",
+      "bytes": 1676
+    },
+    {
+      "path": "app.9d292526.js",
+      "sha256": "3665903eb1c320009907728e16704037c43f205e83b22f08eee2f91635bdb479",
+      "bytes": 251647
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "79d480a610b8dd3b0ee3d3b7cd9da3f5c3dadd7c05d1d8b4fdc010249dd65842",
+      "bytes": 3007
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "282dfb43db3d791e17eda4f0733e821885e3f2c888860a07d18ac716e5aab3d5",
+      "bytes": 53592
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "074bb2df6c2acefc3681267ce6ef3f737db78b20c2dfac1b239fa525ca7457fa",
+      "bytes": 50794
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "37d0c9e7e68d1025991b3520e9ac843cab35f29088166ef58d4a242be8681f0c",
+      "bytes": 23496
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "manifestVersion": 1,
+  "slug": "soccer-cup",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Curlicup",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "soccer",
+    "football",
+    "penalty kicks",
+    "goalkeeper",
+    "1v1",
+    "head soccer",
+    "sports",
+    "daily challenge",
+    "tournament",
+    "two player",
+    "sticker album",
+    "family friendly"
+  ],
+  "categories": [
+    "sports",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Curl spot-kicks, dive as the keeper and win big-head 1v1 matches with 48 fictional nations. Daily kicks, a weekly cup and 36 stages.",
+    "long": "Curlicup is a bright, bobble-headed football game that packs three ways to play into one pocket-sized stadium. Flick to curl spot-kicks into the top corner, tap to throw your keeper across the goal, then jump into fast 1v1 arcade matches where big heads, bicycle swings and charged-up power shots decide the score. Everything is drawn in a bold retro sticker-album style: halftone grass, chunky ink outlines, confetti and a crowd that roars when the net ripples.\n\nPick one of 48 original fictional nations, each with its own kit, flag, captain and signature power shot: the flat Rocket, the bending Curler, the dropping Dipper or the wobbling Zigzag. Then choose how you want to play.\n\nCup Run is a 36-stage journey through six groups, from a park kickabout to a snowy mountain ground and a floodlit final. Stages mix spot-kick drills, keeper drills, full shootouts and timed 1v1 matches, with walls, wind, target rings and keepers who shuffle along the line. Every stage shows its three stars before kick-off, the HUD tracks them as you play, and the result screen explains each star you earned or missed. Stars unlock new balls and boots.\n\nThe Daily Spot-Kick is five kicks and five saves that are the same for everyone on the same date. Play it every day to build your streak. The Weekly Cup draws an eight-nation bracket every Monday: win the quarter-final, semi-final and final to lift the trophy, with a penalty shootout if a match ends level. Quick Match is a one-minute game against an easy, normal or hard rival, or against a friend on the same device with split controls, which is great on a tablet in landscape.\n\nBeat a nation to add its captain's sticker to your album. After every run you see your standing on the board: rank, percentile and the next score to beat. Share a scoreline card with your flag and send a beat-my-keeper link: your friend faces your exact shots as ghost marks and sees the score to top. The game works offline and saves progress on your device.",
+    "controls": "Spot-kicks: drag from the ball to aim and flick to shoot. A faster flick is harder but less accurate, and a bowed swipe curls the ball. Keyboard: arrow keys aim, hold Space or Enter for power and release to shoot, Z and X add curl. Keeper: tap or click where to dive, or press the arrow keys. Matches: on-screen pads on touch screens, or Left/Right (A/D) to run, Up (W) to jump and Space (S or X) to kick. Two players: P1 uses A, D, W and S; P2 uses the arrow keys. Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I curl the ball?",
+        "a": "Bow your swipe. Start at the ball, swing out to one side and finish toward the goal. The more the swipe bends, the more the shot curls. On a keyboard, Z and X add curl left or right."
+      },
+      {
+        "q": "Why do my hard shots miss?",
+        "a": "Power costs accuracy. A gentle flick lands close to where you aimed, while a full-power blast can stray. Top corners pay a bonus, but placing it well beats hitting it hard."
+      },
+      {
+        "q": "How do I save penalties?",
+        "a": "Watch the run-up. The taker leans toward the side they plan to shoot at, and easier takers give it away more often. Tap the spot to dive at, but don't go too early, because a clever taker will send it the other way."
+      },
+      {
+        "q": "What is a power shot?",
+        "a": "In matches, every touch of the ball fills your meter. After five touches your next kick is your nation's special: Rocket, Curler, Dipper or Zigzag. A special goal is worth bonus points."
+      },
+      {
+        "q": "Is the Daily Spot-Kick the same for everyone?",
+        "a": "Yes. The opponent, wind and target rings come from the date, so everyone faces the same kicks that day. Finish it to keep your streak going."
+      },
+      {
+        "q": "Can two people play?",
+        "a": "Yes. Choose Quick Match and then 2 Players. Each player gets their own buttons on each side of the screen, or their own keys on a keyboard."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "extra-kick",
+        "format": "rewarded",
+        "reward": "One extra kick (or save) when a spot-kick or keeper drill ends short of its first star (once per attempt)"
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "e8aeee3962fc",
+  "builtAt": "2026-10-29T06:47:52.673Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 580215,
+    "initial": 409639
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "2f78c2a0069f141db072acfaa9042f8423b8aad2b3a2b6631dc869e7defd1b50",
+      "bytes": 1331
+    },
+    {
+      "path": "app.da6c852c.js",
+      "sha256": "e8aeee3962fcaff528ee04222b9c7410737e47c3020e9fd0fc404e58ee04930a",
+      "bytes": 275681
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "80f7223359bfb64da563afa6407c5861e5b6c90538ae3c0ec9ceac70bc4136fd",
+      "bytes": 3005
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "c212f682c6b103cbfc63685a593865636dbf03d11cf7ec1313d3810a96f1ff86",
+      "bytes": 64348
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "6ace59baed14da7671efecd25963823d107d6118d89155f48ebb66f01842813a",
+      "bytes": 66656
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "8eb45bd9c50e20a02addc3d885579954010a2eedadd10253060f608d3de816dd",
+      "bytes": 29468
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

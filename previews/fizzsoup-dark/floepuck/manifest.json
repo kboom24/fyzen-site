@@ -1,0 +1,260 @@
+{
+  "manifestVersion": 1,
+  "slug": "floepuck",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Floepuck",
+  "version": "1.0.3",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "hockey",
+    "pond hockey",
+    "ice",
+    "3v3",
+    "sports",
+    "animals",
+    "moose",
+    "beaver",
+    "winter",
+    "local multiplayer",
+    "daily challenge",
+    "online with friends"
+  ],
+  "categories": [
+    "sports",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Thumb-sized 3v3 pond hockey: slap shots crack the ice, cracks freeze into ridges, and bank goals off them on five frozen ponds.",
+    "long": "Floepuck is quick, bouncy 3v3 pond hockey: two skaters and a goalie per side, played with one thumb. You lead the Moose with Hoofsby, and you always steer the skater who matters, while teammates hold their roles: one drives to a shooting lane, one opens a passing lane, and the goalie guards the net. Hold to skate toward your finger, flick to pass, and press near your skater and pull back to shoot. A full-power slap shot cracks the ice, and every crack freezes into a raised ridge that deflects the puck like a bumper, so you can bank goals off your own cracks.\n\nA match is two 45-second periods, and Glossbottom the sloth resurfaces the ice in between. The season visits five ponds, each with its own rival team: Mirror Pond and the Mirror Muskrats, Pinewood Lake at dusk and the Pinewood Beavers, Waterfall Basin where the Basin Spraybills hide in the falls mist, Snowman Village Rink and the stomping mammoths, and Aurora Fjord under the northern lights. Win a pond to unlock the next. Every match has three clear stars: win, win by three or more, and win with a bank goal off a ridge. The goal card shows them before the face-off, the corner tracks them live, and the results screen says what you earned and missed.\n\nThin Ice Showdown is the daily challenge: one seeded match on Pinewood Lake that is the same for every player that day, with a streak to keep alive. After each game you see your standing on the board, and you can share a score card with a beat-me link that loads the same match for a friend. Unlock a golden puck trail, too.\n\nPlay a friend online with a private room code: no strangers, no chat and no names, just two captains on the same ice and preset emotes. Best score, stars, unlocked ponds and streak save automatically. Works with touch, mouse and keyboard, in portrait or landscape.",
+    "controls": "Touch or mouse: hold to skate toward your finger, flick to pass, press near your skater and pull back to shoot (full power cracks the ice). Keyboard: arrows or WASD to skate, Space to pass, hold X or J and release to shoot, K to poke check. Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "Which skater do I control?",
+        "a": "Your active skater is the one nearest the puck; your teammates and goalie play their roles on their own."
+      },
+      {
+        "q": "What are ridges?",
+        "a": "A full-power slap shot cracks the ice and the crack freezes into a raised ridge. Ridges bounce the puck, so you can bank shots off them for the third star."
+      },
+      {
+        "q": "How do I unlock new ponds?",
+        "a": "Win a match on a pond to unlock the next one. Stars are bonus goals and never block progress."
+      },
+      {
+        "q": "What is Thin Ice Showdown?",
+        "a": "The daily challenge: one seeded match that is the same for every player each day. Play on consecutive days to grow your streak."
+      },
+      {
+        "q": "Is online play safe for kids?",
+        "a": "Online is friends-only with a private room code. There is no matchmaking, chat or free text, only preset emotes."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/hero.1920x1080.webp",
+      "w": 1920,
+      "h": 1080,
+      "variant": "hero",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/hover.1280x720.mp4",
+      "w": 1280,
+      "h": 720,
+      "variant": "video",
+      "format": "mp4"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "skin",
+        "format": "rewarded",
+        "reward": "Golden puck trail cosmetic (kept forever)"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "7d04c10138f7",
+  "builtAt": "2026-11-01T01:24:08.040Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 1311630,
+    "initial": 393202
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "54c8e5cd6bf7ac279d8658e2245cd15781dfc62027ccfcc43822ca84910d1095",
+      "bytes": 1016
+    },
+    {
+      "path": "app.e9848684.js",
+      "sha256": "7d04c10138f7fb32873ab25ba8c5dfe4cf7fa17be3c5aab435b14b1f37528011",
+      "bytes": 259246
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "1981f521e142292e3ad232572185d1a2f0e5f6294e5cbb16552baa65c3bae093",
+      "bytes": 3003
+    },
+    {
+      "path": "thumbs/hero.1920x1080.webp",
+      "sha256": "ba56a929ce8a5f4c37e3ff71e97aa08db97b63de84b5e2a3f58a287f2873372d",
+      "bytes": 143000
+    },
+    {
+      "path": "thumbs/hover.1280x720.mp4",
+      "sha256": "2f5aaba9fd117b024771c7357794949e2ec9b2d25bbafaa019658fdc2fc07eab",
+      "bytes": 567401
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "fb1829a022e6c629e4efad8b5b9a7beeb70eaf1ebc660375a9a3a51f4c3ff302",
+      "bytes": 93532
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "17e88016800ccc78fbabdeb9db3afc1b2b39f8a1d3d4e41c59eca40b14ea4271",
+      "bytes": 71156
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "6c508e4857d17511cefff7c8dab271d53e2005e9af6fa69877be3bc25c9737fb",
+      "bytes": 33550
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

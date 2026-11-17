@@ -1,0 +1,72 @@
+/* Fytoon tokens A2 — official light + dark/glow logos. Local mockup only. */
+@font-face{font-family:Fredoka;src:url("../fonts/Fredoka-SemiBold.woff2") format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:Fredoka;src:url("../fonts/Fredoka-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:Nunito;src:url("../fonts/Nunito-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Nunito;src:url("../fonts/Nunito-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:Nunito;src:url("../fonts/Nunito-ExtraBold.woff2") format("woff2");font-weight:800;font-display:swap}
+:root{
+  color-scheme: dark;
+  --fz-bg:#01011C;
+  --fz-bg-elev:#07062A;
+  --fz-panel:#12103A;
+  --fz-panel-2:#1A1648;
+  --fz-panel-3:#241E5A;
+  --fz-border:rgba(220,220,252,.10);
+  --fz-border-strong:rgba(220,220,252,.18);
+  --fz-overlay:rgba(1,1,28,.72);
+  --fz-text:#FFFEFB;
+  --fz-text-2:#C8C2EC;
+  --fz-text-3:#948CBC;
+  --fz-text-on-accent:#190133;
+  --fz-orange:#FDDC02;
+  --fz-orange-hi:#FDF07E;
+  --fz-red:#FB02C4; /* small accent only */
+  --fz-accent:#FDDC02;
+  --fz-accent-soft:rgba(253,220,2,.16);
+  --fz-accent-line:rgba(253,220,2,.55);
+  --fz-grad:linear-gradient(135deg,#FDF07E 0%,#FDDC02 48%,#FC8201 100%);
+  --fz-grad-h:linear-gradient(90deg,#FDF07E 0%,#FDDC02 55%,#FC8201 100%);
+  --fz-grad-glow:0 10px 28px -8px rgba(253,220,2,.55);
+  --fz-chrome:linear-gradient(180deg,#FFFFFF 0%,#D9DCE2 45%,#9FA4AE 55%,#F2F3F5 100%);
+  --fz-green:#2BD67B;
+  --fz-yellow:#FDDC02;
+  --fz-blue:#00E5FD; /* small accent only */
+  --fz-font:Nunito,"SF Pro Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --fz-display:Fredoka,"SF Pro Rounded",Nunito,sans-serif;
+  --fz-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --fz-fs-xs:11px;  --fz-fs-sm:12.5px; --fz-fs-md:14px; --fz-fs-lg:16px;
+  --fz-fs-xl:20px;  --fz-fs-2xl:26px;  --fz-fs-3xl:34px; --fz-fs-4xl:44px;
+  --fz-fw-reg:600; --fz-fw-bold:700; --fz-fw-heavy:700; --fz-fw-black:700;
+  --fz-caps-track:.08em;
+  --fz-r-xs:10px; --fz-r-sm:14px; --fz-r-md:18px; --fz-r-lg:22px; --fz-r-xl:28px; --fz-r-pill:999px;
+  --fz-sh-1:0 1px 2px rgba(0,0,0,.4);
+  --fz-sh-2:0 8px 20px -6px rgba(0,0,0,.55);
+  --fz-sh-3:0 18px 40px -12px rgba(0,0,0,.7);
+  --fz-ring:0 0 0 2px var(--fz-bg),0 0 0 4px var(--fz-accent);
+  --fz-s-1:4px; --fz-s-2:8px; --fz-s-3:12px; --fz-s-4:16px; --fz-s-5:20px; --fz-s-6:24px; --fz-s-8:32px; --fz-s-10:40px; --fz-s-12:48px;
+  --fz-sidebar-w:190px;
+  --fz-topbar-h:56px;
+  --fz-ease:cubic-bezier(.2,.7,.2,1);
+}
+[data-theme="light"]{
+  color-scheme: light;
+  --fz-bg:#FFFDF8;
+  --fz-bg-elev:#FFFFFF;
+  --fz-panel:#FFFFFF;
+  --fz-panel-2:#F7F4EE;
+  --fz-panel-3:#EEEAE3;
+  --fz-border:rgba(25,1,51,.10);
+  --fz-border-strong:rgba(25,1,51,.16);
+  --fz-overlay:rgba(25,1,51,.45);
+  --fz-text:#190133;
+  --fz-text-2:#4A3A70;
+  --fz-text-3:#7A6C94;
+  --fz-orange:#E8A000;
+  --fz-orange-hi:#C46A00;
+  --fz-accent:#FDDC02;
+  --fz-accent-soft:rgba(253,220,2,.22);
+  --fz-accent-line:rgba(252,130,1,.55);
+  --fz-sh-1:0 1px 2px rgba(25,1,51,.06);
+  --fz-sh-2:0 8px 20px -8px rgba(25,1,51,.14);
+  --fz-sh-3:0 18px 36px -14px rgba(25,1,51,.18);
+}

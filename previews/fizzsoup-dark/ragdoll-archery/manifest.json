@@ -1,0 +1,246 @@
+{
+  "manifestVersion": 1,
+  "slug": "ragdoll-archery",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Quivertwang",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "archery",
+    "ragdoll",
+    "bow and arrow",
+    "duel",
+    "2 player",
+    "physics",
+    "vs computer",
+    "boss battle",
+    "stickman",
+    "daily challenge",
+    "local multiplayer",
+    "woodcut"
+  ],
+  "categories": [
+    "action",
+    "skill",
+    "arcade"
+  ],
+  "description": {
+    "short": "Wobbly ragdoll archers duel on stone pillars. Drag back, let fly, land the headshot and send them tumbling into the sea in slow motion.",
+    "long": "Quivertwang is a ragdoll archery duel printed in woodcut ink. Two floppy archers face off on stone pillars above a carved sea. Drag back anywhere to draw your bow, let go to shoot, and watch the arrow arc through the wind. Every hit knocks the body around for real: a shot to the arm spins your foe, a headshot does double damage, and the final arrow plays out in slow motion with a big K.O. stamp. There is no blood, only splashes of printer's ink.\n\nBoth archers shoot whenever their bow is ready, so duels are fast and frantic. Crates and planks give cover until they splinter, the wind changes every round, and arrows can even knock each other out of the air. Special arrows join your quiver as you climb: Split fires three at once, Ice freezes your foe in place, Bounce ricochets off wood, and Tug lassos your foe with a rope and yanks them toward you, sometimes right off their pillar for a ring out.\n\nClimb the Boss Ladder through twelve original archers, from Sprig the Squire to the Woodcut King. Each boss has a goal card and three stars: win the duel, win without dropping a round, and finish a round with a headshot. Quick Duel lets you pick an Easy, Normal, Hard or Brutal opponent, and 2 Players puts two people on one phone, tablet or keyboard at the same time. The Daily Duel gives everyone the same foe, arena and wind each day and keeps your streak.\n\nAfter every duel you see your score, a preview of your global standing, and a share card with your slow-motion finishing shot plus a challenge link that replays the exact same duel for a friend. Feathers, stars, wins and headshots unlock bows and hats in the Locker. Progress is saved in your browser on this device.",
+    "controls": "Touch or mouse: drag back anywhere (away from your foe) to draw, let go to shoot; pull further for more power. A tiny drag, a tap or pulling the wrong way never shoots. Tap a special arrow on the edge rail to load it. Keyboard: W/S or Up/Down aim (Shift for fine), hold Space to draw and release to shoot, 1-4 load special arrows, R restarts the duel, Esc pauses, M mutes. 2 Players: Player 1 drags on the left half and Player 2 on the right half, or P1 uses W/S + Space and P2 uses Up/Down + Enter.",
+    "faq": [
+      {
+        "q": "How do I shoot?",
+        "a": "Touch or click anywhere, pull back away from your foe, and let go. The dotted arc shows where the arrow starts to fly; the wind sign at the top tells you how much it will drift."
+      },
+      {
+        "q": "How do I earn three stars?",
+        "a": "Every boss has the same three goals: win the duel, win it without losing a round, and finish a round with a headshot. The results screen shows which ones you earned and which you missed."
+      },
+      {
+        "q": "Can two people play?",
+        "a": "Yes. Choose 2 Players: Player 1 drags on the left half of the screen and Player 2 on the right half, both at the same time. On a keyboard, Player 1 uses W/S and Space, Player 2 uses the arrow keys and Enter."
+      },
+      {
+        "q": "What do the special arrows do?",
+        "a": "Split fires three arrows, Ice freezes your foe for two seconds, Bounce ricochets off crates and pillars, and Tug pulls your foe toward you on a rope. You get one of each per duel once unlocked on the Boss Ladder."
+      },
+      {
+        "q": "Are the global rankings live?",
+        "a": "Not yet. The standing after each duel is a clearly labelled offline preview estimate until online leaderboards launch."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "mild-cartoon-violence"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "second-wind",
+        "format": "rewarded",
+        "reward": "Replay the deciding round of a lost duel at full health"
+      },
+      {
+        "name": "double-feathers",
+        "format": "rewarded",
+        "reward": "Double the feathers earned from the duel just won"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "683ddfbde27f",
+  "builtAt": "2026-10-29T06:51:13.256Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 704486,
+    "initial": 377119
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "38e53e551c9be505885316d31c10df72cd38b7d116636e14e1e38de1dc0b4ddd",
+      "bytes": 2380
+    },
+    {
+      "path": "app.f02b8306.js",
+      "sha256": "683ddfbde27faf8c8fa6c903a5f28206954836b3c0367c6bf6f78a10a900132c",
+      "bytes": 243153
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "2f1bbc18e232d0efa9b07d24a509374518f9a604ecd83a6302ee560db1e0d81c",
+      "bytes": 3013
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "3825cbe355a00ba7d892c8bdd2c2209ec7dce5fb3ea1457fb09cea5d6a94f382",
+      "bytes": 83850
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "05ddacfde4c755f9330f15a3d24d15515f7da6d0f776059c2adb753b93317c20",
+      "bytes": 170204
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "ac34757e7b3e01969e23b1a8584c7fe78e11b0308eb4c90af798f6192330835e",
+      "bytes": 62160
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

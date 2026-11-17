@@ -1,0 +1,250 @@
+{
+  "manifestVersion": 1,
+  "slug": "chess-checkers",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Oakcrown",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "chess",
+    "checkers",
+    "draughts",
+    "board game",
+    "chess puzzles",
+    "daily puzzle",
+    "play vs computer",
+    "two player",
+    "pass and play",
+    "senior friendly",
+    "big pieces",
+    "classic"
+  ],
+  "categories": [
+    "board",
+    "strategy",
+    "puzzle"
+  ],
+  "description": {
+    "short": "Chess and checkers in one cosy wooden set: play a computer at your level, solve a daily puzzle, or pass the device to a friend. Big pieces, plain-word hints.",
+    "long": "Oakcrown puts two classics on one felt table: chess and checkers, carved in warm wood and polished brass, with pieces big enough to read at arm's length. Tap a piece, tap where it should go, and you're playing. Dragging works too, but you never need it.\n\nPlay the computer on a six-step ladder for each game, from Beginner, who still misses the odd checkmate, through Easy, Medium and Hard to Expert and Master, who think for a few seconds and play genuinely strong chess and checkers. Every level has three stars: win, win without Undo, and win without a Hint. Your rating climbs as you win and shows how you compare with the levels around you. The computer thinks in the background, so the board never freezes, and nothing is ever timed.\n\nStuck? Ask for a Hint and the coach draws an arrow and tells you why in plain words: \"it captures a knight\", \"it puts the king in check\", \"it moves to a square where it can't be jumped\". Undo as often as you like. Legal-move dots, clear messages such as \"Your turn\", \"Check!\" and \"You must capture\", a high-contrast mode and a gentle piece speed keep everything calm and readable.\n\nEach day brings one new chess puzzle and one checkers puzzle, the same for everyone. Keep your daily streak alive, beat your best solve, and send a friend a \"solve this\" card with a link that opens the very same puzzle. Every chess puzzle is a checkmate in one to three moves, and each one has been checked by computer to have only one winning line. The Puzzle Path adds 30 chess and 30 checkers puzzles to work through in order.\n\nTwo Players mode is made for a tablet on the table between you. Choose whether the board turns around after each move or stays put.\n\nThe rules are the full rules. Chess has castling, en passant, promotion, stalemate, threefold repetition, the fifty-move rule and insufficient material. Checkers uses the American and English rules: captures are compulsory and multi-jumps must be finished.\n\nStars unlock new boards (Parlour Green, Rosewood Salon, Brass & Ebony, Moonlit Slate) and piece sets, and you can try a locked style for a game. Your stars, ratings, streak and settings are saved on your device.",
+    "controls": "Tap or click a piece, then tap or click its new square (dragging also works). Keyboard: arrow keys move the cursor, Enter or Space selects and moves, H asks for a hint, U undoes, F flips the board, Esc opens the menu, M mutes.",
+    "faq": [
+      {
+        "q": "Is it the real rules?",
+        "a": "Yes. Chess includes castling, en passant, promotion, stalemate and draws by repetition, the fifty-move rule and insufficient material. Checkers uses American/English rules: dark moves first, captures are compulsory, multi-jumps must be finished and crowning ends the move."
+      },
+      {
+        "q": "How strong is the computer?",
+        "a": "There are six levels per game. Beginner and Easy make human-like mistakes; Medium plays solid moves; Hard, Expert and Master think for up to about half a second, 1.5 seconds and 3.5 seconds a move and search many moves ahead."
+      },
+      {
+        "q": "Is there a time limit?",
+        "a": "No. Nothing in Oakcrown is timed. Take as long as you like over every move."
+      },
+      {
+        "q": "How do the daily puzzles work?",
+        "a": "Every day there is one chess puzzle and one checkers puzzle, the same for everyone. Solving either keeps your streak going, and your best solve is saved."
+      },
+      {
+        "q": "Can two people play on one device?",
+        "a": "Yes. Choose Two Players. In Settings, you can have the board turn to face whoever's move it is or keep it fixed."
+      },
+      {
+        "q": "How do I make the pieces easier to see?",
+        "a": "Turn on High contrast in Settings for bold black and white pieces on a strong blue and cream board. Legal-move dots and board letters can also be switched on or off there."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "puzzle-hint",
+        "format": "rewarded",
+        "reward": "The coach draws the next winning move of a puzzle (after the free nudge)"
+      },
+      {
+        "name": "style-trial",
+        "format": "rewarded",
+        "reward": "Use a locked board or piece set for your next game"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "cb22cbf6a17d",
+  "builtAt": "2026-10-29T07:42:58.417Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 788726,
+    "initial": 538240
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "22ca3a3926e35bba08f9d2d7461f2325dd1814e7b76e94d31f7caf9139b8614e",
+      "bytes": 3255
+    },
+    {
+      "path": "app.2dcd6fb5.js",
+      "sha256": "cb22cbf6a17d0e6a95a09f4893e5c7f74e9fbbdc1cbcfca9d5ad3bd380db525e",
+      "bytes": 404066
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "2d15a2343f3a3283ac892ba8868b2ef35aa7bdce60fea620084a6edacacac25d",
+      "bytes": 3221
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "77f1d03bd952412ae2c48e3801d901c7a6a26021a91c2fd15ac45c7a0a1124e0",
+      "bytes": 99288
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "eee90ec46a91a5d007fba8f47403423913d9711917ee1b3fffec274731170f05",
+      "bytes": 92416
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "4ea4ff75af835c96e9252cd17498ad865d784fb9da0c2d2af5f5e1d527a16bbf",
+      "bytes": 46754
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

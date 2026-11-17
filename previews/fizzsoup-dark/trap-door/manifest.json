@@ -1,0 +1,246 @@
+{
+  "manifestVersion": 1,
+  "slug": "trap-door",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Heckle Hollow",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "troll platformer",
+    "platformer",
+    "trap",
+    "funny",
+    "rage game",
+    "jump",
+    "spikes",
+    "daily challenge",
+    "levels",
+    "one-handed",
+    "narrator",
+    "brain teaser"
+  ],
+  "categories": [
+    "skill",
+    "action",
+    "casual"
+  ],
+  "description": {
+    "short": "A troll platformer where the level pranks you: vanishing floors, popping spikes, runaway doors and a smug ghost who giggles at every fall.",
+    "long": "Heckle Hollow is a platformer that lies to you, and is very proud of it. Every level looks simple: run right, jump a gap, walk through the door. Then the floor drops out, a spike pops up exactly where you were going to land, the ceiling comes down, or the exit sprouts little feet and sprints away. Your guide is Grinwick, a smug lantern-ghost who built every trap himself and narrates your misfortune in chatty speech bubbles, with an optional babbling voice.\n\nThe trick is that every prank is fair. Each trap has a tell if you look closely: a hairline crack in the ground, bolts on a block that is about to move, a glint where a hidden spike waits, a dotted outline of a bridge that will appear, pressure plates, arrow slits and doors with tiny feet. You die, you laugh, you spot the clue, and you get it right on the next try. Respawns are instant, so there is no waiting between attempts, and your death counter is a badge of honor with ranks from Fresh Meat to Immortal (Repeatedly).\n\nThere are 30 hand-made levels in three themed packs. Sunny Fibs is a cheerful meadow of crumbling bridges and shy doors. Clockwork Cellar adds arrow traps, reversed controls, timed platforms and crushing gears. Moonlit Funhouse flips gravity, swaps doors and bounces you off trampolines. Each level awards up to three stars: one for reaching the real door, one for finishing within the level's death limit, and one for carrying Grinwick's stolen gold tooth to the exit. The goal card explains every star before you start, the HUD tracks them live, and the results screen tells you exactly what you earned and what you missed. Stars unlock new skins for your hero.\n\nA brand-new Daily Trap is generated from the date every day, the same for every player, and keeps a streak going. After a win you can share a result card with a challenge link that opens the same level for a friend and shows your death count to beat. Controls are tight and snappy with coyote time, jump buffering and variable jump height, using big one-handed touch buttons on phones and tablets or the keyboard on desktop. Progress, stars, skins and your lifetime deaths are saved automatically on your device.",
+    "controls": "Keyboard: arrow keys or A/D to run, Space, Up or W to jump (hold for a higher jump), R to respawn, Esc or P to pause, M to mute. Touch: hold the left and right arrows to run and tap JUMP (multi-touch, works with one hand). Mouse: click menus and buttons.",
+    "faq": [
+      {
+        "q": "How do I get three stars?",
+        "a": "Reach the real door, finish within the level's death limit, and carry the hidden gold tooth to the door. The goal card before each level lists all three, and the results screen shows what you missed."
+      },
+      {
+        "q": "Is it fair?",
+        "a": "Yes. Every trap has a visible tell (cracks, bolts, glints, dotted outlines, plates, arrow slits or little feet on doors), and every level is proven completable without dying by an automated solver."
+      },
+      {
+        "q": "What is the Daily Trap?",
+        "a": "A level generated from today's date, the same for everyone. Beat it on consecutive days to grow your streak."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "After a win, tap Share. The link opens the same level (or daily seed) for your friend and shows your death count to beat."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes, automatically on this device: stars, unlocked levels and skins, best runs, the daily streak and your lifetime death count."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "mild-cartoon-violence",
+      "comic-mischief"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "hint",
+        "format": "rewarded",
+        "reward": "Reveal every trap in the current level"
+      },
+      {
+        "name": "skip-level",
+        "format": "rewarded",
+        "reward": "Skip the current level (counts as finished with 0 stars)"
+      },
+      {
+        "name": "skin-disco",
+        "format": "rewarded",
+        "reward": "Unlock the Disco skin"
+      }
+    ]
+  },
+  "features": [
+    "levels",
+    "stars",
+    "daily",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "88b9102e01b4",
+  "builtAt": "2026-10-28T09:18:39.683Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 472324,
+    "initial": 380490
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "dfbddebb4da306251c2108189bed5cebbf4e51d63d19df81cb449675cbed8675",
+      "bytes": 1907
+    },
+    {
+      "path": "app.55be461c.js",
+      "sha256": "88b9102e01b4ff5d0b8de0b89ad45524ce5e32f69668ca5c978b35f9d91acfc0",
+      "bytes": 246386
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "6105b938aa8c4f33a9191d6b4ba8276430ab664f6e198cedacb21f82ceef16d6",
+      "bytes": 3151
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "c38f0066b209c5f759691dddbcfcd7bfdbc41a9e606da3322f54683fb410b724",
+      "bytes": 32298
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "e5b463c18c1764cdc1de195f6c693cfe2424a6d5746adffabcdf97f5096d1d66",
+      "bytes": 31774
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "6d03433be8484d7ca5cb985f82584d51c1ee227677189da039a17efc27cfc596",
+      "bytes": 17082
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

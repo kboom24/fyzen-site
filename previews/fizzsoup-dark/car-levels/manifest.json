@@ -1,0 +1,250 @@
+{
+  "manifestVersion": 1,
+  "slug": "car-levels",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Clackabout",
+  "version": "1.0.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "physics",
+    "car",
+    "driving",
+    "puzzle",
+    "levels",
+    "toy",
+    "vehicle swap",
+    "monster truck",
+    "ghost race",
+    "daily challenge",
+    "stars",
+    "offline"
+  ],
+  "categories": [
+    "puzzle",
+    "skill",
+    "casual"
+  ],
+  "description": {
+    "short": "Drive a wind-up toy truck across 100 toy-box obstacle courses and swap into a boat, rocket car or digger mid-run to reach the flag.",
+    "long": "Clackabout is a physics driving puzzle set inside a giant toy box. Every level is a little diorama built from lacquered wooden blocks, bookshelves, bathtubs, train tracks, kitchen tables and pillow forts, and your job is simple: get your wind-up toy to the checkered flag without flipping it, sinking it or dropping it off the table.\n\nThe twist is the swap gate. Drive through one and your toy pops into a different toy in the middle of the run, keeping its speed: the grippy Stomper monster truck climbs anything, the Pinewood racer is fast but slippery, the Tubtug boat floats and paddles across the bath, the Zoomrod rocket car burns fuel to fly over gaps, the heavy Scoopy digger shoves blocks out of the way, and the Boingo spring buggy charges up and hops. Reading each course and timing every swap is the puzzle.\n\nThere are 100 hand-built levels in ten worlds, from the Playroom Rug to the dark Attic Toy Chest, each with three stars that are explained before you start: reach the flag, beat the par time, and grab the gold sticker that hides off the fast line. Stars and coins unlock new worlds, paints for every toy, drivers and finish-line effects on the Toy Shelf. The Daily Toy Box gives everyone the same new course each day with two or three swaps, and keeps your day streak.\n\nCrashes are part of the fun: every crash plays back instantly in slow motion, and you can retry in under a second or share the crash as a flipbook card. Finish a level and you see where you stand, with your rank, percentile and the next rank to beat, then send a challenge link so a friend races your exact ghost, verified by replaying it on their device. Everything works offline, progress is saved on your device, and leaderboard numbers are marked as preview until online ranks launch.",
+    "controls": "Touch: hold the big GAS pedal (bottom right) to drive and the BRAKE pedal (bottom left) to brake or reverse; in the air GAS tips the toy back and BRAKE tips it forward. Keyboard: Right/D/Up/W or Space = gas, Left/A/Down/S = brake, R restarts, Esc or P pauses, M mutes, Enter starts. Mouse: hold the right half of the screen for gas, the left half for brake.",
+    "faq": [
+      {
+        "q": "How do the swap gates work?",
+        "a": "Drive through a gate and your toy turns into the toy shown on the gate's lid, keeping its speed. A gate with a round arrow turns you back into the level's starting toy."
+      },
+      {
+        "q": "How do I earn three stars?",
+        "a": "Each level has three: reach the flag, finish under the par time, and grab the gold sticker. They are kept separately, so you can go for the sticker on one run and the time on another."
+      },
+      {
+        "q": "Why did my toy crash?",
+        "a": "Landing on the roof, falling off the table, sinking a non-boat toy in water, touching loose brick floors or getting stuck for eight seconds ends the run. The crash replays in slow motion so you can see what happened; press R or tap Retry to go again instantly."
+      },
+      {
+        "q": "How do I unlock new worlds?",
+        "a": "Finish the last level of a world, or earn 20 of its 30 stars, to open the next one."
+      },
+      {
+        "q": "What is the Daily Toy Box?",
+        "a": "A new course every day, the same for everyone, with two or three toy swaps and a gold sticker. Finishing it keeps your day streak going."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "After a finish, Share gives you a link that carries your exact run. Your friend races your ghost on the same level; their game replays it to check the time is real."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "skip-level",
+        "format": "rewarded",
+        "reward": "skip a level after 5 failed attempts (unlocks the next level; no stars)"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double-coins",
+        "format": "rewarded",
+        "reward": "double the coins earned for this level, once per finish"
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "4bc2fea79390",
+  "builtAt": "2026-10-31T17:28:37.294Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 647272,
+    "initial": 425178
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "ade568fc3245b848d1177e8e36e516a40ea0d551ffa8f87fa149c57cfac54ffe",
+      "bytes": 2857
+    },
+    {
+      "path": "app.b2bf6619.js",
+      "sha256": "4bc2fea793909175a5982314f13614d23b26b7372cbde8a78d6320547016860e",
+      "bytes": 291218
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "bbe2cb2c621b6e8a91821ef396b34e1320f8636ebcb6fe740ca50c5ab59c51fe",
+      "bytes": 3007
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "c3c24466fdb7b82f22450d09605322383508c748dae5390b16ea1e118fd25402",
+      "bytes": 101524
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "fb16002c4e9ff3982559cad489bce39a269f5ddd2fe9385ebe9a88b0c70609a3",
+      "bytes": 64338
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "baec85569ce692457c95ba5cc78ef618bf1352e2d6ef169e13a228782effedb7",
+      "bytes": 44602
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

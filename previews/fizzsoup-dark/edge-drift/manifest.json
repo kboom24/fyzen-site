@@ -1,0 +1,251 @@
+{
+  "manifestVersion": 1,
+  "slug": "edge-drift",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 3,
+    "logicalShort": 720
+  },
+  "status": "live",
+  "credits": "CREDITS.md",
+  "title": "Slipcrest",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "drift",
+    "one tap",
+    "zigzag",
+    "racing",
+    "endless runner",
+    "cars",
+    "neon",
+    "daily challenge",
+    "hyper casual",
+    "arcade",
+    "skill",
+    "offline"
+  ],
+  "categories": [
+    "racing",
+    "arcade",
+    "skill"
+  ],
+  "description": {
+    "short": "Hold to drift, let go to straighten: slide a tiny car along an endless zigzag road over the void, kiss the edges and chase the perfect line.",
+    "long": "Slipcrest is a one-tap drift game about the perfect line. Your little car races along a zigzag road floating over an endless void. Hold anywhere to throw it into a smoky drift through the bend, and let go to snap straight again. Release at exactly the right moment for a Perfect, which builds your combo multiplier. Slide close enough to brush the kerb for an Edge Kiss bonus. Leave it too late and you sail off the edge. Every second of drifting scores points, coins sit on the racing line, and the road keeps speeding up and tightening the further you get, so each run is a short, tense fight for one more corner.\n\nFree Run is the endless mode. Survive as long as you can while the world drifts through four hand-built themes: Neon City, Desert Sunset, Snow Peaks and Deep Space. Each has its own weather, skyline and procedural soundtrack. Routes are 24 hand-tuned roads with a finish line and up to three stars each. A goal card before every route shows exactly what each star needs, chips on screen track your progress live, and the results screen explains what you earned and what you just missed. Daily Road is a fresh seeded road every day, the same for everyone, with three goals and a streak that grows each day you play.\n\nCoins unlock ten original cars in the Garage, from the plucky Pebble hatch to the Nebula Nine. A first-run lesson with slow-motion prompts teaches the timing in seconds. Restarting is instant. Your best score, farthest distance, stars, coins, cars and streak are saved on your device. The game never moves on without you, and works in portrait or landscape with mouse, touch or keyboard.",
+    "controls": "Hold mouse, touch or Space (or any arrow key) to drift; release to straighten. R restarts, Esc or P pauses, M mutes. In the Garage use the arrow keys to browse cars.",
+    "faq": [
+      {
+        "q": "How do I score a Perfect?",
+        "a": "Let go just as your car lines up with the next straight. The first-run lesson teaches the timing in slow motion, and each Perfect in a row raises your multiplier."
+      },
+      {
+        "q": "What is an Edge Kiss?",
+        "a": "Slide very close to the edge of the road without falling off. Every Edge Kiss gives bonus points and counts toward some route stars."
+      },
+      {
+        "q": "How do I earn three stars on a route?",
+        "a": "Reach the finish line for the first star, then meet the two extra goals shown on the goal card, such as drift points, Perfects, Edge Kisses or coins."
+      },
+      {
+        "q": "Is there a daily challenge?",
+        "a": "Yes. Daily Road is a new seeded road every day with three goals, the same for every player, and a streak counter for coming back."
+      },
+      {
+        "q": "Does it save my progress?",
+        "a": "Yes. Best score, farthest distance, stars, coins, cars and your daily streak are saved on your device."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "test-drive",
+        "format": "rewarded",
+        "reward": "one free run in a locked car from the Garage"
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "back on the road where you fell, score kept (once per run)"
+      },
+      {
+        "name": "double-coins",
+        "format": "rewarded",
+        "reward": "double the coins earned in the last run"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "cef2d33af9ff",
+  "builtAt": "2026-10-27T20:45:28.867Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 587409,
+    "initial": 380703
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "50287aacfef705d442078d093068d4bddd56243da73e95847bffa864581ca370",
+      "bytes": 2119
+    },
+    {
+      "path": "app.c39236a3.js",
+      "sha256": "cef2d33af9ffb0ff85a8c8ca2f8beafae19c9c44188e0a492ee79bfc69c0dfcb",
+      "bytes": 246617
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "3186978d8d97c4e745c4b939e3ad070dbf2ff3e5752a3261924205cca7c5408c",
+      "bytes": 3133
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "fc45e34f5616bf453913bfe259f30efaaaea6ed0030a62cfa082c3b9f20caac9",
+      "bytes": 95514
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "69ded09cc4dfd11a6ed6b272d11f15b9cc0be896437a0d92c97c717df399f324",
+      "bytes": 64878
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "0343f87f63f7e168f3764927ce312066dfbbd013fc3bbbef31eee8c61999a8d0",
+      "bytes": 35422
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

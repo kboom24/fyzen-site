@@ -1,0 +1,241 @@
+{
+  "manifestVersion": 1,
+  "slug": "nine-ball",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Lantern Nine",
+  "version": "1.2.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "pool",
+    "9-ball",
+    "billiards",
+    "nine ball",
+    "snooker",
+    "cue sports",
+    "physics",
+    "trick shots",
+    "daily challenge",
+    "2 player",
+    "vs computer",
+    "sports"
+  ],
+  "categories": [
+    "sports",
+    "skill",
+    "casual"
+  ],
+  "description": {
+    "short": "Real 9-ball pool under a warm lantern: true cue-ball physics, spin, four computer opponents, a daily rack and 18 trick shots.",
+    "long": "Lantern Nine is a 9-ball pool game built around a real physics simulation. Balls slide, then roll, then stop the way they do on cloth; cushions rebound and grip; object balls throw a little when they are cut; and the spin you put on the cue ball matters. Touch the big cue ball in the corner to strike low for draw, high for follow or to the side for english, then pull the power slider and let go.\n\nThe rules are proper 9-ball. You must always hit the lowest-numbered ball first, and something has to reach a cushion after contact. Scratches, wrong first contact, missing every ball or knocking a ball off the table are fouls, and your opponent gets ball in hand anywhere on the table. Sink the 9 on any legal shot to win the rack, even early with a combination. Right after the break you may play a push-out, and three fouls in a row lose the rack.\n\nPlay the Computer against four opponents, from the friendly Rookie to the Lantern Master, who plays position, safeties, banks and combinations. The aim guide shows a ghost ball and where both balls will travel, and it gets shorter as the opponent gets stronger. Pass & Play lets two people share one device.\n\nThe Daily Rack gives everyone the same scattered table each day. Clear all nine balls in as few strokes as you can (each foul adds two) and as fast as you can, then send a challenge link so a friend plays exactly the same rack and sees a head-to-head result. Eighteen Trick Shots teach draw, follow, banks, combos, safeties and runouts. Each has a goal card and three stars, and the results screen explains every star you earned or missed.\n\nStars, wins and streaks unlock new cloth colours and cues in the Locker. Everything is saved in your browser on this device, and your player name is optional.",
+    "controls": "Drag on the table to aim (the cue points where your finger or mouse goes) and use the FINE AIM strip or mouse wheel for tiny changes. Touch the cue ball widget to set spin. Pull the power slider and let go to shoot. Keyboard: arrows aim (Shift for fine), A/D nudge, Up/Down set power, Space or Enter shoots, I/J/K/L spin, O centres spin, U push-out, H hint in trick shots, Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "Which ball do I have to hit?",
+        "a": "Always the lowest-numbered ball still on the table. The ring in the ball tray and the guide show it. Hitting another ball first is a foul."
+      },
+      {
+        "q": "What is a push-out?",
+        "a": "On the shot right after the break you may play a push-out: any first contact is allowed and no cushion is needed. Your opponent then chooses whether to shoot from there or hand the shot back."
+      },
+      {
+        "q": "How is the Daily Rack scored?",
+        "a": "Strokes count one each and every foul adds two. Fewer strokes wins and time breaks ties. Everyone gets the same rack for the day."
+      },
+      {
+        "q": "How do I earn three stars in Trick Shots?",
+        "a": "Meet the goal, then hit the par shot count, then the bonus shown on the goal card, such as leaving the cue ball in a ring or making it on your first try."
+      },
+      {
+        "q": "Are the leaderboards live?",
+        "a": "Not yet. Country and global boards show clearly labelled preview data until online rankings launch. Friends boards use real results from challenge links you exchange."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "hint",
+        "format": "rewarded",
+        "reward": "Shows the solver's shot line for the current trick shot"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "bb1a4698ad4c",
+  "builtAt": "2026-10-28T23:38:03.040Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 595967,
+    "initial": 465647
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "aa60f5984f6bc2deb1cb77685ebb0069c20f5d1f9c1ca623037eb45cdf899073",
+      "bytes": 1473
+    },
+    {
+      "path": "app.8871a70d.js",
+      "sha256": "bb1a4698ad4cbc414cfdd536c0fcfa97ddaabdd560801bae2fddc157d7d9f3c0",
+      "bytes": 331579
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "764e8f294c730635d2f93a4458123d9dcf30f6a97c52fb52ffdbafd6a098fa83",
+      "bytes": 3115
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "995dca5d4b83548a8bc6e3365fa0b235fb3199ac4faee988b37340cbb8ee12c4",
+      "bytes": 56772
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "8464c8e34d14bfc11c63563dfcb164e800fb393f86e7d07292e825595b0de8a5",
+      "bytes": 50778
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "8d4a2837ea11362bec99fe81cb66682e2ec4909e1b156af4c4a4d33b808336be",
+      "bytes": 12524
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

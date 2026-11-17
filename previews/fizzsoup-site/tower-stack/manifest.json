@@ -1,0 +1,245 @@
+{
+  "manifestVersion": 1,
+  "slug": "tower-stack",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Cloudmason",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "stacking",
+    "one tap",
+    "timing",
+    "tower",
+    "hypnotic",
+    "relaxing",
+    "daily challenge",
+    "levels",
+    "cute",
+    "sky",
+    "one more go",
+    "offline"
+  ],
+  "categories": [
+    "skill",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Tap anywhere to drop the sliding slab. Line it up, slice the overhang, chain perfect drops and stack a tower from the meadow to the stars.",
+    "long": "Cloudmason is a calm, hypnotic one-tap stacking game. A slab glides back and forth above your tower. Tap anywhere on the screen, click, or press Space to drop it. Whatever hangs over the edge is sliced off and tumbles away, so the tower slowly narrows. Line the slab up exactly and it is a PERFECT: it snaps into place with a ring of light, a sparkle burst and the next note of a rising melody. Land three perfects in a row and the slab grows back a little with every further perfect, so a great streak can rescue a skinny tower.\n\nPip, a small cloud in a builder's hat, floats beside the top of your tower. Pip cheers your perfects, winces at big slices and gets nervous when the tower gets thin. The camera eases upward as you climb through five skies: the flowery Meadow, the Cloud Sea, Sunset Heights with its birds and glowing sun, the shimmering Aurora Veil and finally the Starfield. The music builds with you: new layers join as you climb and as your streak grows.\n\nScoring is shown before you play and on every results screen: every floor is worth 10 points, a perfect adds 20 times your streak (up to x5), and every 10 floors pays a growing milestone bonus. Endless mode keeps your best height and score. 24 Sky Levels each set three goals: reach the summit, land a number of perfects and hit a perfect streak. The goal card explains them, chips in the HUD show live progress, and the results screen lists what you earned and missed. It waits for you and never moves on by itself. The Daily Tower gives every player the same slabs, speeds and patterns each day, with your best height and a day streak. Share a result card and a challenge link: your friend builds the exact same tower with a line showing the height to beat. Progress unlocks block skins such as Glass, Candy, Marble, Neon and Gilded, plus new sky themes. Everything works offline and your progress is saved on your device.",
+    "controls": "Touch: tap anywhere to drop the slab. Mouse: click anywhere. Keyboard: Space, Enter or Down drops, Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I score points?",
+        "a": "Every floor is worth 10 points. A perfect drop adds 20 x your perfect streak (up to x5). Every 10 floors adds a milestone bonus of 50, 100, 150 and so on."
+      },
+      {
+        "q": "What is a perfect drop?",
+        "a": "Dropping the slab within 8 units of the slab below. It snaps into place and keeps its full width. From the third perfect in a row, each perfect also grows the slab back a little."
+      },
+      {
+        "q": "When does the run end?",
+        "a": "When a slab misses the tower completely. In Endless and Sky Levels you can watch an optional ad once per run to rebuild and continue."
+      },
+      {
+        "q": "How do Sky Levels and stars work?",
+        "a": "Each of the 24 levels has three goals: reach the summit height (clears the level), land a number of perfects and reach a perfect streak. Stars are banked when you reach the summit."
+      },
+      {
+        "q": "Is there a daily challenge?",
+        "a": "Yes. The Daily Tower gives every player the same slab speeds and patterns each day, and tracks your best height and your day streak."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "Share a run and the link carries its seed and your height, so your friend builds exactly the same tower with a line showing the height to beat."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "rebuild after a miss and keep the same tower going (next 3 slabs slower), once per run"
+      },
+      {
+        "name": "skin",
+        "format": "rewarded",
+        "reward": "unlock the Starlight block skin"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "endless",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "108ee0ed63e6",
+  "builtAt": "2026-10-31T15:00:33.553Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 385327,
+    "initial": 330345
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "5e1a2ce07406ac77d9a8c7deb5c251b3eae6fea0a97876b43b858f6c40f4b7ef",
+      "bytes": 1845
+    },
+    {
+      "path": "app.38197963.js",
+      "sha256": "108ee0ed63e69537a2fa033d995b0381d48573b3ac82dabac8d9fa6fa1bfb7d6",
+      "bytes": 196192
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "100335c8e920b53bf6ce60b2ac4f259012870db579dc2172bcd7977cfbee93fa",
+      "bytes": 3200
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "8988e55bb6ff6afde62cfa885de54331d7c46ed310538553dd342fadc59bb712",
+      "bytes": 17408
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "9b867fd552295a24edaf35a98a89d5814bf20215fef1d1d5569d0a6d467a16ec",
+      "bytes": 16860
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "283052fb1aa77af1de8f18dc0ea8c5d3b4dcfdad879a64394215c3c3690391c0",
+      "bytes": 10096
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

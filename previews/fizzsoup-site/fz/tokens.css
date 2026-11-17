@@ -1,0 +1,75 @@
+/* FizzSoup tokens — blue field, yellow soup accents. Single identity (light/dark hooks match). */
+@font-face{font-family:Fredoka;src:url("../fonts/Fredoka-SemiBold.woff2") format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:Fredoka;src:url("../fonts/Fredoka-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:Nunito;src:url("../fonts/Nunito-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:Nunito;src:url("../fonts/Nunito-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:Nunito;src:url("../fonts/Nunito-ExtraBold.woff2") format("woff2");font-weight:800;font-display:swap}
+:root{
+  color-scheme: dark;
+  --fz-bg:#00185A;
+  --fz-bg-elev:#002A7E;
+  --fz-panel:#0A3A96;
+  --fz-panel-2:#0C48B8;
+  --fz-panel-3:#1556C8;
+  --fz-border:rgba(255,255,255,.14);
+  --fz-border-strong:rgba(255,244,176,.40);
+  --fz-overlay:rgba(0,24,90,.72);
+  --fz-text:#FFFEFB;
+  --fz-text-2:#D6E7FF;
+  --fz-text-3:#9BB8E0;
+  --fz-text-on-accent:#071A58;
+  --fz-orange:#FFD400;
+  --fz-orange-hi:#FFE85A;
+  --fz-red:#E23B2E;
+  --fz-accent:#FFD400;
+  --fz-accent-soft:rgba(255,212,0,.16);
+  --fz-accent-line:rgba(255,212,0,.55);
+  --fz-grad:linear-gradient(135deg,#FFF6A8 0%,#FFD400 48%,#F0A000 100%);
+  --fz-grad-h:linear-gradient(90deg,#FFE85A 0%,#FFD400 55%,#F0A000 100%);
+  --fz-grad-glow:0 8px 24px -8px rgba(255,212,0,.5);
+  --fz-chrome:linear-gradient(180deg,#FFFFFF 0%,#D9DCE2 45%,#9FA4AE 55%,#F2F3F5 100%);
+  --fz-green:#2BD67B;
+  --fz-yellow:#FFD400;
+  --fz-blue:#6ED2FF;
+  --fz-font:Nunito,"SF Pro Rounded",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --fz-display:Fredoka,"SF Pro Rounded",Nunito,sans-serif;
+  --fz-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --fz-fs-xs:11px;  --fz-fs-sm:12.5px; --fz-fs-md:14px; --fz-fs-lg:16px;
+  --fz-fs-xl:20px;  --fz-fs-2xl:26px;  --fz-fs-3xl:34px; --fz-fs-4xl:44px;
+  --fz-fw-reg:600; --fz-fw-bold:700; --fz-fw-heavy:700; --fz-fw-black:700;
+  --fz-caps-track:.08em;
+  --fz-r-xs:10px; --fz-r-sm:14px; --fz-r-md:18px; --fz-r-lg:22px; --fz-r-xl:28px; --fz-r-pill:999px;
+  --fz-sh-1:0 1px 2px rgba(0,16,60,.4);
+  --fz-sh-2:0 8px 20px -6px rgba(0,16,60,.45);
+  --fz-sh-3:0 18px 40px -12px rgba(0,16,60,.55);
+  --fz-ring:0 0 0 2px var(--fz-bg),0 0 0 4px var(--fz-accent);
+  --fz-s-1:4px; --fz-s-2:8px; --fz-s-3:12px; --fz-s-4:16px; --fz-s-5:20px; --fz-s-6:24px; --fz-s-8:32px; --fz-s-10:40px; --fz-s-12:48px;
+  --fz-sidebar-w:190px;
+  --fz-topbar-h:56px;
+  --fz-ease:cubic-bezier(.2,.7,.2,1);
+}
+/* Single blue+yellow identity — both theme hooks resolve to the same tokens. */
+[data-theme="light"],
+[data-theme="dark"]{
+  color-scheme: dark;
+  --fz-bg:#00185A;
+  --fz-bg-elev:#002A7E;
+  --fz-panel:#0A3A96;
+  --fz-panel-2:#0C48B8;
+  --fz-panel-3:#1556C8;
+  --fz-border:rgba(255,255,255,.14);
+  --fz-border-strong:rgba(255,244,176,.40);
+  --fz-overlay:rgba(0,24,90,.72);
+  --fz-text:#FFFEFB;
+  --fz-text-2:#D6E7FF;
+  --fz-text-3:#9BB8E0;
+  --fz-text-on-accent:#071A58;
+  --fz-orange:#FFD400;
+  --fz-orange-hi:#FFE85A;
+  --fz-accent:#FFD400;
+  --fz-accent-soft:rgba(255,212,0,.16);
+  --fz-accent-line:rgba(255,212,0,.55);
+  --fz-sh-1:0 1px 2px rgba(0,16,60,.4);
+  --fz-sh-2:0 8px 20px -6px rgba(0,16,60,.45);
+  --fz-sh-3:0 18px 40px -12px rgba(0,16,60,.55);
+}

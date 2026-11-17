@@ -1,0 +1,230 @@
+{
+  "manifestVersion": 1,
+  "slug": "swallow-city",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "live",
+  "credits": "CREDITS.md",
+  "title": "Gulpopolis",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "hole",
+    "swallow",
+    "city",
+    "grow",
+    "io",
+    "arcade",
+    "rivals",
+    "leaderboard",
+    "daily challenge",
+    "one thumb",
+    "casual",
+    "2 minutes"
+  ],
+  "categories": [
+    "arcade",
+    "casual",
+    "action"
+  ],
+  "description": {
+    "short": "Steer a hungry hole through a pop-up city map, swallow everything smaller than you, grow to gulp the stadium and out-eat five rivals in two minutes.",
+    "long": "Gulpopolis is a two-minute race to become the biggest hole in town. You are a little round hole with a hungry rim, and the whole city is on the menu. Drag anywhere to steer (or just move the mouse) and glide over anything smaller than you: cones, hydrants, people on the sidewalk, ducks in the park pond, benches and bikes. Every bite makes you wider, and every new size opens a new tier of food. Soon you are slurping parasols and trees, then cars and taxis, buses and trucks, then whole houses, cafés and shops, office blocks, the downtown towers and, if you are quick, the Spire and the Stadium itself.\n\nYou are not alone. Five rival holes with names like Munchkin, Big Burp and Chompette are racing you for the same city. Bump into a smaller hole and you gulp it whole; meet a much bigger one and run. A live mini board shows who is ahead, arrows at the edge of the screen point to nearby rivals, pink for danger and teal for prey, and the last thirty seconds turn the music up for a frantic finish.\n\nEvery round has three clear stars: finish on the podium, reach Size 8, and chain a 60-gulp combo. Swallows that follow each other quickly build a combo that multiplies your points, with a pop, a wobble and a rising gulp for every bite. After the round you see the final standings, how close you came, the stars you earned and missed, and where your score would rank. Coins from each round buy upgrades (a bigger start, more speed, stronger suction) and new rim skins.\n\nThere is a Daily City that is the same for every player, with a streak to keep, and a share card with a beat-me link that drops your friend into your exact city with your score to beat. Until online leaderboards launch, global ranks are an offline preview against a generated field of sample players, and the game always says so.\n\nProgress saves automatically on your device. Gulpopolis plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard, and a restart takes under a second.",
+    "controls": "Touch: drag anywhere to steer (a joystick appears under your finger). Mouse: move the pointer and the hole follows it. Keyboard: WASD or arrow keys. Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "What can I swallow?",
+        "a": "Anything noticeably smaller than your hole. As you grow, the banner tells you which new things you can now gulp, from cones and people up to buses, houses, towers and the stadium."
+      },
+      {
+        "q": "How do I earn the three stars?",
+        "a": "Finish in the top 3, reach Size 8, and hit a 60-gulp combo in one round. The goals are shown before your first round and live in the top-left corner while you play."
+      },
+      {
+        "q": "Can rivals eat me?",
+        "a": "Yes, if a rival is clearly bigger than you. You pop back out a moment later, a bit smaller but still in the race. You can do the same to smaller rivals."
+      },
+      {
+        "q": "Are the global ranks real?",
+        "a": "Not yet. Until online leaderboards launch, ranks are an offline preview against a generated field of sample players, and every rank is labelled OFFLINE PREVIEW."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "Tap Share after a round and copy the link. Anyone who opens it plays the exact same city and rivals, with your score to beat."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "double-coins",
+        "format": "rewarded",
+        "reward": "double the coins earned in the round just played"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "ba7806d094c0",
+  "builtAt": "2026-10-30T15:58:12.791Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 523755,
+    "initial": 357301
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "44b0d48765fb256f855bee7101188826b50dd4b397e193d2901c851a50c0638e",
+      "bytes": 2043
+    },
+    {
+      "path": "app.29ae4922.js",
+      "sha256": "ba7806d094c07abf223cea090de315cca76d98e80907cb8014c0e9d4dfdb97c3",
+      "bytes": 223339
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "f3ffa0c042afd16d85bb536cdd0b51db443525590b0c71ea33cc7a8d7b85b8cb",
+      "bytes": 3009
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "d6d43d85ded3fb72af22805112c639746ec35a1215aac90d62ed410325c236cc",
+      "bytes": 64960
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "860b7a53e066822a5667cd94bb4d54b00522bff36ca5b272e4aa79969bea7942",
+      "bytes": 60900
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "df6e0adaf21f9056226069bdf702b311bca3d853163402ff6adbff4b30feabdc",
+      "bytes": 29778
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

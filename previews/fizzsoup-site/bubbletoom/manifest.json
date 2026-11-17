@@ -1,0 +1,243 @@
+{
+  "manifestVersion": 1,
+  "slug": "bubbletoom",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Bubbletoom",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "bubbles",
+    "match 3",
+    "aim",
+    "bank shots",
+    "puzzle",
+    "seaside",
+    "festival",
+    "puffin",
+    "daily challenge",
+    "3 stars",
+    "one hand",
+    "casual"
+  ],
+  "categories": [
+    "puzzle",
+    "casual",
+    "arcade"
+  ],
+  "description": {
+    "short": "Aim, bank off the pier posts and pop festival bubbles over Gullhaven Pier. Drop whole clusters, fill the fever meter and unleash a Storm Clear.",
+    "long": "Bubbletoom is a seaside festival puzzle about one good shot. It is dusk on Gullhaven Pier, the lanterns are up, and a sky full of festival bubbles hangs over the tide pool. Drag to aim the lifebuoy launcher, let go to fire, and watch the dotted guide show exactly where the bubble will bank off the pier posts and where it will stick. Land it next to two or more of its own colour and they pop. Anything left hanging with nothing holding it up splashes into the sea, and those drops are worth far more than pops, so the real game is spotting the one bubble that brings a whole cluster down.\n\nEvery few shots the tide pushes a new row in from the top, and if the bubbles reach the rope you are out, so plan your banks before the board creeps down. Big pops and drops fill the Fever meter. When it is full your next shot is a rainbow Storm bubble that clears everything around where it lands. Chain scoring shots for a combo multiplier up to five times, and swap the spare bubble whenever the current colour does not fit.\n\nEach of the 30 designed levels has three stars to earn: clear the board, land one big aimed mid-run shot that pops or drops a set number of bubbles (a Storm or the finishing shot does not count), and finish without wasting more than a few shots. The goal card tells you the targets before you play, the HUD tracks them live, and the results screen shows what you earned and what you missed. Levels unlock as you clear them and never start on their own.\n\nThe Daily Regatta is one seeded board that is the same for every player that day, with a streak for every day you come back. After each run you see where your score stands, and you can share a picture of your result with a challenge link that opens the very same board with your score as the target to beat.\n\nEvery bubble carries its own symbol (shell, star, fish, heart, leaf or drop) so colour is never the only clue. Bubbletoom plays one-handed on a phone in portrait or landscape, with a mouse, or entirely from the keyboard, and your best scores, stars, unlocks and streak are saved on this device.",
+    "controls": "Drag and release to fire (touch or mouse), or hover to aim and click. Keyboard: Left/Right or A/D to aim, Space, Up or Enter to fire, X or Shift to swap. Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I pop bubbles?",
+        "a": "Fire a bubble so it touches two or more bubbles of the same colour. Groups of three or more pop, and anything left hanging without support falls into the sea for bonus points."
+      },
+      {
+        "q": "How do bank shots work?",
+        "a": "Bubbles bounce off the side posts. The dotted aim guide shows the exact path, including bounces, and rings the spot where the bubble will stick."
+      },
+      {
+        "q": "What is a wasted shot?",
+        "a": "A shot that pops nothing and lands next to no bubble of its own colour. Setting up a match does not count as wasted."
+      },
+      {
+        "q": "What is the Storm bubble?",
+        "a": "Fill the Fever meter with pops and drops and your next bubble becomes a rainbow Storm that clears everything around where it lands."
+      },
+      {
+        "q": "What is the Daily Regatta?",
+        "a": "One board that is the same for every player each day. Play it daily to grow your streak."
+      },
+      {
+        "q": "How do challenge links work?",
+        "a": "From the results screen tap Share. The link opens the same level or daily board with your score shown as the target to beat. Damaged or edited links are ignored and the normal game opens."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes. Best scores, stars, unlocked levels and your daily streak are saved on this device automatically."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "Clears the bottom rows so you can keep playing once per run"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "11bcb73cdaa7",
+  "builtAt": "2026-11-09T15:33:23.469Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 490856,
+    "initial": 299413
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "5e242c8aaca39a00ce3c5fe6a97880b2319a06e4d3c12ba6fa7f5f617d4d6360",
+      "bytes": 1612
+    },
+    {
+      "path": "app.789e8c12.js",
+      "sha256": "11bcb73cdaa7d8474a80b38e3e9546ce52ed136db2b121ee83e93f2bf8f305d9",
+      "bytes": 165453
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "6fdba2905e844af320a9ae55aa3181fa320390c3fe04a0d39a5950f1cf5c3c70",
+      "bytes": 3007
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "f9b2a2071323244be803fb9d29d3e4301845c7e4f6a8481e30fd8ec93e7c5ed0",
+      "bytes": 65584
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "cac112d89701a5912754883e44b7e6f2c68b5a2ac2684867c69fd34e1709e189",
+      "bytes": 72694
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "ec88c9c3a38c48376251f4657c32fc4c49a47a2bd7b00af8ea90d8109748ddb3",
+      "bytes": 42780
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

@@ -1,0 +1,1489 @@
+{
+ "gem-lattice": {
+  "about": [
+   "Gem Lattice is a calm, crunchy block puzzle. Three gem pieces wait in the tray; drag one onto the 8x8 lattice and it snaps into place with a ghost preview, lifted above your finger on touch screens so you can always see where it lands. Fill a whole row or column and the gems shatter in a burst of light. Clearing several lines at once multiplies your score, and consecutive clearing moves build a streak that multiplies it further, so planning two or three placements ahead pays off. Wipe the entire board for a big bonus. The run ends only when none of the remaining pieces fit anywhere.",
+   "Play Classic for an endless run against your saved best, or take on the Daily Board: a seeded starting layout and piece sequence that is the same for every player on the same day, with a streak counter for coming back. Adventure mode has 30 hand-tuned levels with clear goals such as score targets, line counts, gold gems and multi-line combos. Every level awards up to three stars with the same simple rules, a level-start card explains the goal in plain words, and the results screen shows exactly which stars you earned or missed so you can retry for a perfect run. Progress, stars and settings are saved on your device, the game never advances on its own, and the sound toggle is always one tap away."
+  ],
+  "how": [
+   {
+    "t": "Drag.",
+    "d": "Drag a gem piece onto the board."
+   },
+   {
+    "t": "Clear.",
+    "d": "Fill a full row or column to clear it."
+   },
+   {
+    "t": "Combo.",
+    "d": "Clear several lines in a row to chain a combo."
+   },
+   {
+    "t": "Stars.",
+    "d": "Hit the level goal to earn up to 3 stars."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "plop-planets": {
+  "about": [
+   "Plop Planets is a drop-and-merge physics puzzle set in a tiny box of space. A little saucer carries the next object: slide it left or right, let go, and watch it plop onto the pile. When two identical objects touch they merge into the next size up, so two Pebbles become an Asteroid, two Asteroids a Comet, and so on through Moon, Rusty Planet, Ocean Planet, Gas Giant, Ringed Planet and Star, all the way to a Black Hole. Merge two Black Holes for a huge Singularity bonus. Every object has its own hand-drawn face, and merges burst with particles, squash and stretch, and soft synthesized plops. Quick chains of merges raise a score multiplier, so planning a cascade pays off. Keep the pile below the dashed danger line: if it stays above the line for three seconds, the run is over. Classic is the endless mode for your best score. Make a Ringed Planet in any mode to unlock Wobble, where the whole box slowly tilts and sways and every drop needs a new plan. Daily Drop gives everyone the same sequence of objects each day, keeps your best daily score and tracks your streak of days played. Twelve Missions set clear goals, such as making a Moon or scoring 350 points, and award one to three stars depending on how few drops you used, with the star rules shown before you start. Best scores, stars, unlocks, discoveries and your daily streak are saved on your device. One tap to play, instant restart, and the sound button is always on screen."
+  ],
+  "how": [
+   {
+    "t": "Aim.",
+    "d": "Move left or right to aim the drop."
+   },
+   {
+    "t": "Drop.",
+    "d": "Tap or click to drop."
+   },
+   {
+    "t": "Merge.",
+    "d": "Two matching objects merge into the next size."
+   },
+   {
+    "t": "Watch.",
+    "d": "Don't let the jar fill to the top."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "stack-sort": {
+  "about": [
+   "Chromacomb is a calm-but-explosive color sorting puzzle played on a honeycomb. Each turn you get three stacks of colored hex tiles. Drag one onto any empty cell (or tap a stack, then tap a cell). Every neighbor whose top color matches hops over, tile by tile, onto the stack that tidies the board best. When ten or more tiles of one color sit on top of a stack, they burst in a shower of sparks, uncovering the colors underneath, which can merge again and set off a chain reaction. A good placement can trigger merge after burst after merge, with rising notes, combo counters and screen-shaking finales.",
+   "There is no move limit: you only lose when the comb fills up, so every placement is a little planning puzzle. Thirty hand-tuned Levels take you across ten board shapes, from the small Hive to the Halo ring, Blossom, Starburst and Twin Pools. Each level has one clear goal (clear tiles, clear a color, or reach a score) and three stars: one for the goal, one for finishing in few placements, and one for a high score or a big combo. A results screen explains every star you earned or missed, and nothing moves on until you choose.",
+   "The Daily Board gives everyone the same seeded board and tray each day, with a streak to keep. Endless mode keeps adding colors as your score climbs and saves your best. Two boosters help out of tight spots: Shuffle rerolls the tray and Hammer smashes one stack. Stars and streaks unlock six original color palettes. Progress, stars, boosters, palettes and best scores are saved on your device."
+  ],
+  "how": [
+   {
+    "t": "Pick.",
+    "d": "Drag a stack from the tray, or tap it then tap a cell."
+   },
+   {
+    "t": "Place.",
+    "d": "Drop it next to matching colors on the hex comb."
+   },
+   {
+    "t": "Burst.",
+    "d": "10 tiles of one color burst and set off chain cascades."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "deep-cast": {
+  "about": [
+   "Lumenhook is a one-handed fishing game about the light at the end of your line. Cast your lure off a little wooden boat and steer it as it sinks: on the way down every fish you touch ends the dive early, so you weave through schools, rays and jellies to reach the end of your line. Then the reel kicks in and everything flips. Now you steer into the fish, stacking them on your hook in a wriggling, glowing bundle while you avoid the stinging jellies and spiky puffers that knock your catch loose.",
+   "Every haul is sold back at the boat for coins. Spend them on three upgrade tracks: a longer Line to reach new depths, a bigger Hook to carry more fish (plus a guard charm that forgives a bump on the way down), and a better Boat that sells for more and reels faster. Five zones wait below, from the Sunlit Shoals and the Kelp Cathedral through the Twilight Drop and the pitch-dark Midnight Reach to the glowing Abyss, each with its own creatures, light and music.",
+   "Twenty hand-built contracts give every cast a goal, with up to three stars for filling your hook, diving clean or landing a rare. The Daily Dive gives everyone the same seeded sea for the day with a featured rare worth triple, and keeps a streak with bonus coins. Twenty species fill your album, each with its own art and notes, and you can unlock new lures and boat paints along the way. Progress, coins, best haul and streak are saved on your device automatically."
+  ],
+  "how": [
+   {
+    "t": "Drop.",
+    "d": "Send your glowing lure into the deep and dodge fish on the way down."
+   },
+   {
+    "t": "Hook.",
+    "d": "Steer to hook fish on the way back up."
+   },
+   {
+    "t": "Upgrade.",
+    "d": "Sell your catch, upgrade, and dive deeper."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "fernpuff-fields": {
+  "about": [
+   "Fernpuff Fields is a cozy idle merge game about growing a meadow full of tiny friends. Tap the seed bag to plant a sprout, then drag two identical friends onto each other and watch them pop, squash and stretch into the next creature: a Dewdrop Seed becomes a Peep Sprout, then a Clover Puff, and twelve tiers later a glowing Spring Keeper. Every friend on the board makes coins every second, and bigger friends make far more, so each merge makes your meadow richer.",
+   "Spend coins on more seeds and on three garden upgrades: Better Seeds plant higher-tier friends, the Sprinkler plants free friends on a timer, and the Lucky Clover sometimes makes a merge jump two tiers. Quick merges build chains for bonus coins, and a wandering Wishpuff floats across the meadow now and then for an extra payout if you tap it.",
+   "There are four seasons, each with its own line of twelve species. Spring starts with bunnies and lambs, Summer brings froggos and ladybugs, Autumn has leaf piles to rake and foxes to find, and Winter hides gifts under snowdrifts. Every season opens with a goal card and three stars to earn: grow the goal friend, do it within the meadow time limit, and finish all four season quests first. Your progress shows in the HUD, and a results screen explains every star you earned or missed. Earning a star unlocks the next season.",
+   "Every first discovery gets its own reveal card and a page in the Friend Book, which collects all 48 creatures with names and little stories. Stars, discoveries and daily streaks unlock hats and board themes. The Daily Bloom Rush is a 75-second merge sprint on a board seeded by the date, with a streak and a saved best score.",
+   "Your friends keep earning while you are away (at half rate, for up to three hours), and a welcome-back panel shows what they made. Progress saves automatically on your device. No account or download needed. Plays one-handed on a phone or with a mouse and keyboard on desktop, in portrait or landscape."
+  ],
+  "how": [
+   {
+    "t": "Merge.",
+    "d": "Drag two matching meadow friends together."
+   },
+   {
+    "t": "Grow.",
+    "d": "Grow them through 12 tiers."
+   },
+   {
+    "t": "Collect.",
+    "d": "Earn coins even while away and fill your friend book."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "number-pop": {
+  "about": [
+   "Pipfuse is a bright, bouncy number puzzle you can learn in five seconds. Tap any tile that touches its twin and the whole group of matching numbers fuses into the tile you tapped, which grows by one. Tiles fall, new ones drop in, and if your freshly fused tile lands next to its own number again it fuses again for free. That is a chain, and chains are where the big points, the screen shake and the escalating sound live. Only the tile you just made can chain, so every cascade is something you set up, not luck.",
+   "Play 30 hand-tuned goal levels with a move limit: make a 9, score 40,000 points, free frozen tiles or smash rocks. A goal card shows exactly what earns each of the three stars, the HUD tracks your progress live, and the results screen tells you which stars you earned and which you missed. Nothing auto-advances; retry for three stars whenever you like.",
+   "Endless mode lets you fuse until the board locks up and saves your best score and highest tile. The Daily Board gives everyone the same seeded board each day: 25 moves, one score, and a streak to keep alive. Making bigger tiles than ever before unlocks new themes such as Lagoon, Ember, Neon, Cosmos and Gilded, each with its own tile shapes, colours and particles.",
+   "Pipfuse plays one-handed on a phone in portrait or landscape and with mouse or keyboard on desktop. Your progress, stars, best scores and streak are saved on your device."
+  ],
+  "how": [
+   {
+    "t": "Tap.",
+    "d": "Tap a tile that touches a matching number."
+   },
+   {
+    "t": "Fuse.",
+    "d": "The whole group fuses into the tapped tile, one number higher."
+   },
+   {
+    "t": "Chain.",
+    "d": "If the new tile lands next to its twin, it fuses again for free."
+   },
+   {
+    "t": "Stars.",
+    "d": "Hit the level goal with moves to spare for 3 stars."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "swarm-colony": {
+  "about": [
+   "Gnawnauts is an idle swarm game about very small creatures with very big appetites. Your nest sends out a stream of gnawnauts that fly to the object in front of them, bite off a piece and carry it home as bits. Every crumb they bring back is money for upgrades: Swarm Size adds more gnawnauts (hundreds of them fill the screen), Wing Speed shortens every trip, Jaw Strength makes each bite bigger and Zap Power makes your own taps hit harder. Tap the object to zap it yourself, catch the golden motes that drift by, and trigger Feeding Frenzies to speed the whole swarm up.",
+   "Five worlds grow from a picnic blanket to a toy box, a main street, downtown skyscrapers and finally deep space, each with six objects and a boss. A goal card explains each world before you start, the HUD shows your progress, and every world awards up to three stars: clear it, beat the par time, and catch enough golden motes. When the run slows down, Molt: start over with amber that permanently boosts every future swarm. Your gnawnauts keep gnawing while you are away, and a welcome-back screen shows what they earned. There is also a seeded 60-second Daily Feast with a streak, milestones with rewards, and unlockable swarm skins. Progress and settings are saved on your device, the game never advances on its own, and the sound toggle is always one tap away."
+  ],
+  "how": [
+   {
+    "t": "Zap.",
+    "d": "Tap the object to zap it and catch golden motes."
+   },
+   {
+    "t": "Upgrade.",
+    "d": "Spend bits on swarm size, wing speed and jaw strength."
+   },
+   {
+    "t": "Molt.",
+    "d": "Start over with amber that boosts every future swarm."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "swingsprout": {
+  "about": [
+   "Swingsprout is a one-button swinging game about momentum. You play Sprig, a small round seedling with a stretchy sprout vine. Press and hold anywhere to latch onto the nearest glowing flower bud, swing through the arc, and let go at the right moment to fling yourself across the meadow. Release on the upswing for a Perfect fling and an extra burst of speed, chain swing after swing without touching the ground, and race the clock to the finish flag. New players start in Sprout School, a short hands-on tutorial with slow-motion hints that teaches holding, letting go, mushroom pads and spinning thorns; it can be skipped and replayed any time from the Courses screen.",
+   "The 24 hand-built courses span four worlds: Sunny Meadow, Amber Canopy, Dusk Hollow and Starlit Grove. Each world adds something new: bouncy mushroom pads, spinning bramble wheels, drifting buds, wilting buds that give way after a moment, dandelion speed rings, gusts of wind and floating thistles. Every course has three stars: reach the finish for the first, and beat two target times for the others. The goal card shows the times before you start, and the results screen explains which stars you earned and why. Checkpoint flags keep a mistake from costing the whole run, and restarting takes a fraction of a second.",
+   "Endless mode builds a course that gets harder the farther you swing, so you can chase your best distance. The Daily Course is the same seeded course for everyone each day; finish it to grow your streak. Collect sunseeds and stars to unlock nine skins for Sprig and five gadget vines, such as the Long Vine, the bouncy Spring Coil, the Glide Leaf and the Magnet Bloom. Progress, best times and unlocks are saved on your device automatically."
+  ],
+  "how": [
+   {
+    "t": "Hold.",
+    "d": "Hold to grab the nearest glowing flower bud."
+   },
+   {
+    "t": "Swing.",
+    "d": "Swing through the arc to build momentum."
+   },
+   {
+    "t": "Fling.",
+    "d": "Let go at the right moment to fling across the meadow."
+   },
+   {
+    "t": "Stars.",
+    "d": "Reach the goal fast to earn up to 3 stars."
+   }
+  ],
+  "keys": [
+   "Space or click",
+   "Tap"
+  ]
+ },
+ "noodle-path": {
+  "about": [
+   "Noodle Sprawl is a slide-to-fill puzzle starring Udo, a very stretchy and very expressive noodle. Swipe, drag or press an arrow key and Udo zooms across the plate until he bumps into a wall or his own body, leaving a trail of noodle behind him. Cover every empty tile to clear the plate. It takes five seconds to learn and a lot longer to master, because every slide is a commitment: pick the wrong order and you will paint yourself into a corner.",
+   "The campaign has 75 levels across five worlds. Pantry Plates teaches the basics, Warp Pots adds paired portals that pop Udo out of a twin pot still moving the same way, Arrow Alley adds one-way tiles that only let him in from one side, The Freezer adds ice cubes he can shove until they slide into something, and Chef's Feast mixes everything together. Each world opens with handcrafted teaching levels, then continues with seeded levels that a built-in solver checks for a solution before you ever see them, so every puzzle is fair.",
+   "Every level awards up to three stars: fill every tile, use no hints, and finish within par, the solver's shortest route. A goal card explains the stars before you start, the HUD tracks them while you play, and the results screen shows what you earned and what you missed. Undo is free, unlimited and instant, and restart is immediate. Stuck? A hint shows the next correct move, rewinding your mistakes if needed. On your first three plates a short, skippable guided tutorial shows you the swipe, then points out Undo, Hint and Restart.",
+   "Come back every day for the Daily Puzzle, the same plate for every player, with a streak and your best time saved. Stars unlock new noodle flavors, from Tomato Spaghetti and Squid Ink to Rainbow Rotini, plus a Galaxy Glass special. Udo blinks, looks where you swipe, squashes, wobbles, gets dizzy when he bonks into walls and dances when you win. Progress and settings are saved on your device and the sound toggle is always one tap away."
+  ],
+  "how": [
+   {
+    "t": "Swipe.",
+    "d": "Swipe, drag or use the arrow keys to slide Udo."
+   },
+   {
+    "t": "Slide.",
+    "d": "Udo keeps sliding until something stops him."
+   },
+   {
+    "t": "Fill.",
+    "d": "Cover every tile on the plate to clear the level."
+   },
+   {
+    "t": "Undo.",
+    "d": "Stuck? Undo a move or ask for a hint."
+   }
+  ],
+  "keys": [
+   "Arrow keys",
+   "Swipe"
+  ]
+ },
+ "edge-drift": {
+  "about": [
+   "Slipcrest is a one-tap drift game about the perfect line. Your little car races along a zigzag road floating over an endless void. Hold anywhere to throw it into a smoky drift through the bend, and let go to snap straight again. Release at exactly the right moment for a Perfect, which builds your combo multiplier. Slide close enough to brush the kerb for an Edge Kiss bonus. Leave it too late and you sail off the edge. Every second of drifting scores points, coins sit on the racing line, and the road keeps speeding up and tightening the further you get, so each run is a short, tense fight for one more corner.",
+   "Free Run is the endless mode. Survive as long as you can while the world drifts through four hand-built themes: Neon City, Desert Sunset, Snow Peaks and Deep Space. Each has its own weather, skyline and procedural soundtrack. Routes are 24 hand-tuned roads with a finish line and up to three stars each. A goal card before every route shows exactly what each star needs, chips on screen track your progress live, and the results screen explains what you earned and what you just missed. Daily Road is a fresh seeded road every day, the same for everyone, with three goals and a streak that grows each day you play.",
+   "Coins unlock ten original cars in the Garage, from the plucky Pebble hatch to the Nebula Nine. A first-run lesson with slow-motion prompts teaches the timing in seconds. Restarting is instant. Your best score, farthest distance, stars, coins, cars and streak are saved on your device. The game never moves on without you, and works in portrait or landscape with mouse, touch or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Hold.",
+    "d": "Hold to throw your car into a drift through the bend."
+   },
+   {
+    "t": "Release.",
+    "d": "Let go to snap straight. Time it right for a Perfect."
+   },
+   {
+    "t": "Edge Kiss.",
+    "d": "Brush the edge for bonus points, but don't fall off."
+   },
+   {
+    "t": "Stars.",
+    "d": "Finish routes and hit their goals for up to 3 stars."
+   }
+  ],
+  "keys": [
+   "Space or click",
+   "Tap"
+  ]
+ },
+ "nine-ball": {
+  "about": [
+   "Lantern Nine is a 9-ball pool game built around a real physics simulation. Balls slide, then roll, then stop the way they do on cloth; cushions rebound and grip; object balls throw a little when they are cut; and the spin you put on the cue ball matters. Touch the big cue ball in the corner to strike low for draw, high for follow or to the side for english, then pull the power slider and let go.",
+   "The rules are proper 9-ball. You must always hit the lowest-numbered ball first, and something has to reach a cushion after contact. Scratches, wrong first contact, missing every ball or knocking a ball off the table are fouls, and your opponent gets ball in hand anywhere on the table. Sink the 9 on any legal shot to win the rack, even early with a combination. Right after the break you may play a push-out, and three fouls in a row lose the rack.",
+   "Play the Computer against four opponents, from the friendly Rookie to the Lantern Master, who plays position, safeties, banks and combinations. The aim guide shows a ghost ball and where both balls will travel, and it gets shorter as the opponent gets stronger. Pass & Play lets two people share one device.",
+   "The Daily Rack gives everyone the same scattered table each day. Clear all nine balls in as few strokes as you can (each foul adds two) and as fast as you can, then send a challenge link so a friend plays exactly the same rack and sees a head-to-head result. Eighteen Trick Shots teach draw, follow, banks, combos, safeties and runouts. Each has a goal card and three stars, and the results screen explains every star you earned or missed.",
+   "Stars, wins and streaks unlock new cloth colours and cues in the Locker. Everything is saved in your browser on this device, and your player name is optional."
+  ],
+  "how": [
+   {
+    "t": "Aim.",
+    "d": "Drag on the table to aim the cue."
+   },
+   {
+    "t": "Spin.",
+    "d": "Touch the cue ball widget to set draw, follow or english."
+   },
+   {
+    "t": "Shoot.",
+    "d": "Pull the power slider and let go."
+   },
+   {
+    "t": "Win.",
+    "d": "Hit the lowest ball first and sink the 9 to win the rack."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "balloon-archery": {
+  "about": [
+   "Skyfletch is a bright, physics-based archery game about popping balloons with a bow. Drag back anywhere on the screen to draw the string: the angle of your pull aims the arrow and the length of the pull sets its power. Let go and the arrow flies on a real gravity arc, bending with the wind, until it pops a balloon, sticks in a wall or lands in the grass.",
+   "Read the wind before every shot. The flag and the km/h number in the corner show its direction and strength, and it changes from level to level. In later worlds gusts and wind shifts arrive mid-level, always announced a couple of seconds early by a flashing warning, so a sharp eye is rewarded instead of luck. Early levels show a short dotted trajectory hint that gets shorter world by world, until in the Starry Skies you shoot on feel alone.",
+   "There are 72 handcrafted levels across six worlds: Sunny Meadow, Breezy Cliffs, Lantern Dusk, Stormy Peaks, Frost Fjords and Starry Skies. New ideas arrive one at a time with a short intro card: bobbing, patrolling, orbiting and drifting balloons, tiny balloons, walls and ledges to lob over, golden bonus balloons, bomb balloons that set off chain reactions, thunder balloons you must never touch, limited quivers and the ticking clock. Line balloons up and one arrow pierces straight through all of them for big combo callouts, slow motion and showers of confetti.",
+   "Every level has three stars and tells you exactly how to earn them before you start: clear the level, stay within the arrow par, and a third challenge such as missing no arrows, popping the golden balloon, landing a combo or clearing fast. The HUD tracks each star live, and the results screen explains what you earned and what you missed. Stars unlock new arrow styles.",
+   "Breeze Rush is an endless mode where waves of balloons float up from the ground while the wind keeps changing; let three get away and the run is over. The Daily Gale is five seeded stages that are the same for everyone each day, shared from a single quiver, with a streak and a best score. Share a result card with friends when you set a record.",
+   "Progress saves automatically on your device. No account or download is needed, and it plays one-handed on a phone, on any tablet, or with a mouse and keyboard on desktop, in portrait or landscape."
+  ],
+  "how": [
+   {
+    "t": "Draw.",
+    "d": "Drag back anywhere to draw the bow."
+   },
+   {
+    "t": "Aim.",
+    "d": "The angle sets your aim and the pull length sets the power."
+   },
+   {
+    "t": "Wind.",
+    "d": "Read the wind and let the arrow arc onto the balloons."
+   },
+   {
+    "t": "Stars.",
+    "d": "Pop every balloon with arrows to spare for 3 stars."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "trap-door": {
+  "about": [
+   "Heckle Hollow is a platformer that lies to you, and is very proud of it. Every level looks simple: run right, jump a gap, walk through the door. Then the floor drops out, a spike pops up exactly where you were going to land, the ceiling comes down, or the exit sprouts little feet and sprints away. Your guide is Grinwick, a smug lantern-ghost who built every trap himself and narrates your misfortune in chatty speech bubbles, with an optional babbling voice.",
+   "The trick is that every prank is fair. Each trap has a tell if you look closely: a hairline crack in the ground, bolts on a block that is about to move, a glint where a hidden spike waits, a dotted outline of a bridge that will appear, pressure plates, arrow slits and doors with tiny feet. You die, you laugh, you spot the clue, and you get it right on the next try. Respawns are instant, so there is no waiting between attempts, and your death counter is a badge of honor with ranks from Fresh Meat to Immortal (Repeatedly).",
+   "There are 30 hand-made levels in three themed packs. Sunny Fibs is a cheerful meadow of crumbling bridges and shy doors. Clockwork Cellar adds arrow traps, reversed controls, timed platforms and crushing gears. Moonlit Funhouse flips gravity, swaps doors and bounces you off trampolines. Each level awards up to three stars: one for reaching the real door, one for finishing within the level's death limit, and one for carrying Grinwick's stolen gold tooth to the exit. The goal card explains every star before you start, the HUD tracks them live, and the results screen tells you exactly what you earned and what you missed. Stars unlock new skins for your hero.",
+   "A brand-new Daily Trap is generated from the date every day, the same for every player, and keeps a streak going. After a win you can share a result card with a challenge link that opens the same level for a friend and shows your death count to beat. Controls are tight and snappy with coyote time, jump buffering and variable jump height, using big one-handed touch buttons on phones and tablets or the keyboard on desktop. Progress, stars, skins and your lifetime deaths are saved automatically on your device."
+  ],
+  "how": [
+   {
+    "t": "Run.",
+    "d": "Hold the left and right arrows (or A/D) to run."
+   },
+   {
+    "t": "Jump.",
+    "d": "Tap JUMP or Space; hold for a higher jump."
+   },
+   {
+    "t": "Expect tricks.",
+    "d": "Floors vanish, spikes pop and doors run away. Learn each prank."
+   },
+   {
+    "t": "Respawn.",
+    "d": "Fall? Respawn instantly and try again."
+   }
+  ],
+  "keys": [
+   "← → to move",
+   "Space to jump",
+   "On-screen pad"
+  ]
+ },
+ "serpent-arena": {
+  "about": [
+   "Swervana is a snake arena game about the clever swerve. You start as a tiny ribbon of light in a round arena full of rival snakes. Eat glowing orbs to grow longer, and watch your name climb the live top-10 board at the side of the screen. Your head is fragile: touch another snake's body or the arena wall and your run ends. Your body is a weapon: swing it across a rival's path and they crash into you, bursting into a trail of big, juicy orbs for you to gobble up. Hold Boost to surge forward and slip ahead of someone, but every second of boost spends your length and sheds orbs behind you, so speed is always a trade.",
+   "The rivals are computer-controlled snakes, each with its own style. Some are cautious and steer wide of trouble, some farm orbs quietly, some are aggressive cutters that race to get in front of you, and some boost wildly, panic-turn or simply make mistakes. Nothing is online and there is no waiting: a match starts in a moment and works offline.",
+   "There are ten arenas to clear, from Sprout Ring to Crown Arena, each with more rivals and sharper play. Every match has three goals shown on a goal card and tracked live on screen: reach a length (this clears the arena and opens the next), reach a top place on the board, and cut off a number of snakes. The results screen shows exactly what you earned and what you missed, your rank history over the last ten matches and your best rank, and it never moves on without you. Daily Arena is a new seeded arena every day, the same for everyone, with its own goals and a streak. Near misses trigger a slow-motion \"So close!\" moment. Twelve original skins unlock as you earn stars, grow longer, cut off rivals and keep your streak. Share your result as an image card, or send a challenge link that drops a friend into the same arena with your score to beat. Your best length, best rank, match history, stars, skins and streak are saved on your device. Plays in portrait or landscape with touch, mouse or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Steer.",
+    "d": "Drag anywhere (a stick appears), point with the mouse, or use the arrow keys."
+   },
+   {
+    "t": "Eat.",
+    "d": "Swallow glowing orbs to grow longer."
+   },
+   {
+    "t": "Boost.",
+    "d": "Hold BOOST to speed up and cut rivals off."
+   },
+   {
+    "t": "Survive.",
+    "d": "Don't hit another snake's body. Climb the top 10."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "merge-drop": {
+  "about": [
+   "Tidepool Tumble is a squishy physics merge game set in a sunny rock pool. Nimbo the cloud drifts above the water carrying the next critter. Drag, move the mouse or use the arrow keys to aim, then let go or press Space to drop it. When two of the same critter touch, they merge into the next one up, from a tiny Dewdrop through Bubblet, Snailet, Shrimplet, Puffball, Starbun, Crabbit, Jellybell, Octopal and Shellback, all the way to the legendary Moonwhale. Merge two Moonwhales for a Moonrise and a huge bonus.",
+   "Every critter wobbles, squashes when it lands, blinks, looks worried when the pool gets full and giggles when it merges. The physics are tuned so piles stack calmly and never jitter, so every chain reaction plays out exactly the way you set it up. Merge again within a moment of the last merge to build a chain: each link raises the multiplier from x1.5 up to x4, with big callouts, bursts of bubbles, screen shake and rising notes.",
+   "Scoring is simple and shown before you play: each merge is worth the points of the critter it creates, multiplied by your chain. If the pile stays above the dashed line for three seconds the tide goes out and the run ends. The line glows, a heartbeat plays and a countdown appears, and dropping back under in time earns a Near Miss bonus. The results screen breaks down your points by critter, shows every goal you earned or missed and lists the critters you found, and it waits for you.",
+   "Each Tide Level sets three goals, such as a score, a critter to reach and a chain length. Two stars in one run clears the level. Discoveries fill your Collection Book with each critter's name, art and a little story, and progress unlocks new pools such as Coral Cove, Kelp Forest, Moonlit Lagoon and the Glowing Abyss, plus critter skins like Pastel Pals, Candy Stripes and Night Glow. The Daily Drop gives everyone the same sequence each day, with your best score and a day streak. Share a result card and send a challenge link: your friend gets the exact same drops and tries to beat your score."
+  ],
+  "how": [
+   {
+    "t": "Aim.",
+    "d": "Drag, move the mouse or use the arrow keys to move Nimbo the cloud."
+   },
+   {
+    "t": "Drop.",
+    "d": "Lift, click or press Space to drop the critter."
+   },
+   {
+    "t": "Merge.",
+    "d": "Two matching critters that touch merge into the next one up."
+   },
+   {
+    "t": "Chain.",
+    "d": "Merge again quickly for up to x4. Keep the pile under the dashed line."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "word-daily": {
+  "about": [
+   "Hopabet is a bite-sized word puzzle with a new challenge every day. Pip the pond frog sits on a lily pad with a four-letter word. Your job is to hop, one letter at a time, from that start word to today's Word of the Day. Every hop changes exactly one letter, and every word you land on has to be a real word, so HARE can become HIRE, then HIDE, then TIDE, and so on.",
+   "The twist is the daily theme. Each puzzle has a theme such as Animals, Weather, Food or At Home, and some of the words along the way belong to it. Land on a theme word and a lotus blooms: that is a find. Reaching the Word of the Day earns your first star, and taking a scenic route through enough theme words earns the second and third stars. You have a hop budget, so the puzzle is about planning: the shortest route is safe, but the best score comes from detours that collect finds and still arrive in time.",
+   "Scoring is simple and shown before you start: 500 points for reaching the Word of the Day, 150 per find, 25 per spare hop, minus 150 for each hint. The goal card lists exactly what each star needs, and the results screen explains which stars you earned and why. Undo is free, the on-screen keyboard lights up the letters that make a real word, and a short animated demo teaches the rules in seconds.",
+   "The Daily Hop is the same for every player on the same date and keeps a streak going. When you finish, share a spoiler-free result card made of little lily pads, lotus flowers and a star, plus a challenge link that opens the same puzzle for a friend and shows your score to beat. Between dailies, Practice mode has unlimited levels that grow from three-hop warmups to longer routes, with ranks from Tadpole to Grand Hopabet and unlockable pad skins such as Sakura, Sunset, Moonlit, Candy and Golden.",
+   "Every answer, theme word and hint comes from a curated, family-friendly word list, and the game plays fully offline with progress saved on your device."
+  ],
+  "how": [
+   {
+    "t": "Select.",
+    "d": "Tap a letter of your current word."
+   },
+   {
+    "t": "Hop.",
+    "d": "Tap a new letter on the keyboard. Every hop must make a real word."
+   },
+   {
+    "t": "Finds.",
+    "d": "Land on theme words to bloom a lotus."
+   },
+   {
+    "t": "Arrive.",
+    "d": "Reach the Word of the Day before your hops run out."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "tower-stack": {
+  "about": [
+   "Cloudmason is a calm, hypnotic one-tap stacking game. A slab glides back and forth above your tower. Tap anywhere on the screen, click, or press Space to drop it. Whatever hangs over the edge is sliced off and tumbles away, so the tower slowly narrows. Line the slab up exactly and it is a PERFECT: it snaps into place with a ring of light, a sparkle burst and the next note of a rising melody. Land three perfects in a row and the slab grows back a little with every further perfect, so a great streak can rescue a skinny tower.",
+   "Pip, a small cloud in a builder's hat, floats beside the top of your tower. Pip cheers your perfects, winces at big slices and gets nervous when the tower gets thin. The camera eases upward as you climb through five skies: the flowery Meadow, the Cloud Sea, Sunset Heights with its birds and glowing sun, the shimmering Aurora Veil and finally the Starfield. The music builds with you: new layers join as you climb and as your streak grows.",
+   "Scoring is shown before you play and on every results screen: every floor is worth 10 points, a perfect adds 20 times your streak (up to x5), and every 10 floors pays a growing milestone bonus. Endless mode keeps your best height and score. 24 Sky Levels each set three goals: reach the summit, land a number of perfects and hit a perfect streak. The goal card explains them, chips in the HUD show live progress, and the results screen lists what you earned and missed. It waits for you and never moves on by itself. The Daily Tower gives every player the same slabs, speeds and patterns each day, with your best height and a day streak. Share a result card and a challenge link: your friend builds the exact same tower with a line showing the height to beat. Progress unlocks block skins such as Glass, Candy, Marble, Neon and Gilded, plus new sky themes. Everything works offline and your progress is saved on your device."
+  ],
+  "how": [
+   {
+    "t": "Tap.",
+    "d": "Tap anywhere, click or press Space to drop the sliding slab."
+   },
+   {
+    "t": "Slice.",
+    "d": "Any overhang is sliced off, so the tower narrows."
+   },
+   {
+    "t": "Perfect.",
+    "d": "Line it up exactly for a PERFECT. Three in a row grows the slab back."
+   },
+   {
+    "t": "Climb.",
+    "d": "Stack from the meadow up to the stars."
+   }
+  ],
+  "keys": [
+   "Space or click",
+   "Tap"
+  ]
+ },
+ "ragdoll-stunts": {
+  "about": [
+   "Wallopwick is a slapstick physics stunt game starring a bendy stick hero called Wick. Pull back, aim and let go: a shove, a cannon blast, a runaway car or a long drop sends Wick tumbling down a hand-built stunt course full of stairs, ramps, trampolines, bumpers, gongs, crates, spinning beams and swinging wrecking balls. Every bump scores. Harder hits score more, head bonks count double, and hits in quick succession build a combo multiplier of up to four times. Flips, air time, toppled crates, rung gongs, rings flown through and a landing in the target bin all add to the score.",
+   "The bonks are pure cartoon. Nobody gets hurt: there is no blood and nothing comes apart, only comic stars, squash and stretch, dizzy eyes and big \"BONK!\" bursts. The best hit of every run plays back in slow motion so you can enjoy the moment.",
+   "Wick is a proper ragdoll with bending joints, so no two runs are quite the same, yet the physics are fully deterministic. The same launch on the same course always plays out the same way, which keeps every attempt fair and lets you tune a shot until it is perfect.",
+   "There are 24 courses across four worlds, from the Backyard and the Building Site to the Big Top and the City Rooftops. They start gentle and get trickier. Each course has three stars: two score goals and a special stunt such as knocking over every crate, ringing the gong, landing two flips or dropping into the bin. Goals are shown on a goal card before you launch, tracked live on screen and explained on the results screen, which always waits for you. One star opens the next course.",
+   "The Daily Stunt is a fresh generated course every day, the same for everyone, with its own goals and a streak to keep. Eight original stick characters and eight hats unlock as you earn stars, score career points, land flips and play daily. Share your result as an image card, or send a challenge link that drops a friend onto the same course with your score to beat. Links carry everything they need, so nothing is uploaded.",
+   "Retrying takes a single tap. Stars, best scores, unlocks and your streak are saved on your device, and the game works offline. It plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Pull.",
+    "d": "Drag back from anywhere to aim. A longer pull means more power."
+   },
+   {
+    "t": "Launch.",
+    "d": "Let go to send Wick tumbling down the course."
+   },
+   {
+    "t": "Bonk.",
+    "d": "Harder hits, head bonks, flips and quick combos score more."
+   },
+   {
+    "t": "Land.",
+    "d": "Finish in the target bin for a big bonus."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "hoop-flick": {
+  "about": [
+   "Cinderhoop is a one-finger basketball game where every shot is a flick. Put your finger on the ball and throw it up toward the hoop. A faster flick sends it farther, and the angle of your flick sets the aim. The ball flies in a real arc, getting smaller as it heads toward the rim, with its shadow sliding across the court. The rim rattles, the backboard thuds, and the cloth net snaps when you drain a clean one.",
+   "Make three in a row and the ball catches fire: flames trail behind it, the crowd starts jumping and every basket counts double. Make six in a row and it burns blue for triple points. Miss and the fire goes out. Trick shots earn bonus callouts. A swish touches nothing but net, a bank shot comes off the glass, and a board beater uses both. Downtown, Wind Rider and Moving Target are for swishes from the deep line, through strong wind or into a sliding hoop.",
+   "There are three ways to play. Arcade Blitz gives you 60 seconds, every make adds a second and every swish adds two. The distance grows as you score, then the wind picks up and finally the hoop starts to move. Levels mode has 30 goal-based stages with three stars each. The goal card spells out exactly what each star needs, the HUD tracks your progress, and the results screen explains every star you earned or missed. The Daily Shootout is the same five racks for everyone on the same date, with a gold money ball worth double at the end of each rack and a streak for playing every day.",
+   "Every result can be shared as an image card with a challenge link that opens the same mode and shows your score to beat. Stars and total makes unlock new balls (Ember, Ocean, Candy, Galaxy, Gold) and courts (School Gym, Rooftop Night, Beach Court, Neon Arena). There is also an aim mode for players who prefer to drag and release, with a dotted arc preview, plus full keyboard controls. The game works offline and saves progress on your device."
+  ],
+  "how": [
+   {
+    "t": "Flick.",
+    "d": "Put your finger on the ball and flick up toward the hoop. Faster goes farther."
+   },
+   {
+    "t": "Aim.",
+    "d": "The angle of your flick aims left or right."
+   },
+   {
+    "t": "Fire.",
+    "d": "Three makes in a row sets the ball on fire for double points."
+   },
+   {
+    "t": "Tricks.",
+    "d": "Swishes, bank shots and deep shots earn bonus callouts."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "line-draw": {
+  "about": [
+   "Wobbline is a physics puzzle game where everything you draw becomes real. Drag a line and it turns into a solid, wobbly object with weight. Press Go and watch it fall, roll, tip and land, then see whether your idea works.",
+   "Every puzzle has more than one answer. Lay a bridge across a gap so the ball rolls into the cup. Build a roof over the posts before the rocks fall on the critter. Knock over a wooden block, or get two balls to meet in the middle. A new idea arrives every five levels. Gold pins turn a line into a hinge, or lock it solid if it crosses two. Pink pads bounce, blue ice is slippery for balls and lines alike, and striped zones refuse ink. Cups slide back and forth, wind pushes everything around, some levels have a crowd of balls, and in others gravity points up.",
+   "Stars reward clever, tidy solutions. One star is for solving the puzzle, the second for staying under the ink target and the third for using few lines. The goal card shows each target before you start. The HUD shows an ink meter with a gold star tick and your line count. The results screen tells you exactly which star you earned or missed and why. If something doesn't work, Retry keeps your lines so you can nudge them and go again instantly.",
+   "The Daily Puzzle is the same for everyone on the same date, with a streak for solving it every day. Share your result as an image of your actual solution, with a challenge link that shows a friend how much ink you used. Stuck? Watch a short ad to see a ghost solution. Stars unlock new inks: Red Marker, Gel Green, Crayon Grape, Fountain Pen and Rainbow. Works with fingers, mouse and Apple Pencil, offline, and saves on your device."
+  ],
+  "how": [
+   {
+    "t": "Draw.",
+    "d": "Drag to draw a line. It becomes a real, wobbly object with weight."
+   },
+   {
+    "t": "Go.",
+    "d": "Press Go! to run the physics and see if your idea works."
+   },
+   {
+    "t": "Retry.",
+    "d": "Stop or Retry keeps your lines so you can tweak them."
+   },
+   {
+    "t": "Stars.",
+    "d": "Solve with less ink for more stars. 64 levels plus a daily puzzle."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "idle-tycoon": {
+  "about": [
+   "Thistlewhirl is a cosy idle tycoon set on a little floating meadow in the sky. Tap the big smiling thistle to earn sparkly glimmers, then spend them on critter stalls: Shelly the snail's Dew Tea Stand, Pip the squirrel's Acorn Muffin Oven, Moley's Mushroom Lamp Workshop, Bumble's Honeycomb Hive and four more, all the way up to Fennel the fox's Starjam Observatory. Each stall pops up as a tiny hut on your island and bounces every time it finishes a batch.",
+   "A stall without a helper only works when you tap it, so the first minutes are hands-on. Hire a critter helper and their stall runs by itself, even while you are away. Level stalls up one at a time, ten at a time, a hundred at a time or as many as you can afford, and watch for milestones: every 25, 50, 100 and more levels doubles that stall's output. Upgrades say exactly what they do in plain words, such as +100% Acorn Muffin Oven output or helpers keep earning for longer while you are away.",
+   "The story moves in chapters. Each chapter has three clear goals, one star each, shown on your island and in the Goals sheet, and a small gift when you finish. The card waits for you and never skips ahead. Three fresh daily goals keep a streak going, with a gift when all three are done, and achievements unlock new skies for your island, from Peach Sunset and Blossom Breeze to First Snow, Starry Night and Aurora Sky.",
+   "When growth slows, make a wish. The game explains what starts fresh and what you keep, then asks once more before anything happens. Every wish adds +10% to everything forever, so each new meadow grows faster than the last.",
+   "Coming back later? Your helpers keep earning for up to four hours (longer with the cosy offline upgrades), and a welcome-back card shows what they made. Share a picture of your island, or send a challenge link that asks a friend to beat your net worth. The link carries the number itself, so nothing is uploaded. Optional ads can double your welcome-back earnings or give a five-minute 2x boost; they are never required and nothing is ever for sale.",
+   "Progress saves automatically on your device, and the game works offline in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Tap.",
+    "d": "Tap the big thistle to earn glimmers."
+   },
+   {
+    "t": "Stalls.",
+    "d": "Open critter stalls and tap Buy to level them up."
+   },
+   {
+    "t": "Helpers.",
+    "d": "Hire helpers so stalls run by themselves, even while you're away."
+   },
+   {
+    "t": "Wish.",
+    "d": "When growth slows, make a wish for +10% to everything forever."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "endless-run": {
+  "about": [
+   "Scamperlight is a bright, fast three-lane endless runner. You are Fen, a lamplighter fox-kit riding a hover-leaf down the lantern lanes at dusk. Swipe left or right to change lane, swipe up to jump and swipe down to slide. You can also tap the left or right half of the screen to steer, or play with the arrow keys, WASD and Space on a keyboard. The road keeps speeding up, smoothly, the further you get.",
+   "Every obstacle has its own colour in every biome, so you can read the road at a glance: hop the amber fences, slide under the blue lantern beams, and dodge the rose blocks and the long violet carts. Warning strips light up on the road before each obstacle row, and every row of the course is checked by a solver so there is always a way through that a quick reaction can reach. A last-moment dodge, jump or slide counts as a near miss and is worth bonus points.",
+   "Collect glow motes along the safest line; chaining them plays a rising run of notes. Three power-ups help you out: the Magnet pulls nearby motes in, the Shield absorbs one crash, and the Boost launches you forward and smashes through anything in your way, with speed lines and a louder soundtrack. The world changes as you go, from Dusk Meadow to Amber Canyon, Frostwood, the Starfall Ruins and Aurora Lake, with distance milestones along the way. The music grows with you as new layers join.",
+   "Scoring is explained before you play and on every results screen: one point per metre, five per glow mote, 25 per near miss and 100 per distance milestone. Endless mode keeps your best distance and score. 24 Trails each have three stars: reach the lantern gate, collect a number of motes, and a style goal such as near misses, using power-ups or a no-hit run. The goal card explains them, the HUD shows live progress and the results screen waits for you and never moves on by itself. The Daily Run gives every player the same course each day, with your best and a day streak. Share a result card and a challenge link: your friend runs the exact same course with a ghost marker showing the distance to beat. Motes and stars unlock new runners and boards. Everything works offline and your progress is saved on your device."
+  ],
+  "how": [
+   {
+    "t": "Lanes.",
+    "d": "Swipe left or right (or tap a side) to change lane."
+   },
+   {
+    "t": "Jump.",
+    "d": "Swipe up to jump over low barriers."
+   },
+   {
+    "t": "Slide.",
+    "d": "Swipe down to slide under high ones."
+   },
+   {
+    "t": "Distance.",
+    "d": "Grab lantern sparks and see how far Fen can run."
+   }
+  ],
+  "keys": [
+   "Arrow keys",
+   "Swipe"
+  ]
+ },
+ "daily-jigsaw": {
+  "about": [
+   "Daylace is a jigsaw puzzle that paints a brand-new picture for you every day. Each picture is created on your device from the date: misty mountain mornings, harbours full of boats, glowing city skylines, kitchen tables with fruit and teapots, patchwork quilts and valleys full of hot-air balloons, at dawn, midday, sunset, dusk or under the stars. No two days look the same, and everyone in the world gets the same picture on the same date.",
+   "The pieces are real jigsaw pieces with knobs and holes that fit only one way. Pick one up from the table, drag it to the board and it clicks in with a little sparkle when it is in the right spot. Use Edges to sort corners and border pieces to the front, Peek to see a faint copy of the picture on the board, and the box lid on the goal card to study the picture before you start. On twist levels some pieces are turned; tap a piece to turn it the right way up.",
+   "The daily puzzle grows through the week, from a gentle 4x4 on Monday to a big 6x6 on Friday and Saturday and a Sunday Twist with turned pieces. Solve it every day to build your streak. Six albums hold 60 more pictures, from 3x3 warm-ups to a 7x7 finale, each unlocking the next.",
+   "Every puzzle has three stars, explained on the goal card, in the HUD and on the results screen: one for finishing the picture, one for beating the par time, and one for finishing within the move target without a hint. Stars unlock new table cloths: walnut, linen, night sky, cork and velvet. Share your finished picture as an image with a challenge link that gives a friend your time to beat. Works with fingers, mouse, trackpad and Apple Pencil (with palm rejection), plays offline and saves progress on your device."
+  ],
+  "how": [
+   {
+    "t": "Drag.",
+    "d": "Drag a piece from the table onto the board."
+   },
+   {
+    "t": "Click.",
+    "d": "It clicks in when it is in the right spot."
+   },
+   {
+    "t": "Helpers.",
+    "d": "Peek shows a faint picture; Edges sorts the border pieces to the front."
+   },
+   {
+    "t": "Daily.",
+    "d": "A brand-new picture every day, plus 60 album levels with stars."
+   }
+  ],
+  "keys": [
+   "Mouse: drag",
+   "Touch: drag"
+  ]
+ },
+ "bike-race": {
+  "about": [
+   "Snipwheel is a one-thumb stunt-bike racer set in a handmade papercraft world. Every hill is cut from cardstock, every seam is stitched, and your rider is a little paper puppet held together with brass split pins. Hold anywhere to ride. Hold on the left to lean back and on the right to lean forward; let go to coast. That is all you need to fly.",
+   "Race 24 handcrafted tracks across six worlds: the rolling hills of Meadow Fold, the corrugated mesas of Cardboard Canyon, the folded ice of Origami Glacier, the stitched felt lanterns of Lantern Loom, the tinfoil moons of Foil Cosmos and the snapping blades of Scissor Works. Each track has three clear stars: finish it, beat the par time, and bank the stunt target in a single run. Tracks unlock one after another, and every goal is shown before you ride.",
+   "Stunts build a combo. Backflips, frontflips, double and triple flips, long wheelies, stoppies, big air and close shaves under hanging lanterns and snippers all add points and raise the multiplier up to x8. Land clean to bank it and earn a flip boost; crash and the combo is lost. Big flips slow time for a heartbeat, speed lines stream past at full throttle, and a crash sends your puppet tumbling apart at the pins. Tap to respawn at the last checkpoint instantly, or restart the run in one tap.",
+   "You always race a ghost: your own best run, or the Pace bot until you have one. A new daily track arrives every day, the same for every rider, with a streak that unlocks the Daily Dasher bike. After each run you see where you stand and the next rank to beat. Until online leaderboards launch, ranks are an offline preview against a generated field of sample riders, and the game says so clearly.",
+   "Share a run as a picture card, or send a beat-my-time link: it carries your exact run, so your friend races your ghost on the same track and the time is checked by replaying it. Unlock seven bikes, six helmets and six scarf colours by playing: stars, flips, dailies and streaks. They are all cosmetic and every bike handles the same. One optional ad lets you try a locked bike for three runs; nothing is for sale.",
+   "Progress saves automatically on your device. Snipwheel plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Hold.",
+    "d": "Hold anywhere to ride; let go to coast."
+   },
+   {
+    "t": "Lean.",
+    "d": "Hold the left half to lean back, the right half to lean forward."
+   },
+   {
+    "t": "Stunts.",
+    "d": "Flip, wheelie and skim the scissors to build a combo. Land clean to bank it."
+   },
+   {
+    "t": "Stars.",
+    "d": "Finish, beat par and hit the stunt target for 3 stars. Race your ghost and a new daily track."
+   }
+  ],
+  "keys": [
+   "Space or click",
+   "Tap"
+  ]
+ },
+ "soccer-cup": {
+  "about": [
+   "Curlicup is a bright, bobble-headed football game that packs three ways to play into one pocket-sized stadium. Flick to curl spot-kicks into the top corner, tap to throw your keeper across the goal, then jump into fast 1v1 arcade matches where big heads, bicycle swings and charged-up power shots decide the score. Everything is drawn in a bold retro sticker-album style: halftone grass, chunky ink outlines, confetti and a crowd that roars when the net ripples.",
+   "Pick one of 48 original fictional nations, each with its own kit, flag, captain and signature power shot: the flat Rocket, the bending Curler, the dropping Dipper or the wobbling Zigzag. Then choose how you want to play.",
+   "Cup Run is a 36-stage journey through six groups, from a park kickabout to a snowy mountain ground and a floodlit final. Stages mix spot-kick drills, keeper drills, full shootouts and timed 1v1 matches, with walls, wind, target rings and keepers who shuffle along the line. Every stage shows its three stars before kick-off, the HUD tracks them as you play, and the result screen explains each star you earned or missed. Stars unlock new balls and boots.",
+   "The Daily Spot-Kick is five kicks and five saves that are the same for everyone on the same date. Play it every day to build your streak. The Weekly Cup draws an eight-nation bracket every Monday: win the quarter-final, semi-final and final to lift the trophy, with a penalty shootout if a match ends level. Quick Match is a one-minute game against an easy, normal or hard rival, or against a friend on the same device with split controls, which is great on a tablet in landscape.",
+   "Beat a nation to add its captain's sticker to your album. After every run you see your standing on the board: rank, percentile and the next score to beat. Share a scoreline card with your flag and send a beat-my-keeper link: your friend faces your exact shots as ghost marks and sees the score to top. The game works offline and saves progress on your device."
+  ],
+  "how": [
+   {
+    "t": "Shoot.",
+    "d": "Drag from the ball and flick to shoot. A bowed swipe curls it; a faster flick is harder but less accurate."
+   },
+   {
+    "t": "Save.",
+    "d": "As the keeper, tap where to dive. Watch the run-up: the taker leans toward their side."
+   },
+   {
+    "t": "Matches.",
+    "d": "Use the on-screen pads to run, jump and kick. Five touches charge your nation's power shot."
+   },
+   {
+    "t": "Stars.",
+    "d": "Each of the 36 Cup Run stages shows three stars before kick-off. Play the Daily Spot-Kick and the Weekly Cup, or a friend on one device."
+   }
+  ],
+  "keys": [
+   "Touch or mouse: drag and flick",
+   "Arrows aim, Space shoots",
+   "Tap to dive"
+  ]
+ },
+ "couch-2p": {
+  "about": [
+   "Jellybout is a party pack of six quick duels for two players on one device. Each player gets their own half of the screen with one or two big buttons, so you can share a phone, an iPad or a keyboard. Rounds last seconds, and the first jelly to win three rounds (or five, if you want a longer fight) takes the match.",
+   "Hot Jam is tag on bouncy sofa cushions: whoever holds the hot jam when the fuse pops loses. Flop Hoops gives you a leaning noodle body and one button, so you jump, grab the ball and flop a shot at the hoop. In Wobble Bows you hold to sweep your aim, let go to loose a suction arrow and allow for the wind, and a headshot counts double. Pouf Sumo spins your arrow until you hold to lock it, charge and dash your rival off a shrinking pouf. Flap Duel is a wing-flapping joust where you bonk from above and stay out of the jam pit. Snack Snap is a pure reaction test: wait for the real snack and do not fall for the decoys.",
+   "Play Party Mix to shuffle all six, or pick one favourite. No friend nearby? Play against a bot on Easy, Normal or Hard. Trophy Road has fifteen levels. Each one has a goal card with three stars to earn: win the match, win without dropping a round, and beat the par time. The results screen explains every star you earned or missed. The Daily Duel gives everyone the same match each day and keeps your streak going. Clear goals to unlock new jellies in the Closet and collect twelve trophies.",
+   "After each solo run you see your rank, percentile and the next score to beat. The rankings are clearly marked preview data until online boards launch. You can share a result card or send a beat-me link so a friend plays exactly the same match. Progress, stars, trophies, streaks and your couch rivalry tally are saved in this browser on this device."
+  ],
+  "how": [
+   {
+    "t": "Pick a side.",
+    "d": "Each player takes one half of the screen, or one set of keys. Play a friend on one device, or a bot on Easy, Normal or Hard."
+   },
+   {
+    "t": "Tap your buttons.",
+    "d": "One-button games use your whole half. Two-button games add a TURN button. Several fingers can press at once."
+   },
+   {
+    "t": "Win rounds.",
+    "d": "Rounds last seconds. First to win three rounds (or five) takes the match. Party Mix shuffles all six microgames."
+   },
+   {
+    "t": "Stars.",
+    "d": "Trophy Road has 15 levels with three stars each: win, win without dropping a round, beat the par time. A new Daily Duel every day."
+   }
+  ],
+  "keys": [
+   "Player 1: W or Space",
+   "Player 2: Up arrow",
+   "Touch: tap your half"
+  ]
+ },
+ "ragdoll-archery": {
+  "about": [
+   "Quivertwang is a ragdoll archery duel printed in woodcut ink. Two floppy archers face off on stone pillars above a carved sea. Drag back anywhere to draw your bow, let go to shoot, and watch the arrow arc through the wind. Every hit knocks the body around for real: a shot to the arm spins your foe, a headshot does double damage, and the final arrow plays out in slow motion with a big K.O. stamp. There is no blood, only splashes of printer's ink.",
+   "Both archers shoot whenever their bow is ready, so duels are fast and frantic. Crates and planks give cover until they splinter, the wind changes every round, and arrows can even knock each other out of the air. Special arrows join your quiver as you climb: Split fires three at once, Ice freezes your foe in place, Bounce ricochets off wood, and Tug lassos your foe with a rope and yanks them toward you, sometimes right off their pillar for a ring out.",
+   "Climb the Boss Ladder through twelve original archers, from Sprig the Squire to the Woodcut King. Each boss has a goal card and three stars: win the duel, win without dropping a round, and finish a round with a headshot. Quick Duel lets you pick an Easy, Normal, Hard or Brutal opponent, and 2 Players puts two people on one phone, tablet or keyboard at the same time. The Daily Duel gives everyone the same foe, arena and wind each day and keeps your streak.",
+   "After every duel you see your score, a preview of your global standing, and a share card with your slow-motion finishing shot plus a challenge link that replays the exact same duel for a friend. Feathers, stars, wins and headshots unlock bows and hats in the Locker. Progress is saved in your browser on this device."
+  ],
+  "how": [
+   {
+    "t": "Draw and shoot.",
+    "d": "Drag back anywhere, away from your foe, to draw the bow; pull further for more power. Let go to shoot. A tap or a tiny drag never shoots."
+   },
+   {
+    "t": "Win the duel.",
+    "d": "Duels are best of 3 rounds. Headshots do the most damage, and knocking your foe off the pillar is an instant K.O."
+   },
+   {
+    "t": "Modes.",
+    "d": "Climb the Boss Ladder of 12 bosses, pick a Quick Duel from Easy to Brutal, play 2 Players on one device, or take on the Daily Duel."
+   },
+   {
+    "t": "Stars.",
+    "d": "Each boss has three stars: win the duel, win without dropping a round, and finish a round with a headshot. Special arrows unlock as you climb."
+   }
+  ],
+  "keys": [
+   "Touch or mouse: drag back, let go",
+   "W/S aim, hold Space to draw",
+   "2 players: left and right halves"
+  ]
+ },
+ "rhythm-battle": {
+  "about": [
+   "Hollerbout is a rhythm battle drawn like a wall of wheatpaste posters. Mox, a small tangerine bean with a big voice, wants to be the loudest act on the block. Every rival sings a short call; then it is your turn to echo it back. Sticker arrows slide toward four huge lanes, and you tap (or press the arrow keys or WASD) as each one lands on its chalk outline. Hit them clean and Mox sings the melody right back at them; miss and he bonks a note and the tug-of-war meter slides toward your rival.",
+   "Six original rivals hold court on six original songs, each one composed and synthesized live in your browser: Dumpling Dee in the laundromat, Coo Carl the tracksuit pigeon, Slurpa the disco noodle cup, Bricky the brick with the chain, Meter Maude the parking meter, and Gargo, the gargoyle boss of the rooftop. Beat a rival to unlock the next.",
+   "Four difficulty levels mean everyone can finish a song. Chill lets you tap anywhere on the screen, Easy gives you extra time, Normal is the real bout, and Hard speeds things up and adds chords. Gentle mode halves miss damage, note speed is adjustable, and a tap test sets your audio and touch delay so timing feels fair on any phone, tablet or laptop.",
+   "Every bout earns up to three stars, and the results screen explains each one: finish the song with health left, reach the accuracy goal, and play a full combo. You also get a letter grade, your judgement counts, a hint if you tend to tap early or late, and a preview of where your score would place on the global board. Stars, streaks and wins unlock hats, microphones and sticker styles for Mox in the Locker.",
+   "The Daily Bout writes a brand-new song every day, the same for everyone, and keeps your streak. Share a poster-style result card, or copy a beat-me link: your friend plays the same song and races your ghost score live. Everything saves in your browser, and a player name is optional."
+  ],
+  "how": [
+   {
+    "t": "Listen.",
+    "d": "Each rival sings a short call with chalk-outline arrows. Watch which lanes they use."
+   },
+   {
+    "t": "Echo.",
+    "d": "Tap a lane (or use the arrow keys or W/A/S/D) as your sticker arrow lands on its outline. Hold for tape notes."
+   },
+   {
+    "t": "Win the bout.",
+    "d": "Clean hits push the tug-of-war meter your way. Finish the song with health left to beat the rival and unlock the next of 6."
+   },
+   {
+    "t": "Stars.",
+    "d": "Every bout has three stars: win, reach the accuracy goal and play a full combo. Chill lets you tap anywhere, and the Daily Bout writes a new song every day."
+   }
+  ],
+  "keys": [
+   "Touch: tap the lanes",
+   "Arrow keys or W A S D",
+   "Chill: tap anywhere"
+  ]
+ },
+ "chess-checkers": {
+  "about": [
+   "Oakcrown puts two classics on one felt table: chess and checkers, carved in warm wood and polished brass, with pieces big enough to read at arm's length. Tap a piece, tap where it should go, and you're playing. Dragging works too, but you never need it.",
+   "Play the computer on a six-step ladder for each game, from Beginner, who still misses the odd checkmate, through Easy, Medium and Hard to Expert and Master, who think for a few seconds and play genuinely strong chess and checkers. Every level has three stars: win, win without Undo, and win without a Hint. Your rating climbs as you win and shows how you compare with the levels around you. The computer thinks in the background, so the board never freezes, and nothing is ever timed.",
+   "Stuck? Ask for a Hint and the coach draws an arrow and tells you why in plain words: \"it captures a knight\", \"it puts the king in check\", \"it moves to a square where it can't be jumped\". Undo as often as you like. Legal-move dots, clear messages such as \"Your turn\", \"Check!\" and \"You must capture\", a high-contrast mode and a gentle piece speed keep everything calm and readable.",
+   "Each day brings one new chess puzzle and one checkers puzzle, the same for everyone. Keep your daily streak alive, beat your best solve, and send a friend a \"solve this\" card with a link that opens the very same puzzle. Every chess puzzle is a checkmate in one to three moves, and each one has been checked by computer to have only one winning line. The Puzzle Path adds 30 chess and 30 checkers puzzles to work through in order.",
+   "Two Players mode is made for a tablet on the table between you. Choose whether the board turns around after each move or stays put.",
+   "The rules are the full rules. Chess has castling, en passant, promotion, stalemate, threefold repetition, the fifty-move rule and insufficient material. Checkers uses the American and English rules: captures are compulsory and multi-jumps must be finished.",
+   "Stars unlock new boards (Parlour Green, Rosewood Salon, Brass & Ebony, Moonlit Slate) and piece sets, and you can try a locked style for a game. Your stars, ratings, streak and settings are saved on your device."
+  ],
+  "how": [
+   {
+    "t": "Move.",
+    "d": "Tap a piece, then tap the square it should go to. Dragging works too. Legal moves are shown as dots."
+   },
+   {
+    "t": "Pick a game.",
+    "d": "Play chess or checkers against the computer on six levels, from Beginner to Master, or pass the device in Two Players."
+   },
+   {
+    "t": "Get help.",
+    "d": "Ask for a Hint and the coach draws an arrow and explains why. Undo as often as you like. Nothing is ever timed."
+   },
+   {
+    "t": "Stars and puzzles.",
+    "d": "Every level has three stars: win, win without Undo, win without a Hint. A new chess and checkers puzzle every day, plus a 60-puzzle Puzzle Path."
+   }
+  ],
+  "keys": [
+   "Tap a piece, then a square",
+   "Arrows + Enter",
+   "H hint, U undo"
+  ]
+ },
+ "shop-idle": {
+  "about": [
+   "Bobbleboat Bazaar is a cosy arcade-idle shop game set on a floating market in the middle of a lazy river. You are Ottilie the otter, and the market is yours to grow. Walk to the Berry Bush to pick a stack of bobbleberries, carry them to the basket, and watch ducks, frogs, bunnies and geese hop off the little round bobbleboat ferry to grab what they want. Ring them up at the till, scoop the coins off the counter and stand on a glowing tile to spend them: every tile opens something new, like a Lily Kettle for tea, a Bun Oven, a Melon Raft, a Lantern Loom or a Pearl Diver, bigger baskets, faster feet, a trader pier and lots of bunting.",
+   "When the market gets busy, hire the mole crew. A stocker mole in a yellow cap keeps one stall's basket full, and a cashier mole in a pink cap runs the till so you can rush around. Trader boats moor at the pier with an order board; bring them exactly what they ask for before the timer runs out for a big tip.",
+   "There are four islands, from Lily Landing to Lantern Lagoon, each with more goods and more tiles. Every island has three stars, and each one is explained up front: open every stall, finish within the par time, and fill the trader boat orders. The results card shows what you earned, your shells and where you stand today, and it waits until you choose Next island, Replay or Share. Shells unlock eight shopkeepers in the Wardrobe, including Cappi the capybara, Rusty the red panda and Lulu the axolotl.",
+   "The Daily Rush is a 90-second sprint in a fully built market that is the same for every player that day. Race your own ghost from your best run, keep your streak alive, restart instantly, and send a beat-me link that loads the same market and your ghost for a friend. You can also share a postcard of your market with a visit link.",
+   "Your cashier keeps the market open while you are away and earns at half speed for up to four hours. Optional videos can double your shells or your welcome-back coins; they are never required. Progress saves automatically on your device, and the game plays in portrait or landscape on phones, tablets and desktop with a one-thumb joystick, tap-to-walk, mouse or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Walk.",
+    "d": "Drag anywhere for a one-thumb joystick, or tap a spot to walk there. On desktop use WASD, the arrow keys or the mouse."
+   },
+   {
+    "t": "Stock and serve.",
+    "d": "Walk into a stall to pick up stock, drop it in the basket, then serve customers at the till and scoop up the coins."
+   },
+   {
+    "t": "Grow.",
+    "d": "Stand on a glowing tile to buy it: new stalls, bigger baskets, faster feet and a mole crew who stock and serve for you."
+   },
+   {
+    "t": "Stars.",
+    "d": "Each of the four islands has three stars: open every stall, beat the par time and fill trader boat orders. The Daily Rush is a 90-second sprint, new every day."
+   }
+  ],
+  "keys": [
+   "Touch: drag or tap to walk",
+   "WASD or arrow keys",
+   "Mouse: drag or click"
+  ]
+ },
+ "stealth-heist": {
+  "about": [
+   "Tiptail is a one-button stealth timing game set in a storybook paper-cut castle. You are a cheeky raccoon with a sweet tooth, and every king in the land has a freshly baked royal pie on a pedestal right behind him. Hold anywhere to tiptoe closer. Let go to freeze, and you instantly turn into a potted fern. The king munches happily with his back to you, but every monarch has a tell just before he turns around: twitching ears, a wobbling crown, a sneeze, a cuckoo clock, a sleepy yawn and more. Spot the tell, freeze in time, and he sees nothing but a suspicious houseplant. Move while he is looking and it is a funny 'Caught!' moment with a trombone and an outraged 'Oi! My pie!' Nobody is ever hurt: it is all about cheeky timing.",
+   "Steal Pies is the endless reign: snatch pie after pie from an ever-trickier line of monarchs. Every fifth pie you become the king, and in the King's Turn you must spin round and catch the next thief yourself. Share 'I ruled for 23 reigns' with a challenge link that gives your friend the exact same monarchs and timings, and race their ghost raccoon.",
+   "The Royal Court has 40 kings and queens, each with their own tell, from King Crumbleton the 3rd to Queen Spongealot. Later monarchs fake you out and do double-takes, and the last ten have two tells at once. Every court earns up to 3 stars: snatch the pie, beat the par time, and never get spotted flinching. The Daily Palace is the same five monarchs for everyone each day, so keep your streak going. Crumbs from every run buy 12 costumes in the Wardrobe, including a chef hat, tutu, pirate, bee and astronaut. Some of them are earned by streaks, catches and stars. A short first-play tutorial teaches the tell and can be skipped. Progress, stars, costumes and your daily streak are saved on your device. Play one-handed in portrait or landscape on phones, tablets and computers."
+  ],
+  "how": [
+   {
+    "t": "Tiptoe.",
+    "d": "Hold anywhere (or hold Space, Enter or an arrow key) to tiptoe toward the pie."
+   },
+   {
+    "t": "Freeze.",
+    "d": "Let go to freeze into a potted fern. Watch for each king's tell just before he turns around."
+   },
+   {
+    "t": "Snatch.",
+    "d": "Reach the pedestal to snatch the pie. Move while the king is looking and you're caught."
+   },
+   {
+    "t": "Stars.",
+    "d": "40 monarchs in the Royal Court, each with 3 stars: snatch the pie, beat the par time and never flinch. Steal Pies is endless, and the Daily Palace is new every day."
+   }
+  ],
+  "keys": [
+   "Hold anywhere to tiptoe",
+   "Let go to freeze",
+   "Space, Enter or arrows"
+  ]
+ },
+ "rhythm-dash": {
+  "about": [
+   "Thrumdash is a one-touch rhythm dash game where every level is a song. Each song is composed in your browser from a seed, and every spike, orb and tunnel sits exactly on its beat, so if you follow the music you can feel where the next jump goes. Tap or hold anywhere to play: no buttons to hunt for.",
+   "Your runner switches between four modes as the music changes. As a Cube you tap or hold to jump. In Flip sections a tap swaps gravity between floor and ceiling. The Wave zigzags up while you hold and dives when you let go, threading saw-toothed tunnels that follow the melody. The Ship climbs while you hold and sinks when you let go. Yellow orbs give a mid-air jump when you tap on them and pink pads launch you by themselves. A short count-in starts every song and the mode banner tells you what changed.",
+   "There are 30 hand-tuned songs across six worlds, from Ink Hollow to the Bassline Abyss, each with its own neon accent colour and paper-cut skyline that pulses with the bass. Every song has three clearly explained stars: finish it, collect all three echo notes hidden on the line, and finish with at least 75% Groove, which means your taps land on the beat. The goal card shows them before you play, the HUD shows live progress, and the results screen waits for you and never moves on by itself. Dying shows your percentage and best, and a tap anywhere restarts instantly. Practice mode drops checkpoints on every bar so you can learn the hard part.",
+   "The Daily Song gives everyone the same new song each day and keeps your streak. In the Seed Lab you choose a seed word, tempo, difficulty, mood, length and the order of modes, and Thrumdash composes a brand-new song and level from it. Copy the link and anyone who opens it gets exactly the same song. After any run you can share a card with your percentage and a mini replay strip, plus a challenge link that opens the same song with your ghost racing alongside your friend.",
+   "Stars, streaks and cleared songs unlock 12 runner icons and 8 trails. A calibration screen measures your audio and touch delay so timing feels right on any phone, tablet or headphones. Music and sound effects are synthesized live, the game runs smoothly on 120 Hz screens, works offline, and your progress is saved on your device."
+  ],
+  "how": [
+   {
+    "t": "Tap on the beat.",
+    "d": "Tap or hold anywhere (or Space, Up arrow or W) to jump. Every spike, orb and tunnel sits on the beat of the song."
+   },
+   {
+    "t": "Four modes.",
+    "d": "Cube jumps, Flip swaps gravity, Wave zigzags up while you hold and Ship climbs while you hold. The banner tells you when the mode changes."
+   },
+   {
+    "t": "Orbs and pads.",
+    "d": "Tap on a yellow orb for a mid-air jump. Pink pads launch you by themselves. A tap anywhere restarts instantly after a crash."
+   },
+   {
+    "t": "Stars.",
+    "d": "30 songs in six worlds, each with three stars: finish it, collect all three echo notes and keep at least 75% Groove. The Daily Song is new every day."
+   }
+  ],
+  "keys": [
+   "Tap or hold anywhere",
+   "Space, Up arrow or W",
+   "R restarts"
+  ]
+ },
+ "hole-grow": {
+  "about": [
+   "Burrowbelly is an eat-to-grow hole game set in a tiny, sun-dappled garden diorama. You are a little burrowing critter peeking out of a hole in the lawn. Glide under anything smaller than your hole and it wobbles, tips over the rim and tumbles in. Every swallow makes the hole wider, so the garden opens up in layers: daisies and pebbles first, then snails, toadstools and hopping bunnies, then flower pots, garden gnomes and hens, benches and wheelbarrows, bushes and bicycles, apple trees and fountains, garden sheds and greenhouses, and finally the windmill on the hill and the moonlit cottage. Things that are still too big rock on the rim and the bar at the bottom of the screen tells you what you can swallow next.",
+   "You are not alone. Every round puts you against up to seven rival burrows with names and personalities: foragers who hoover up crumbs, bullies who chase anyone smaller, scaredy-cats who bolt when you grow, trophy hunters who go straight for the big stuff, daydreamers and sneaky ones who circle around behind you. A hole that is clearly bigger swallows a smaller hole whole, so you will be chasing and running in the same round. Get gulped and you pop back up a few seconds later, a little smaller, with a short shield. When the clock hits zero, the top score on the live board wins.",
+   "There are twelve gardens across three worlds, from the Cottage Garden in the morning to the Sunny Allotments and the lantern-lit park at dusk. Each garden has three stars, shown on a goal card before you start, tracked live on screen and explained on the results screen: finish in a top place (this clears the garden and opens the next), reach a score, and swallow a special landmark or gulp a number of rivals. The Daily Garden is a new seeded garden every day, the same for everyone, with a streak to keep. Tidy-Up is the calm solo mode: no rivals, just you, the clock and a dashed ghost of your best run, with stars for how much of the garden you clear. Earn acorns to unlock twelve critter skins, from Bun Bun the rabbit to Golden Mo. After every round you see where your score would stand on a global board (an offline preview until online boards launch), and you can share a picture card or a challenge link that drops a friend into the same garden with your score to beat. Your stars, bests, skins, acorns and streak are saved on your device. Plays in portrait or landscape with one thumb, a mouse or the keyboard, works offline, and the rivals are all computer players."
+  ],
+  "how": [
+   {
+    "t": "Move.",
+    "d": "Put a thumb down anywhere and drag: the hole follows. With a mouse, hold and drag. On a keyboard, use WASD or the arrow keys."
+   },
+   {
+    "t": "Swallow and grow.",
+    "d": "Glide under anything smaller than your hole to swallow it. Every swallow makes the hole wider; the bar at the bottom shows what you can eat next."
+   },
+   {
+    "t": "Rivals.",
+    "d": "Up to seven rival burrows share the garden. A clearly bigger hole swallows a smaller one whole. Top score when the clock hits zero wins."
+   },
+   {
+    "t": "Stars.",
+    "d": "Twelve gardens in three worlds, each with three stars on its goal card. Plus the Daily Garden and the calm Tidy-Up mode."
+   }
+  ],
+  "keys": [
+   "Touch: drag anywhere",
+   "Mouse: hold and drag",
+   "WASD or arrow keys"
+  ]
+ },
+ "car-race": {
+  "about": [
+   "Halftone Heat is a fast, bright arcade car racer that looks like a fluorescent Risograph print: flat spot inks, halftone dots and slightly misregistered plates on warm cream paper. You start every race last in a pack of six chunky sticker cars, with a halftone ghost of the next driver to beat on the global board. Three laps, about 40 seconds, and the throttle is automatic, so all you do is steer and boost.",
+   "On a phone, drag anywhere with one thumb to steer; tap or swipe up to boost. On a keyboard, steer with the arrows or A/D, brake with Down or S and boost with Space, Shift, Up or W. Every overtake, near miss and boost pad tops up your boost meter. Tuck in behind a rival to slipstream for extra speed, cut across the dirt shortcuts on the inside of big corners (mind the cones), and ram a rival while boosting for a takedown.",
+   "There are 24 tracks across six printed locations: Citrus Coast, Paper Mesa, Cherry Hills, Blue Glacier, Night Market and Ember Ridge. Each track has three stars that are explained before you race and tracked live: finish on the podium, win the race, and a skill goal such as a target time, near misses, shortcuts, slipstream time, a takedown or boost pads. Stars and ink earned from racing unlock eight cars and twelve riso paints in the Garage. The Daily Track gives everyone the same new course each day, with a day streak.",
+   "The results screen shows where you stand: your rank, how many drivers you beat in percent, and the next rank to beat, for every track and the daily. Share a printed result card and a 'beat my time' link: your friend races the same track against your ghost. Everything works offline and your progress is saved on your device; leaderboard numbers are marked as preview until online ranks launch."
+  ],
+  "how": [
+   {
+    "t": "Steer.",
+    "d": "The throttle is automatic. Drag anywhere with one thumb to steer; on a keyboard use the arrows or A/D, and Down or S to brake."
+   },
+   {
+    "t": "Boost.",
+    "d": "Tap or swipe up to boost (Space, Shift, Up or W on a keyboard). Overtakes, near misses and boost pads fill the boost meter."
+   },
+   {
+    "t": "Race smart.",
+    "d": "Slipstream behind rivals, cut the dirt shortcuts inside big corners (mind the cones) and ram a rival while boosting for a takedown."
+   },
+   {
+    "t": "Stars and garage.",
+    "d": "24 tracks in six locations, each with three stars. Stars and ink unlock eight cars and twelve paints. Plus a Daily Track with a streak."
+   }
+  ],
+  "keys": [
+   "Touch: drag to steer, tap to boost",
+   "Arrows or A/D steer, Space boosts",
+   "Down or S brakes"
+  ]
+ },
+ "brain-riddles": {
+  "about": [
+   "Wrinklewit is a trick-riddle game for brains that like a good wrinkle. Every riddle looks simple, and every one hides a trick. The answer is rarely the obvious tap. Sometimes it's a word in the question you can pick up and drag. Sometimes you have to shake a tree, rub a cloud until it rains, twist a clock to the right time or hold a tap until the glass is full. Sometimes the question box itself slides away to show what's hiding behind it, and sometimes the trick is to do nothing at all.",
+   "Sixty original riddles come in ten packs: Warm-up Wits, Count Again, Not What It Seems, Word Twists, Hands-On, Outside the Box, Animal Antics, Kitchen Chaos, After Dark and Brain Busters. Each pack mixes counting traps, wordplay, sleight-of-eye pictures, matchstick equations, dark rooms you explore with a torch, and gentle physical gags. Every riddle is drawn in a bright hand-inked cartoon style, with wobbly outlines and little jokes to find.",
+   "Stars explain themselves. One star is for solving the riddle, the second for solving it without a hint and the third for getting there with no wrong answers. A goal card shows all three before you start, the HUD tracks them live, and the results card shows which you earned, why, and what the trick was. Restart is instant, and the game never jumps to the next riddle without you.",
+   "A new Daily Riddle arrives every day, the same for everyone on the same date. Keep your streak going and earn free hint tokens. Share a colourful result card with a challenge link that opens the same riddle for a friend and shows your time as the one to beat. Stars unlock hats for Wink, the game's winking brain mascot.",
+   "It plays with fingers, a mouse or Apple Pencil, in portrait or landscape, on phones, tablets and desktops. Some riddles can also react to a real shake or tilt of your device, and every one can be solved by touch alone. Wrinklewit works offline and saves progress on your device."
+  ],
+  "how": [
+   {
+    "t": "Look for the trick.",
+    "d": "Every riddle looks simple and hides a trick. The answer is rarely the obvious tap: words in the question can be dragged, objects can be shaken, twisted, rubbed or held."
+   },
+   {
+    "t": "Answer.",
+    "d": "Tap, drag, twist, rub or press and hold. For number answers, tap the keypad or type digits and press Enter. R restarts instantly, H gives a hint."
+   },
+   {
+    "t": "Stars.",
+    "d": "One star for solving, a second for no hint and a third for no wrong answers. The goal card shows all three before you start."
+   },
+   {
+    "t": "Packs and daily.",
+    "d": "60 riddles in 10 packs, plus a new Daily Riddle every day with a streak. Stars unlock hats for Wink, the winking brain mascot."
+   }
+  ],
+  "keys": [
+   "Touch, mouse or pen: tap, drag, twist, hold",
+   "Type digits, Enter to answer",
+   "R restart, H hint, P pause"
+  ]
+ },
+ "reading-spelling": {
+  "about": [
+   "Mothabet is a calm, glowing reading and spelling game set in a paper-cut night garden. Each round, the game says a word (or shows it, on devices without a voice) and soft letter-moths drift around a lantern jar. Tap or drag the right moths into the jar's slots, in order, to spell the word: every correct letter rings a rising chime and lights the jar a little more, and a wrong moth simply flutters back out. Nobody fails: after two misses a friendly firefly lights the moth you need.",
+   "Two gardens grow with your child. Phonics (ages 4-6) follows a systematic phonics sequence: first sounds with picture hints, blending short words like cat and sun, the sh, ch and th sounds, then heart words. Spelling (ages 6-9) moves through short vowels, blends, silent e, vowel teams, bossy r and the Dolch sight-word lists for grades 1 to 3, with a sentence for every word.",
+   "Under the glow is real learning: a spaced-repetition schedule brings tricky words back the next day, three days and a week later, and the difficulty adapts so children get about four words in five right first time, the just-hard-enough zone. Mastering a sound or a word set catches one of 120 collectible moths, so the moth book doubles as a progress map. A daily flame streak, a combo multiplier and the Daily Jar (the same ten words for every player each day) bring kids back.",
+   "Grown-ups get a hold-to-open area with a progress dashboard: words mastered, tricky words, a mastery chart by sound and streak days, plus voice, speed and music settings and sharing. There is no chat, no account and no free text, and all progress stays on the device."
+  ],
+  "how": [
+   {
+    "t": "Listen.",
+    "d": "The game says a word (or shows it, on devices without a voice). Tap the speaker to hear it again."
+   },
+   {
+    "t": "Catch the moths.",
+    "d": "Tap or drag the right letter-moths into the lantern jar's slots, in order. A wrong moth just flutters back out, and after two misses a firefly lights the one you need."
+   },
+   {
+    "t": "Two gardens.",
+    "d": "Phonics (ages 4-6) covers letter sounds, short words and sh, ch and th. Spelling (ages 6-9) covers vowels, blends, silent e and sight words."
+   },
+   {
+    "t": "Moths and daily.",
+    "d": "Mastered sounds and words catch some of 120 collectible moths. The Daily Jar has the same ten words for everyone, every day."
+   }
+  ],
+  "keys": [
+   "Touch or mouse: tap or drag a moth",
+   "Keyboard: type the letters",
+   "Space repeats the word, Esc pauses"
+  ]
+ },
+ "car-levels": {
+  "about": [
+   "Clackabout is a physics driving puzzle set inside a giant toy box. Every level is a little diorama built from lacquered wooden blocks, bookshelves, bathtubs, train tracks, kitchen tables and pillow forts, and your job is simple: get your wind-up toy to the checkered flag without flipping it, sinking it or dropping it off the table.",
+   "The twist is the swap gate. Drive through one and your toy pops into a different toy in the middle of the run, keeping its speed: the grippy Stomper monster truck climbs anything, the Pinewood racer is fast but slippery, the Tubtug boat floats and paddles across the bath, the Zoomrod rocket car burns fuel to fly over gaps, the heavy Scoopy digger shoves blocks out of the way, and the Boingo spring buggy charges up and hops. Reading each course and timing every swap is the puzzle.",
+   "There are 100 hand-built levels in ten worlds, from the Playroom Rug to the dark Attic Toy Chest, each with three stars that are explained before you start: reach the flag, beat the par time, and grab the gold sticker that hides off the fast line. Stars and coins unlock new worlds, paints for every toy, drivers and finish-line effects on the Toy Shelf. The Daily Toy Box gives everyone the same new course each day with two or three swaps, and keeps your day streak.",
+   "Crashes are part of the fun: every crash plays back instantly in slow motion, and you can retry in under a second or share the crash as a flipbook card. Finish a level and you see where you stand, with your rank, percentile and the next rank to beat, then send a challenge link so a friend races your exact ghost, verified by replaying it on their device. Everything works offline, progress is saved on your device, and leaderboard numbers are marked as preview until online ranks launch."
+  ],
+  "how": [
+   {
+    "t": "Drive.",
+    "d": "Hold GAS to drive and BRAKE to brake or reverse. In the air, GAS tips your toy back and BRAKE tips it forward."
+   },
+   {
+    "t": "Swap toys.",
+    "d": "Drive through a swap gate and your toy becomes a monster truck, racer, boat, rocket car, digger or spring buggy, keeping its speed."
+   },
+   {
+    "t": "Three stars.",
+    "d": "Reach the flag, beat the par time and grab the gold sticker on each of 100 levels in ten toy-box worlds."
+   },
+   {
+    "t": "Daily and ghosts.",
+    "d": "The Daily Toy Box is the same new course for everyone each day. Share a link so a friend races your ghost."
+   }
+  ],
+  "keys": [
+   "Touch: hold GAS or BRAKE",
+   "Right/D gas, Left/A brake",
+   "R restarts, Esc pauses"
+  ]
+ },
+ "crowd-math": {
+  "about": [
+   "Multiplatoon is a crowd-runner where your times tables are your weapon. You lead a squad of painted tin toy soldiers down a cardboard road laid across a bedroom floor, and every few steps the road splits into two cellophane gates propped up on pencils. Each gate shows a little sum: \"4×6\" adds twenty-four soldiers, \"×2\" doubles the whole squad, a red \"−3×5\" takes fifteen away and \"÷2\" halves you. Work out which side gives more, slide into it with one thumb and watch the platoon swell or shrink. A pop-up shows the worked fact (\"4 × 6 = 24\") every time, so the tables sink in while you play.",
+   "Further along, rival squads with spiky helmets block the road and clash with your soldiers one for one, spinning tops sweep across one side of the road, and at the end a cardboard castle waits with its own garrison. Bring a big enough army to topple it. There are fifteen levels across three worlds (Bedroom Floor, Playroom Rug and Attic at Night), each built around one times table from the 2s to the 12s, mixing in earlier tables as you go. Every level has three stars, shown on a goal card before you start, tracked live on screen and explained on the results screen: topple the castle, reach the target army size, and pick the bigger gate every time. The results screen also lists the facts you marched through.",
+   "The Daily March is a new seeded course every day, the same for everyone, with a streak to keep, and Endless March keeps building castles until your army runs out. Medals earned from stars and soldiers buy a bigger starting squad in the Barracks, and you can unlock eight uniforms, from Garden Guard green to Golden Parade. After every run you see your global rank, your percentile and the next army size to beat. If you are playing offline it is a clearly labelled preview against sample players. Share a picture card that reads \"My army hit 2,048\" or a challenge link that drops a friend into the same course with your army to beat. Progress, stars, medals and streaks are saved on your device. It plays in portrait or landscape with one thumb, a mouse or the arrow keys, and works offline."
+  ],
+  "how": [
+   {
+    "t": "Steer.",
+    "d": "Drag left or right anywhere with one thumb, hold and drag with a mouse, or use the arrow keys or A and D."
+   },
+   {
+    "t": "Pick the bigger gate.",
+    "d": "Each gate shows a times-table sum. Work out which side gives more soldiers and steer into it; the worked fact pops up every time."
+   },
+   {
+    "t": "Topple the castle.",
+    "d": "Clash with rival squads, dodge spinning tops and bring a big enough army to topple the castle at the end of each level."
+   },
+   {
+    "t": "Daily and Endless.",
+    "d": "The Daily March is the same new course for everyone each day, and Endless March keeps building castles until your army runs out."
+   }
+  ],
+  "keys": [
+   "Touch: drag left or right",
+   "Mouse: hold and drag",
+   "← → or A / D"
+  ]
+ },
+ "evolve-io": {
+  "about": [
+   "Morphmaw.io is an eat-to-evolve monster brawler drawn as glossy die-cut stickers on doodled notebook pages. You start as Blip, a tiny one-eyed blob. Gobble the snacks scattered across the page to fill your DNA bar, bite monsters smaller than you, and run from the big ones. Every monster wears a coloured ring: green means prey, yellow means an even fight, red means run. Red arrows at the edge of the screen warn you when something hungry is closing in, and bushes let you hide.",
+   "When your DNA bar is full you curl up in a safe cocoon and choose your next form from two or three cards. There are three lineages and 34 forms in all. Chomp monsters lunge forward with a big bite, Spike monsters spin and hit everything around them, and Puff monsters spit slowing globs from range. You can stay in your line or branch into a neighbouring one, so every run grows into a different creature, from Nibbit and Prickle to the form-12 apex beasts. Reaching form 12 earns a special share card.",
+   "Six arenas (Margin Meadow, Sticky Desk, Crayon Canyon, Blueprint Bay, Eraser Peaks and Sketchbook Summit) each have a goal card and three stars: reach a target form, knock out a number of monsters in one run, and climb to number one on the food chain. Earning a star opens the next page. The Daily Arena gives everyone the same map and a twist such as Snack Storm or Giant Day, and keeps your streak. The Evolution Codex records every form you discover, and stars, KOs and discoveries unlock sticker finishes like Glitter, Holo Shine and Gold Foil.",
+   "After each run you see the stars you earned and missed, your DNA score, a clearly labelled preview of your global standing, and a share card with your evolution path plus a challenge link that loads the same arena and rivals for a friend. Rivals are offline bots, so it plays anywhere with no account. Progress is saved in your browser on this device."
+  ],
+  "how": [
+   {
+    "t": "Move.",
+    "d": "Drag anywhere with one thumb, steer with the mouse pointer, or use WASD or the arrow keys."
+   },
+   {
+    "t": "Eat and grow.",
+    "d": "Gobble snacks and bite monsters with a green ring. Yellow is an even fight, red means run."
+   },
+   {
+    "t": "Evolve.",
+    "d": "When the DNA bar is full, pick your next form from the cards: Chomp, Spike or Puff."
+   },
+   {
+    "t": "Stars and Daily Arena.",
+    "d": "Each arena has three stars on its goal card. The Daily Arena is the same map for everyone each day."
+   }
+  ],
+  "keys": [
+   "Touch: drag to move, tap BITE",
+   "Mouse: steer, click to attack",
+   "WASD + Space"
+  ]
+ },
+ "arena-paint": {
+  "about": [
+   "Daubstorm is a bright, family-friendly paint arena game. You are a little ink drop with a blaster full of colour, and your team has one minute to cover more of the arena than the other side. Nothing gets hurt: a rival who takes too much paint just goes splat, pops back at base and jumps straight back into the fight.",
+   "Every match is 2 against 2. You and your buddy bot face two rivals across a hand-drawn arena of hedges, crates, piers and ice. Paint the floor in your colour and refill your ink by standing in your own paint. Fill the storm meter to unleash a Daubstorm, a huge burst that soaks the ground around you. A live bar shows the score for both teams, and a mini-map shows who owns which corner.",
+   "There are 24 levels across four seasons: Petal Park in spring, Sunny Pier in summer, Leafy Yard in autumn and Frosty Rink in winter. Rivals get smarter as you go, and every sixth level is a longer boss match. Each level has three stars, and each star says why: win the match, reach a team-paint goal, or hit a personal target such as splats, paint share or a Daubstorm. The goal card shows all three before you start, the HUD tracks them live, and the results card explains which you earned.",
+   "A new Daily Arena arrives every day with a seeded map and blaster that are the same for everyone on that date. Play daily to grow your streak. Stars unlock new blasters (Spray Fan, Lobber and Roller), hats for your drop and new paint colours in the Locker.",
+   "Share a colourful result card with a challenge link. It opens the same arena for a friend and shows your score as the one to beat. Play with twin touch sticks, mouse and keyboard, or Apple Pencil, in portrait or landscape. Turn on Auto-paint to have the game aim and fire for you while you steer. Progress is saved on your device, and the game works offline."
+  ],
+  "how": [
+   {
+    "t": "Move and paint.",
+    "d": "Touch: the left side of the screen moves, the right side aims and paints. Desktop: WASD or arrows move, the mouse aims and click paints."
+   },
+   {
+    "t": "Cover the arena.",
+    "d": "Team up with your buddy bot and paint more of the arena than the rival team before the 60 seconds run out."
+   },
+   {
+    "t": "Daubstorm and AUTO.",
+    "d": "Fill the storm meter and unleash a Daubstorm. Tap AUTO to turn on auto-aim and auto-paint."
+   },
+   {
+    "t": "Stars and Daily Daub.",
+    "d": "Each level has three stars with clear goals. The Daily Daub is the same arena for everyone each day."
+   }
+  ],
+  "keys": [
+   "Touch: left moves, right paints",
+   "WASD + mouse to aim and paint",
+   "Space: Daubstorm, F: AUTO"
+  ]
+ },
+ "swallow-city": {
+  "about": [
+   "Gulpopolis is a two-minute race to become the biggest hole in town. You are a little round hole with a hungry rim, and the whole city is on the menu. Drag anywhere to steer (or just move the mouse) and glide over anything smaller than you: cones, hydrants, people on the sidewalk, ducks in the park pond, benches and bikes. Every bite makes you wider, and every new size opens a new tier of food. Soon you are slurping parasols and trees, then cars and taxis, buses and trucks, then whole houses, cafés and shops, office blocks, the downtown towers and, if you are quick, the Spire and the Stadium itself.",
+   "You are not alone. Five rival holes with names like Munchkin, Big Burp and Chompette are racing you for the same city. Bump into a smaller hole and you gulp it whole; meet a much bigger one and run. A live mini board shows who is ahead, arrows at the edge of the screen point to nearby rivals, pink for danger and teal for prey, and the last thirty seconds turn the music up for a frantic finish.",
+   "Every round has three clear stars: finish on the podium, reach Size 8, and chain a 60-gulp combo. Swallows that follow each other quickly build a combo that multiplies your points, with a pop, a wobble and a rising gulp for every bite. After the round you see the final standings, how close you came, the stars you earned and missed, and where your score would rank. Coins from each round buy upgrades (a bigger start, more speed, stronger suction) and new rim skins.",
+   "There is a Daily City that is the same for every player, with a streak to keep, and a share card with a beat-me link that drops your friend into your exact city with your score to beat. Until online leaderboards launch, global ranks are an offline preview against a generated field of sample players, and the game always says so.",
+   "Progress saves automatically on your device. Gulpopolis plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard, and a restart takes under a second."
+  ],
+  "how": [
+   {
+    "t": "Steer.",
+    "d": "Drag anywhere to steer (a joystick appears under your finger), let the hole follow your mouse, or use WASD or the arrow keys."
+   },
+   {
+    "t": "Swallow and grow.",
+    "d": "Anything smaller than your hole falls in. Gulp lots in a row for a combo and grow big enough for houses, towers and the stadium."
+   },
+   {
+    "t": "Out-eat the rivals.",
+    "d": "Five rival holes race you for two minutes. Swallow a smaller rival, and steer clear of bigger ones."
+   },
+   {
+    "t": "Stars, shop and Daily City.",
+    "d": "Each round has three stars on its goal card. Coins buy skins and upgrades, and the Daily City is the same map for everyone each day."
+   }
+  ],
+  "keys": [
+   "Touch: drag to steer",
+   "Mouse: the hole follows the pointer",
+   "WASD or arrow keys"
+  ]
+ },
+ "elemental-duo": {
+  "about": [
+   "Sizzle & Mizzle is a two-spirit puzzle platformer set inside a glowing temple of stained glass. Sizzle is a little ember who strolls across lava but fizzles out in water; Mizzle is a drop of mist who wades through water but boils away in lava. Gloom pools swallow anyone. Bring both spirits to their own doors to clear a level.",
+   "The twist is that their powers combine. Sizzle's flare lights braziers, melts ice and bakes wet clay into solid brick, and it boils a water pool into a rising column of steam that lifts anyone standing on it. Mizzle's splash fills fonts, freezes water into an ice bridge that Sizzle can cross (if he does not stand still too long), and soaks dusty walls into mud you can climb through. Pressure plates, levers, gates, lifts and crates tie the two routes together, so every level is a small conversation between fire and water.",
+   "There are 40 hand-made levels in four chapters: the Ember Nave, the Rain Cloister, the Kiln Crypt and the Rose Spire. Every level was proven solvable by an automated solver in both its normal and mirrored form. Each level has three clearly explained stars (finish, collect every gem, beat the par time) and a speed rank from S to C. A goal card shows the stars before you start, the HUD tracks gems and time, and the results card explains what you earned and what you missed. The game never moves on by itself and a restart is instant.",
+   "Play alone or together. On a phone one player steers one spirit at a time and taps the swap button to switch. On an iPad two friends share the screen with split controls, one on each side. On a computer two players share the keyboard: A, D, W and S for Sizzle, the arrow keys for Mizzle.",
+   "Every day brings a Daily mirror: one level, flipped, the same for everyone, with a streak to keep. After every clear you see your global standing and percentile (currently from a clearly labelled offline preview board), and you can share a duo time card or send a beat-my-time challenge link that opens the same level for a friend. Earn stars, S ranks and daily streaks to unlock new looks for both spirits. Progress, best times and cosmetics are saved on your device automatically. All art, music and sound are generated in the game, with nothing downloaded."
+  ],
+  "how": [
+   {
+    "t": "Two spirits.",
+    "d": "Sizzle the fire spirit walks on lava but fizzles in water. Mizzle the mist spirit wades through water but boils in lava. Gloom pools stop both."
+   },
+   {
+    "t": "Combine powers.",
+    "d": "Sizzle's flare lights braziers, melts ice and boils water into steam lifts. Mizzle's splash fills fonts, freezes water into bridges and soaks walls into mud."
+   },
+   {
+    "t": "Play alone or together.",
+    "d": "Alone, tap the swap button to switch spirits. On an iPad two friends share split controls; on a computer Sizzle uses A D W S and Mizzle the arrow keys."
+   },
+   {
+    "t": "Stars and Daily Mirror.",
+    "d": "Bring both spirits to their doors. Each level has three stars and a speed rank, and the Daily Mirror is one flipped level, the same for everyone each day."
+   }
+  ],
+  "keys": [
+   "Sizzle: A D W, flare S",
+   "Mizzle: ← → ↑, splash ↓",
+   "Phone: swap button · iPad: split controls"
+  ]
+ },
+ "merge-defense": {
+  "about": [
+   "Origarrison is a merge tower defense game made of cut paper. A line of paper critters is marching along a strip of kraft tape towards your little paper keep, and the only thing in their way is whatever you can fold in time.",
+   "Tap Fold to spend ink and a fresh tier-1 tower pops onto a free spot beside the path. Fold two of the same kind and drag one onto the other: they merge into a stronger tower with a satisfying crinkle, a flash and a rising chime. Twin tier-2s make a tier 3, and so on all the way to a glittering tier-8 prism tower. Every critter you fold back into scrap pays ink, so a good merge now buys the next fold sooner.",
+   "Four tower families each have a job. Cranes throw darts and are the only early answer to flying kites. Frogs hop onto the path and splash whole groups, and they crush the armoured box critters that darts bounce off. Fans blow a gust that slows everything in front of them, and Stars chain a spark from one critter to the next. Quick darts, slow armoured boxes, kites that fly straight over the path and an origami boss every ten waves keep you mixing families and moving towers around. Drag a tower to any free spot to reposition it, swap two towers, or drop one in the bin to sell it for ink.",
+   "Each desk has three stars to earn: survive wave 10, fold a tier-5 tower, and survive wave 20. Stars unlock new desks with new paths, reaching new waves unlocks new tower families, and coins buy paper skins such as Newsprint, Washi and Foil. Call the next wave early for bonus ink, or turn on double speed when you feel confident. The Daily Fold gives every player the same desk, seed and twist for the day, with a streak to keep. After every run you see your best wave, your stars, the next unlock and where you would stand on the leaderboard. Until online leaderboards launch, that standing is an offline preview against sample players, and the game always says so.",
+   "Share a card of your run with a challenge link that drops a friend onto your exact desk with your wave to beat. Progress saves automatically on your device. Origarrison plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Fold and merge.",
+    "d": "Tap Fold to spend ink on a new tier-1 tower. Drag a tower onto an identical twin to merge it into the next tier, all the way up to tier 8."
+   },
+   {
+    "t": "Four tower families.",
+    "d": "Cranes hit flying kites, Frogs splash groups and crush armoured boxes, Fans slow everything down and Stars chain sparks between critters."
+   },
+   {
+    "t": "Hold the keep.",
+    "d": "Critters march along the tape to your paper keep. Drag towers to move or swap them, drop one in the bin to sell it, and call waves early for bonus ink."
+   },
+   {
+    "t": "Stars and Daily Fold.",
+    "d": "Each desk has three stars: wave 10, a tier-5 tower and wave 20. The Daily Fold is one desk, seed and twist, the same for everyone each day."
+   }
+  ],
+  "keys": [
+   "Touch or mouse: drag twin onto twin",
+   "F or Space folds, N next wave",
+   "X double speed, 1-4 picks a family"
+  ]
+ },
+ "moatball": {
+  "about": [
+   "Moatball is a pinball tower defense game. Your castle gate sits at the bottom of a pinball table, a moat runs across the middle, and waves of wind-up critters are marching down the table to tear the gate. You have one steel ball, two flippers and whatever you can build between waves.",
+   "Between waves you pick parts from three cards and drop them into sockets on the table. Pop Bumpers kick the ball hard and shake nearby critters. Slingshots fire the ball back supercharged. Spinners throw darts as the ball passes, and Rampart Posts make critters walk the long way round. Later you unlock Magnets that bend the ball and slow critters, Zappers that chain lightning, Kick Saucers that catch the ball and fire it at the toughest target, and Splitters that add a second ball for a few seconds. Every part levels up the more the ball hits it, so where you put it matters as much as what you buy.",
+   "Then you start the wave and play pinball. The whole game works with one finger: touch and hold anywhere to raise both flippers, let go to drop them. Smash several critters in a row to build a combo up to x8 with a hit-stop crunch and a popup. Drain the ball and you lose the combo and half a heart from the gate. Six kinds of critter keep you changing your build: quick dashers, armoured shellbacks the ball must hit hard, flutters that fly over posts, splitbugs that burst into minis and shield bearers you must hit from behind. Every tenth wave brings a boss: the Tin Tortoise, the Ram Engine and the Clockwork Colossus.",
+   "Each wave lasts about a minute or two and has three stars: clear it, clear it without a leak, and clear it without a leak while reaching a x4 combo. Spend coins on boosts such as Gate Repair, Heavy Ball and Ball Saver, and spend gears earned from every run in the Workshop on permanent upgrades. Survive 30 waves to beat the table, then keep going in endless mode. The Daily Table gives every player the same seed and twist for the day, such as Rush Hour, Twin Balls or Thrift Shop, with a streak to keep.",
+   "After every run you see your best wave, your stars, the next unlock and where you would stand on the leaderboard. Until online leaderboards launch, that standing is an offline preview against sample players, and the game always says so. Share a card of your run with a challenge link that puts a friend on your exact table with your wave to beat. Progress saves automatically on your device. Moatball plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard, and screen shake can be turned off in Settings."
+  ],
+  "how": [
+   {
+    "t": "Build between waves.",
+    "d": "Pick a part from three cards and drop it into a socket: Pop Bumpers, Slingshots, Spinners and Rampart Posts, then Magnets, Zappers, Kick Saucers and Splitters as you unlock them."
+   },
+   {
+    "t": "Hold to flip.",
+    "d": "Touch and hold anywhere to raise both flippers, let go to drop them. One finger plays the whole game; on a computer use Space, the arrow keys, Z or X."
+   },
+   {
+    "t": "Smash the critters.",
+    "d": "Hit critters in a row for a combo up to x8. A drained ball costs your combo and half a heart from the castle gate, and every tenth wave brings a boss."
+   },
+   {
+    "t": "Stars and Daily Table.",
+    "d": "Each wave has three stars: hold the gate, no leaks, and no leaks with a x4 combo. The Daily Table is one seed and twist, the same for everyone each day."
+   }
+  ],
+  "keys": [
+   "Touch: hold anywhere to flip",
+   "Mouse: hold the button",
+   "Space, arrows, Z or X · N next wave"
+  ]
+ },
+ "whirlwatch": {
+  "about": [
+   "Whirlwatch is a tower defense game where the towers move. A sleepy little moon floats in the middle of the screen, wrapped in two rings of turret slots, and swarms of space critters drift in from every direction. Every turret only fires in front of it, so the real trick is aiming: drag anywhere to spin the inner ring and the outer ring turns the other way, geared like clockwork. Swing the right towers to face each wave before it arrives.",
+   "Build with stardust that the critters drop. Pebblers fire quick twin pellets, Frostbloom sprays icy mist that slows everything in its arc, Comet Mortar lobs splashing comets that crack armored Shellbacks, Arc Coil chains lightning between neighbours, Sunlance burns a long beam straight through armor, Gustbell blows whole groups back out, and Seeker Pods launch homing rockets in every direction. Tap two matching turrets to merge them into a stronger tier, up to tier III, or sell one to change your plan mid-wave.",
+   "The campaign has 40 levels across four star systems, from Pebble Reach and Ember Drift to Frostfall Belt and the Void Crown. Each system brings new critters, from speedy Darts and splitting Splitters to Swirlsnails that spiral as they come, Menders that heal their friends, blinking Phaselings and Broodmothers that hatch mites. Every tenth level ends in a boss: the Gloomwhale, the Ringcrawler, the Ember Twins and finally the Eclipse Maw with its orbiting shield moons. Warning arrows at the screen edge show where each wave will come from, so you always get a moment to turn.",
+   "Every level has three star goals shown before you start, during play and on the results card, such as losing almost no shield, building a tier II turret or finishing with stardust in the bank. Stars and level clears earn moonstones for the Moon Lab, where permanent upgrades add moon shield, starting stardust, turret damage, bigger bounties, better sell prices and a Prism Core that zaps critters that get too close.",
+   "The Daily Orbit is a new endless run every day with the same seed and the same three turret types for every player, so scores are comparable. Keep a daily streak, see how your score ranks, share a picture card of your rings, or send a challenge link that dares a friend to beat your score. The score travels inside the link, so nothing is uploaded.",
+   "Progress saves automatically on your device. Whirlwatch plays offline in portrait or landscape on phones, tablets and desktop, and every action works with one finger. Optional ads can revive you once in a level or double the moonstones from a level; they are never required."
+  ],
+  "how": [
+   {
+    "t": "Build on the rings.",
+    "d": "Tap a glowing slot on a ring, then a turret card, and pay with stardust. Pebblers come first; Frostbloom, Comet Mortar, Arc Coil, Sunlance, Gustbell and Seeker Pods unlock as you go."
+   },
+   {
+    "t": "Spin to aim.",
+    "d": "Every turret only fires in front of it. Drag anywhere to spin the rings (the outer ring turns the other way) and face the critters. Warning arrows show where each wave comes from."
+   },
+   {
+    "t": "Merge twins.",
+    "d": "Tap a turret, then a glowing twin of the same type and tier, to merge them into a stronger turret, up to tier III. Sell to change your plan mid-wave."
+   },
+   {
+    "t": "Stars, Moon Lab and Daily Orbit.",
+    "d": "Each level has three star goals. Stars and clears earn moonstones for permanent Moon Lab upgrades. The Daily Orbit is the same endless run for everyone each day."
+   }
+  ],
+  "keys": [
+   "Touch or mouse: drag to spin, tap to build",
+   "← → or A/D spin, 1-7 build, R merge",
+   "Enter launches, F speed, Esc pause"
+  ]
+ },
+ "yesterlings": {
+  "about": [
+   "Yesterlings is a tower defense game with a time-loop twist: you do not build towers, you become them. Murklings creep down three lanes toward the Hearthlight, the little lantern that keeps the dusk away. You walk your hero around the field with one finger and fight whatever comes close. When the wave ends, your run turns into a Yesterling, a chalk-glow copy of you that replays every step you took and fights beside you in the next wave.",
+   "So every wave is two things at once: a fight you have to win now and a recording you will lean on later. Hold the left lane this wave and it is guarded for the rest of the level. Sweep the middle and your echo sweeps it again. Up to six Yesterlings play together, and when three or more of you hit the same foe at once you trigger a Chorus, a burst of light that hurts everything nearby, earns Glimmers and adds a note to the music, which grows a layer for every echo on the field.",
+   "Between waves you see the next wave's forecast and spend Glimmers on your shelf of echoes. Keep one so it never fades, Polish it to make it stronger, light a Beacon so echoes nearby swing faster, or Retake one you are not happy with. Eight kinds of foe keep you thinking: quick Skitters, armoured Puffshells, Driftwings that hop lanes, Hushers that silence echoes, Splitlets that burst in two, hulking Lumberbulks and the Fogmother boss every fifth level.",
+   "Twenty levels across four regions, from Dusk Meadow to Starfall Steps, each with three stars: protect the Hearthlight, keep most of your hearts, and meet the level's own goal. Unlock four heroes as you go, Brightblade, Sparkbow, Frostbell and Mendlamp, each with its own reach and ability, and spend Lantern Oil from your stars on permanent upgrades and new lantern glows. The Daily Echo gives every player the same seeded level and twist each day, with a streak to keep.",
+   "After every level you see your stars, your score and where you would stand on the leaderboard. Until online leaderboards launch that standing is an offline preview against sample players, and the game always says so. Share a card of your run with a challenge link that puts a friend on your exact level and seed with your score to beat. Progress, including a run in the middle of a level, saves automatically on your device. Yesterlings plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard."
+  ],
+  "how": [
+   {
+    "t": "Walk and fight.",
+    "d": "Tap or drag where your hero should walk; you hit any Murkling that comes close. On a computer click where to walk, press 1-3 to head for a lane and Space for your ability. Keep the Murklings away from the Hearthlight at the end of the three lanes."
+   },
+   {
+    "t": "Your past waves fight with you.",
+    "d": "When a wave ends, your run becomes a Yesterling: a glowing echo that replays every step you took beside you in the next waves. Up to six play together, and the oldest fades unless you Keep it."
+   },
+   {
+    "t": "Shelf between waves.",
+    "d": "Spend Glimmers on your echoes: Keep one so it never fades, Polish it to make it stronger, light a Beacon so echoes nearby swing faster, or Retake one you are not happy with."
+   },
+   {
+    "t": "Chorus, stars and Daily Echo.",
+    "d": "When you and two or more echoes hit the same foe at once you trigger a Chorus. Each level has three stars, and the Daily Echo is one seeded level and twist, the same for everyone each day."
+   }
+  ],
+  "keys": [
+   "Touch: tap or drag to walk, tap the ability button",
+   "Mouse: click to walk",
+   "1-3 head for a lane, Space ability, Enter starts the wave"
+  ]
+ },
+ "lobwhistle": {
+  "about": [
+   "Lobwhistle is rooftop tennis at a sunny seaside resort. Your fox runs to the ball on its own. You only swipe: direction aims the shot, length sets how deep and how hard it flies, and a curve in the swipe puts spin on the ball so it bends and kicks. Glowing tiles on the far court fill a Fever meter. Fill it and your next swipe is a Whistle Shot, a faster spiralling trick shot. Five courts change the bounce: Promenade plays true, Clay Terrace sits up and slows down, Frost Pier skids, the Boardwalk springs, and Whistle Point adds a cross-wind you can read on the windsock. Each animal rival has a signature serve. Win the game, string a long rally, and land tiles in a row to earn three stars. Each day Seaspray Serve, the Lighthouse Open, deals the same seeded three-rival ladder to every player, and your best score is kept on this device. Portrait and landscape both play with one finger, a mouse drag, or the keyboard."
+  ],
+  "how": [
+   {
+    "t": "Swipe to hit.",
+    "d": "Your fox runs to the ball by itself. Swipe up to hit: the direction aims, the length sets how deep and hard, and a curve adds spin. A short tap is a safe shot."
+   },
+   {
+    "t": "Fill the Fever meter.",
+    "d": "Land the ball on the glowing tiles on the far court. Six hits fill the Fever meter and your next swipe is a Whistle Shot, a fast spiralling trick shot."
+   },
+   {
+    "t": "Five courts, animal rivals.",
+    "d": "Every court bounces differently, from the slow Clay Terrace to the skiddy Frost Pier and the windy Whistle Point. Each rival has a signature serve."
+   },
+   {
+    "t": "Stars and Seaspray Serve.",
+    "d": "Win, string a long rally and land tiles in a row for three stars. The daily Seaspray Serve gives everyone the same three-rival ladder each day."
+   }
+  ],
+  "keys": [
+   "Touch: swipe up to hit, curve for spin",
+   "Mouse: drag up to hit",
+   "Arrows pick a lane, hold Space to charge"
+  ]
+ },
+ "short-fuse": {
+  "about": [
+   "Short Fuse is a browser 3D shooter set in a shipyard at dusk. Rogue robots have taken the yard and your bomb fuse is already lit — every robot you destroy buys you more time. Play the 6-mission campaign through to the Foreman finale, train on the range, or jump into solo waves on six maps with four difficulty tiers.",
+   "Gun drops come in rarities you stash and equip; the store and daily missions keep a run going. Four operators, six weapons, jeeps and tanks, and a short story intro. Touch, mouse and keyboard all work. Multiplayer and global boards stay off on Fytoon for now (solo and daily only). Teen and up: this is a shooting game."
+  ],
+  "how": [
+   {
+    "t": "Move and look.",
+    "d": "WASD or left stick to move, mouse or right stick to look. On a phone, left thumb moves and right thumb aims; the gun fires on its own while you hold."
+   },
+   {
+    "t": "Shoot and blast.",
+    "d": "Click or tap to fire. Q or the blast button spends your charged blast. Space jumps, Shift dashes, V changes vehicle camera."
+   },
+   {
+    "t": "Vehicles and loot.",
+    "d": "Walk up to a jeep or tank and enter it. Pick up gun drops, energy cells and mission objects in the yard."
+   },
+   {
+    "t": "Campaign and daily.",
+    "d": "Clear six story missions with star goals, or play the daily challenge that is the same seed for everyone that day."
+   }
+  ],
+  "keys": [
+   "Mouse: look, click to fire, WASD move",
+   "Touch: left move, right aim; gun fires while held",
+   "Q blast, Space jump, Shift dash, V vehicle view"
+  ]
+ },
+ "bubbletoom": {
+  "about": [
+   "Bubbletoom is a seaside festival puzzle about one good shot. It is dusk on Gullhaven Pier, the lanterns are up, and a sky full of festival bubbles hangs over the tide pool. Drag to aim the lifebuoy launcher, let go to fire, and watch the dotted guide show exactly where the bubble will bank off the pier posts and where it will stick. Land it next to two or more of its own colour and they pop. Anything left hanging with nothing holding it up splashes into the sea, and those drops are worth far more than pops, so the real game is spotting the one bubble that brings a whole cluster down.",
+   "Every few shots the tide pushes a new row in from the top, and if the bubbles reach the rope you are out, so plan your banks before the board creeps down. Big pops and drops fill the Fever meter. When it is full your next shot is a rainbow Storm bubble that clears everything around where it lands. Chain scoring shots for a combo multiplier up to five times, and swap the spare bubble whenever the current colour does not fit.",
+   "Each of the 30 designed levels has three stars to earn: clear the board, land one big aimed mid-run shot that pops or drops a set number of bubbles (a Storm or the finishing shot does not count), and finish without wasting more than a few shots. The goal card tells you the targets before you play, the HUD tracks them live, and the results screen shows what you earned and what you missed. Levels unlock as you clear them and never start on their own.",
+   "The Daily Regatta is one seeded board that is the same for every player that day, with a streak for every day you come back. After each run you see where your score stands, and you can share a picture of your result with a challenge link that opens the very same board with your score as the target to beat.",
+   "Every bubble carries its own symbol (shell, star, fish, heart, leaf or drop) so colour is never the only clue. Bubbletoom plays one-handed on a phone in portrait or landscape, with a mouse, or entirely from the keyboard, and your best scores, stars, unlocks and streak are saved on this device."
+  ],
+  "how": [
+   {
+    "t": "Aim and fire.",
+    "d": "Drag and let go to fire the lifebuoy launcher, or hover and click. The dotted guide shows the exact path, including banks off the pier posts."
+   },
+   {
+    "t": "Pop and drop.",
+    "d": "Land next to two or more of the same colour to pop them. Anything left hanging falls into the sea, and drops score far more than pops."
+   },
+   {
+    "t": "Beat the tide.",
+    "d": "Every few shots a new row pushes in. Clear the board before the bubbles reach the rope. Fill the Fever meter for a rainbow Storm bubble."
+   },
+   {
+    "t": "Stars and the Daily Regatta.",
+    "d": "30 levels with three stars each, plus a Daily Regatta board that is the same for everyone, with a streak and a challenge link to share."
+   }
+  ],
+  "keys": [
+   "Touch: drag to aim, let go to fire, tap the spare bubble to swap",
+   "Mouse: hover or drag to aim, click to fire",
+   "Left/Right aim, Space fire, X swap"
+  ]
+ }
+}

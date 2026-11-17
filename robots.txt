@@ -1,5 +1,2 @@
 User-agent: *
-Allow: /
-
-# Game iframe payloads carry noindex in their own HTML; prefer game-*.html wrappers.
-Sitemap: https://playtoom.com/sitemap.xml
+Disallow: /

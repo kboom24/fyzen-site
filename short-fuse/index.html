@@ -8,7 +8,7 @@
 <body>
 <title>Short Fuse</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<!-- Playtoom: system stacks only; no Google Fonts (zero external network) -->
+<!-- Fytoon: system stacks only; no Google Fonts (zero external network) -->
 <style>
 /* Concept: a shipyard at dusk under robot attack. UI sits on the scene like a stencilled military overlay, one hot orange accent. */
 :root{
@@ -1176,10 +1176,10 @@ function runExplosion(b){if(NET.on&&!b.remote)NET.send({k:'fx',x:b.x,y:b.y,z:b.z
   if(b.dmg>0)E.forEach(e=>{if(e.dead||e.spawnT>0)return;const d=Math.hypot(e.x-b.x,e.z-b.z);if(d<b.r+e.d.r)damage(e,b.dmg*U.dmg,false,true);});
   BAR.forEach(k=>{if(k.alive&&Math.hypot(k.x-b.x,k.z-b.z)<b.r*.75&&b.dmg>0)blowBar(k);});}
 
-/* ---------- Playtoom solo net (MP/leaderboards off) ----------
+/* ---------- Fytoon solo net (MP/leaderboards off) ----------
    Online implementation kept at src/net.online.js (not in build ORDER).
    Restore by swapping ORDER in tools/build.py after Hexan OK's a host. */
-const CFG=null; /* force offline on Playtoom; ignore window.SHORTFUSE_CONFIG */
+const CFG=null; /* force offline on Fytoon; ignore window.SHORTFUSE_CONFIG */
 const ALLY={name:'Player',s:1,cy:1,r:.68,hr:.46,fuse:0,score:0};
 const TYPES=Object.keys(DEF);
 const dayKey=()=>new Date().toISOString().slice(0,10);

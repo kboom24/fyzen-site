@@ -1,0 +1,240 @@
+{
+  "manifestVersion": 1,
+  "slug": "deep-cast",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Lumenhook",
+  "version": "1.0.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "fishing",
+    "upgrade",
+    "deep sea",
+    "ocean",
+    "one-handed",
+    "casual",
+    "daily challenge",
+    "collection",
+    "relaxing",
+    "bioluminescent",
+    "idle-friendly",
+    "arcade"
+  ],
+  "categories": [
+    "casual",
+    "arcade",
+    "skill"
+  ],
+  "description": {
+    "short": "Hold to cast a glowing lure, dodge fish on the way down, reel up when you choose, hook fish on the way up, then upgrade and dive deeper.",
+    "long": "Lumenhook is a one-handed fishing game about the light at the end of your line. Hold to charge your cast and let go in the gold zone for a perfect throw that starts you faster and deeper. Then steer the lure as it sinks, dodging schools, rays and jellies: a bump knocks your lure back and costs you the clean-dive star. You decide when to reel up, trading depth for time, and a red line-limit marker shows exactly where the line runs out. When you reel, everything flips. Now you steer into the fish, stacking them on your hook in a wriggling, glowing bundle while you avoid the stinging jellies and spiky puffers that knock your catch loose.\n\nEvery haul is sold back at the boat for coins. Spend them on three upgrade tracks: a longer Line to reach new depths, a bigger Hook to carry more fish (plus a guard charm that absorbs a bump on the way down), and a better Boat that sells for more and reels faster. Five zones wait below, from the Sunlit Shoals and the Kelp Cathedral through the Twilight Drop and the pitch-dark Midnight Reach to the glowing Abyss, each with its own creatures, light and music.\n\nTwenty hand-built contracts give every cast a goal, with up to three stars for filling your hook, diving clean or landing a rare. The Daily Dive gives everyone the same seeded sea for the day with a featured rare worth triple, and keeps a streak with bonus coins. Twenty species fill your album, each with its own art and notes, and you can unlock new lures and boat paints along the way. Progress, coins, best haul and streak are saved on your device automatically.",
+    "controls": "Hold anywhere (touch or mouse) or hold Space/Enter, then let go to cast; let go in the gold zone for a perfect cast. Drag (touch) or move the mouse to steer; the arrow keys or A/D also steer. Reel up whenever you choose: tap the big REEL UP button (touch), click anywhere (mouse) or press Space/Enter. At the red line limit you reel up automatically. Esc pauses, M mutes.",
+    "faq": [
+      {
+        "q": "When does my lure come back up?",
+        "a": "Whenever you choose: tap REEL UP, click, or press Space. Deeper means rarer fish but less time. You only reel up automatically at the red LINE LIMIT on the depth gauge, after a warning. Bumping a fish on the way down knocks your lure back but never ends the dive."
+      },
+      {
+        "q": "How do I see the tutorial again?",
+        "a": "Tap How to play on the title screen. A short guided cast covers casting, steering, reeling, hooking and selling, and you can skip it at any time."
+      },
+      {
+        "q": "How do I reach deeper zones?",
+        "a": "Upgrade your Line in the Upgrades screen. Each level adds depth, and new zones bring rarer, more valuable fish."
+      },
+      {
+        "q": "What is the Daily Dive?",
+        "a": "One seeded sea per day, the same for everyone, with a featured rare worth triple. Play it each day to grow your streak and its coin bonus."
+      },
+      {
+        "q": "Is my progress saved?",
+        "a": "Yes. Coins, upgrades, contracts, album, cosmetics and your streak are saved automatically on this device."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double-catch",
+        "format": "rewarded",
+        "reward": "Doubles the coins from the cast you just landed"
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "1d349338602d",
+  "builtAt": "2026-10-31T16:28:00.364Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 497379,
+    "initial": 396190
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "f81309e0fa5debf23846aa5273a6f41eaff64d604bda5b980bf50e4766b0488b",
+      "bytes": 1416
+    },
+    {
+      "path": "app.2e114acb.js",
+      "sha256": "1d349338602d9bbfc2c455326b1899f8af2551a793db275513308383c5cd5974",
+      "bytes": 261780
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "d531c6af2b571155a9c7798a09e7c4c5da41db60ab5aef21a5394aa35894a796",
+      "bytes": 3457
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "7aa26d7e9fe4509d7ff8e54bdcc853e0dc18428cc28a2c28abbac99e45291b5f",
+      "bytes": 28974
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "2ccf87ce110d1911a9b80ca53e1e1901ca79f09251eb07265e6c6bfaa3604814",
+      "bytes": 44930
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "fb9771132162c155b9fe4c0dd5f10733ca1c72674424a2c25573e1886bdf365e",
+      "bytes": 17096
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

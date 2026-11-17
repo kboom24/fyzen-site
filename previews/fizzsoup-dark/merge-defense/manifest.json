@@ -1,0 +1,240 @@
+{
+  "manifestVersion": 1,
+  "slug": "merge-defense",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 2.4,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Origarrison",
+  "version": "1.1.2",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "tower defense",
+    "merge",
+    "origami",
+    "paper",
+    "strategy",
+    "defense",
+    "waves",
+    "daily challenge",
+    "leaderboard",
+    "casual",
+    "idle merge",
+    "puzzle"
+  ],
+  "categories": [
+    "strategy",
+    "casual",
+    "puzzle"
+  ],
+  "description": {
+    "short": "Fold paper towers, drag identical twins together to merge them up eight tiers, and hold back waves of paper critters before they tear your paper keep.",
+    "long": "Origarrison is a merge tower defense game made of cut paper. A line of paper critters is marching along a strip of kraft tape towards your little paper keep, and the only thing in their way is whatever you can fold in time.\n\nTap Fold to spend ink and a fresh tier-1 tower pops onto a free spot beside the path. Fold two of the same kind and drag one onto the other: they merge into a stronger tower with a satisfying crinkle, a flash and a rising chime. Twin tier-2s make a tier 3, and so on all the way to a glittering tier-8 prism tower. Every critter you fold back into scrap pays ink, so a good merge now buys the next fold sooner.\n\nFour tower families each have a job. Cranes throw darts and are the only early answer to flying kites. Frogs hop onto the path and splash whole groups, and they crush the armoured box critters that darts bounce off. Fans blow a gust that slows everything in front of them, and Stars chain a spark from one critter to the next. Quick darts, slow armoured boxes, kites that fly straight over the path and an origami boss every ten waves keep you mixing families and moving towers around. Drag a tower to any free spot to reposition it, swap two towers, or drop one in the bin to sell it for ink.\n\nEach desk has three stars to earn: survive wave 10, fold a tier-5 tower, and survive wave 20. Stars unlock new desks with new paths, reaching new waves unlocks new tower families, and coins buy paper skins such as Newsprint, Washi and Foil. Call the next wave early for bonus ink, or turn on double speed when you feel confident. The Daily Fold gives every player the same desk, seed and twist for the day, with a streak to keep. After every run you see your best wave, your stars, the next unlock and where you would stand on the leaderboard. Until online leaderboards launch, that standing is an offline preview against sample players, and the game always says so.\n\nShare a card of your run with a challenge link that drops a friend onto your exact desk with your wave to beat. Progress saves automatically on your device. Origarrison plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard.",
+    "controls": "Tap or click Fold to fold a tower. Drag a tower onto an identical twin to merge it, onto any free spot to move it, or onto the bin to sell it. Tap a tower to see its range. Keyboard: F or Space folds, N or Enter calls the next wave, X toggles double speed, 1-4 picks a tower family. Esc or P pauses, M mutes. The ? button (or H) replays the How to play guide.",
+    "faq": [
+      {
+        "q": "How do I merge towers?",
+        "a": "Drag a tower onto another tower of the same family and the same tier. They become one tower of the next tier, which is much stronger. Different towers simply swap places."
+      },
+      {
+        "q": "Which tower should I fold?",
+        "a": "Cranes hit flying kites, Frogs splash groups and crush armoured boxes, Fans slow everything down and Stars chain sparks between critters. A mix of families holds out longest."
+      },
+      {
+        "q": "How do I unlock more towers and desks?",
+        "a": "Frogs unlock when you first reach wave 6, Fans at wave 12 and Stars at wave 18. New desks unlock with stars: 3 stars for the Garden Table and 5 for the Snowy Windowsill."
+      },
+      {
+        "q": "What is the Daily Fold?",
+        "a": "One desk, one seed and one twist (such as Kite Day or Heavy Paper) that is the same for every player that day, with all four tower families. Play it every day to build a streak."
+      },
+      {
+        "q": "Are the global ranks real?",
+        "a": "Not yet. Until online leaderboards launch, ranks are an offline preview against a generated field of sample players, and every rank is labelled OFFLINE PREVIEW."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "continue the run with 6 pages back on the keep (once per run)"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double-coins",
+        "format": "rewarded",
+        "reward": "double the coins earned in the run just played"
+      },
+      {
+        "name": "try-skin",
+        "format": "rewarded",
+        "reward": "play one run in a locked paper skin"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "10a451aaf36f",
+  "builtAt": "2026-11-01T02:20:02.370Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 467346,
+    "initial": 379245
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "eaf4e0d3c4d17ed925d45b096d7f2915437fae0ac88713e5dc7a0b7bc3fd0650",
+      "bytes": 1234
+    },
+    {
+      "path": "app.e89ea70f.js",
+      "sha256": "10a451aaf36fd31f873c15d0b50acacf978a2bc1ecc9f89fcfe4cbf44eae21d7",
+      "bytes": 245281
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "30c2d991d7cf1a0aa5dd7b2886626cec5170bae0b9e6b940c8ce2f1281c6d92b",
+      "bytes": 3011
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "6489a09a3ccdb37a88c86909b2e2d8c76eca172c14843c734948cf7284230263",
+      "bytes": 30974
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "4acf22b72bab2231531f6c8af60d034ab23e678d03d1c7b9d1c2b8f3bea50c22",
+      "bytes": 29720
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "b54032c11d7f44209201130f9007f0aa0459a3dbbf0c749c6a3933f182b8da90",
+      "bytes": 17400
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

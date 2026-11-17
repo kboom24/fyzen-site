@@ -1,0 +1,121 @@
+/* ==========================================================================
+   FIZZSOUP design tokens (v0.2, 27 Oct 2026, PT)
+   Source of truth: FizzSoup brand guide (Orbit P). Palette: Space Violet #1A0F3A,
+   Nebula #2D1B69, Electric Magenta #FF2E88, Bright Cyan #22D3F5, Lime #B8F23B,
+   Sunny Yellow #FFD23F, Stardust #B9AEE6. Type: Fredoka (display) + Nunito (UI/body).
+   Components reference semantic tokens (--pv-*) only. Swap brand values HERE.
+   ========================================================================== */
+@font-face{font-family:"Fredoka";src:url("fonts/Fredoka-SemiBold.woff2") format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Fredoka";src:url("fonts/Fredoka-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Nunito";src:url("fonts/Nunito-SemiBold.woff2") format("woff2");font-weight:500 600;font-display:swap}
+@font-face{font-family:"Nunito";src:url("fonts/Nunito-ExtraBold.woff2") format("woff2");font-weight:700 800;font-display:swap}
+@font-face{font-family:"Nunito";src:url("fonts/Nunito-Black.woff2") format("woff2");font-weight:900;font-display:swap}
+
+:root{
+  /* ---- Brand palette (raw, from brand guide §5) ---- */
+  --space-1000:#120A2B;   /* deepest (footer, overlays) — derived */
+  --space-950:#1A0F3A;    /* SPACE VIOLET: page background */
+  --space-900:#22134A;    /* surface 1 — derived (glow mid #22124D) */
+  --space-850:#2D1B69;    /* NEBULA: cards, surfaces, chips */
+  --space-800:#3B1F86;    /* raised / hover (guide glow #3B1F86) */
+  --space-700:#4A2E9E;    /* tracks, strong chips — derived */
+  --space-600:#5E43B5;    /* outlines on dark — derived */
+  --nebula-500:#9B5CFF;   /* violet (guide progress-gradient midpoint) */
+  --nebula-300:#C9B6FF;
+  --magenta-500:#FF2E88;  /* ELECTRIC MAGENTA: hero color, the P, primary CTA */
+  --magenta-600:#E0136F;  /* Magenta Deep: hover/pressed, small white text on pink */
+  --magenta-300:#FF8CBF;
+  --cyan-400:#22D3F5;     /* BRIGHT CYAN: orbit, links, focus, secondary CTA */
+  --cyan-600:#0A9CC9;     /* Cyan Deep (support) */
+  --cyan-200:#A6EEFC;
+  --lime-400:#B8F23B;     /* LIME: Play buttons, success, NEW */
+  --lime-600:#7FB012;
+  --yellow-400:#FFD23F;   /* SUNNY YELLOW: moon, rewards, coins, HOT, streak */
+  --yellow-600:#C99A00;
+  --stardust:#B9AEE6;     /* secondary text on dark */
+  --white:#FFFFFF;
+
+  /* ---- Semantic colors ---- */
+  --pv-bg:var(--space-950);
+  --pv-bg-deep:var(--space-1000);
+  --pv-surface-1:var(--space-900);
+  --pv-surface-2:var(--space-850);
+  --pv-surface-3:var(--space-800);
+  --pv-line:#3D2A80;
+  --pv-line-strong:#7B64CF;          /* ≥3:1 on surfaces (input borders) */
+  --pv-text:var(--white);            /* 17.9:1 on Space Violet */
+  --pv-text-muted:var(--stardust);   /* 8.7:1 on Space Violet */
+  --pv-text-subtle:#A99CDB;          /* ≥5.5:1 on Nebula */
+  --pv-text-on-accent:var(--space-950); /* text on lime/yellow/cyan/magenta */
+  --pv-accent-primary:var(--lime-400);  /* "Play" buttons (guide: lime = play) */
+  --pv-accent-cta:var(--magenta-500);   /* primary non-play CTA */
+  --pv-accent-2:var(--magenta-500);
+  --pv-accent-3:var(--cyan-400);
+  --pv-accent-4:var(--lime-400);
+  --pv-accent-5:var(--nebula-500);
+  --pv-xp:var(--cyan-400);
+  --pv-streak:var(--yellow-400);
+  --pv-reward:var(--yellow-400);
+  --pv-new:var(--lime-400);
+  --pv-danger:var(--magenta-600);
+  --pv-focus:var(--cyan-400);        /* 10:1 on Space Violet */
+  --pv-ad-line:#8C80C4;
+  --pv-ad-fill:#1F1245;
+  --pv-grad-cosmic:linear-gradient(135deg,var(--magenta-500) 0%,var(--nebula-500) 50%,var(--cyan-400) 100%);
+  --pv-grad-play:linear-gradient(180deg,#D4FF73 0%,var(--lime-400) 60%,#A6E021 100%);
+  --pv-grad-xp:linear-gradient(90deg,var(--magenta-500),var(--nebula-500),var(--cyan-400)); /* guide progress gradient */
+  --pv-grad-streak:linear-gradient(180deg,var(--yellow-400),var(--magenta-500));
+  --pv-bg-nebula:radial-gradient(1200px 600px at 85% -10%,rgba(59,31,134,.9),transparent 60%),
+                 radial-gradient(900px 500px at -10% 10%,rgba(255,46,136,.14),transparent 60%),
+                 radial-gradient(800px 600px at 50% 110%,rgba(34,211,245,.08),transparent 60%);
+
+  /* ---- Typography ---- */
+  --pv-font-display:"Fredoka","Nunito",system-ui,sans-serif;
+  --pv-font-ui:"Nunito",system-ui,sans-serif;
+  /* Type scale (1.25 major third, clamped for 390 → 1440) */
+  --pv-fs-xs:.875rem;    /* 14 — minimum UI text */
+  --pv-fs-sm:.9375rem;   /* 15 */
+  --pv-fs-md:1rem;       /* 16 — body */
+  --pv-fs-lg:1.125rem;   /* 18 */
+  --pv-fs-xl:1.375rem;   /* 22 */
+  --pv-fs-2xl:clamp(1.5rem,1.2rem + 1vw,1.875rem);  /* 24→30 section titles */
+  --pv-fs-3xl:clamp(1.875rem,1.4rem + 1.8vw,2.75rem);/* 30→44 page titles */
+  --pv-fs-4xl:clamp(2.25rem,1.5rem + 3vw,4rem);      /* 36→64 hero */
+  --pv-lh-tight:1.05; --pv-lh-snug:1.25; --pv-lh-body:1.55;
+  --pv-fw-ui:600; --pv-fw-ui-bold:800; --pv-fw-display:600; --pv-fw-display-heavy:700;
+
+  /* ---- Spacing (4px base) ---- */
+  --pv-s-1:4px; --pv-s-2:8px; --pv-s-3:12px; --pv-s-4:16px; --pv-s-5:20px; --pv-s-6:24px;
+  --pv-s-8:32px; --pv-s-10:40px; --pv-s-12:48px; --pv-s-16:64px; --pv-s-20:80px;
+  --pv-gutter:clamp(16px,2.5vw,40px);
+  --pv-grid-gap:clamp(8px,1vw,14px);
+  --pv-maxw:1400px;
+
+  /* ---- Radii ---- */
+  --pv-r-xs:6px; --pv-r-sm:10px; --pv-r-md:16px; --pv-r-lg:22px; --pv-r-xl:30px; --pv-r-pill:999px;
+
+  /* ---- Shadows / glows ---- */
+  --pv-shadow-1:0 2px 0 rgba(0,0,0,.35),0 6px 16px rgba(4,1,15,.45);
+  --pv-shadow-2:0 4px 0 rgba(0,0,0,.35),0 16px 40px rgba(4,1,15,.6);
+  --pv-shadow-btn:0 4px 0 var(--lime-600),0 8px 18px rgba(184,242,59,.22);   /* chunky "toy" press */
+  --pv-glow-magenta:0 0 0 2px var(--magenta-500),0 10px 40px rgba(255,46,136,.45);
+  --pv-glow-cyan:0 0 0 2px var(--cyan-400),0 10px 40px rgba(34,211,245,.40);
+  --pv-glow-yellow:0 0 0 2px var(--yellow-400),0 10px 40px rgba(255,210,63,.35);
+
+  /* ---- Motion ---- */
+  --pv-ease-pop:cubic-bezier(.34,1.56,.64,1);   /* springy overshoot for cards/buttons */
+  --pv-ease-out:cubic-bezier(.22,1,.36,1);
+  --pv-dur-1:120ms; --pv-dur-2:200ms; --pv-dur-3:320ms; --pv-dur-4:600ms;
+  --pv-preview-delay:300ms;                     /* hover-video start delay */
+  --pv-carousel-interval:7000ms;
+
+  /* ---- Layout ---- */
+  --pv-header-h:72px;
+  --pv-tabbar-h:64px;
+  --pv-card-min:150px;
+  --pv-rail-w:300px;
+  --pv-z-header:50; --pv-z-tabbar:60; --pv-z-modal:100; --pv-z-interstitial:200;
+}
+@media (prefers-reduced-motion:reduce){
+  :root{--pv-dur-1:0ms;--pv-dur-2:0ms;--pv-dur-3:0ms;--pv-dur-4:0ms;--pv-ease-pop:linear}
+}

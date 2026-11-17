@@ -1,0 +1,244 @@
+{
+  "manifestVersion": 1,
+  "slug": "serpent-arena",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1,
+    "maxAspect": 3,
+    "logicalShort": 720
+  },
+  "status": "live",
+  "credits": "CREDITS.md",
+  "title": "Swervana",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "snake",
+    "arena",
+    "io style",
+    "grow",
+    "boost",
+    "leaderboard",
+    "neon",
+    "daily challenge",
+    "skins",
+    "offline",
+    "one hand",
+    "skill"
+  ],
+  "categories": [
+    "arcade",
+    "action",
+    "skill"
+  ],
+  "description": {
+    "short": "Swerve, eat glowing orbs and grow into the longest snake in the arena. Boost to cut rivals off and make them burst. Climb the live top 10.",
+    "long": "Swervana is a snake arena game about the clever swerve. You start as a tiny ribbon of light in a round arena full of rival snakes. Eat glowing orbs to grow longer, and watch your name climb the live top-10 board at the side of the screen. Your head is fragile: touch another snake's body or the arena wall and your run ends. Your body is a weapon: swing it across a rival's path and they crash into you, bursting into a trail of big, juicy orbs for you to gobble up. Hold Boost to surge forward and slip ahead of someone, but every second of boost spends your length and sheds orbs behind you, so speed is always a trade.\n\nThe rivals are computer-controlled snakes, each with its own style. Some are cautious and steer wide of trouble, some farm orbs quietly, some are aggressive cutters that race to get in front of you, and some boost wildly, panic-turn or simply make mistakes. Nothing is online and there is no waiting: a match starts in a moment and works offline.\n\nThere are ten arenas to clear, from Sprout Ring to Crown Arena, each with more rivals and sharper play. Every match has three goals shown on a goal card and tracked live on screen: reach a length (this clears the arena and opens the next), reach a top place on the board, and cut off a number of snakes. The results screen shows exactly what you earned and what you missed, your rank history over the last ten matches and your best rank, and it never moves on without you. Daily Arena is a new seeded arena every day, the same for everyone, with its own goals and a streak. Near misses trigger a slow-motion \"So close!\" moment. Twelve original skins unlock as you earn stars, grow longer, cut off rivals and keep your streak. Share your result as an image card, or send a challenge link that drops a friend into the same arena with your score to beat. Your best length, best rank, match history, stars, skins and streak are saved on your device. Plays in portrait or landscape with touch, mouse or keyboard.",
+    "controls": "Touch: drag anywhere to steer (a floating stick appears under your finger); hold the BOOST button or put a second finger down to boost. Mouse: point where to go, hold a button to boost. Keyboard: Left/Right or A/D to steer, Space, Shift, W or Up to boost. R or Play again restarts at once, Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "How do I grow?",
+        "a": "Eat the glowing orbs. Bigger orbs are worth more, and the biggest piles appear when a rival crashes and bursts."
+      },
+      {
+        "q": "How do I cut someone off?",
+        "a": "Get your body in front of a rival's head. If their head touches your body, they burst into orbs and it counts as a cut-off for you. Boost briefly to get ahead of them."
+      },
+      {
+        "q": "Why did my snake get shorter?",
+        "a": "Boosting costs length: while you boost you shed orbs behind you. Release Boost to stop spending length."
+      },
+      {
+        "q": "Are the other snakes real players?",
+        "a": "No. Every rival is a computer-controlled snake with its own name and play style. Swervana does not connect to the internet and works offline."
+      },
+      {
+        "q": "How do I earn stars?",
+        "a": "Each match has three goals: a length goal (which clears the arena), a top-rank goal and a cut-off goal. They are shown before the match, tracked on screen, and explained on the results screen."
+      },
+      {
+        "q": "What is a challenge link?",
+        "a": "From the results screen you can copy a link that opens the same arena for a friend, with your length and rank to beat. The link carries everything it needs, so nothing is uploaded."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "continue",
+        "format": "rewarded",
+        "reward": "back into the same match with the length you had when you crashed (once per match)"
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "384701cd26b1",
+  "builtAt": "2026-10-28T09:18:34.342Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 469959,
+    "initial": 337194
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "c412d1bb930deeaaeabdcd86a3688ecad8fb44d0b40fc5e36ad3b2a96c506b73",
+      "bytes": 1454
+    },
+    {
+      "path": "app.e63ab177.js",
+      "sha256": "384701cd26b18b8b55aae480647f5a3680e591693d633fcf89293b077caa3ce3",
+      "bytes": 203258
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "5f0c85888e33fe84b45e93a8aee0f904d9a6abe094c4c943416c979bc14e5e36",
+      "bytes": 2983
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "021511c816f93d992d32a761461af31041d08fb7c871e502b8c26eb71c425cc7",
+      "bytes": 47994
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "72aa06537810888474420b5c2708457d3ff7d3ee2d1eb7b4d99f8045d53a76de",
+      "bytes": 50978
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "ca003b627c75147d3d6f1c92afc3c6cda39b17ea3b466c75e84791b28aafcba3",
+      "bytes": 23566
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

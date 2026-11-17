@@ -1,0 +1,259 @@
+{
+  "manifestVersion": 1,
+  "slug": "shop-idle",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "staging",
+  "credits": "CREDITS.md",
+  "title": "Bobbleboat Bazaar",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "arcade idle",
+    "shop",
+    "market",
+    "tycoon",
+    "management",
+    "cozy",
+    "animals",
+    "river",
+    "helpers",
+    "daily challenge",
+    "offline progress",
+    "one thumb"
+  ],
+  "categories": [
+    "idle",
+    "arcade",
+    "casual"
+  ],
+  "description": {
+    "short": "Run a floating river market: walk your otter around, stock stalls, serve customers, hire a mole crew and fill trader-boat orders.",
+    "long": "Bobbleboat Bazaar is a cosy arcade-idle shop game set on a floating market in the middle of a lazy river. You are Ottilie the otter, and the market is yours to grow. Walk to the Berry Bush to pick a stack of bobbleberries, carry them to the basket, and watch ducks, frogs, bunnies and geese hop off the little round bobbleboat ferry to grab what they want. Ring them up at the till, scoop the coins off the counter and stand on a glowing tile to spend them: every tile opens something new, like a Lily Kettle for tea, a Bun Oven, a Melon Raft, a Lantern Loom or a Pearl Diver, bigger baskets, faster feet, a trader pier and lots of bunting.\n\nWhen the market gets busy, hire the mole crew. A stocker mole in a yellow cap keeps one stall's basket full, and a cashier mole in a pink cap runs the till so you can rush around. Trader boats moor at the pier with an order board; bring them exactly what they ask for before the timer runs out for a big tip.\n\nThere are four islands, from Lily Landing to Lantern Lagoon, each with more goods and more tiles. Every island has three stars, and each one is explained up front: open every stall, finish within the par time, and fill the trader boat orders. The results card shows what you earned, your shells and where you stand today, and it waits until you choose Next island, Replay or Share. Shells unlock eight shopkeepers in the Wardrobe, including Cappi the capybara, Rusty the red panda and Lulu the axolotl.\n\nThe Daily Rush is a 90-second sprint in a fully built market that is the same for every player that day. Race your own ghost from your best run, keep your streak alive, restart instantly, and send a beat-me link that loads the same market and your ghost for a friend. You can also share a postcard of your market with a visit link.\n\nYour cashier keeps the market open while you are away and earns at half speed for up to four hours. Optional videos can double your shells or your welcome-back coins; they are never required. Progress saves automatically on your device, and the game plays in portrait or landscape on phones, tablets and desktop with a one-thumb joystick, tap-to-walk, mouse or keyboard.",
+    "controls": "Touch: drag anywhere for a one-thumb joystick, or tap a spot to walk there. Mouse: drag to steer or click to walk. Keyboard: WASD or arrow keys to walk, H toggles tips, Esc or P pauses, M mutes. Walk into stalls to pick up stock, baskets to drop it, the till to serve, the coin pad to collect cash and glowing tiles to buy them.",
+    "faq": [
+      {
+        "q": "How do I buy new stalls and upgrades?",
+        "a": "Stand on a glowing tile. Coins flow from you into the tile until it is paid, then the stall, helper or upgrade pops open. Collect coins from the pad next to the till first."
+      },
+      {
+        "q": "What do the mole helpers do?",
+        "a": "Stocker moles carry goods from a stall to its basket, and the cashier mole serves customers at the till, so the market runs while you do other jobs."
+      },
+      {
+        "q": "How do I get three stars?",
+        "a": "Each island explains its stars before you start: open every stall, finish within the par time, and fill the required number of trader boat orders."
+      },
+      {
+        "q": "Do I earn while I am away?",
+        "a": "Yes, once you have hired a cashier and at least one stocker. Your market earns at half speed for up to 4 hours and a welcome-back card shows the coins."
+      },
+      {
+        "q": "What is the Daily Rush?",
+        "a": "A 90-second run in a fully built market that is the same for everyone that day. Your best run becomes a ghost you can race, and a daily streak earns shells."
+      },
+      {
+        "q": "Is the global rank real?",
+        "a": "Not yet. Until the online leaderboard launches, the rank comes from an offline sample board and is clearly labelled PREVIEW."
+      },
+      {
+        "q": "Are ads required?",
+        "a": "No. Optional videos can double island shells, double welcome-back coins or unlock Mochi the hamster. Nothing is for sale."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "double-shells",
+        "format": "rewarded",
+        "reward": "doubles the shells earned for completing an island (results card)"
+      },
+      {
+        "name": "double-offline",
+        "format": "rewarded",
+        "reward": "doubles the coins your crew earned while you were away (welcome-back card)"
+      },
+      {
+        "name": "skin-mochi",
+        "format": "rewarded",
+        "reward": "unlocks Mochi the Hamster in the Wardrobe"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "cosmetics",
+    "leaderboard-ready"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "54abf2173642",
+  "builtAt": "2026-10-29T10:57:01.766Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 680234,
+    "initial": 399756
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "913ae016dbb32e475d190f2ba7e8eb25b8e17908103e03fe7e578ae130f9dfa2",
+      "bytes": 2153
+    },
+    {
+      "path": "app.6f6dc237.js",
+      "sha256": "54abf21736420e4716bb1e59908a1e0cfee8bc5ad6d7559716427aeb038af51a",
+      "bytes": 265620
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "0733ce5a15191f19e577ced83036b4dd16f8c09a0bbc32928919fb58522314f5",
+      "bytes": 3183
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "be88494649b1c772c01edd8676ba1a0049b102f1205d5db85438ec1036fcf054",
+      "bytes": 125538
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "19a0a07764ca3ae68128b745b4490a88cb94c5051d8104a8222ce8364c8478b0",
+      "bytes": 98642
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "a3e9c4ba85cdfe7c63e71f0e31ee26f649f07a532cf64936f7144fb53dbd7b04",
+      "bytes": 45372
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

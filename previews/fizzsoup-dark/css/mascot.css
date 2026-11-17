@@ -1,0 +1,450 @@
+/* Mascot, shop, compact premium, featured mascot panel, and home category rows. */
+
+/* ----- Featured row: aspect-locked mascot + 16:9 main + 16:9 second -----
+   Fills the full content column (100cqi, same right edge as the game grid).
+   Height grows with width so aspects stay locked: mascot 1160/941, both games 16/9.
+   Second width is 0.65 × main; the extra width goes to the main featured pane.
+   At the 1536 master (content 1290px, 12px gap): --fh 306.76, mascot 378, main 545, second 354.
+   object-fit:cover only inside exact aspect boxes — no stretch or squash. */
+.main{container-type:inline-size;container-name:main}
+:root{ --featured-height:306.76px }
+.hero-row{
+  --hero-gap: 12px;
+  --second-scale: 0.65;
+  --parts: calc(1160 / 941 + 16 / 9 * (1 + var(--second-scale)));
+  --fh: calc((100cqi - var(--hero-gap)) / var(--parts));
+  display:grid;
+  grid-template-columns:
+    calc(var(--fh) * (1160 / 941 + 16 / 9))
+    calc(var(--fh) * 16 / 9 * var(--second-scale));
+  width:100%;
+  max-width:none;
+  height:var(--fh);
+  gap:var(--hero-gap);
+  margin:0 0 var(--section-gap);
+  align-items:stretch
+}
+.hero-row > *{min-width:0;min-height:0}
+.hero-banner{
+  display:grid;
+  grid-template-columns:calc(var(--fh) * 1160 / 941) calc(var(--fh) * 16 / 9);
+  gap:0;
+  min-width:0;height:100%;
+  border-radius:var(--radius-panel);overflow:hidden;
+  background:var(--surface)
+}
+[data-theme="dark"] .hero-banner{box-shadow:inset 0 0 0 1px var(--border)}
+.hero-mascot{
+  position:relative;min-width:0;height:100%;
+  border-radius:0;overflow:hidden;background:var(--surface);
+  container-type:inline-size
+}
+.hero-mascot picture,.hero-mascot img{
+  display:block;width:100%;height:100%;max-width:none
+}
+.hero-mascot img{
+  object-fit:cover;object-position:center center
+}
+.hero-mascot::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:46%;
+  background:linear-gradient(180deg,rgba(11,13,18,0) 0%,rgba(11,13,18,.55) 70%,rgba(11,13,18,.72) 100%);
+  pointer-events:none;z-index:1
+}
+.hero-lockup{
+  position:absolute;left:clamp(10px,4cqw,16px);bottom:clamp(8px,3cqw,12px);z-index:2;margin:0;
+  display:flex;flex-direction:column;align-items:flex-start;gap:0;
+  font-family:var(--font-logo);font-weight:900;font-style:italic;
+  font-size:clamp(18px,8.2cqw,32px);line-height:.92;letter-spacing:-.05em;
+  color:var(--brand-yellow);
+  -webkit-text-stroke:clamp(1.5px,.55cqw,2.25px) var(--brand-black);
+  paint-order:stroke fill;
+  text-shadow:0 1px 0 var(--brand-black)
+}
+.hero-lockup span{display:block}
+.hero-wrap{position:relative;min-width:0;height:100%;width:100%;border-radius:0;overflow:hidden;aspect-ratio:16/9}
+.hero{height:100%;width:100%;border-radius:0;aspect-ratio:16/9}
+.hero-art-fill{display:none}
+.hero-art{object-fit:cover;object-position:center center}
+.hero[data-game="moatball"] .hero-art{object-position:center 42%;transform:scale(1.08);transform-origin:center 42%}
+.hero .fs-feat-vid{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center center;
+  pointer-events:none;z-index:-2
+}
+.hero h2{font-size:48px}
+.hero .sub{
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  max-width:42ch;max-height:42px
+}
+.hero-banner .hero{padding-left:48px;padding-right:48px}
+.hero .btn.is-soon{
+  pointer-events:none;cursor:default;align-self:flex-start
+}
+.hero .btn.is-soon:hover,
+.hero .btn.is-soon:active{transform:none;filter:none}
+
+
+/* Second slot: 16:9 art on top (exact ratio, no stretch), compact meta below */
+.hero-row .new-card{
+  padding:0;
+  justify-content:flex-start;
+  height:100%;
+  min-height:0;
+  background:var(--surface)
+}
+[data-theme="dark"] .hero-row .new-card{box-shadow:inset 0 0 0 1px var(--border)}
+.hero-row .new-card::after{content:none;display:none}
+.hero-row .new-card .art{
+  position:relative;inset:auto;z-index:0;
+  width:100%;height:auto;flex:none;
+  aspect-ratio:16/9;overflow:hidden;background:var(--brand-black)
+}
+.hero-row .new-card .art img{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center center;pointer-events:none
+}
+.hero-row .new-card .art .art-fill{display:none}
+.hero-row .new-card .fs-feat-vid{
+  position:absolute;inset:0;width:100%;height:100%;
+  object-fit:cover;object-position:center center;
+  pointer-events:none;z-index:1
+}
+.hero-row .new-card .tag{z-index:2}
+.hero-row .new-card h3{
+  margin:8px 12px 0;font-size:18px;line-height:1.15;
+  color:var(--card-text);flex:none
+}
+.hero-row .new-card .kind{
+  margin:4px 12px 8px;color:var(--card-muted);flex:none
+}
+.hero-row .new-card .facts,
+.hero-row .new-card .desc,
+.hero-row .new-card .foot{display:none}
+.hero-row .new-card .btn{
+  margin:0 12px 10px;height:36px;width:auto;align-self:flex-start;padding:0 16px;
+  flex:none
+}
+
+@media (max-width:1199px){
+  .hero h2{font-size:40px}
+}
+/* Keep the same aspect formula through 1024. app.css collapses the row at 1023 — override it. */
+@media (max-width:1023px){
+  .hero-row{
+    height:var(--fh);
+    grid-template-columns:
+      calc(var(--fh) * (1160 / 941 + 16 / 9))
+      calc(var(--fh) * 16 / 9 * var(--second-scale));
+  }
+  .hero-banner{grid-template-columns:calc(var(--fh) * 1160 / 941) calc(var(--fh) * 16 / 9);height:100%}
+  .hero-mascot{display:block}
+  .hero-row .hero,.hero-row .new-card,.hero-row .hero-wrap{min-height:0;height:100%}
+  .hero h2{font-size:32px}
+  .hero .sub{max-width:28ch;font-size:13px}
+}
+/* Below 900 the leftover meta under the second art gets tight; drop the mascot and keep both 16:9 slots. */
+@media (max-width:899px) and (min-width:768px){
+  .hero-row{
+    --parts: calc(16 / 9 * (1 + var(--second-scale)));
+    --fh: calc((100cqi - var(--hero-gap)) / var(--parts));
+    grid-template-columns:
+      calc(var(--fh) * 16 / 9)
+      calc(var(--fh) * 16 / 9 * var(--second-scale));
+    height:var(--fh)
+  }
+  .hero-banner{grid-template-columns:minmax(0,1fr)}
+  .hero-mascot{display:none}
+}
+@media (max-width:767px){
+  .hero-row{
+    --fh:auto;
+    grid-template-columns:1fr;
+    height:auto;
+    max-width:none
+  }
+  .hero-banner{
+    grid-template-columns:1fr;
+    grid-template-areas:"carousel" "mascot";
+    height:auto
+  }
+  .hero-wrap{grid-area:carousel;height:auto;width:100%;aspect-ratio:16/9}
+  .hero{min-height:0;height:100%;aspect-ratio:16/9}
+  .hero-row .new-card{height:auto;min-height:0}
+  .hero-mascot{
+    display:block;grid-area:mascot;height:auto;aspect-ratio:1160 / 941
+  }
+  .hero-lockup{
+    font-size:22px;left:12px;
+    bottom:calc(12px + 56px + env(safe-area-inset-bottom,0px));
+    flex-direction:row;flex-wrap:nowrap;gap:.3em;
+    -webkit-text-stroke:1.75px var(--brand-black);line-height:1
+  }
+  .hero-lockup span{display:inline}
+  .hero h2{font-size:32px}
+  .hero-row .new-card h3{font-size:20px}
+  .hero-row .new-card .btn{height:40px;margin-bottom:8px}
+  .hero-row .new-card .foot{display:flex;margin:0 8px 10px}
+}
+
+/* All-games / catalog grid: 6 at the 1536 master, 5 around 1280–1366, 4 at 1024, 2 on phone.
+   Column sizing only — card internals stay with the thumbs-hover gcard. */
+.grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+@media (max-width:1439px){ .grid{grid-template-columns:repeat(5,minmax(0,1fr))} }
+@media (max-width:1279px){ .grid{grid-template-columns:repeat(4,minmax(0,1fr))} }
+@media (max-width:767px){ .grid{grid-template-columns:repeat(2,minmax(0,1fr))} }
+
+/* Continue Playing stays on the smaller ~8-up cards, one row on desktop, no horizontal scroll */
+@media (min-width:768px){
+  .continue-sec .row{grid-template-columns:repeat(8,minmax(0,1fr));overflow:visible}
+}
+@media (max-width:767px){
+  .continue-sec .row{grid-template-columns:repeat(4,minmax(0,1fr))}
+}
+
+/* ----- Sidebar Shop + Soon badge ----- */
+.soon-badge{
+  display:inline-flex;align-items:center;height:20px;padding:0 8px;border-radius:999px;
+  background:var(--brand-black);color:var(--brand-yellow);
+  font-size:11px;font-weight:800;letter-spacing:.02em;line-height:1;text-transform:uppercase;margin-left:auto
+}
+[data-theme="dark"] .soon-badge{background:var(--brand-yellow);color:var(--brand-black)}
+.s-item.is-on .soon-badge{background:var(--brand-yellow);color:var(--brand-black)}
+[data-theme="dark"] .s-item.is-on .soon-badge{background:var(--brand-black);color:var(--brand-yellow)}
+.s-item.shop{gap:24px}
+
+/* ----- Sidebar footer mascot peek + daily tip ----- */
+.peek{position:relative;flex:none;margin-top:12px;height:128px;overflow:hidden;border-radius:var(--radius-panel)}
+.peek .bubble{
+  position:absolute;left:0;top:0;right:40px;
+  background:var(--brand-white);color:var(--brand-black);
+  border-radius:16px;padding:8px 10px;font-size:12px;line-height:15px;font-weight:600;
+  box-shadow:0 0 0 2px var(--brand-black)
+}
+.peek .bubble b{display:block;font-weight:800;font-size:13px;margin-bottom:2px}
+.peek .bubble:after{
+  content:"";position:absolute;right:-8px;top:30px;width:16px;height:16px;
+  background:var(--brand-white);transform:rotate(45deg);box-shadow:2px -2px 0 0 var(--brand-black)
+}
+.peek img{position:absolute;right:-10px;bottom:-12px;width:92px;max-width:none;transform:rotate(-10deg)}
+[data-theme="dark"] .peek .bubble{box-shadow:0 0 0 2px var(--brand-yellow)}
+[data-theme="dark"] .peek .bubble:after{box-shadow:2px -2px 0 0 var(--brand-yellow)}
+
+/* Compact Go Premium so the peek fits above the fold at 1536×1024 */
+@media (min-width:1200px){
+  .sidebar .premium{padding:14px;display:grid;grid-template-columns:32px 1fr;column-gap:10px;align-items:center}
+  .sidebar .premium .crown-lg{margin:0}
+  .sidebar .premium h3{margin:0;font-size:19px;white-space:nowrap}
+  .sidebar .premium p{display:none}
+  .sidebar .premium .btn{grid-column:1/-1;margin-top:10px;height:40px}
+  .s-gap{min-height:8px}
+}
+
+/* Icon rail: hide peek and badge text, keep the shop icon */
+@media (max-width:1199px) and (min-width:768px){
+  .peek{display:none}
+  .s-item .soon-badge{display:none}
+}
+
+/* Phone drawer: show the full peek + premium copy */
+@media (max-width:767px){
+  body.nav-open .peek{display:block;height:128px;margin-top:12px}
+  body.nav-open .s-item .soon-badge{display:inline-flex}
+}
+
+/* ----- Phone corner peek ----- */
+.corner-peek{display:none}
+@media (max-width:767px){
+  .corner-peek{
+    display:block;position:fixed;right:10px;
+    bottom:calc(66px + env(safe-area-inset-bottom,0px));
+    z-index:42;width:230px;height:120px;pointer-events:none
+  }
+  .corner-peek img{position:absolute;right:-4px;bottom:-18px;width:96px;max-width:none;transform:rotate(-10deg)}
+  .corner-peek .bubble{
+    position:absolute;right:76px;top:6px;width:150px;
+    background:#fff;color:#0B0D12;border-radius:14px;
+    padding:8px 26px 8px 10px;font-size:12px;line-height:15px;font-weight:600;
+    box-shadow:0 0 0 2px #0B0D12;pointer-events:auto
+  }
+  .corner-peek .bubble b{display:block;font-weight:800}
+  .corner-peek .bubble:after{
+    content:"";position:absolute;right:-7px;top:24px;width:13px;height:13px;
+    background:#fff;transform:rotate(45deg);box-shadow:2px -2px 0 0 #0B0D12
+  }
+  .corner-peek .x{position:absolute;right:6px;top:6px;width:16px;height:16px;color:#0B0D12}
+  .corner-peek.is-dismissed{display:none}
+}
+
+/* ----- Welcome / promo card (flat mascot, no placeholder label) ----- */
+.welcome{
+  background:var(--surface);color:var(--card-text);border-radius:var(--radius-panel);
+  padding:16px;display:flex;flex-direction:column;min-width:0
+}
+[data-theme="dark"] .welcome{background:var(--surface);border:1px solid var(--border)}
+.welcome h2{margin:0 0 8px;font-weight:800;font-size:26px;line-height:1.08;letter-spacing:-.04em}
+.welcome p{margin:0 0 14px;color:var(--card-muted);font-size:13px;line-height:18px;font-weight:500}
+.welcome .mascot-well{
+  display:grid;place-items:center;margin:0 0 12px;
+  border-radius:14px;background:rgba(255,213,0,.08);padding:10px 8px 4px;
+  max-height:148px
+}
+.welcome .mascot-well img{width:118px;max-width:78%;transform:rotate(-4deg);margin:0 auto}
+.welcome .btn{margin-top:auto}
+@media (max-width:1023px){
+  .welcome{flex-direction:row;flex-wrap:wrap;gap:8px 16px;align-items:center}
+  .welcome .mascot-well{margin:0;max-width:140px;max-height:120px}
+  .welcome h2,.welcome p,.welcome .btn{flex:1 1 180px}
+}
+
+/* Compact full-width welcome bar (not a grid cell — avoids holes in the all-games grid) */
+.welcome-bar{
+  flex-direction:row;flex-wrap:wrap;align-items:center;gap:16px 20px;
+  margin:0 0 var(--section-gap);padding:16px 20px
+}
+.welcome-bar .mascot-well{margin:0;max-width:112px;max-height:88px;padding:6px 8px 2px}
+.welcome-bar .mascot-well img{width:88px;max-width:100%}
+.welcome-bar h2{margin:0;flex:1 1 180px}
+.welcome-bar p{margin:0;flex:2 1 240px}
+.welcome-bar .btn{margin:0;flex:none}
+
+/* ----- Home category rows: same gcard, horizontal scroll + arrows ----- */
+.row-scroll{position:relative}
+.row-scroll .row{
+  display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x proximity;
+  scrollbar-width:none;-webkit-overflow-scrolling:touch;
+  padding:16px 14px 18px;margin:-16px -14px -18px;scroll-padding-inline:14px
+}
+.row-scroll .row::-webkit-scrollbar{display:none}
+.row-scroll .gcard{
+  flex:0 0 clamp(132px, calc((100% - 84px) / 8), 168px);
+  scroll-snap-align:start
+}
+.row-arrow{
+  display:none;position:absolute;top:50%;transform:translateY(-50%);
+  width:32px;height:32px;border-radius:50%;z-index:2;
+  background:var(--brand-black);color:var(--brand-white);
+  place-items:center;box-shadow:0 2px 8px rgba(11,13,18,.25)
+}
+[data-theme="dark"] .row-arrow{background:var(--brand-yellow);color:var(--brand-black)}
+.row-arrow svg{width:18px;height:18px}
+.row-arrow.prev{left:-6px}
+.row-arrow.next{right:-6px}
+.row-arrow[hidden]{display:none!important}
+@media (hover:hover) and (min-width:768px){
+  .row-scroll.has-overflow .row-arrow{display:grid}
+}
+
+/* ----- Shop page ----- */
+.shop-hero{
+  position:relative;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);
+  height:var(--featured-height);border-radius:var(--radius-panel);overflow:hidden;
+  background:var(--surface);color:var(--card-text);margin:0 0 var(--section-gap)
+}
+[data-theme="dark"] .shop-hero{border:1px solid var(--border)}
+.shop-hero .copy{padding:26px 30px 24px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.shop-hero h1{margin:0;font-size:56px;line-height:1.02;font-weight:800;letter-spacing:-.045em}
+.shop-hero .sub{margin:0;color:var(--card-muted);font-size:15px;line-height:22px;font-weight:500;max-width:440px}
+.shop-hero .ctas{margin-top:auto;display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.btn-disabled{
+  display:inline-flex;align-items:center;gap:10px;height:48px;padding:0 22px;border-radius:999px;
+  background:#2A2F3A;color:#C9CBD1;font-weight:800;font-size:16px;cursor:not-allowed;border:2px dashed #5B6170
+}
+.btn-disabled svg{width:22px;height:22px}
+.btn-disabled .soon-badge{margin-left:4px;background:var(--brand-yellow);color:var(--brand-black)}
+.fine{font-size:12px;line-height:16px;color:var(--card-muted);font-weight:500}
+.shop-hero .photo{position:relative;min-width:0}
+.shop-hero .photo img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;display:block}
+.shop-chips{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px}
+.shop-chips button{
+  height:38px;padding:0 16px;border-radius:999px;display:inline-flex;align-items:center;gap:8px;
+  font-weight:700;font-size:15px;color:var(--text-primary);background:rgba(11,13,18,.08)
+}
+[data-theme="dark"] .shop-chips button{background:rgba(255,255,255,.06)}
+.shop-chips button.is-on{background:var(--active-bg);color:var(--active-text)}
+.shop-chips button small{font-size:12px;font-weight:600;opacity:.75}
+.pgrid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.pcard{background:var(--surface);color:var(--card-text);border-radius:var(--radius-card);overflow:hidden;display:flex;flex-direction:column;min-width:0}
+[data-theme="dark"] .pcard{border:1px solid var(--border)}
+.pcard .ph{position:relative;aspect-ratio:1/1;background:#1C2028;overflow:hidden}
+.pcard .ph img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;display:block}
+.pcard .meta{padding:10px 12px 12px}
+.pcard h3{margin:0;font-size:15px;line-height:19px;font-weight:800;letter-spacing:-.01em}
+.pcard small{display:block;margin-top:2px;color:var(--card-muted);font-size:12.5px;font-weight:500;line-height:16px}
+.pill-soon{
+  position:absolute;left:8px;top:8px;height:20px;padding:0 8px;border-radius:999px;
+  background:var(--brand-yellow);color:var(--brand-black);font-size:10.5px;font-weight:800;
+  letter-spacing:.03em;display:inline-flex;align-items:center;text-transform:uppercase
+}
+.shop-note{
+  display:flex;gap:16px;align-items:center;background:var(--surface);color:var(--card-text);
+  border-radius:var(--radius-panel);padding:16px 20px;margin-top:var(--section-gap)
+}
+[data-theme="dark"] .shop-note{border:1px solid var(--border)}
+.shop-note img{width:84px;flex:none}
+.shop-note p{margin:0;color:var(--card-muted);font-size:13px;line-height:19px}
+.shop-note b{color:var(--card-text)}
+@media (max-width:1439px) and (min-width:768px){ .pgrid{grid-template-columns:repeat(4,minmax(0,1fr))} }
+@media (max-width:767px){
+  .shop-hero{grid-template-columns:1fr;height:auto}
+  .shop-hero .photo{order:-1;aspect-ratio:3/2;position:relative;min-height:180px}
+  .shop-hero .copy{padding:20px}
+  .shop-hero h1{font-size:36px}
+  .pgrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .shop-chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .shop-chips button{flex:none}
+}
+
+/* ----- Empty favorites, 404, game-loading states ----- */
+.state-mascot{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:48px 16px}
+.state-mascot h1,.state-mascot h2{margin:14px 0 6px;font-size:32px;font-weight:800;letter-spacing:-.04em;line-height:1.1}
+.state-mascot p{margin:0 0 16px;font-size:14px;line-height:20px;color:var(--text-secondary);max-width:360px}
+.state-art{position:relative;width:240px;height:160px;display:grid;place-items:center;margin:0 auto}
+.state-art img{width:128px;position:relative;z-index:2;max-width:none}
+.state-mascot.empty .tray{
+  position:absolute;bottom:4px;left:30px;right:30px;height:62px;
+  border:3px dashed var(--text-primary);border-radius:14px;opacity:.55
+}
+.state-mascot.empty img{transform:rotate(14deg) translate(26px,-26px);width:128px}
+.state-mascot.empty .q{position:absolute;right:22px;top:2px;font:900 34px/1 Inter,var(--font-ui);color:var(--text-primary);z-index:3}
+.state-mascot.e404 .num{
+  position:absolute;inset:0;display:grid;place-items:center;
+  font:900 italic 140px/1 "Inter Tight",Inter,sans-serif;letter-spacing:-.06em;
+  color:var(--text-primary);opacity:.09
+}
+.state-mascot.e404 img{transform:rotate(-34deg) translate(-36px,-22px);width:124px}
+.state-mascot.e404 .puddle{
+  position:absolute;right:4px;bottom:14px;width:130px;height:30px;border-radius:50%;
+  background:#FFC400;box-shadow:0 0 0 3px #0B0D12;z-index:1
+}
+[data-theme="dark"] .state-mascot.e404 .puddle{box-shadow:0 0 0 3px #FFD500;background:#FFD500}
+.state-mascot.e404 .drop{
+  position:absolute;width:16px;height:16px;border-radius:50% 50% 50% 0;
+  background:#FFC400;box-shadow:0 0 0 2.5px #0B0D12;z-index:1
+}
+[data-theme="dark"] .state-mascot.e404 .drop{background:#FFD500;box-shadow:0 0 0 2.5px #FFD500}
+.state-mascot.load img{transform:translateY(-14px) rotate(-6deg);width:140px;animation:mascot-bob 1.1s ease-in-out infinite alternate}
+@keyframes mascot-bob{to{transform:translateY(-2px) rotate(4deg)}}
+.state-mascot.load .shadow{position:absolute;bottom:4px;width:110px;height:14px;border-radius:50%;background:rgba(11,13,18,.22)}
+[data-theme="dark"] .state-mascot.load .shadow{background:rgba(255,213,0,.18)}
+.state-bar{width:220px;height:8px;border-radius:999px;background:rgba(11,13,18,.15);overflow:hidden;margin-top:4px}
+[data-theme="dark"] .state-bar{background:rgba(255,255,255,.1)}
+.state-bar i{display:block;width:42%;height:100%;border-radius:999px;background:var(--text-primary);margin-left:22%}
+[data-theme="dark"] .state-bar i{background:#FFD500}
+.load-dots{display:inline-flex;gap:4px;margin-left:2px}
+.load-dots b{width:6px;height:6px;border-radius:50%;background:currentColor;display:inline-block;vertical-align:middle}
+
+.stage-load{
+  position:absolute;inset:0;z-index:5;display:none;
+  background:var(--background);color:var(--text-primary);
+  align-items:center;justify-content:center
+}
+.stage.is-loading .stage-load{display:flex}
+.stage.is-loading .stage-art,.stage.is-loading .play-core,.stage.is-loading .stage-bar{display:none}
+.stage-load .state-mascot{padding:16px}
+.stage-load .state-mascot h2{font-size:22px}
+.stage-load .state-mascot p{font-size:13px;margin-bottom:10px}
+
+@media (prefers-reduced-motion:reduce){
+  .state-mascot.load img{animation:none;transform:none}
+}
+.state-mascot .btn{background:var(--button-bg);color:var(--button-text);height:44px;padding:0 22px}

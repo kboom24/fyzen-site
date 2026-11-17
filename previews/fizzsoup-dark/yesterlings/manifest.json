@@ -1,0 +1,263 @@
+{
+  "manifestVersion": 1,
+  "slug": "echo-defense",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Yesterlings",
+  "version": "1.0.1",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "tower defense",
+    "strategy",
+    "time loop",
+    "echoes",
+    "lanes",
+    "waves",
+    "daily challenge",
+    "leaderboard",
+    "one finger",
+    "heroes",
+    "upgrades",
+    "casual"
+  ],
+  "categories": [
+    "strategy",
+    "casual"
+  ],
+  "description": {
+    "short": "Tower defense where your towers are you: every wave you play comes back as a glowing Yesterling that replays your moves beside you.",
+    "long": "Yesterlings is a tower defense game with a time-loop twist: you do not build towers, you become them. Murklings creep down three lanes toward the Hearthlight, the little lantern that keeps the dusk away. You walk your hero around the field with one finger and fight whatever comes close. When the wave ends, your run turns into a Yesterling, a chalk-glow copy of you that replays every step you took and fights beside you in the next wave.\n\nSo every wave is two things at once: a fight you have to win now and a recording you will lean on later. Hold the left lane this wave and it is guarded for the rest of the level. Sweep the middle and your echo sweeps it again. Up to six Yesterlings play together, and when three or more of you hit the same foe at once you trigger a Chorus, a burst of light that hurts everything nearby, earns Glimmers and adds a note to the music, which grows a layer for every echo on the field.\n\nBetween waves you see the next wave's forecast and spend Glimmers on your shelf of echoes. Keep one so it never fades, Polish it to make it stronger, light a Beacon so echoes nearby swing faster, or Retake one you are not happy with. Eight kinds of foe keep you thinking: quick Skitters, armoured Puffshells, Driftwings that hop lanes, Hushers that silence echoes, Splitlets that burst in two, hulking Lumberbulks and the Fogmother boss every fifth level.\n\nTwenty levels across four regions, from Dusk Meadow to Starfall Steps, each with three stars: protect the Hearthlight, keep most of your hearts, and meet the level's own goal. Unlock four heroes as you go, Brightblade, Sparkbow, Frostbell and Mendlamp, each with its own reach and ability, and spend Lantern Oil from your stars on permanent upgrades and new lantern glows. The Daily Echo gives every player the same seeded level and twist each day, with a streak to keep.\n\nAfter every level you see your stars, your score and where you would stand on the leaderboard. Until online leaderboards launch that standing is an offline preview against sample players, and the game always says so. Share a card of your run with a challenge link that puts a friend on your exact level and seed with your score to beat. Progress, including a run in the middle of a level, saves automatically on your device. Yesterlings plays in portrait or landscape on phones, tablets and desktop, with touch, mouse or keyboard.",
+    "controls": "Tap or drag anywhere on the field to walk there; your hero fights nearby foes on its own. Tap the round ability button (or press Space) to use your hero's ability. Between waves, tap a Yesterling card or an echo on the field, then Keep, Polish, Beacon or Retake, and tap Go to start the next wave. Keyboard: WASD or arrow keys walk, 1-3 jump to a lane, Space uses the ability, Enter starts the wave, K keeps and O polishes the selected echo. Esc or P pauses, M mutes.",
+    "faq": [
+      {
+        "q": "What is a Yesterling?",
+        "a": "A recording of you. When a wave ends, every step you took and every ability you used becomes a glowing echo that replays it beside you in the following waves, fighting whatever comes into its reach."
+      },
+      {
+        "q": "What is a Chorus?",
+        "a": "When three or more of you (your hero and your Yesterlings) hit the same foe within half a second, a Chorus bursts out, damaging everything nearby and paying extra Glimmers. Bigger Choruses hit harder."
+      },
+      {
+        "q": "How do I earn three stars?",
+        "a": "One star for protecting the Hearthlight to the end, one for keeping at least 60% of your hearts, and one for the level's own goal, such as making a number of Choruses or keeping a Yesterling. The goal card before each level and the stars in the corner show your progress."
+      },
+      {
+        "q": "How do I unlock new heroes?",
+        "a": "Sparkbow unlocks when you clear Level 2, Frostbell after Level 7 and Mendlamp after Level 12. Pick your hero on the Heroes screen."
+      },
+      {
+        "q": "What is the Daily Echo?",
+        "a": "One seeded level with a twist, such as Swarm night or Windy dusk, that is the same for every player that day. Play it daily to grow a streak; your first win of the day pays 2 Lantern Oil."
+      },
+      {
+        "q": "Are the global ranks real?",
+        "a": "Not yet. Until online leaderboards launch, ranks are an offline preview against sample players, and every rank is labelled OFFLINE PREVIEW."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/hover.480x480.webm",
+      "w": 480,
+      "h": 480,
+      "variant": "video",
+      "format": "webm"
+    },
+    {
+      "src": "thumbs/hover.480x480.mp4",
+      "w": 480,
+      "h": 480,
+      "variant": "video",
+      "format": "mp4"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "medium",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "level-complete",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "game-over",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      },
+      {
+        "name": "extra-slot",
+        "format": "rewarded",
+        "reward": "retry the level just lost with room for a 7th Yesterling (offered after a loss only, never during play)"
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "94016c3da69e",
+  "builtAt": "2026-10-31T23:39:21.464Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 682962,
+    "initial": 333169
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "def9a67a0565a9dd5b0e750e622cb6637f8c8f31cb1de9dc2db75d063ae56fd1",
+      "bytes": 1124
+    },
+    {
+      "path": "app.ff1a1b01.js",
+      "sha256": "94016c3da69e5359b75915c94e8172a6f86391959d8e7c41f03aa38fdf96e619",
+      "bytes": 199206
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "e387763a9cd16e4931be765054059c62c2c17ba02e874f95712ef58e127354ba",
+      "bytes": 3010
+    },
+    {
+      "path": "thumbs/hover.480x480.mp4",
+      "sha256": "ea47c1c87ec0a0e21888106b0a9a307b7b00d1877367fa90cfda698aefa6dee6",
+      "bytes": 67976
+    },
+    {
+      "path": "thumbs/hover.480x480.webm",
+      "sha256": "6753b6714d8ec5287cc7ac7c763a99853cc2a9c1d5762701b874a2a08c681958",
+      "bytes": 109154
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "95e205975673a5390a978f93217fc20559cc630b695469891ac71240835651a9",
+      "bytes": 63744
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "4a793e3a52b5461ea50afbb12b204dd52c96950ef77045f5677133be1fa92a6c",
+      "bytes": 67630
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "387fecf7161c49d189ff19e17420cc0566f51e405ba52f57489fb0b476e8b0a5",
+      "bytes": 31392
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": true
+  }
+}

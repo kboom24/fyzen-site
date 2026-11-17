@@ -1,0 +1,222 @@
+{
+  "manifestVersion": 1,
+  "slug": "reading-spelling",
+  "entry": "index.html",
+  "orientation": "any",
+  "sizes": {
+    "minAspect": 1.25,
+    "maxAspect": 2.2,
+    "logicalShort": 720
+  },
+  "status": "draft",
+  "credits": "CREDITS.md",
+  "title": "Mothabet",
+  "version": "1.0.0",
+  "input": [
+    "touch",
+    "mouse",
+    "keyboard"
+  ],
+  "tags": [
+    "kids",
+    "reading",
+    "spelling",
+    "phonics",
+    "learning",
+    "educational",
+    "letters",
+    "words",
+    "sight words",
+    "daily",
+    "calm",
+    "family"
+  ],
+  "categories": [
+    "word",
+    "puzzle",
+    "casual"
+  ],
+  "description": {
+    "short": "Catch glowing letter-moths and drop them into the lantern jar to spell the word. Phonics for ages 4-6, spelling for ages 6-9.",
+    "long": "Mothabet is a calm, glowing reading and spelling game set in a paper-cut night garden. Each round, the game says a word (or shows it, on devices without a voice) and soft letter-moths drift around a lantern jar. Tap or drag the right moths into the jar's slots, in order, to spell the word: every correct letter rings a rising chime and lights the jar a little more, and a wrong moth simply flutters back out. Nobody fails: after two misses a friendly firefly lights the moth you need.\n\nTwo gardens grow with your child. Phonics (ages 4-6) follows a systematic phonics sequence: first sounds with picture hints, blending short words like cat and sun, the sh, ch and th sounds, then heart words. Spelling (ages 6-9) moves through short vowels, blends, silent e, vowel teams, bossy r and the Dolch sight-word lists for grades 1 to 3, with a sentence for every word.\n\nUnder the glow is real learning: a spaced-repetition schedule brings tricky words back the next day, three days and a week later, and the difficulty adapts so children get about four words in five right first time, the just-hard-enough zone. Mastering a sound or a word set catches one of 120 collectible moths, so the moth book doubles as a progress map. A daily flame streak, a combo multiplier and the Daily Jar (the same ten words for every player each day) bring kids back.\n\nGrown-ups get a hold-to-open area with a progress dashboard: words mastered, tricky words, a mastery chart by sound and streak days, plus voice, speed and music settings and sharing. There is no chat, no account and no free text, and all progress stays on the device.",
+    "controls": "Tap or drag a letter-moth into the jar. Tap the speaker to hear the word again and the firefly for a hint. On a keyboard, type the letters; Space repeats the word, Esc pauses.",
+    "faq": [
+      {
+        "q": "What ages is Mothabet for?",
+        "a": "Phonics is for ages 4 to 6 and Spelling for ages 6 to 9. Difficulty adapts to each child."
+      },
+      {
+        "q": "Does my child need to read the menus?",
+        "a": "No. Menus use icons and spoken labels where a device voice is available."
+      },
+      {
+        "q": "What if my device has no voice?",
+        "a": "Mothabet switches to visual cues: picture hints and a look, cover and spell word card."
+      },
+      {
+        "q": "Where is progress saved?",
+        "a": "Only on this device. There are no accounts and no chat."
+      }
+    ]
+  },
+  "thumbnails": [
+    {
+      "src": "thumbs/square.512x512.webp",
+      "w": 512,
+      "h": 512,
+      "variant": "square",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/landscape.1280x720.webp",
+      "w": 1280,
+      "h": 720,
+      "variant": "landscape",
+      "format": "webp"
+    },
+    {
+      "src": "thumbs/portrait.720x1280.webp",
+      "w": 720,
+      "h": 1280,
+      "variant": "portrait",
+      "format": "webp"
+    }
+  ],
+  "ageRating": {
+    "audience": "general",
+    "childAppeal": "high",
+    "contentDescriptors": [
+      "none"
+    ]
+  },
+  "ads": {
+    "blockedCategories": [],
+    "placements": [
+      {
+        "name": "between-levels",
+        "format": "interstitial",
+        "minSecondsIntoSession": 60
+      }
+    ]
+  },
+  "features": [
+    "daily",
+    "levels",
+    "stars",
+    "leaderboard-ready",
+    "cosmetics"
+  ],
+  "syndication": {
+    "exclusive": "none"
+  },
+  "buildHash": "3ef372baead2",
+  "builtAt": "2026-10-29T23:13:25.578Z",
+  "engine": "hx@1.2.1",
+  "bytes": {
+    "total": 1176767,
+    "initial": 430951
+  },
+  "files": [
+    {
+      "path": "CREDITS.md",
+      "sha256": "ba5b527b276c7b23f04022e437aac4df880ed77a2b2a367291950a95fe5012c9",
+      "bytes": 1317
+    },
+    {
+      "path": "app.26390370.js",
+      "sha256": "3ef372baead2df2591b88e043b89f6c739819ee14899899c4d8626c32f0746b1",
+      "bytes": 296812
+    },
+    {
+      "path": "brand/apple-touch-icon-180.png",
+      "sha256": "35607bd1c6526d05cd6760dd782f06b48975a358fc9d5a0be0112d07f5916c3f",
+      "bytes": 5614
+    },
+    {
+      "path": "brand/badge.svg",
+      "sha256": "2641f733942822a3951ca030f3b1d2f08ed9792dee6952a3ebd88dc1f061f1f0",
+      "bytes": 23536
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "8d4bdd93fd72e84ea6bfd88efb74706f945b0e067f0d820e6768a8263e7b0db5",
+      "bytes": 1330
+    },
+    {
+      "path": "brand/favicon.ico",
+      "sha256": "d5b7b7f23b1c4a29174fd3f87e0a02c007a70490d068af7cc081eeaa9c9a0128",
+      "bytes": 3840
+    },
+    {
+      "path": "brand/fonts/OFL-fredoka.txt",
+      "sha256": "5c9e7eee5c6b25f4b05b8d53b2e470ea4962f9ced742d044a98f7d95d1375bab",
+      "bytes": 4388
+    },
+    {
+      "path": "brand/fonts/OFL-nunito.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "bytes": 4385
+    },
+    {
+      "path": "brand/fonts/fredoka-600.woff2",
+      "sha256": "45cd9f1c7beeab09feb57ed9231b0463c385fec95e4b72ef43e206c8471f4a31",
+      "bytes": 16164
+    },
+    {
+      "path": "brand/fonts/fredoka-700.woff2",
+      "sha256": "2eebc66423aa043a3c3f6bed33adf5b6728fbfb7a781e3c5b13c4765d284ac87",
+      "bytes": 15600
+    },
+    {
+      "path": "brand/fonts/nunito-600.woff2",
+      "sha256": "bb4c493415d1649098dd330605ea591ba89e3938d2ec17ecc52defcc7ff6c64f",
+      "bytes": 14636
+    },
+    {
+      "path": "brand/fonts/nunito-800.woff2",
+      "sha256": "03e220d0598d754d41b986926d9f4959e425ee6632c1b3c9b37e601cf6f986ee",
+      "bytes": 14548
+    },
+    {
+      "path": "brand/fonts/nunito-900.woff2",
+      "sha256": "306a9fd1a44f2b5ff7564699795ceb9a6af842a28c7c51fc91935c90b63eb254",
+      "bytes": 14684
+    },
+    {
+      "path": "brand/mark.svg",
+      "sha256": "7ddb926b906492285b537f45c05d9a0dd93df3922499abb9ae9d32dc2d42f872",
+      "bytes": 16970
+    },
+    {
+      "path": "brand/wordmark.svg",
+      "sha256": "07f0a3131b5a34dc90ad76c06171ed6b0e9aaeb1128357215b0f0d0e3c9a661d",
+      "bytes": 4031
+    },
+    {
+      "path": "index.html",
+      "sha256": "d6bac9839cdc95d3cca5fa0e73fac323060fc93110d35d355e2666a264b2ca79",
+      "bytes": 3186
+    },
+    {
+      "path": "thumbs/landscape.1280x720.webp",
+      "sha256": "a2ca5e7bf67eeab39bb6c184cc212c9392cc6e580237538fc051d3529ac65da0",
+      "bytes": 314930
+    },
+    {
+      "path": "thumbs/portrait.720x1280.webp",
+      "sha256": "4011b9056fdc15527cba9214a923ac5dbcd9fa4b9fce84a48df5c8d44f77c8cf",
+      "bytes": 326802
+    },
+    {
+      "path": "thumbs/square.512x512.webp",
+      "sha256": "eb3b60636914ed88662ceb30c1fbc63ee5322ec1f62812fa98beb177313cdfaa",
+      "bytes": 93994
+    }
+  ],
+  "qa": {
+    "report": "qa/report-dist.json",
+    "consoleErrors": 0,
+    "externalRequests": 0,
+    "passed": false
+  }
+}

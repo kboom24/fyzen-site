@@ -264,7 +264,7 @@
   }
   function finishAuthority(){ if(!window.PT_AUTH||!window.PT_AUTH.ok) return; syncHomeRows(); scrubListings(); rebuildDirectory(); applyPageSeo(); syncFavs(); syncArrows(); }
   function loadSiteConfig(){ if(loadSiteConfig.done||!window.fetch) return; loadSiteConfig.done=1;
-    var SB='https://yopgnpermfxljstfcsrl.supabase.co', KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlvcGducGVybWZ4bGpzdGZjc3JsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMzODY2NDMsImV4cCI6MjEwODk2MjY0M30.G361hqYzMx4tp08Kv6h86bRKbK7_-AB1R-e88eVQIjI';
+    var SB='', KEY=''; /* Unplugged from Playtoom's Supabase (Hexan, 2026-11-16): no URL or key, so this preview makes no backend calls. */ if(!SB){ releaseHeldFrame(true); return; }
     fetch(SB+'/rest/v1/rpc/site_config',{method:'POST',credentials:'omit',referrerPolicy:'no-referrer',headers:{'apikey':KEY,'Authorization':'Bearer '+KEY,'Content-Type':'application/json'},body:'{}'})
       .then(function(r){ return r.ok?r.json():null; })
       .then(function(d){ if(!applyCatalogData(d)){ releaseHeldFrame(true); return; } writeSiteCache(d); renderAll(); releaseHeldFrame(false); })
@@ -453,7 +453,8 @@
    blocked/offline backend costs at most one failed request. Events: page_view, play_start/play_end (visible ms), level_complete/level_fail
    (from the game engine's HX.track), ad_reward; window.PTA.track(type, game, props) for the ad layer / house ads / Plus. */
 (function(){ 'use strict'; if(window.PTA) return;
-  var URL='https://yopgnpermfxljstfcsrl.supabase.co/rest/v1/rpc/track_events', KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlvcGducGVybWZ4bGpzdGZjc3JsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMzODY2NDMsImV4cCI6MjEwODk2MjY0M30.G361hqYzMx4tp08Kv6h86bRKbK7_-AB1R-e88eVQIjI', LS='pt_aid';
+  var URL='', KEY='', LS='pt_aid';
+  if(!URL){ window.PTA={ track:function(){}, flush:function(){}, refresh:function(){}, enabled:function(){ return false; } }; return; }
   var T=['page_view','play_start','play_end','level_complete','level_fail','ad_impression','ad_click','ad_reward','house_ad_impression','house_ad_click','subscribe_view'];
   function rid(){ var a=new Uint8Array(12), s=''; (window.crypto||{}).getRandomValues?crypto.getRandomValues(a):a.forEach(function(_,i){a[i]=Math.random()*256;}); for(var i=0;i<a.length;i++) s+=('0'+a[i].toString(36)).slice(-2); return s; }
   function lg(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } } function ls(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
@@ -509,7 +510,7 @@
    - Votes: Like / Dislike in the game bar + a one-time prompt after the first round. One vote per player card per game (guests too),
      after starting the game; tap again to clear. No text, no names. Network only to the Supabase project (via account.js for votes). */
 (function(){ 'use strict'; if(window.PTV) return;
-  var CLIPS=["arena-paint", "balloon-archery", "bike-race", "brain-riddles", "bubbletoom", "car-levels", "car-race", "chess-checkers", "couch-2p", "crowd-math", "daily-jigsaw", "deep-cast", "edge-drift", "elemental-duo", "endless-run", "evolve-io", "fernpuff-fields", "floepuck", "gem-lattice", "hole-grow", "hoop-flick", "idle-tycoon", "line-draw", "lobwhistle", "merge-defense", "merge-drop", "moatball", "nine-ball", "noodle-path", "number-pop", "plop-planets", "ragdoll-archery", "ragdoll-stunts", "reading-spelling", "rhythm-battle", "rhythm-dash", "serpent-arena", "shop-idle", "soccer-cup", "stack-sort", "stealth-heist", "swallow-city", "swarm-colony", "swingsprout", "tower-stack", "trap-door", "whirlwatch", "word-daily", "yesterlings"], SB='https://yopgnpermfxljstfcsrl.supabase.co', KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlvcGducGVybWZ4bGpzdGZjc3JsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMzODY2NDMsImV4cCI6MjEwODk2MjY0M30.G361hqYzMx4tp08Kv6h86bRKbK7_-AB1R-e88eVQIjI', HAS={}; CLIPS.forEach(function(s){ HAS[s]=1; });
+  var CLIPS=["arena-paint", "balloon-archery", "bike-race", "brain-riddles", "bubbletoom", "car-levels", "car-race", "chess-checkers", "couch-2p", "crowd-math", "daily-jigsaw", "deep-cast", "edge-drift", "elemental-duo", "endless-run", "evolve-io", "fernpuff-fields", "floepuck", "gem-lattice", "hole-grow", "hoop-flick", "idle-tycoon", "line-draw", "lobwhistle", "merge-defense", "merge-drop", "moatball", "nine-ball", "noodle-path", "number-pop", "plop-planets", "ragdoll-archery", "ragdoll-stunts", "reading-spelling", "rhythm-battle", "rhythm-dash", "serpent-arena", "shop-idle", "soccer-cup", "stack-sort", "stealth-heist", "swallow-city", "swarm-colony", "swingsprout", "tower-stack", "trap-door", "whirlwatch", "word-daily", "yesterlings"], SB='', KEY='', HAS={}; CLIPS.forEach(function(s){ HAS[s]=1; });
   var CAT=window.PT_CAT||{games:[],types:[]}, G={}, TL={}; CAT.games.forEach(function(g){ G[g.s]=g; }); (CAT.types||[]).forEach(function(t){ TL[t.id]=t.label; });
   function ls(k,v){ try{ if(v===undefined) return localStorage.getItem(k); if(v===null) localStorage.removeItem(k); else localStorage.setItem(k,v); }catch(e){ return null; } }
   function jl(k){ try{ return JSON.parse(ls(k)||'null')||{}; }catch(e){ return {}; } }
@@ -523,7 +524,7 @@
   function down(){ var d=+(ls('pt_acct_down')||0); return d>Date.now()||navigator.onLine===false; }
   function loadStats(){ if(ST) return Promise.resolve(ST); if(stP) return stP;
     var c=jl('pt_gstats'); if(c.t&&Date.now()-c.t<300000&&c.d){ ST=c.d; paint(); return Promise.resolve(ST); }
-    if(down()||!window.fetch) return Promise.resolve(null);
+    if(!SB||down()||!window.fetch) return Promise.resolve(null);
     stP=fetch(SB+'/rest/v1/rpc/game_stats',{method:'POST',credentials:'omit',referrerPolicy:'no-referrer',headers:{'apikey':KEY,'Authorization':'Bearer '+KEY,'Content-Type':'application/json'},body:'{}'})
       .then(function(r){ return r.ok?r.json():null; }).then(function(a){ if(!a||!a.length) return null; var m={}; a.forEach(function(x){ m[x.game_slug]={p:x.like_pct,n:x.plays}; }); ST=m; ls('pt_gstats',JSON.stringify({t:Date.now(),d:m})); paint(); return m; },function(e){ if(!(e&&e.name==='AbortError')&&!leaving&&document.visibilityState!=='hidden') ls('pt_acct_down',String(Date.now()+600000)); return null; })
       .then(function(m){ stP=null; return m; });
