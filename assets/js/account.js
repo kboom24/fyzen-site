@@ -12,8 +12,10 @@
 (function () {
   'use strict';
   if (window.PTAccount && window.PTAccount._real) return;
-  var SB_URL = 'https://yopgnpermfxljstfcsrl.supabase.co';
-  var SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlvcGducGVybWZ4bGpzdGZjc3JsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMzODY2NDMsImV4cCI6MjEwODk2MjY0M30.G361hqYzMx4tp08Kv6h86bRKbK7_-AB1R-e88eVQIjI'; // public anon key (RLS enforced); injected at build time
+  var SB_URL = '';
+  var SB_KEY = ''; // public anon key (RLS enforced); injected at build time
+  /* Unplugged from Playtoom's Supabase (Hexan, 2026-11-16): no URL or key, so this preview makes no backend calls. */ 
+  if (!SB_URL || !SB_KEY) { window.PTAccount = { _real: false, disabled: true, ready: Promise.resolve(null), isPremium: function () { return false; }, canSeeUpsell: function () { return false; }, ageBand: function () { return null; }, setAgeBand: function () { return Promise.resolve({ ok: false, error: 'offline' }); }, profile: function () { return null; }, state: function () { return { signedIn: false, guest: null, premium: false, upsell: false, offline: true, lastSync: 0 }; }, onChange: function () {}, sync: function () { return Promise.resolve(); }, ensureGuest: function () { return Promise.resolve(null); }, rpc: function () { return Promise.resolve({ ok: false, status: 0, data: null, offline: true }); } }; if (window.__ptAcctResolve) try { window.__ptAcctResolve(window.PTAccount); } catch (e) {} return; }
   var LS_SESSION = 'pt_sb', LS_SYNC = 'pt_sync', LS_CACHE = 'pt_acct_c', LS_DOWN = 'pt_acct_down', SITE_SAVE = 'pt-site';
   var SITE_KEYS = ['pt_recent', 'pt_plays', 'pt_days', 'pt_favs'];
   var AVATARS = { star: '\u2B50', fox: '\uD83E\uDD8A', cat: '\uD83D\uDC31', dog: '\uD83D\uDC36', panda: '\uD83D\uDC3C', owl: '\uD83E\uDD89', frog: '\uD83D\uDC38', dino: '\uD83E\uDD96',
